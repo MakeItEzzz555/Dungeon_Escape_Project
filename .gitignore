@@ -1,0 +1,42 @@
+# Unity generated directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity generated files
+*.csproj
+*.sln
+*.sln.DotSettings.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+
+# Unity crash reports
+[Mm]emoryCaptures/
+
+# Asset store tools
+[Aa]ssets/AssetStoreTools*
+
+# Visual Studio / Rider / JetBrains
+.vs/
+.vscode/
+.idea/
+*.user
+*.userprefs
+*.pidb.meta
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
