@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 1bf42a803fc3348cf83562eb0b036de1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8784580333940347044
+    second: 16x16 Items Pack v1_0
+  - first:
+      213: 6832568326217551884
+    second: 16x16 Items Pack v1_1
+  - first:
+      213: -5646998348196417284
+    second: 16x16 Items Pack v1_2
+  - first:
+      213: -5859064142303654736
+    second: 16x16 Items Pack v1_3
+  - first:
+      213: -5397114191517784063
+    second: 16x16 Items Pack v1_4
+  - first:
+      213: 635629724250080357
+    second: 16x16 Items Pack v1_5
+  - first:
+      213: 5099777756201484606
+    second: 16x16 Items Pack v1_6
+  - first:
+      213: 6979032522025031960
+    second: 16x16 Items Pack v1_7
+  - first:
+      213: 7346772368774844507
+    second: 16x16 Items Pack v1_8
+  - first:
+      213: 7945412032529878014
+    second: 16x16 Items Pack v1_9
+  - first:
+      213: -4532565180925862339
+    second: 16x16 Items Pack v1_10
+  - first:
+      213: 900983264097336937
+    second: 16x16 Items Pack v1_11
+  - first:
+      213: -4255041447208578530
+    second: 16x16 Items Pack v1_12
+  - first:
+      213: 1392497160878913969
+    second: 16x16 Items Pack v1_13
+  - first:
+      213: 7361195480849255825
+    second: 16x16 Items Pack v1_14
+  - first:
+      213: 6412277547841954581
+    second: 16x16 Items Pack v1_15
+  - first:
+      213: -1558984005291859640
+    second: 16x16 Items Pack v1_16
+  - first:
+      213: 8405699357721353536
+    second: 16x16 Items Pack v1_17
+  - first:
+      213: 493480117018411587
+    second: 16x16 Items Pack v1_18
+  - first:
+      213: 7806466195260015394
+    second: 16x16 Items Pack v1_19
+  - first:
+      213: -2597321026829108313
+    second: 16x16 Items Pack v1_20
+  - first:
+      213: -1375692619729970919
+    second: 16x16 Items Pack v1_21
+  - first:
+      213: 585474323224620516
+    second: 16x16 Items Pack v1_22
+  - first:
+      213: 6829961753367700974
+    second: 16x16 Items Pack v1_23
+  - first:
+      213: 8267841817919687400
+    second: 16x16 Items Pack v1_24
+  - first:
+      213: -8013613523653252569
+    second: 16x16 Items Pack v1_25
+  - first:
+      213: -4748120331693501306
+    second: 16x16 Items Pack v1_26
+  - first:
+      213: 7102950235140367012
+    second: 16x16 Items Pack v1_27
+  - first:
+      213: 8764265491435887677
+    second: 16x16 Items Pack v1_28
+  - first:
+      213: -8405475809031684367
+    second: 16x16 Items Pack v1_29
+  - first:
+      213: 4274018405736971832
+    second: 16x16 Items Pack v1_30
+  - first:
+      213: 3424181626831071709
+    second: 16x16 Items Pack v1_31
+  - first:
+      213: 7091297528385925643
+    second: 16x16 Items Pack v1_32
+  - first:
+      213: -1217199304577581542
+    second: 16x16 Items Pack v1_33
+  - first:
+      213: 400838694071061371
+    second: 16x16 Items Pack v1_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f6a9e9ab6e61680800000000000000
+      internalID: -8784580333940347044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 128
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0058c331b822de50800000000000000
+      internalID: 6832568326217551884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0f880ebe4d1a1b0800000000000000
+      internalID: -5646998348196417284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc03c9843c60bea0800000000000000
+      internalID: -5859064142303654736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108ec5aec399915b0800000000000000
+      internalID: -5397114191517784063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5640b92ddd532d800800000000000000
+      internalID: 635629724250080357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3104d779dc06c640800000000000000
+      internalID: 5099777756201484606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819533f2a118ad060800000000000000
+      internalID: 6979032522025031960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 335
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50da766b8af4f560800000000000000
+      internalID: 7346772368774844507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbce01a526c34e60800000000000000
+      internalID: 7945412032529878014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e1c958bf71911c0800000000000000
+      internalID: -4532565180925862339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ef71d418fe08c00800000000000000
+      internalID: 900983264097336937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e129192195e03f4c0800000000000000
+      internalID: -4255041447208578530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 179
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b97de04ac4235310800000000000000
+      internalID: 1392497160878913969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d0b3ed948382660800000000000000
+      internalID: 7361195480849255825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5132550c47cfcf850800000000000000
+      internalID: 6412277547841954581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841201a9e406d5ae0800000000000000
+      internalID: -1558984005291859640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 128
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dd5b1d70b07a470800000000000000
+      internalID: 8405699357721353536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342c9964d8139d600800000000000000
+      internalID: 493480117018411587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2238197e4a3265c60800000000000000
+      internalID: 7806466195260015394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abb23c894674fbd0800000000000000
+      internalID: -2597321026829108313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9195ed0e9de88ece0800000000000000
+      internalID: -1375692619729970919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed6ae48bc5002800800000000000000
+      internalID: 585474323224620516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee56cfa2706e8ce50800000000000000
+      internalID: 6829961753367700974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 160
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea093814564db270800000000000000
+      internalID: 8267841817919687400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72aa16b45fce9c090800000000000000
+      internalID: -8013613523653252569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684599607b94b1eb0800000000000000
+      internalID: -4748120331693501306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2a1d61b9fb29260800000000000000
+      internalID: 7102950235140367012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c1046870de0a970800000000000000
+      internalID: 8764265491435887677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fef68a2940c95b80800000000000000
+      internalID: -8405475809031684367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83efe65681d505b30800000000000000
+      internalID: 4274018405736971832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd96fa92c03258f20800000000000000
+      internalID: 3424181626831071709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b027c00e789596260800000000000000
+      internalID: 7091297528385925643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1efcc57ea3ab1fe0800000000000000
+      internalID: -1217199304577581542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Pack v1_34
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b46542ba0109500800000000000000
+      internalID: 400838694071061371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      16x16 Items Pack v1_0: -8784580333940347044
+      16x16 Items Pack v1_1: 6832568326217551884
+      16x16 Items Pack v1_10: -4532565180925862339
+      16x16 Items Pack v1_11: 900983264097336937
+      16x16 Items Pack v1_12: -4255041447208578530
+      16x16 Items Pack v1_13: 1392497160878913969
+      16x16 Items Pack v1_14: 7361195480849255825
+      16x16 Items Pack v1_15: 6412277547841954581
+      16x16 Items Pack v1_16: -1558984005291859640
+      16x16 Items Pack v1_17: 8405699357721353536
+      16x16 Items Pack v1_18: 493480117018411587
+      16x16 Items Pack v1_19: 7806466195260015394
+      16x16 Items Pack v1_2: -5646998348196417284
+      16x16 Items Pack v1_20: -2597321026829108313
+      16x16 Items Pack v1_21: -1375692619729970919
+      16x16 Items Pack v1_22: 585474323224620516
+      16x16 Items Pack v1_23: 6829961753367700974
+      16x16 Items Pack v1_24: 8267841817919687400
+      16x16 Items Pack v1_25: -8013613523653252569
+      16x16 Items Pack v1_26: -4748120331693501306
+      16x16 Items Pack v1_27: 7102950235140367012
+      16x16 Items Pack v1_28: 8764265491435887677
+      16x16 Items Pack v1_29: -8405475809031684367
+      16x16 Items Pack v1_3: -5859064142303654736
+      16x16 Items Pack v1_30: 4274018405736971832
+      16x16 Items Pack v1_31: 3424181626831071709
+      16x16 Items Pack v1_32: 7091297528385925643
+      16x16 Items Pack v1_33: -1217199304577581542
+      16x16 Items Pack v1_34: 400838694071061371
+      16x16 Items Pack v1_4: -5397114191517784063
+      16x16 Items Pack v1_5: 635629724250080357
+      16x16 Items Pack v1_6: 5099777756201484606
+      16x16 Items Pack v1_7: 6979032522025031960
+      16x16 Items Pack v1_8: 7346772368774844507
+      16x16 Items Pack v1_9: 7945412032529878014
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

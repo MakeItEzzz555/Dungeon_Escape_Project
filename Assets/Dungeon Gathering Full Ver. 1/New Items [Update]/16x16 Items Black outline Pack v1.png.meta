@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 6adbfff62a7394222a7caa4c6b82c199
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5303279632418902374
+    second: 16x16 Items Black outline Pack v1_0
+  - first:
+      213: -8238230349212211499
+    second: 16x16 Items Black outline Pack v1_1
+  - first:
+      213: 8860958449953632105
+    second: 16x16 Items Black outline Pack v1_2
+  - first:
+      213: -2997221852869168107
+    second: 16x16 Items Black outline Pack v1_3
+  - first:
+      213: 5843879919024291172
+    second: 16x16 Items Black outline Pack v1_4
+  - first:
+      213: 1838859371519812416
+    second: 16x16 Items Black outline Pack v1_5
+  - first:
+      213: 1817114232927829177
+    second: 16x16 Items Black outline Pack v1_6
+  - first:
+      213: -7133231625693656077
+    second: 16x16 Items Black outline Pack v1_7
+  - first:
+      213: 1803249977082312958
+    second: 16x16 Items Black outline Pack v1_8
+  - first:
+      213: 7358802398125556400
+    second: 16x16 Items Black outline Pack v1_9
+  - first:
+      213: 3948577684308973603
+    second: 16x16 Items Black outline Pack v1_10
+  - first:
+      213: 854938495309040515
+    second: 16x16 Items Black outline Pack v1_11
+  - first:
+      213: -615429699152546253
+    second: 16x16 Items Black outline Pack v1_12
+  - first:
+      213: 3196846041659675158
+    second: 16x16 Items Black outline Pack v1_13
+  - first:
+      213: 6522677848386406137
+    second: 16x16 Items Black outline Pack v1_14
+  - first:
+      213: -7713902003447026916
+    second: 16x16 Items Black outline Pack v1_15
+  - first:
+      213: 1674747873083096706
+    second: 16x16 Items Black outline Pack v1_16
+  - first:
+      213: 3411096730144944884
+    second: 16x16 Items Black outline Pack v1_17
+  - first:
+      213: -6531943150561952592
+    second: 16x16 Items Black outline Pack v1_18
+  - first:
+      213: -1558591109602899857
+    second: 16x16 Items Black outline Pack v1_19
+  - first:
+      213: 1255017083171510548
+    second: 16x16 Items Black outline Pack v1_20
+  - first:
+      213: -4294820646783294421
+    second: 16x16 Items Black outline Pack v1_21
+  - first:
+      213: 607506046834012905
+    second: 16x16 Items Black outline Pack v1_22
+  - first:
+      213: 9181777924373680077
+    second: 16x16 Items Black outline Pack v1_23
+  - first:
+      213: -6908483589248005151
+    second: 16x16 Items Black outline Pack v1_24
+  - first:
+      213: -6225444500235324752
+    second: 16x16 Items Black outline Pack v1_25
+  - first:
+      213: -8244252302697947124
+    second: 16x16 Items Black outline Pack v1_26
+  - first:
+      213: -602785496597012548
+    second: 16x16 Items Black outline Pack v1_27
+  - first:
+      213: 6151597421581114184
+    second: 16x16 Items Black outline Pack v1_28
+  - first:
+      213: -1097461032267480547
+    second: 16x16 Items Black outline Pack v1_29
+  - first:
+      213: 8693381903904767910
+    second: 16x16 Items Black outline Pack v1_30
+  - first:
+      213: -3872333554408551564
+    second: 16x16 Items Black outline Pack v1_31
+  - first:
+      213: -4274314518315195799
+    second: 16x16 Items Black outline Pack v1_32
+  - first:
+      213: 4608626223455931600
+    second: 16x16 Items Black outline Pack v1_33
+  - first:
+      213: -9095402451682240285
+    second: 16x16 Items Black outline Pack v1_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66194ea4ab8099940800000000000000
+      internalID: 5303279632418902374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 128
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d62d59352debad80800000000000000
+      internalID: -8238230349212211499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f6bfa43c278fa70800000000000000
+      internalID: 8860958449953632105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514f1b2da9ab766d0800000000000000
+      internalID: -2997221852869168107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d3b7bf2d1a91150800000000000000
+      internalID: 5843879919024291172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043265f0bd0f48910800000000000000
+      internalID: 1838859371519812416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc38f174cfa73910800000000000000
+      internalID: 1817114232927829177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 335
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb82f141aba10d90800000000000000
+      internalID: -7133231625693656077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 335
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8f835dc4e660910800000000000000
+      internalID: 1803249977082312958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b20190eac7bf1660800000000000000
+      internalID: 7358802398125556400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3285541cb7a2cc630800000000000000
+      internalID: 3948577684308973603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bc3b5280a5ddb00800000000000000
+      internalID: 854938495309040515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33679c503fd8577f0800000000000000
+      internalID: -615429699152546253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 179
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6121dba898a7d5c20800000000000000
+      internalID: 3196846041659675158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f68169c1f4358a50800000000000000
+      internalID: 6522677848386406137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bad547ff6b2f490800000000000000
+      internalID: -7713902003447026916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e757f3156ed3710800000000000000
+      internalID: 1674747873083096706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 128
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f239ce3766a65f20800000000000000
+      internalID: 3411096730144944884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 161
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc75b1ff40e955a0800000000000000
+      internalID: -6531943150561952592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f688902c4a5ce5ae0800000000000000
+      internalID: -1558591109602899857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4191c754367ba6110800000000000000
+      internalID: 1255017083171510548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24e77e606bb564c0800000000000000
+      internalID: -4294820646783294421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e27178e78b4e6800800000000000000
+      internalID: 607506046834012905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf01d4006a3c6f70800000000000000
+      internalID: 9181777924373680077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 160
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebc14e37c22020a0800000000000000
+      internalID: -6908483589248005151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2709af537ca99a0800000000000000
+      internalID: -6225444500235324752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c002efae538869d80800000000000000
+      internalID: -8244252302697947124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfd397d8c972a7f0800000000000000
+      internalID: -602785496597012548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b1d8a234dde5550800000000000000
+      internalID: 6151597421581114184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d120dd8710905c0f0800000000000000
+      internalID: -1097461032267480547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af7d0738c815a870800000000000000
+      internalID: 8693381903904767910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b07a51625b24ac0800000000000000
+      internalID: -3872333554408551564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962278587959ea4c0800000000000000
+      internalID: -4274314518315195799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc04a7f12125ff30800000000000000
+      internalID: 4608626223455931600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Items Black outline Pack v1_34
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e85342e8a3a6c180800000000000000
+      internalID: -9095402451682240285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      16x16 Items Black outline Pack v1_0: 5303279632418902374
+      16x16 Items Black outline Pack v1_1: -8238230349212211499
+      16x16 Items Black outline Pack v1_10: 3948577684308973603
+      16x16 Items Black outline Pack v1_11: 854938495309040515
+      16x16 Items Black outline Pack v1_12: -615429699152546253
+      16x16 Items Black outline Pack v1_13: 3196846041659675158
+      16x16 Items Black outline Pack v1_14: 6522677848386406137
+      16x16 Items Black outline Pack v1_15: -7713902003447026916
+      16x16 Items Black outline Pack v1_16: 1674747873083096706
+      16x16 Items Black outline Pack v1_17: 3411096730144944884
+      16x16 Items Black outline Pack v1_18: -6531943150561952592
+      16x16 Items Black outline Pack v1_19: -1558591109602899857
+      16x16 Items Black outline Pack v1_2: 8860958449953632105
+      16x16 Items Black outline Pack v1_20: 1255017083171510548
+      16x16 Items Black outline Pack v1_21: -4294820646783294421
+      16x16 Items Black outline Pack v1_22: 607506046834012905
+      16x16 Items Black outline Pack v1_23: 9181777924373680077
+      16x16 Items Black outline Pack v1_24: -6908483589248005151
+      16x16 Items Black outline Pack v1_25: -6225444500235324752
+      16x16 Items Black outline Pack v1_26: -8244252302697947124
+      16x16 Items Black outline Pack v1_27: -602785496597012548
+      16x16 Items Black outline Pack v1_28: 6151597421581114184
+      16x16 Items Black outline Pack v1_29: -1097461032267480547
+      16x16 Items Black outline Pack v1_3: -2997221852869168107
+      16x16 Items Black outline Pack v1_30: 8693381903904767910
+      16x16 Items Black outline Pack v1_31: -3872333554408551564
+      16x16 Items Black outline Pack v1_32: -4274314518315195799
+      16x16 Items Black outline Pack v1_33: 4608626223455931600
+      16x16 Items Black outline Pack v1_34: -9095402451682240285
+      16x16 Items Black outline Pack v1_4: 5843879919024291172
+      16x16 Items Black outline Pack v1_5: 1838859371519812416
+      16x16 Items Black outline Pack v1_6: 1817114232927829177
+      16x16 Items Black outline Pack v1_7: -7133231625693656077
+      16x16 Items Black outline Pack v1_8: 1803249977082312958
+      16x16 Items Black outline Pack v1_9: 7358802398125556400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

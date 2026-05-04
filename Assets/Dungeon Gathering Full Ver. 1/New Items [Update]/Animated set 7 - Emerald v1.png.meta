@@ -1,0 +1,2366 @@
+fileFormatVersion: 2
+guid: 88e2e2d64a20940669aa71d216c919b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3710073175665460318
+    second: Animated set 7 - Emerald v1_0
+  - first:
+      213: 6810111371554705211
+    second: Animated set 7 - Emerald v1_1
+  - first:
+      213: -524210727514971691
+    second: Animated set 7 - Emerald v1_2
+  - first:
+      213: -2141334724934672966
+    second: Animated set 7 - Emerald v1_3
+  - first:
+      213: -5200654003113093513
+    second: Animated set 7 - Emerald v1_4
+  - first:
+      213: 4976220216747983584
+    second: Animated set 7 - Emerald v1_5
+  - first:
+      213: -8133799863702430835
+    second: Animated set 7 - Emerald v1_6
+  - first:
+      213: -489388416768827796
+    second: Animated set 7 - Emerald v1_7
+  - first:
+      213: 3331250458521619582
+    second: Animated set 7 - Emerald v1_8
+  - first:
+      213: -7242791004646361076
+    second: Animated set 7 - Emerald v1_9
+  - first:
+      213: 4283972438665450152
+    second: Animated set 7 - Emerald v1_10
+  - first:
+      213: 396695684877254691
+    second: Animated set 7 - Emerald v1_11
+  - first:
+      213: 3297045120627699380
+    second: Animated set 7 - Emerald v1_12
+  - first:
+      213: -2193055791015197856
+    second: Animated set 7 - Emerald v1_13
+  - first:
+      213: 2750294598777118383
+    second: Animated set 7 - Emerald v1_14
+  - first:
+      213: 4428942746909866382
+    second: Animated set 7 - Emerald v1_15
+  - first:
+      213: 2503535827300254668
+    second: Animated set 7 - Emerald v1_16
+  - first:
+      213: 4465875508326404199
+    second: Animated set 7 - Emerald v1_17
+  - first:
+      213: 5194131087540872384
+    second: Animated set 7 - Emerald v1_18
+  - first:
+      213: 4506752623578350219
+    second: Animated set 7 - Emerald v1_19
+  - first:
+      213: -1445335180585688677
+    second: Animated set 7 - Emerald v1_20
+  - first:
+      213: 2732834045341645003
+    second: Animated set 7 - Emerald v1_21
+  - first:
+      213: -3559830188575853130
+    second: Animated set 7 - Emerald v1_22
+  - first:
+      213: 4907418447119317141
+    second: Animated set 7 - Emerald v1_23
+  - first:
+      213: 6458928079024062327
+    second: Animated set 7 - Emerald v1_24
+  - first:
+      213: -4434606717443187783
+    second: Animated set 7 - Emerald v1_25
+  - first:
+      213: 1546197809674897454
+    second: Animated set 7 - Emerald v1_26
+  - first:
+      213: -1003857573019105844
+    second: Animated set 7 - Emerald v1_27
+  - first:
+      213: 8916392489859857312
+    second: Animated set 7 - Emerald v1_28
+  - first:
+      213: -6639030962668804876
+    second: Animated set 7 - Emerald v1_29
+  - first:
+      213: -4214436186524187538
+    second: Animated set 7 - Emerald v1_30
+  - first:
+      213: 2753485984045114344
+    second: Animated set 7 - Emerald v1_31
+  - first:
+      213: 7585462743354685988
+    second: Animated set 7 - Emerald v1_32
+  - first:
+      213: -404646293897781859
+    second: Animated set 7 - Emerald v1_33
+  - first:
+      213: 6135171046764544784
+    second: Animated set 7 - Emerald v1_34
+  - first:
+      213: 6139645765872723862
+    second: Animated set 7 - Emerald v1_35
+  - first:
+      213: -4127976403460954945
+    second: Animated set 7 - Emerald v1_36
+  - first:
+      213: 1472435407305966829
+    second: Animated set 7 - Emerald v1_37
+  - first:
+      213: 3296223608849983434
+    second: Animated set 7 - Emerald v1_38
+  - first:
+      213: 7171382329156410102
+    second: Animated set 7 - Emerald v1_39
+  - first:
+      213: -1163603499362839014
+    second: Animated set 7 - Emerald v1_40
+  - first:
+      213: -2410372815175006159
+    second: Animated set 7 - Emerald v1_41
+  - first:
+      213: -2859862623805105492
+    second: Animated set 7 - Emerald v1_42
+  - first:
+      213: 514134974746957553
+    second: Animated set 7 - Emerald v1_43
+  - first:
+      213: 7216628659789949416
+    second: Animated set 7 - Emerald v1_44
+  - first:
+      213: -7273202924822490314
+    second: Animated set 7 - Emerald v1_45
+  - first:
+      213: -6173669350043567682
+    second: Animated set 7 - Emerald v1_46
+  - first:
+      213: -7094333881419018664
+    second: Animated set 7 - Emerald v1_47
+  - first:
+      213: 7610731107519448990
+    second: Animated set 7 - Emerald v1_48
+  - first:
+      213: 241535256289350492
+    second: Animated set 7 - Emerald v1_49
+  - first:
+      213: -4708847344643340484
+    second: Animated set 7 - Emerald v1_50
+  - first:
+      213: -4712891394348485732
+    second: Animated set 7 - Emerald v1_51
+  - first:
+      213: 729850761728790217
+    second: Animated set 7 - Emerald v1_52
+  - first:
+      213: 3066203444561509880
+    second: Animated set 7 - Emerald v1_53
+  - first:
+      213: -1403068133040011109
+    second: Animated set 7 - Emerald v1_54
+  - first:
+      213: -4888573719638806874
+    second: Animated set 7 - Emerald v1_55
+  - first:
+      213: 8632144794790357899
+    second: Animated set 7 - Emerald v1_56
+  - first:
+      213: -7168726183435409789
+    second: Animated set 7 - Emerald v1_57
+  - first:
+      213: -1193934513371357027
+    second: Animated set 7 - Emerald v1_58
+  - first:
+      213: -7206119265865337692
+    second: Animated set 7 - Emerald v1_59
+  - first:
+      213: 3226915378337226268
+    second: Animated set 7 - Emerald v1_60
+  - first:
+      213: -545137875505071801
+    second: Animated set 7 - Emerald v1_61
+  - first:
+      213: 7644232875215863906
+    second: Animated set 7 - Emerald v1_62
+  - first:
+      213: -8363468156360195597
+    second: Animated set 7 - Emerald v1_63
+  - first:
+      213: -7388646872244912464
+    second: Animated set 7 - Emerald v1_64
+  - first:
+      213: -9132922506710523684
+    second: Animated set 7 - Emerald v1_65
+  - first:
+      213: -1041726803178354848
+    second: Animated set 7 - Emerald v1_66
+  - first:
+      213: 6239676453302663157
+    second: Animated set 7 - Emerald v1_67
+  - first:
+      213: -2308411485108219568
+    second: Animated set 7 - Emerald v1_68
+  - first:
+      213: -120303482097341688
+    second: Animated set 7 - Emerald v1_69
+  - first:
+      213: -9208935734329636104
+    second: Animated set 7 - Emerald v1_70
+  - first:
+      213: 3944999216201579086
+    second: Animated set 7 - Emerald v1_71
+  - first:
+      213: -8680244955511225445
+    second: Animated set 7 - Emerald v1_72
+  - first:
+      213: 2437382990839221577
+    second: Animated set 7 - Emerald v1_73
+  - first:
+      213: 8031847592325087486
+    second: Animated set 7 - Emerald v1_74
+  - first:
+      213: -2796408698870282160
+    second: Animated set 7 - Emerald v1_75
+  - first:
+      213: -6050355302307265168
+    second: Animated set 7 - Emerald v1_76
+  - first:
+      213: -9117397502415183909
+    second: Animated set 7 - Emerald v1_77
+  - first:
+      213: -8641974352871010730
+    second: Animated set 7 - Emerald v1_78
+  - first:
+      213: -6461168962128656775
+    second: Animated set 7 - Emerald v1_79
+  - first:
+      213: -3232309596374635438
+    second: Animated set 7 - Emerald v1_80
+  - first:
+      213: 6605615712205620110
+    second: Animated set 7 - Emerald v1_81
+  - first:
+      213: -1480279617237224331
+    second: Animated set 7 - Emerald v1_82
+  - first:
+      213: -1295132007036587485
+    second: Animated set 7 - Emerald v1_83
+  - first:
+      213: -2578123429299267867
+    second: Animated set 7 - Emerald v1_84
+  - first:
+      213: 2868840201046673218
+    second: Animated set 7 - Emerald v1_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54ce3e75e3dc7330800000000000000
+      internalID: 3710073175665460318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fcd5ef530628e50800000000000000
+      internalID: 6810111371554705211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d16507ee11a9b8f0800000000000000
+      internalID: -524210727514971691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd5f07b9637842e0800000000000000
+      internalID: -2141334724934672966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7761bb80db093d7b0800000000000000
+      internalID: -5200654003113093513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e281670ce51f0540800000000000000
+      internalID: 4976220216747983584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b55e16e10fe1f80800000000000000
+      internalID: -8133799863702430835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e9d4de3d75539f0800000000000000
+      internalID: -489388416768827796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cc90e64aafa3e20800000000000000
+      internalID: 3331250458521619582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08b8a984ff6c7b90800000000000000
+      internalID: -7242791004646361076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2d73a4c3ab37b30800000000000000
+      internalID: 4283972438665450152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3200a05af98518500800000000000000
+      internalID: 396695684877254691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bee277911571cd20800000000000000
+      internalID: 3297045120627699380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0630deb9063b091e0800000000000000
+      internalID: -2193055791015197856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae19cbad520b2620800000000000000
+      internalID: 2750294598777118383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89fa1876f3c67d30800000000000000
+      internalID: 4428942746909866382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc302b412985eb220800000000000000
+      internalID: 2503535827300254668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76099e41d1af9fd30800000000000000
+      internalID: 4465875508326404199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4efa554b2451840800000000000000
+      internalID: 5194131087540872384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8282f222a33b8e30800000000000000
+      internalID: 4506752623578350219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91a0db9f4321fbe0800000000000000
+      internalID: -1445335180585688677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8bea6c51afce520800000000000000
+      internalID: 2732834045341645003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b57935ed41f89ec0800000000000000
+      internalID: -3559830188575853130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598feb8b317aa1440800000000000000
+      internalID: 4907418447119317141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f7604fdd8b2a950800000000000000
+      internalID: 6458928079024062327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbdc30afac1572c0800000000000000
+      internalID: -4434606717443187783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28c82e37b2357510800000000000000
+      internalID: 1546197809674897454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 255
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc54c132bd49112f0800000000000000
+      internalID: -1003857573019105844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abbe0c7ab36dbb70800000000000000
+      internalID: 8916392489859857312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_29
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f46e49b38c6dd3a0800000000000000
+      internalID: -6639030962668804876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_30
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e648cad0e905385c0800000000000000
+      internalID: -4214436186524187538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 272
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3a605f9e8563620800000000000000
+      internalID: 2753485984045114344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 272
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42abd92fc2af44960800000000000000
+      internalID: 7585462743354685988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d5b80f658626af0800000000000000
+      internalID: -404646293897781859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_34
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01389aebf81842550800000000000000
+      internalID: 6135171046764544784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_35
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69723997b47643550800000000000000
+      internalID: 6139645765872723862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_36
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4e38ef45b76b6c0800000000000000
+      internalID: -4127976403460954945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_37
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de40e2f93342f6410800000000000000
+      internalID: 1472435407305966829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_38
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac762c978e98ebd20800000000000000
+      internalID: 3296223608849983434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa91e59b3ed58360800000000000000
+      internalID: 7171382329156410102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_40
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16931948cc0adfe0800000000000000
+      internalID: -1163603499362839014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_41
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1384c3ff1b2ac8ed0800000000000000
+      internalID: -2410372815175006159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_42
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa1ea9881abf48d0800000000000000
+      internalID: -2859862623805105492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_43
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f695681903922700800000000000000
+      internalID: 514134974746957553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_44
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9eeaed78d962460800000000000000
+      internalID: 7216628659789949416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_45
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6339f969974601b90800000000000000
+      internalID: -7273202924822490314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_46
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9bfe58f68b25aa0800000000000000
+      internalID: -6173669350043567682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_47
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e40081cecdb8d90800000000000000
+      internalID: -7094333881419018664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_48
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9746b07e9fbe9960800000000000000
+      internalID: 7610731107519448990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_49
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c531cdf290b1a5300800000000000000
+      internalID: 241535256289350492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 272
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c370ef0e940d6aeb0800000000000000
+      internalID: -4708847344643340484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_51
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93fcde2f32789eb0800000000000000
+      internalID: -4712891394348485732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_52
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce84ef9663f02a00800000000000000
+      internalID: 729850761728790217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_53
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdfa2299c75d8a20800000000000000
+      internalID: 3066203444561509880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_54
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98ca7e77fc478ce0800000000000000
+      internalID: -1403068133040011109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_55
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae6e9e4a1c482cb0800000000000000
+      internalID: -4888573719638806874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b673fa4f98bc770800000000000000
+      internalID: 8632144794790357899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_57
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3866a488481938c90800000000000000
+      internalID: -7168726183435409789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_58
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90eb65c2ea4e6fe0800000000000000
+      internalID: -1193934513371357027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_59
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a47ff415b8befb90800000000000000
+      internalID: -7206119265865337692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_60
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e190e807e48cc20800000000000000
+      internalID: 3226915378337226268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_61
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749b8e09df74f68f0800000000000000
+      internalID: -545137875505071801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_62
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260ca939c45c51a60800000000000000
+      internalID: 7644232875215863906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_63
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f10cd9f50efeeb80800000000000000
+      internalID: -8363468156360195597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_64
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be7a0101d0467990800000000000000
+      internalID: -7388646872244912464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_65
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd069525e57514180800000000000000
+      internalID: -9132922506710523684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_66
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0670d87edfa0b81f0800000000000000
+      internalID: -1041726803178354848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_67
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 144
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f77970dca8c79650800000000000000
+      internalID: 6239676453302663157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05151ba1cffd6ffd0800000000000000
+      internalID: -2308411485108219568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b6854de98945ef0800000000000000
+      internalID: -120303482097341688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa81eb9db9433080800000000000000
+      internalID: -9208935734329636104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ab3e8b2e37fb630800000000000000
+      internalID: 3944999216201579086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93806fe333998780800000000000000
+      internalID: -8680244955511225445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d0d869ae253d120800000000000000
+      internalID: 2437382990839221577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef00d96a4dad67f60800000000000000
+      internalID: 8031847592325087486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0584609ba192139d0800000000000000
+      internalID: -2796408698870282160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0750311a8e1d80ca0800000000000000
+      internalID: -6050355302307265168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf5280174f787180800000000000000
+      internalID: -9117397502415183909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e461bfc1a811880800000000000000
+      internalID: -8641974352871010730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976ca8acf015556a0800000000000000
+      internalID: -6461168962128656775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ce0003c878423d0800000000000000
+      internalID: -3232309596374635438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8341c00e7cdbab50800000000000000
+      internalID: 6605615712205620110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574f25ee78df47be0800000000000000
+      internalID: -1480279617237224331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322785f2d44c60ee0800000000000000
+      internalID: -1295132007036587485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e65189866aa83cd0800000000000000
+      internalID: -2578123429299267867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 7 - Emerald v1_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2474fbc86fa20d720800000000000000
+      internalID: 2868840201046673218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animated set 7 - Emerald v1_0: 3710073175665460318
+      Animated set 7 - Emerald v1_1: 6810111371554705211
+      Animated set 7 - Emerald v1_10: 4283972438665450152
+      Animated set 7 - Emerald v1_11: 396695684877254691
+      Animated set 7 - Emerald v1_12: 3297045120627699380
+      Animated set 7 - Emerald v1_13: -2193055791015197856
+      Animated set 7 - Emerald v1_14: 2750294598777118383
+      Animated set 7 - Emerald v1_15: 4428942746909866382
+      Animated set 7 - Emerald v1_16: 2503535827300254668
+      Animated set 7 - Emerald v1_17: 4465875508326404199
+      Animated set 7 - Emerald v1_18: 5194131087540872384
+      Animated set 7 - Emerald v1_19: 4506752623578350219
+      Animated set 7 - Emerald v1_2: -524210727514971691
+      Animated set 7 - Emerald v1_20: -1445335180585688677
+      Animated set 7 - Emerald v1_21: 2732834045341645003
+      Animated set 7 - Emerald v1_22: -3559830188575853130
+      Animated set 7 - Emerald v1_23: 4907418447119317141
+      Animated set 7 - Emerald v1_24: 6458928079024062327
+      Animated set 7 - Emerald v1_25: -4434606717443187783
+      Animated set 7 - Emerald v1_26: 1546197809674897454
+      Animated set 7 - Emerald v1_27: -1003857573019105844
+      Animated set 7 - Emerald v1_28: 8916392489859857312
+      Animated set 7 - Emerald v1_29: -6639030962668804876
+      Animated set 7 - Emerald v1_3: -2141334724934672966
+      Animated set 7 - Emerald v1_30: -4214436186524187538
+      Animated set 7 - Emerald v1_31: 2753485984045114344
+      Animated set 7 - Emerald v1_32: 7585462743354685988
+      Animated set 7 - Emerald v1_33: -404646293897781859
+      Animated set 7 - Emerald v1_34: 6135171046764544784
+      Animated set 7 - Emerald v1_35: 6139645765872723862
+      Animated set 7 - Emerald v1_36: -4127976403460954945
+      Animated set 7 - Emerald v1_37: 1472435407305966829
+      Animated set 7 - Emerald v1_38: 3296223608849983434
+      Animated set 7 - Emerald v1_39: 7171382329156410102
+      Animated set 7 - Emerald v1_4: -5200654003113093513
+      Animated set 7 - Emerald v1_40: -1163603499362839014
+      Animated set 7 - Emerald v1_41: -2410372815175006159
+      Animated set 7 - Emerald v1_42: -2859862623805105492
+      Animated set 7 - Emerald v1_43: 514134974746957553
+      Animated set 7 - Emerald v1_44: 7216628659789949416
+      Animated set 7 - Emerald v1_45: -7273202924822490314
+      Animated set 7 - Emerald v1_46: -6173669350043567682
+      Animated set 7 - Emerald v1_47: -7094333881419018664
+      Animated set 7 - Emerald v1_48: 7610731107519448990
+      Animated set 7 - Emerald v1_49: 241535256289350492
+      Animated set 7 - Emerald v1_5: 4976220216747983584
+      Animated set 7 - Emerald v1_50: -4708847344643340484
+      Animated set 7 - Emerald v1_51: -4712891394348485732
+      Animated set 7 - Emerald v1_52: 729850761728790217
+      Animated set 7 - Emerald v1_53: 3066203444561509880
+      Animated set 7 - Emerald v1_54: -1403068133040011109
+      Animated set 7 - Emerald v1_55: -4888573719638806874
+      Animated set 7 - Emerald v1_56: 8632144794790357899
+      Animated set 7 - Emerald v1_57: -7168726183435409789
+      Animated set 7 - Emerald v1_58: -1193934513371357027
+      Animated set 7 - Emerald v1_59: -7206119265865337692
+      Animated set 7 - Emerald v1_6: -8133799863702430835
+      Animated set 7 - Emerald v1_60: 3226915378337226268
+      Animated set 7 - Emerald v1_61: -545137875505071801
+      Animated set 7 - Emerald v1_62: 7644232875215863906
+      Animated set 7 - Emerald v1_63: -8363468156360195597
+      Animated set 7 - Emerald v1_64: -7388646872244912464
+      Animated set 7 - Emerald v1_65: -9132922506710523684
+      Animated set 7 - Emerald v1_66: -1041726803178354848
+      Animated set 7 - Emerald v1_67: 6239676453302663157
+      Animated set 7 - Emerald v1_68: -2308411485108219568
+      Animated set 7 - Emerald v1_69: -120303482097341688
+      Animated set 7 - Emerald v1_7: -489388416768827796
+      Animated set 7 - Emerald v1_70: -9208935734329636104
+      Animated set 7 - Emerald v1_71: 3944999216201579086
+      Animated set 7 - Emerald v1_72: -8680244955511225445
+      Animated set 7 - Emerald v1_73: 2437382990839221577
+      Animated set 7 - Emerald v1_74: 8031847592325087486
+      Animated set 7 - Emerald v1_75: -2796408698870282160
+      Animated set 7 - Emerald v1_76: -6050355302307265168
+      Animated set 7 - Emerald v1_77: -9117397502415183909
+      Animated set 7 - Emerald v1_78: -8641974352871010730
+      Animated set 7 - Emerald v1_79: -6461168962128656775
+      Animated set 7 - Emerald v1_8: 3331250458521619582
+      Animated set 7 - Emerald v1_80: -3232309596374635438
+      Animated set 7 - Emerald v1_81: 6605615712205620110
+      Animated set 7 - Emerald v1_82: -1480279617237224331
+      Animated set 7 - Emerald v1_83: -1295132007036587485
+      Animated set 7 - Emerald v1_84: -2578123429299267867
+      Animated set 7 - Emerald v1_85: 2868840201046673218
+      Animated set 7 - Emerald v1_9: -7242791004646361076
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

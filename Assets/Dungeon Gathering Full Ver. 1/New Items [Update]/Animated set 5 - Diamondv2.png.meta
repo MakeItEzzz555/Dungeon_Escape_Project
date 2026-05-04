@@ -1,0 +1,2834 @@
+fileFormatVersion: 2
+guid: 9579069d967b741d2ac82fa1f5afaa3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5115960025462637481
+    second: Animated set 5 - Diamondv2_0
+  - first:
+      213: -5150122126846429975
+    second: Animated set 5 - Diamondv2_1
+  - first:
+      213: 6487316878637058403
+    second: Animated set 5 - Diamondv2_2
+  - first:
+      213: 439913157601996078
+    second: Animated set 5 - Diamondv2_3
+  - first:
+      213: 2308801193171474606
+    second: Animated set 5 - Diamondv2_4
+  - first:
+      213: -1832116611336141890
+    second: Animated set 5 - Diamondv2_5
+  - first:
+      213: 6111433300143205982
+    second: Animated set 5 - Diamondv2_6
+  - first:
+      213: 5540915709900667575
+    second: Animated set 5 - Diamondv2_7
+  - first:
+      213: 9027253826237618566
+    second: Animated set 5 - Diamondv2_8
+  - first:
+      213: -5865095778295639606
+    second: Animated set 5 - Diamondv2_9
+  - first:
+      213: -5779066204094322086
+    second: Animated set 5 - Diamondv2_10
+  - first:
+      213: 1152946106089254992
+    second: Animated set 5 - Diamondv2_11
+  - first:
+      213: 8761963611421881817
+    second: Animated set 5 - Diamondv2_12
+  - first:
+      213: 6919274026361356223
+    second: Animated set 5 - Diamondv2_13
+  - first:
+      213: -1732626764686113040
+    second: Animated set 5 - Diamondv2_14
+  - first:
+      213: -1234145267194317477
+    second: Animated set 5 - Diamondv2_15
+  - first:
+      213: 6520365370746616104
+    second: Animated set 5 - Diamondv2_16
+  - first:
+      213: 3469923135054097956
+    second: Animated set 5 - Diamondv2_17
+  - first:
+      213: -3585651638963537915
+    second: Animated set 5 - Diamondv2_18
+  - first:
+      213: 4010591161936858594
+    second: Animated set 5 - Diamondv2_19
+  - first:
+      213: -7798919459261599088
+    second: Animated set 5 - Diamondv2_20
+  - first:
+      213: 5777033864300303347
+    second: Animated set 5 - Diamondv2_21
+  - first:
+      213: -3047494336608002393
+    second: Animated set 5 - Diamondv2_22
+  - first:
+      213: 4896165418058628466
+    second: Animated set 5 - Diamondv2_23
+  - first:
+      213: -8513250045365784385
+    second: Animated set 5 - Diamondv2_24
+  - first:
+      213: 6190313486838638042
+    second: Animated set 5 - Diamondv2_25
+  - first:
+      213: -5574895487156114587
+    second: Animated set 5 - Diamondv2_26
+  - first:
+      213: 8846446313174880902
+    second: Animated set 5 - Diamondv2_27
+  - first:
+      213: -6636763676982059488
+    second: Animated set 5 - Diamondv2_28
+  - first:
+      213: -8270657051279517574
+    second: Animated set 5 - Diamondv2_29
+  - first:
+      213: 8886974056050786530
+    second: Animated set 5 - Diamondv2_30
+  - first:
+      213: 7873767313312828767
+    second: Animated set 5 - Diamondv2_31
+  - first:
+      213: 6680612856207018828
+    second: Animated set 5 - Diamondv2_32
+  - first:
+      213: -7227947997257934084
+    second: Animated set 5 - Diamondv2_33
+  - first:
+      213: 5109165781375830898
+    second: Animated set 5 - Diamondv2_34
+  - first:
+      213: 196880710300214728
+    second: Animated set 5 - Diamondv2_35
+  - first:
+      213: -8280443877977682382
+    second: Animated set 5 - Diamondv2_36
+  - first:
+      213: -2739907437696113961
+    second: Animated set 5 - Diamondv2_37
+  - first:
+      213: -6835053831996486628
+    second: Animated set 5 - Diamondv2_38
+  - first:
+      213: 2902775549926480735
+    second: Animated set 5 - Diamondv2_39
+  - first:
+      213: 6072798018773535135
+    second: Animated set 5 - Diamondv2_40
+  - first:
+      213: 408737714181642420
+    second: Animated set 5 - Diamondv2_41
+  - first:
+      213: 3156170034994199258
+    second: Animated set 5 - Diamondv2_42
+  - first:
+      213: 5553678514481188170
+    second: Animated set 5 - Diamondv2_43
+  - first:
+      213: 6000645065266325472
+    second: Animated set 5 - Diamondv2_44
+  - first:
+      213: -5607475172761193798
+    second: Animated set 5 - Diamondv2_45
+  - first:
+      213: 4512931133887441090
+    second: Animated set 5 - Diamondv2_46
+  - first:
+      213: -8225999563060139912
+    second: Animated set 5 - Diamondv2_47
+  - first:
+      213: 2556399464335035223
+    second: Animated set 5 - Diamondv2_48
+  - first:
+      213: 5053558651799405099
+    second: Animated set 5 - Diamondv2_49
+  - first:
+      213: -1150867984432766059
+    second: Animated set 5 - Diamondv2_50
+  - first:
+      213: -7912938199281514486
+    second: Animated set 5 - Diamondv2_51
+  - first:
+      213: -7928379833173730246
+    second: Animated set 5 - Diamondv2_52
+  - first:
+      213: -1570384087081637775
+    second: Animated set 5 - Diamondv2_53
+  - first:
+      213: -6681732034784788635
+    second: Animated set 5 - Diamondv2_54
+  - first:
+      213: 7209249869691605792
+    second: Animated set 5 - Diamondv2_55
+  - first:
+      213: 5425922714362660753
+    second: Animated set 5 - Diamondv2_56
+  - first:
+      213: -8768291854930750475
+    second: Animated set 5 - Diamondv2_57
+  - first:
+      213: 3818185863896333108
+    second: Animated set 5 - Diamondv2_58
+  - first:
+      213: -6707456072033098174
+    second: Animated set 5 - Diamondv2_59
+  - first:
+      213: 7760616263740349225
+    second: Animated set 5 - Diamondv2_60
+  - first:
+      213: 2452995138186763656
+    second: Animated set 5 - Diamondv2_61
+  - first:
+      213: 2409235495983012280
+    second: Animated set 5 - Diamondv2_62
+  - first:
+      213: -2628792911968807610
+    second: Animated set 5 - Diamondv2_63
+  - first:
+      213: 5855994814209266657
+    second: Animated set 5 - Diamondv2_64
+  - first:
+      213: 5977861641667607715
+    second: Animated set 5 - Diamondv2_65
+  - first:
+      213: -4768509414721648922
+    second: Animated set 5 - Diamondv2_66
+  - first:
+      213: -7910015072644392943
+    second: Animated set 5 - Diamondv2_67
+  - first:
+      213: 3872131681077653462
+    second: Animated set 5 - Diamondv2_68
+  - first:
+      213: 8406771590592499346
+    second: Animated set 5 - Diamondv2_69
+  - first:
+      213: 155355305045325417
+    second: Animated set 5 - Diamondv2_70
+  - first:
+      213: 2349162524918838370
+    second: Animated set 5 - Diamondv2_71
+  - first:
+      213: 3977074552603244809
+    second: Animated set 5 - Diamondv2_72
+  - first:
+      213: 7935686695354476344
+    second: Animated set 5 - Diamondv2_73
+  - first:
+      213: 3186108176116431652
+    second: Animated set 5 - Diamondv2_74
+  - first:
+      213: -8690521952130068128
+    second: Animated set 5 - Diamondv2_75
+  - first:
+      213: 6787213620878474310
+    second: Animated set 5 - Diamondv2_76
+  - first:
+      213: 5298243595793474321
+    second: Animated set 5 - Diamondv2_77
+  - first:
+      213: 399450199879110788
+    second: Animated set 5 - Diamondv2_78
+  - first:
+      213: -7349336562190268725
+    second: Animated set 5 - Diamondv2_79
+  - first:
+      213: 9066567191649773870
+    second: Animated set 5 - Diamondv2_80
+  - first:
+      213: 4446127695681439692
+    second: Animated set 5 - Diamondv2_81
+  - first:
+      213: 2063002768360854942
+    second: Animated set 5 - Diamondv2_82
+  - first:
+      213: -3027991732019092375
+    second: Animated set 5 - Diamondv2_83
+  - first:
+      213: 5361769960453982469
+    second: Animated set 5 - Diamondv2_84
+  - first:
+      213: 6537479573188243512
+    second: Animated set 5 - Diamondv2_85
+  - first:
+      213: -3472348166937830082
+    second: Animated set 5 - Diamondv2_86
+  - first:
+      213: 189896022634250452
+    second: Animated set 5 - Diamondv2_87
+  - first:
+      213: -5867580211186473376
+    second: Animated set 5 - Diamondv2_88
+  - first:
+      213: 6843292859653636581
+    second: Animated set 5 - Diamondv2_89
+  - first:
+      213: -8403666372986306972
+    second: Animated set 5 - Diamondv2_90
+  - first:
+      213: 114438631245295362
+    second: Animated set 5 - Diamondv2_91
+  - first:
+      213: -5736310177014224963
+    second: Animated set 5 - Diamondv2_92
+  - first:
+      213: -3128580891061474710
+    second: Animated set 5 - Diamondv2_93
+  - first:
+      213: -5975157802697931929
+    second: Animated set 5 - Diamondv2_94
+  - first:
+      213: 9104679671776645307
+    second: Animated set 5 - Diamondv2_95
+  - first:
+      213: -8901252869137097680
+    second: Animated set 5 - Diamondv2_96
+  - first:
+      213: 1196635178668030009
+    second: Animated set 5 - Diamondv2_97
+  - first:
+      213: 4236701280640611667
+    second: Animated set 5 - Diamondv2_98
+  - first:
+      213: 7908414462808196767
+    second: Animated set 5 - Diamondv2_99
+  - first:
+      213: 6387832909310981132
+    second: Animated set 5 - Diamondv2_100
+  - first:
+      213: 321267712169506650
+    second: Animated set 5 - Diamondv2_101
+  - first:
+      213: 2565204440404781985
+    second: Animated set 5 - Diamondv2_102
+  - first:
+      213: -4390898846743373348
+    second: Animated set 5 - Diamondv2_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a38cc2a98a8ff640800000000000000
+      internalID: 5115960025462637481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4707f46371788b0800000000000000
+      internalID: -5150122126846429975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369ce807454970a50800000000000000
+      internalID: 6487316878637058403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d23e2afa2ea1600800000000000000
+      internalID: 439913157601996078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8dbffd3728a0020800000000000000
+      internalID: 2308801193171474606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3873226a30396e0800000000000000
+      internalID: -1832116611336141890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e678be43c20d450800000000000000
+      internalID: 6111433300143205982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bab20b2b7945ec40800000000000000
+      internalID: 5540915709900667575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689dd2ac68f374d70800000000000000
+      internalID: 9027253826237618566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac19b09d67efa9ea0800000000000000
+      internalID: -5865095778295639606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a2e7bf7e1accfa0800000000000000
+      internalID: -5779066204094322086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050be9aff56100010800000000000000
+      internalID: 1152946106089254992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d533b15b7fb89970800000000000000
+      internalID: 8761963611421881817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbffadc2113360060800000000000000
+      internalID: 6919274026361356223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6cc8a232974f7e0800000000000000
+      internalID: -1732626764686113040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5537a31b6f6fdee0800000000000000
+      internalID: -1234145267194317477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8293c1122cdfc7a50800000000000000
+      internalID: 6520365370746616104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e2fc6f4b4a72030800000000000000
+      internalID: 3469923135054097956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508f74bf4d43d3ec0800000000000000
+      internalID: -3585651638963537915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed419aa96b78a730800000000000000
+      internalID: 4010591161936858594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092b4de721ca4c390800000000000000
+      internalID: -7798919459261599088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3950901b52c2050800000000000000
+      internalID: 5777033864300303347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae17731c0025b5d0800000000000000
+      internalID: -3047494336608002393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dbfe8b18ca2f340800000000000000
+      internalID: 4896165418058628466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0f4e9503cdad980800000000000000
+      internalID: -8513250045365784385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5a35f815968e550800000000000000
+      internalID: 6190313486838638042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ba12c671ef1a2b0800000000000000
+      internalID: -5574895487156114587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6825a552d04e4ca70800000000000000
+      internalID: 8846446313174880902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ed44f499a75e3a0800000000000000
+      internalID: -6636763676982059488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_29
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78976f4b39b83d80800000000000000
+      internalID: -8270657051279517574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0050b91dfd45b70800000000000000
+      internalID: 8886974056050786530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dc71a87ad354d60800000000000000
+      internalID: 7873767313312828767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b80205ffd46bc50800000000000000
+      internalID: 6680612856207018828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfad170879b21bb90800000000000000
+      internalID: -7227947997257934084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bcc79653767e640800000000000000
+      internalID: 5109165781375830898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 272
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5229086f57bb200800000000000000
+      internalID: 196880710300214728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e05962a24f51d80800000000000000
+      internalID: -8280443877977682382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_37
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d22caab3b4e9f9d0800000000000000
+      internalID: -2739907437696113961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_38
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c4d23e0c20521a0800000000000000
+      internalID: -6835053831996486628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_39
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b9e0cabfab84820800000000000000
+      internalID: 2902775549926480735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_40
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9941bd7f99e64450800000000000000
+      internalID: 6072798018773535135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_41
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b81a1419c02ca500800000000000000
+      internalID: 408737714181642420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_42
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adabf8abce7fccb20800000000000000
+      internalID: 3156170034994199258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dce5c2f21a21d40800000000000000
+      internalID: 5553678514481188170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_44
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e76662e4e2964350800000000000000
+      internalID: 6000645065266325472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_45
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab23fb04a0f3e22b0800000000000000
+      internalID: -5607475172761193798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_46
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8692ba4f621ae30800000000000000
+      internalID: 4512931133887441090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_47
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87828490bf067dd80800000000000000
+      internalID: -8225999563060139912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 255
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b40b7b4c72a7320800000000000000
+      internalID: 2556399464335035223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_49
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 255
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b220b14a1d8d12640800000000000000
+      internalID: 5053558651799405099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593e38c6aab4700f0800000000000000
+      internalID: -1150867984432766059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_51
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08c43ed1a89f2290800000000000000
+      internalID: -7912938199281514486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_52
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c1f4f4c8cb8f190800000000000000
+      internalID: -7928379833173730246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_53
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178a2983effd43ae0800000000000000
+      internalID: -1570384087081637775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_54
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ffd4e9d18b543a0800000000000000
+      internalID: -6681732034784788635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_55
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023dffb6f866c0460800000000000000
+      internalID: 7209249869691605792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_56
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1974f4006ffbc4b40800000000000000
+      internalID: 5425922714362660753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_57
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3d6eba305c05680800000000000000
+      internalID: -8768291854930750475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_58
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b75f740dbecf430800000000000000
+      internalID: 3818185863896333108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_59
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2462ee77d345ae2a0800000000000000
+      internalID: -6707456072033098174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_60
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bdc56df5f33bb60800000000000000
+      internalID: 7760616263740349225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_61
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88dd167e41aca0220800000000000000
+      internalID: 2452995138186763656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_62
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9545e3be25f6120800000000000000
+      internalID: 2409235495983012280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_63
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645d80646c6a48bd0800000000000000
+      internalID: -2628792911968807610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_64
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e31973d14ca44150800000000000000
+      internalID: 5855994814209266657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_65
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acf704bd71a5f250800000000000000
+      internalID: 5977861641667607715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_66
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e60963b3f9d2ddb0800000000000000
+      internalID: -4768509414721648922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1189b03533bf93290800000000000000
+      internalID: -7910015072644392943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 272
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df6b2e9f339cb530800000000000000
+      internalID: 3872131681077653462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_69
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e8c1d783adaa470800000000000000
+      internalID: 8406771590592499346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_70
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966f23ba3dee72200800000000000000
+      internalID: 155355305045325417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2647279bed6e99020800000000000000
+      internalID: 2349162524918838370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9097921fb38613730800000000000000
+      internalID: 3977074552603244809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837a56d1109312e60800000000000000
+      internalID: 7935686695354476344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b33656184573c20800000000000000
+      internalID: 3186108176116431652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_75
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0619d823450156780800000000000000
+      internalID: -8690521952130068128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c7727f3d6013e50800000000000000
+      internalID: 6787213620878474310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_77
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11322c4aa74278940800000000000000
+      internalID: 5298243595793474321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_78
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480d04527d12b8500800000000000000
+      internalID: 399450199879110788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_79
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6cbdbc559e10a90800000000000000
+      internalID: -7349336562190268725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29ee76f2dae2dd70800000000000000
+      internalID: 9066567191649773870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc74e172591d3bd30800000000000000
+      internalID: 4446127695681439692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_82
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95dbca661241ac10800000000000000
+      internalID: 2063002768360854942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964ae2e00996af5d0800000000000000
+      internalID: -3027991732019092375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50948340f55d86a40800000000000000
+      internalID: 5361769960453982469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 272
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830f146e80bc9ba50800000000000000
+      internalID: 6537479573188243512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d113d4dbdbfcfc0800000000000000
+      internalID: -3472348166937830082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_87
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0cf5d2d65a2a200800000000000000
+      internalID: 189896022634250452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0666e1db2ea229ea0800000000000000
+      internalID: -5867580211186473376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_89
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e14f99399248fe50800000000000000
+      internalID: 6843292859653636581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e714355fd206b80800000000000000
+      internalID: -8403666372986306972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_91
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f25fb2451969100800000000000000
+      internalID: 114438631245295362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7eb9949488460b0800000000000000
+      internalID: -5736310177014224963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_93
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6aa439614c0594d0800000000000000
+      internalID: -3128580891061474710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763494dd2a9f31da0800000000000000
+      internalID: -5975157802697931929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_95
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb097fd3ce15a5e70800000000000000
+      internalID: 9104679671776645307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_96
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c18272da5687480800000000000000
+      internalID: -8901252869137097680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_97
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9387e3eda5d4b9010800000000000000
+      internalID: 1196635178668030009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355b6042e59cbca30800000000000000
+      internalID: 4236701280640611667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f968e38ad0550cd60800000000000000
+      internalID: 7908414462808196767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_100
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04f704df2426a850800000000000000
+      internalID: 6387832909310981132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_101
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a577aa5384f557400800000000000000
+      internalID: 321267712169506650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_102
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abe496f8df699320800000000000000
+      internalID: 2565204440404781985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 5 - Diamondv2_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9503b43c46013c0800000000000000
+      internalID: -4390898846743373348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animated set 5 - Diamondv2_0: 5115960025462637481
+      Animated set 5 - Diamondv2_1: -5150122126846429975
+      Animated set 5 - Diamondv2_10: -5779066204094322086
+      Animated set 5 - Diamondv2_100: 6387832909310981132
+      Animated set 5 - Diamondv2_101: 321267712169506650
+      Animated set 5 - Diamondv2_102: 2565204440404781985
+      Animated set 5 - Diamondv2_103: -4390898846743373348
+      Animated set 5 - Diamondv2_11: 1152946106089254992
+      Animated set 5 - Diamondv2_12: 8761963611421881817
+      Animated set 5 - Diamondv2_13: 6919274026361356223
+      Animated set 5 - Diamondv2_14: -1732626764686113040
+      Animated set 5 - Diamondv2_15: -1234145267194317477
+      Animated set 5 - Diamondv2_16: 6520365370746616104
+      Animated set 5 - Diamondv2_17: 3469923135054097956
+      Animated set 5 - Diamondv2_18: -3585651638963537915
+      Animated set 5 - Diamondv2_19: 4010591161936858594
+      Animated set 5 - Diamondv2_2: 6487316878637058403
+      Animated set 5 - Diamondv2_20: -7798919459261599088
+      Animated set 5 - Diamondv2_21: 5777033864300303347
+      Animated set 5 - Diamondv2_22: -3047494336608002393
+      Animated set 5 - Diamondv2_23: 4896165418058628466
+      Animated set 5 - Diamondv2_24: -8513250045365784385
+      Animated set 5 - Diamondv2_25: 6190313486838638042
+      Animated set 5 - Diamondv2_26: -5574895487156114587
+      Animated set 5 - Diamondv2_27: 8846446313174880902
+      Animated set 5 - Diamondv2_28: -6636763676982059488
+      Animated set 5 - Diamondv2_29: -8270657051279517574
+      Animated set 5 - Diamondv2_3: 439913157601996078
+      Animated set 5 - Diamondv2_30: 8886974056050786530
+      Animated set 5 - Diamondv2_31: 7873767313312828767
+      Animated set 5 - Diamondv2_32: 6680612856207018828
+      Animated set 5 - Diamondv2_33: -7227947997257934084
+      Animated set 5 - Diamondv2_34: 5109165781375830898
+      Animated set 5 - Diamondv2_35: 196880710300214728
+      Animated set 5 - Diamondv2_36: -8280443877977682382
+      Animated set 5 - Diamondv2_37: -2739907437696113961
+      Animated set 5 - Diamondv2_38: -6835053831996486628
+      Animated set 5 - Diamondv2_39: 2902775549926480735
+      Animated set 5 - Diamondv2_4: 2308801193171474606
+      Animated set 5 - Diamondv2_40: 6072798018773535135
+      Animated set 5 - Diamondv2_41: 408737714181642420
+      Animated set 5 - Diamondv2_42: 3156170034994199258
+      Animated set 5 - Diamondv2_43: 5553678514481188170
+      Animated set 5 - Diamondv2_44: 6000645065266325472
+      Animated set 5 - Diamondv2_45: -5607475172761193798
+      Animated set 5 - Diamondv2_46: 4512931133887441090
+      Animated set 5 - Diamondv2_47: -8225999563060139912
+      Animated set 5 - Diamondv2_48: 2556399464335035223
+      Animated set 5 - Diamondv2_49: 5053558651799405099
+      Animated set 5 - Diamondv2_5: -1832116611336141890
+      Animated set 5 - Diamondv2_50: -1150867984432766059
+      Animated set 5 - Diamondv2_51: -7912938199281514486
+      Animated set 5 - Diamondv2_52: -7928379833173730246
+      Animated set 5 - Diamondv2_53: -1570384087081637775
+      Animated set 5 - Diamondv2_54: -6681732034784788635
+      Animated set 5 - Diamondv2_55: 7209249869691605792
+      Animated set 5 - Diamondv2_56: 5425922714362660753
+      Animated set 5 - Diamondv2_57: -8768291854930750475
+      Animated set 5 - Diamondv2_58: 3818185863896333108
+      Animated set 5 - Diamondv2_59: -6707456072033098174
+      Animated set 5 - Diamondv2_6: 6111433300143205982
+      Animated set 5 - Diamondv2_60: 7760616263740349225
+      Animated set 5 - Diamondv2_61: 2452995138186763656
+      Animated set 5 - Diamondv2_62: 2409235495983012280
+      Animated set 5 - Diamondv2_63: -2628792911968807610
+      Animated set 5 - Diamondv2_64: 5855994814209266657
+      Animated set 5 - Diamondv2_65: 5977861641667607715
+      Animated set 5 - Diamondv2_66: -4768509414721648922
+      Animated set 5 - Diamondv2_67: -7910015072644392943
+      Animated set 5 - Diamondv2_68: 3872131681077653462
+      Animated set 5 - Diamondv2_69: 8406771590592499346
+      Animated set 5 - Diamondv2_7: 5540915709900667575
+      Animated set 5 - Diamondv2_70: 155355305045325417
+      Animated set 5 - Diamondv2_71: 2349162524918838370
+      Animated set 5 - Diamondv2_72: 3977074552603244809
+      Animated set 5 - Diamondv2_73: 7935686695354476344
+      Animated set 5 - Diamondv2_74: 3186108176116431652
+      Animated set 5 - Diamondv2_75: -8690521952130068128
+      Animated set 5 - Diamondv2_76: 6787213620878474310
+      Animated set 5 - Diamondv2_77: 5298243595793474321
+      Animated set 5 - Diamondv2_78: 399450199879110788
+      Animated set 5 - Diamondv2_79: -7349336562190268725
+      Animated set 5 - Diamondv2_8: 9027253826237618566
+      Animated set 5 - Diamondv2_80: 9066567191649773870
+      Animated set 5 - Diamondv2_81: 4446127695681439692
+      Animated set 5 - Diamondv2_82: 2063002768360854942
+      Animated set 5 - Diamondv2_83: -3027991732019092375
+      Animated set 5 - Diamondv2_84: 5361769960453982469
+      Animated set 5 - Diamondv2_85: 6537479573188243512
+      Animated set 5 - Diamondv2_86: -3472348166937830082
+      Animated set 5 - Diamondv2_87: 189896022634250452
+      Animated set 5 - Diamondv2_88: -5867580211186473376
+      Animated set 5 - Diamondv2_89: 6843292859653636581
+      Animated set 5 - Diamondv2_9: -5865095778295639606
+      Animated set 5 - Diamondv2_90: -8403666372986306972
+      Animated set 5 - Diamondv2_91: 114438631245295362
+      Animated set 5 - Diamondv2_92: -5736310177014224963
+      Animated set 5 - Diamondv2_93: -3128580891061474710
+      Animated set 5 - Diamondv2_94: -5975157802697931929
+      Animated set 5 - Diamondv2_95: 9104679671776645307
+      Animated set 5 - Diamondv2_96: -8901252869137097680
+      Animated set 5 - Diamondv2_97: 1196635178668030009
+      Animated set 5 - Diamondv2_98: 4236701280640611667
+      Animated set 5 - Diamondv2_99: 7908414462808196767
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

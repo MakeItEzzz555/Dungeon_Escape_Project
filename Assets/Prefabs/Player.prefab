@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 279625574097070072}
   - component: {fileID: 3949520661380814451}
   - component: {fileID: 4516393411619719083}
+  - component: {fileID: 6369668535700860486}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 21.028, y: 13.762, z: 0}
-  m_LocalScale: {x: 2.4229684, y: 2.4229684, z: 2.4229684}
+  m_LocalScale: {x: 3.7, y: 3.7, z: 2.4229684}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -104,8 +105,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1188671895
+  m_SortingLayer: 1
   m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 9128384846270689552, guid: a093daae077df4eda852e9794045c68e, type: 3}
@@ -179,7 +180,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.013532847, y: -0.15036252}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -189,7 +190,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.21, y: 0.36}
+  m_Size: {x: 0.18293431, y: 0.05927497}
   m_EdgeRadius: 0
 --- !u!114 &3949520661380814451
 MonoBehaviour:
@@ -216,5 +217,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a35d54455d0fa44b9836ad1f1ff5cb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 2
+  moveSpeed: 3
   inputDeadzone: 0.1
+--- !u!114 &6369668535700860486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9215534637740733483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11d7fdeb30bc84adf8784370f6edf490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::YSort
+  baseOrder: 5000
+  offset: 0

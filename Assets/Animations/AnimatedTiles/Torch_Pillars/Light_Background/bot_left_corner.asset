@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: bot_left_corner
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: -1818556470, guid: 960178590afcb4a1c9b1cf5e76fc1c3e, type: 3}
+  - {fileID: -137455614, guid: 960178590afcb4a1c9b1cf5e76fc1c3e, type: 3}
+  - {fileID: 31891611, guid: 960178590afcb4a1c9b1cf5e76fc1c3e, type: 3}
+  - {fileID: 1216769647, guid: 960178590afcb4a1c9b1cf5e76fc1c3e, type: 3}
+  - {fileID: -1744850718, guid: 960178590afcb4a1c9b1cf5e76fc1c3e, type: 3}
+  - {fileID: 1936403228, guid: 960178590afcb4a1c9b1cf5e76fc1c3e, type: 3}
+  - {fileID: -1978426045, guid: 960178590afcb4a1c9b1cf5e76fc1c3e, type: 3}
+  - {fileID: 25560496, guid: 960178590afcb4a1c9b1cf5e76fc1c3e, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

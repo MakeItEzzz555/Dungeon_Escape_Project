@@ -1,0 +1,3770 @@
+fileFormatVersion: 2
+guid: 7bfab59f0e2a54dde8f70f9fbec3c7a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5123252292573342967
+    second: Animated set 1 - Woodv2_0
+  - first:
+      213: -2892049637889281712
+    second: Animated set 1 - Woodv2_1
+  - first:
+      213: 7915307964234115842
+    second: Animated set 1 - Woodv2_2
+  - first:
+      213: 2578142090614026448
+    second: Animated set 1 - Woodv2_3
+  - first:
+      213: 5525437860057929024
+    second: Animated set 1 - Woodv2_4
+  - first:
+      213: 7671134687695070713
+    second: Animated set 1 - Woodv2_5
+  - first:
+      213: 9084909619946851037
+    second: Animated set 1 - Woodv2_6
+  - first:
+      213: 3885137989108656682
+    second: Animated set 1 - Woodv2_7
+  - first:
+      213: -4489930069769684393
+    second: Animated set 1 - Woodv2_8
+  - first:
+      213: -9064674074664516582
+    second: Animated set 1 - Woodv2_9
+  - first:
+      213: -5850537293191577881
+    second: Animated set 1 - Woodv2_10
+  - first:
+      213: -8042805161547711005
+    second: Animated set 1 - Woodv2_11
+  - first:
+      213: 3461326681719220103
+    second: Animated set 1 - Woodv2_12
+  - first:
+      213: -1724912384703815362
+    second: Animated set 1 - Woodv2_13
+  - first:
+      213: 8547262209320253
+    second: Animated set 1 - Woodv2_14
+  - first:
+      213: 430646114457621470
+    second: Animated set 1 - Woodv2_15
+  - first:
+      213: 7726158320537060868
+    second: Animated set 1 - Woodv2_16
+  - first:
+      213: -6254329277070365272
+    second: Animated set 1 - Woodv2_17
+  - first:
+      213: 5567937326072757868
+    second: Animated set 1 - Woodv2_18
+  - first:
+      213: 3692544776899824928
+    second: Animated set 1 - Woodv2_19
+  - first:
+      213: 2062452383999923928
+    second: Animated set 1 - Woodv2_20
+  - first:
+      213: 8172698380349342890
+    second: Animated set 1 - Woodv2_21
+  - first:
+      213: -4151931522325043507
+    second: Animated set 1 - Woodv2_22
+  - first:
+      213: 709079596371637205
+    second: Animated set 1 - Woodv2_23
+  - first:
+      213: -1568351715167436812
+    second: Animated set 1 - Woodv2_24
+  - first:
+      213: 2148619534333040547
+    second: Animated set 1 - Woodv2_25
+  - first:
+      213: -4679069348759017561
+    second: Animated set 1 - Woodv2_26
+  - first:
+      213: -8159670830282363853
+    second: Animated set 1 - Woodv2_27
+  - first:
+      213: 1527725710970706508
+    second: Animated set 1 - Woodv2_28
+  - first:
+      213: 2724531246474945931
+    second: Animated set 1 - Woodv2_29
+  - first:
+      213: -7191499025330397926
+    second: Animated set 1 - Woodv2_30
+  - first:
+      213: 4647081592325864199
+    second: Animated set 1 - Woodv2_31
+  - first:
+      213: 1647308234487630686
+    second: Animated set 1 - Woodv2_32
+  - first:
+      213: -4857061562609528507
+    second: Animated set 1 - Woodv2_33
+  - first:
+      213: -6119025617413223791
+    second: Animated set 1 - Woodv2_34
+  - first:
+      213: 8067775149664028213
+    second: Animated set 1 - Woodv2_35
+  - first:
+      213: -4210514549626343609
+    second: Animated set 1 - Woodv2_36
+  - first:
+      213: -4422634608412117078
+    second: Animated set 1 - Woodv2_37
+  - first:
+      213: 7116229785069328647
+    second: Animated set 1 - Woodv2_38
+  - first:
+      213: 3761638541987132036
+    second: Animated set 1 - Woodv2_39
+  - first:
+      213: -1525348407959713635
+    second: Animated set 1 - Woodv2_40
+  - first:
+      213: 8353633160415730531
+    second: Animated set 1 - Woodv2_41
+  - first:
+      213: 4442152415942767678
+    second: Animated set 1 - Woodv2_42
+  - first:
+      213: 9059972261135464912
+    second: Animated set 1 - Woodv2_43
+  - first:
+      213: 6738869904944107104
+    second: Animated set 1 - Woodv2_44
+  - first:
+      213: -2840184301506631805
+    second: Animated set 1 - Woodv2_45
+  - first:
+      213: -4112755079498289169
+    second: Animated set 1 - Woodv2_46
+  - first:
+      213: -1367926077092102707
+    second: Animated set 1 - Woodv2_47
+  - first:
+      213: -3062510011603455492
+    second: Animated set 1 - Woodv2_48
+  - first:
+      213: -4969425517938481763
+    second: Animated set 1 - Woodv2_49
+  - first:
+      213: 6617985547452813284
+    second: Animated set 1 - Woodv2_50
+  - first:
+      213: 5945262694920451536
+    second: Animated set 1 - Woodv2_51
+  - first:
+      213: 3048820944747582071
+    second: Animated set 1 - Woodv2_52
+  - first:
+      213: -723514983510069798
+    second: Animated set 1 - Woodv2_53
+  - first:
+      213: 3394318570866835173
+    second: Animated set 1 - Woodv2_54
+  - first:
+      213: -5343667243297369958
+    second: Animated set 1 - Woodv2_55
+  - first:
+      213: 5007540476229335841
+    second: Animated set 1 - Woodv2_56
+  - first:
+      213: 9013807098889346133
+    second: Animated set 1 - Woodv2_57
+  - first:
+      213: 6084031196541352717
+    second: Animated set 1 - Woodv2_58
+  - first:
+      213: 1843475841868538114
+    second: Animated set 1 - Woodv2_59
+  - first:
+      213: -3213579018586053355
+    second: Animated set 1 - Woodv2_60
+  - first:
+      213: -6667663797687268892
+    second: Animated set 1 - Woodv2_61
+  - first:
+      213: -3831779390664935552
+    second: Animated set 1 - Woodv2_62
+  - first:
+      213: -1447896857468574841
+    second: Animated set 1 - Woodv2_63
+  - first:
+      213: 2186572411985084541
+    second: Animated set 1 - Woodv2_64
+  - first:
+      213: -3672551604201311743
+    second: Animated set 1 - Woodv2_65
+  - first:
+      213: -9107587843546858274
+    second: Animated set 1 - Woodv2_66
+  - first:
+      213: -6903534911525929189
+    second: Animated set 1 - Woodv2_67
+  - first:
+      213: -4772866691692248687
+    second: Animated set 1 - Woodv2_68
+  - first:
+      213: -885801944289202442
+    second: Animated set 1 - Woodv2_69
+  - first:
+      213: 912786412454508352
+    second: Animated set 1 - Woodv2_70
+  - first:
+      213: -4480977248115968283
+    second: Animated set 1 - Woodv2_71
+  - first:
+      213: -1278126124878338673
+    second: Animated set 1 - Woodv2_72
+  - first:
+      213: -8788751466728217395
+    second: Animated set 1 - Woodv2_73
+  - first:
+      213: -4576631059578809237
+    second: Animated set 1 - Woodv2_74
+  - first:
+      213: -6651967181750724034
+    second: Animated set 1 - Woodv2_75
+  - first:
+      213: -2174212000252864110
+    second: Animated set 1 - Woodv2_76
+  - first:
+      213: 2886852999408168846
+    second: Animated set 1 - Woodv2_77
+  - first:
+      213: 6803072033284519633
+    second: Animated set 1 - Woodv2_78
+  - first:
+      213: 6101447644022233780
+    second: Animated set 1 - Woodv2_79
+  - first:
+      213: -652959933902888554
+    second: Animated set 1 - Woodv2_80
+  - first:
+      213: -1813736732110938965
+    second: Animated set 1 - Woodv2_81
+  - first:
+      213: -8936440743659747845
+    second: Animated set 1 - Woodv2_82
+  - first:
+      213: -9196203273738359500
+    second: Animated set 1 - Woodv2_83
+  - first:
+      213: -3622236550633046248
+    second: Animated set 1 - Woodv2_84
+  - first:
+      213: 5851175248019406037
+    second: Animated set 1 - Woodv2_85
+  - first:
+      213: -718674780988862308
+    second: Animated set 1 - Woodv2_86
+  - first:
+      213: 8246695034455582810
+    second: Animated set 1 - Woodv2_87
+  - first:
+      213: -6984527522583063472
+    second: Animated set 1 - Woodv2_88
+  - first:
+      213: -9055042446757687297
+    second: Animated set 1 - Woodv2_89
+  - first:
+      213: -6660779206019738808
+    second: Animated set 1 - Woodv2_90
+  - first:
+      213: 688047340431076257
+    second: Animated set 1 - Woodv2_91
+  - first:
+      213: 5953970639278174903
+    second: Animated set 1 - Woodv2_92
+  - first:
+      213: 884910900919796963
+    second: Animated set 1 - Woodv2_93
+  - first:
+      213: 2376734250345568565
+    second: Animated set 1 - Woodv2_94
+  - first:
+      213: -4072516465841912744
+    second: Animated set 1 - Woodv2_95
+  - first:
+      213: -3658471980070034708
+    second: Animated set 1 - Woodv2_96
+  - first:
+      213: 2836956668903399301
+    second: Animated set 1 - Woodv2_97
+  - first:
+      213: -4404046322700913146
+    second: Animated set 1 - Woodv2_98
+  - first:
+      213: 8216522855279447643
+    second: Animated set 1 - Woodv2_99
+  - first:
+      213: 1263284886813352297
+    second: Animated set 1 - Woodv2_100
+  - first:
+      213: -2500161915237243543
+    second: Animated set 1 - Woodv2_101
+  - first:
+      213: -486085282712907697
+    second: Animated set 1 - Woodv2_102
+  - first:
+      213: 2301111365087092183
+    second: Animated set 1 - Woodv2_103
+  - first:
+      213: 3436228425354155404
+    second: Animated set 1 - Woodv2_104
+  - first:
+      213: 1867771422458664965
+    second: Animated set 1 - Woodv2_105
+  - first:
+      213: -5532896584132737938
+    second: Animated set 1 - Woodv2_106
+  - first:
+      213: 4617651165500195877
+    second: Animated set 1 - Woodv2_107
+  - first:
+      213: 5703879163803986031
+    second: Animated set 1 - Woodv2_108
+  - first:
+      213: 3360179102936213446
+    second: Animated set 1 - Woodv2_109
+  - first:
+      213: -5585066321901122455
+    second: Animated set 1 - Woodv2_110
+  - first:
+      213: 8543559912537883162
+    second: Animated set 1 - Woodv2_111
+  - first:
+      213: -2216162446689332686
+    second: Animated set 1 - Woodv2_112
+  - first:
+      213: -3935688260212716337
+    second: Animated set 1 - Woodv2_113
+  - first:
+      213: 1434010136401460139
+    second: Animated set 1 - Woodv2_114
+  - first:
+      213: 1915647859849897336
+    second: Animated set 1 - Woodv2_115
+  - first:
+      213: 1625106956159537955
+    second: Animated set 1 - Woodv2_116
+  - first:
+      213: -5828308817501498914
+    second: Animated set 1 - Woodv2_117
+  - first:
+      213: -7881415701141812869
+    second: Animated set 1 - Woodv2_118
+  - first:
+      213: 6979494597480905302
+    second: Animated set 1 - Woodv2_119
+  - first:
+      213: -5391293357973430218
+    second: Animated set 1 - Woodv2_120
+  - first:
+      213: 1202227946711874493
+    second: Animated set 1 - Woodv2_121
+  - first:
+      213: -1061384725041622647
+    second: Animated set 1 - Woodv2_122
+  - first:
+      213: -6736373918271208871
+    second: Animated set 1 - Woodv2_123
+  - first:
+      213: 8761431105700087591
+    second: Animated set 1 - Woodv2_124
+  - first:
+      213: -3102818238807633448
+    second: Animated set 1 - Woodv2_125
+  - first:
+      213: 8430515282018381688
+    second: Animated set 1 - Woodv2_126
+  - first:
+      213: 1041993871967637143
+    second: Animated set 1 - Woodv2_127
+  - first:
+      213: -1895411745385115347
+    second: Animated set 1 - Woodv2_128
+  - first:
+      213: -7023172400126598854
+    second: Animated set 1 - Woodv2_129
+  - first:
+      213: 7493230786803863633
+    second: Animated set 1 - Woodv2_130
+  - first:
+      213: 7347620223320173425
+    second: Animated set 1 - Woodv2_131
+  - first:
+      213: -3084963384408866376
+    second: Animated set 1 - Woodv2_132
+  - first:
+      213: 7481947502223280564
+    second: Animated set 1 - Woodv2_133
+  - first:
+      213: -6247986922445038017
+    second: Animated set 1 - Woodv2_134
+  - first:
+      213: 1199109297239148247
+    second: Animated set 1 - Woodv2_135
+  - first:
+      213: -83351459542391612
+    second: Animated set 1 - Woodv2_136
+  - first:
+      213: -5028055812849186459
+    second: Animated set 1 - Woodv2_137
+  - first:
+      213: -8722534901230138273
+    second: Animated set 1 - Woodv2_138
+  - first:
+      213: -7377232398455502630
+    second: Animated set 1 - Woodv2_139
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc2a81e0d2791740800000000000000
+      internalID: 5123252292573342967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051ffc45d206dd7d0800000000000000
+      internalID: -2892049637889281712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20baef708a2d8dd60800000000000000
+      internalID: 7915307964234115842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d03883629667c320800000000000000
+      internalID: 2578142090614026448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0455f3d657c4eac40800000000000000
+      internalID: 5525437860057929024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5ed34ea58557a60800000000000000
+      internalID: 7671134687695070713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda06795a25141e70800000000000000
+      internalID: 9084909619946851037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a6230ba68cae530800000000000000
+      internalID: 3885137989108656682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a7805e36090b1c0800000000000000
+      internalID: -4489930069769684393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14cdeea4fec33280800000000000000
+      internalID: -9064674074664516582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eef32e4457becea0800000000000000
+      internalID: -5850537293191577881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed35447157326090800000000000000
+      internalID: -8042805161547711005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787a473374a190030800000000000000
+      internalID: 3461326681719220103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31ae093351ef08e0800000000000000
+      internalID: -1724912384703815362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35e9cf80bd5e1000800000000000000
+      internalID: 8547262209320253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed316240c56f9f500800000000000000
+      internalID: 430646114457621470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4064a0ebe04d83b60800000000000000
+      internalID: 7726158320537060868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad25ebc8a82439a0800000000000000
+      internalID: -6254329277070365272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e74347f79454d40800000000000000
+      internalID: 5567937326072757868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d865029ed8e3330800000000000000
+      internalID: 3692544776899824928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d61972148d4f9c10800000000000000
+      internalID: 2062452383999923928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4022940e14b6170800000000000000
+      internalID: 8172698380349342890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6a11047406166c0800000000000000
+      internalID: -4151931522325043507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d37533d22827d900800000000000000
+      internalID: 709079596371637205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fff19eac681c3ae0800000000000000
+      internalID: -1568351715167436812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7d265251e61dd10800000000000000
+      internalID: 2148619534333040547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7ecc3d73b901fb0800000000000000
+      internalID: -4679069348759017561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c27e49c9603ce80800000000000000
+      internalID: -8159670830282363853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ad3ac9072933510800000000000000
+      internalID: 1527725710970706508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_29
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b856795cbba7fc520800000000000000
+      internalID: 2724531246474945931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d1d981db9a23c90800000000000000
+      internalID: -7191499025330397926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bf6d04610cd7040800000000000000
+      internalID: 4647081592325864199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b06388c1a6cd610800000000000000
+      internalID: 1647308234487630686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541947c1e30489cb0800000000000000
+      internalID: -4857061562609528507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ac196fe9ad41ba0800000000000000
+      internalID: -6119025617413223791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536c273f0ce76ff60800000000000000
+      internalID: 8067775149664028213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f68eb435f3195c0800000000000000
+      internalID: -4210514549626343609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa73f3a7145af92c0800000000000000
+      internalID: -4422634608412117078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_38
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7099c1f394de1c260800000000000000
+      internalID: 7116229785069328647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_39
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482bf8ce256043430800000000000000
+      internalID: 3761638541987132036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d988ad064bfd4dae0800000000000000
+      internalID: -1525348407959713635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_41
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bd08699111ee370800000000000000
+      internalID: 8353633160415730531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_42
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3479663612b5ad30800000000000000
+      internalID: 4442152415942767678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d93fdb05cc7bbd70800000000000000
+      internalID: 9059972261135464912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_44
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e83c77976458d50800000000000000
+      internalID: 6738869904944107104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3876e0cfc63a598d0800000000000000
+      internalID: -2840184301506631805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_46
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef2256ab0f8ce6c0800000000000000
+      internalID: -4112755079498289169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_47
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd7eeffa76240de0800000000000000
+      internalID: -1367926077092102707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_48
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf17c4dce57cf75d0800000000000000
+      internalID: -3062510011603455492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_49
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95e38112dd090bb0800000000000000
+      internalID: -4969425517938481763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_50
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef0894bacec7db50800000000000000
+      internalID: 6617985547452813284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_51
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d57d13fbe0d18250800000000000000
+      internalID: 5945262694920451536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_52
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7725373fe769f4a20800000000000000
+      internalID: 3048820944747582071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_53
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adda532b4fe85f5f0800000000000000
+      internalID: -723514983510069798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_54
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee770f91ca0b1f20800000000000000
+      internalID: 3394318570866835173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_55
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a909e5544fa77d5b0800000000000000
+      internalID: -5343667243297369958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_56
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b3a04388b5e7540800000000000000
+      internalID: 5007540476229335841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_57
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c913b9cc9771d70800000000000000
+      internalID: 9013807098889346133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_58
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bfd308322de6450800000000000000
+      internalID: 6084031196541352717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_59
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201a692d287559910800000000000000
+      internalID: 1843475841868538114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_60
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515a78ba8e21763d0800000000000000
+      internalID: -3213579018586053355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_61
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e94e115a13b773a0800000000000000
+      internalID: -6667663797687268892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_62
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087f0c122f8c2dac0800000000000000
+      internalID: -3831779390664935552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_63
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7836e2bba7908ebe0800000000000000
+      internalID: -1447896857468574841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_64
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d704a041604485e10800000000000000
+      internalID: 2186572411985084541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_65
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1023a4426c9780dc0800000000000000
+      internalID: -3672551604201311743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_66
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 287
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc39b04c195b9180800000000000000
+      internalID: -9107587843546858274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_67
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 272
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f3dff0397b130a0800000000000000
+      internalID: -6903534911525929189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 272
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191c369180f53cdb0800000000000000
+      internalID: -4772866691692248687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6feaa4923dff4b3f0800000000000000
+      internalID: -885801944289202442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_70
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047772ee76edaac00800000000000000
+      internalID: 912786412454508352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_71
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6b07f1fee50d1c0800000000000000
+      internalID: -4480977248115968283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_72
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85ea7caf0f234ee0800000000000000
+      internalID: -1278126124878338673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_73
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4a8761b15180680800000000000000
+      internalID: -8788751466728217395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_74
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6419c1ac4a8c70c0800000000000000
+      internalID: -4576631059578809237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_75
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a113287177fa3a0800000000000000
+      internalID: -6651967181750724034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_76
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299598a84b5a3d1e0800000000000000
+      internalID: -2174212000252864110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_77
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fae7cf189201820800000000000000
+      internalID: 2886852999408168846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_78
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6715558fd596e50800000000000000
+      internalID: 6803072033284519633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_79
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bad69d2e42bca450800000000000000
+      internalID: 6101447644022233780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_80
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691e72f466830f6f0800000000000000
+      internalID: -652959933902888554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_81
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac137e3d0054d6e0800000000000000
+      internalID: -1813736732110938965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_82
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf545ddad726bf380800000000000000
+      internalID: -8936440743659747845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_83
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d6a8a98d5806080800000000000000
+      internalID: -9196203273738359500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_84
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fb4137c0b3bbdc0800000000000000
+      internalID: -3622236550633046248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_85
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 223
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc31c023ec833150800000000000000
+      internalID: 5851175248019406037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 272
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90902a2811c606f0800000000000000
+      internalID: -718674780988862308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_87
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58e3b3e075227270800000000000000
+      internalID: 8246695034455582810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_88
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0545f7c4939f11f90800000000000000
+      internalID: -6984527522583063472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_89
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff8ceeced6065280800000000000000
+      internalID: -9055042446757687297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_90
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84392e93a982093a0800000000000000
+      internalID: -6660779206019738808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_91
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abeb03296f6c8900800000000000000
+      internalID: 688047340431076257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_92
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2f74d30c0c0a250800000000000000
+      internalID: 5953970639278174903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_93
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e40233a6c5d74c00800000000000000
+      internalID: 884910900919796963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_94
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5391a5d453bdbf020800000000000000
+      internalID: 2376734250345568565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_95
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8544097f9d38b77c0800000000000000
+      internalID: -4072516465841912744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_96
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a4371e1f7a3dc0800000000000000
+      internalID: -3658471980070034708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_97
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f992d3f05ee5720800000000000000
+      internalID: 2836956668903399301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_98
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606fb01043fa1e2c0800000000000000
+      internalID: -4404046322700913146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_99
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e4fcdf004f60270800000000000000
+      internalID: 8216522855279447643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_100
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96121a059e6188110800000000000000
+      internalID: 1263284886813352297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_101
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965e2590cf3ad4dd0800000000000000
+      internalID: -2500161915237243543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_102
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f401a51c2041149f0800000000000000
+      internalID: -486085282712907697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_103
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd51a048903fef10800000000000000
+      internalID: 2301111365087092183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 272
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8595540c8fefaf20800000000000000
+      internalID: 3436228425354155404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_105
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508564d7638abe910800000000000000
+      internalID: 1867771422458664965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_106
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64cbcb0fd33733b0800000000000000
+      internalID: -5532896584132737938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_107
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524ce480541351040800000000000000
+      internalID: 4617651165500195877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_108
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68e94801ef382f40800000000000000
+      internalID: 5703879163803986031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_109
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c724345711c1ae20800000000000000
+      internalID: 3360179102936213446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_110
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c061c65cbdd72b0800000000000000
+      internalID: -5585066321901122455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_111
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1286188972d09670800000000000000
+      internalID: 8543559912537883162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_112
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23295881ffb9e31e0800000000000000
+      internalID: -2216162446689332686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_113
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc88572160a169c0800000000000000
+      internalID: -3935688260212716337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_114
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babb4801f90a6e310800000000000000
+      internalID: 1434010136401460139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_115
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8752719349fb59a10800000000000000
+      internalID: 1915647859849897336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_116
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323d7eb9a2a8d8610800000000000000
+      internalID: 1625106956159537955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_117
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1db8b9200bd1fa0800000000000000
+      internalID: -5828308817501498914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_118
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7981466d269f9290800000000000000
+      internalID: -7881415701141812869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_119
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a7b928b552cd060800000000000000
+      internalID: 6979494597480905302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_120
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630221651474e25b0800000000000000
+      internalID: -5391293357973430218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_121
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 145
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbfec6a2fb2fa010800000000000000
+      internalID: 1202227946711874493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9815edd47343541f0800000000000000
+      internalID: -1061384725041622647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9520d37bc979382a0800000000000000
+      internalID: -6736373918271208871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_124
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727cf4bab2bd69970800000000000000
+      internalID: 8761431105700087591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d19441504390f4d0800000000000000
+      internalID: -3102818238807633448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_126
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f25327bf43ff470800000000000000
+      internalID: 8430515282018381688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ec3c4e7e7e57e00800000000000000
+      internalID: 1041993871967637143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_128
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2197355f0522b5e0800000000000000
+      internalID: -1895411745385115347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_129
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31602699eda88e90800000000000000
+      internalID: -7023172400126598854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_130
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150177323bd4df760800000000000000
+      internalID: 7493230786803863633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_131
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ba97be9adf7f560800000000000000
+      internalID: 7347620223320173425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1093f85220035d0800000000000000
+      internalID: -3084963384408866376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9c32abc9735d760800000000000000
+      internalID: 7481947502223280564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_134
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e906e4ff0ba49a0800000000000000
+      internalID: -6247986922445038017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_135
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6cecc7d8714a010800000000000000
+      internalID: 1199109297239148247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_136
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c427760a40e7def0800000000000000
+      internalID: -83351459542391612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_137
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5694944c0e1c83ab0800000000000000
+      internalID: -5028055812849186459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_138
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c0b37a8b453f680800000000000000
+      internalID: -8722534901230138273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 1 - Woodv2_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad88e88483ece9990800000000000000
+      internalID: -7377232398455502630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animated set 1 - Woodv2_0: 5123252292573342967
+      Animated set 1 - Woodv2_1: -2892049637889281712
+      Animated set 1 - Woodv2_10: -5850537293191577881
+      Animated set 1 - Woodv2_100: 1263284886813352297
+      Animated set 1 - Woodv2_101: -2500161915237243543
+      Animated set 1 - Woodv2_102: -486085282712907697
+      Animated set 1 - Woodv2_103: 2301111365087092183
+      Animated set 1 - Woodv2_104: 3436228425354155404
+      Animated set 1 - Woodv2_105: 1867771422458664965
+      Animated set 1 - Woodv2_106: -5532896584132737938
+      Animated set 1 - Woodv2_107: 4617651165500195877
+      Animated set 1 - Woodv2_108: 5703879163803986031
+      Animated set 1 - Woodv2_109: 3360179102936213446
+      Animated set 1 - Woodv2_11: -8042805161547711005
+      Animated set 1 - Woodv2_110: -5585066321901122455
+      Animated set 1 - Woodv2_111: 8543559912537883162
+      Animated set 1 - Woodv2_112: -2216162446689332686
+      Animated set 1 - Woodv2_113: -3935688260212716337
+      Animated set 1 - Woodv2_114: 1434010136401460139
+      Animated set 1 - Woodv2_115: 1915647859849897336
+      Animated set 1 - Woodv2_116: 1625106956159537955
+      Animated set 1 - Woodv2_117: -5828308817501498914
+      Animated set 1 - Woodv2_118: -7881415701141812869
+      Animated set 1 - Woodv2_119: 6979494597480905302
+      Animated set 1 - Woodv2_12: 3461326681719220103
+      Animated set 1 - Woodv2_120: -5391293357973430218
+      Animated set 1 - Woodv2_121: 1202227946711874493
+      Animated set 1 - Woodv2_122: -1061384725041622647
+      Animated set 1 - Woodv2_123: -6736373918271208871
+      Animated set 1 - Woodv2_124: 8761431105700087591
+      Animated set 1 - Woodv2_125: -3102818238807633448
+      Animated set 1 - Woodv2_126: 8430515282018381688
+      Animated set 1 - Woodv2_127: 1041993871967637143
+      Animated set 1 - Woodv2_128: -1895411745385115347
+      Animated set 1 - Woodv2_129: -7023172400126598854
+      Animated set 1 - Woodv2_13: -1724912384703815362
+      Animated set 1 - Woodv2_130: 7493230786803863633
+      Animated set 1 - Woodv2_131: 7347620223320173425
+      Animated set 1 - Woodv2_132: -3084963384408866376
+      Animated set 1 - Woodv2_133: 7481947502223280564
+      Animated set 1 - Woodv2_134: -6247986922445038017
+      Animated set 1 - Woodv2_135: 1199109297239148247
+      Animated set 1 - Woodv2_136: -83351459542391612
+      Animated set 1 - Woodv2_137: -5028055812849186459
+      Animated set 1 - Woodv2_138: -8722534901230138273
+      Animated set 1 - Woodv2_139: -7377232398455502630
+      Animated set 1 - Woodv2_14: 8547262209320253
+      Animated set 1 - Woodv2_15: 430646114457621470
+      Animated set 1 - Woodv2_16: 7726158320537060868
+      Animated set 1 - Woodv2_17: -6254329277070365272
+      Animated set 1 - Woodv2_18: 5567937326072757868
+      Animated set 1 - Woodv2_19: 3692544776899824928
+      Animated set 1 - Woodv2_2: 7915307964234115842
+      Animated set 1 - Woodv2_20: 2062452383999923928
+      Animated set 1 - Woodv2_21: 8172698380349342890
+      Animated set 1 - Woodv2_22: -4151931522325043507
+      Animated set 1 - Woodv2_23: 709079596371637205
+      Animated set 1 - Woodv2_24: -1568351715167436812
+      Animated set 1 - Woodv2_25: 2148619534333040547
+      Animated set 1 - Woodv2_26: -4679069348759017561
+      Animated set 1 - Woodv2_27: -8159670830282363853
+      Animated set 1 - Woodv2_28: 1527725710970706508
+      Animated set 1 - Woodv2_29: 2724531246474945931
+      Animated set 1 - Woodv2_3: 2578142090614026448
+      Animated set 1 - Woodv2_30: -7191499025330397926
+      Animated set 1 - Woodv2_31: 4647081592325864199
+      Animated set 1 - Woodv2_32: 1647308234487630686
+      Animated set 1 - Woodv2_33: -4857061562609528507
+      Animated set 1 - Woodv2_34: -6119025617413223791
+      Animated set 1 - Woodv2_35: 8067775149664028213
+      Animated set 1 - Woodv2_36: -4210514549626343609
+      Animated set 1 - Woodv2_37: -4422634608412117078
+      Animated set 1 - Woodv2_38: 7116229785069328647
+      Animated set 1 - Woodv2_39: 3761638541987132036
+      Animated set 1 - Woodv2_4: 5525437860057929024
+      Animated set 1 - Woodv2_40: -1525348407959713635
+      Animated set 1 - Woodv2_41: 8353633160415730531
+      Animated set 1 - Woodv2_42: 4442152415942767678
+      Animated set 1 - Woodv2_43: 9059972261135464912
+      Animated set 1 - Woodv2_44: 6738869904944107104
+      Animated set 1 - Woodv2_45: -2840184301506631805
+      Animated set 1 - Woodv2_46: -4112755079498289169
+      Animated set 1 - Woodv2_47: -1367926077092102707
+      Animated set 1 - Woodv2_48: -3062510011603455492
+      Animated set 1 - Woodv2_49: -4969425517938481763
+      Animated set 1 - Woodv2_5: 7671134687695070713
+      Animated set 1 - Woodv2_50: 6617985547452813284
+      Animated set 1 - Woodv2_51: 5945262694920451536
+      Animated set 1 - Woodv2_52: 3048820944747582071
+      Animated set 1 - Woodv2_53: -723514983510069798
+      Animated set 1 - Woodv2_54: 3394318570866835173
+      Animated set 1 - Woodv2_55: -5343667243297369958
+      Animated set 1 - Woodv2_56: 5007540476229335841
+      Animated set 1 - Woodv2_57: 9013807098889346133
+      Animated set 1 - Woodv2_58: 6084031196541352717
+      Animated set 1 - Woodv2_59: 1843475841868538114
+      Animated set 1 - Woodv2_6: 9084909619946851037
+      Animated set 1 - Woodv2_60: -3213579018586053355
+      Animated set 1 - Woodv2_61: -6667663797687268892
+      Animated set 1 - Woodv2_62: -3831779390664935552
+      Animated set 1 - Woodv2_63: -1447896857468574841
+      Animated set 1 - Woodv2_64: 2186572411985084541
+      Animated set 1 - Woodv2_65: -3672551604201311743
+      Animated set 1 - Woodv2_66: -9107587843546858274
+      Animated set 1 - Woodv2_67: -6903534911525929189
+      Animated set 1 - Woodv2_68: -4772866691692248687
+      Animated set 1 - Woodv2_69: -885801944289202442
+      Animated set 1 - Woodv2_7: 3885137989108656682
+      Animated set 1 - Woodv2_70: 912786412454508352
+      Animated set 1 - Woodv2_71: -4480977248115968283
+      Animated set 1 - Woodv2_72: -1278126124878338673
+      Animated set 1 - Woodv2_73: -8788751466728217395
+      Animated set 1 - Woodv2_74: -4576631059578809237
+      Animated set 1 - Woodv2_75: -6651967181750724034
+      Animated set 1 - Woodv2_76: -2174212000252864110
+      Animated set 1 - Woodv2_77: 2886852999408168846
+      Animated set 1 - Woodv2_78: 6803072033284519633
+      Animated set 1 - Woodv2_79: 6101447644022233780
+      Animated set 1 - Woodv2_8: -4489930069769684393
+      Animated set 1 - Woodv2_80: -652959933902888554
+      Animated set 1 - Woodv2_81: -1813736732110938965
+      Animated set 1 - Woodv2_82: -8936440743659747845
+      Animated set 1 - Woodv2_83: -9196203273738359500
+      Animated set 1 - Woodv2_84: -3622236550633046248
+      Animated set 1 - Woodv2_85: 5851175248019406037
+      Animated set 1 - Woodv2_86: -718674780988862308
+      Animated set 1 - Woodv2_87: 8246695034455582810
+      Animated set 1 - Woodv2_88: -6984527522583063472
+      Animated set 1 - Woodv2_89: -9055042446757687297
+      Animated set 1 - Woodv2_9: -9064674074664516582
+      Animated set 1 - Woodv2_90: -6660779206019738808
+      Animated set 1 - Woodv2_91: 688047340431076257
+      Animated set 1 - Woodv2_92: 5953970639278174903
+      Animated set 1 - Woodv2_93: 884910900919796963
+      Animated set 1 - Woodv2_94: 2376734250345568565
+      Animated set 1 - Woodv2_95: -4072516465841912744
+      Animated set 1 - Woodv2_96: -3658471980070034708
+      Animated set 1 - Woodv2_97: 2836956668903399301
+      Animated set 1 - Woodv2_98: -4404046322700913146
+      Animated set 1 - Woodv2_99: 8216522855279447643
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

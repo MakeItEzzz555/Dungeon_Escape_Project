@@ -1,0 +1,2938 @@
+fileFormatVersion: 2
+guid: 5622e28f4c2ce4553aafc8035d7741e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1891270706850386596
+    second: Animated set 4 - Goldv1_0
+  - first:
+      213: -2343619264614626045
+    second: Animated set 4 - Goldv1_1
+  - first:
+      213: -1218517988075203140
+    second: Animated set 4 - Goldv1_2
+  - first:
+      213: 1232689505491841344
+    second: Animated set 4 - Goldv1_3
+  - first:
+      213: -985700665622336349
+    second: Animated set 4 - Goldv1_4
+  - first:
+      213: -1587840115303802419
+    second: Animated set 4 - Goldv1_5
+  - first:
+      213: 5871351547008632653
+    second: Animated set 4 - Goldv1_6
+  - first:
+      213: 5879457485924702486
+    second: Animated set 4 - Goldv1_7
+  - first:
+      213: 5488859609967841612
+    second: Animated set 4 - Goldv1_8
+  - first:
+      213: -528292182923082354
+    second: Animated set 4 - Goldv1_9
+  - first:
+      213: 2772923547073474910
+    second: Animated set 4 - Goldv1_10
+  - first:
+      213: -8531697745904548689
+    second: Animated set 4 - Goldv1_11
+  - first:
+      213: 4971365330048024046
+    second: Animated set 4 - Goldv1_12
+  - first:
+      213: -8299250572291466621
+    second: Animated set 4 - Goldv1_13
+  - first:
+      213: 5232350133320176674
+    second: Animated set 4 - Goldv1_14
+  - first:
+      213: 2005482193841257083
+    second: Animated set 4 - Goldv1_15
+  - first:
+      213: -3323358267457532150
+    second: Animated set 4 - Goldv1_16
+  - first:
+      213: -7428986421691576408
+    second: Animated set 4 - Goldv1_17
+  - first:
+      213: -4285656644817970490
+    second: Animated set 4 - Goldv1_18
+  - first:
+      213: -5419624340238010269
+    second: Animated set 4 - Goldv1_19
+  - first:
+      213: 4674003699623954517
+    second: Animated set 4 - Goldv1_20
+  - first:
+      213: -5599141794389400689
+    second: Animated set 4 - Goldv1_21
+  - first:
+      213: 1092933499643930328
+    second: Animated set 4 - Goldv1_22
+  - first:
+      213: -8210867244684950379
+    second: Animated set 4 - Goldv1_23
+  - first:
+      213: -2629713602103753764
+    second: Animated set 4 - Goldv1_24
+  - first:
+      213: 1170231821612676547
+    second: Animated set 4 - Goldv1_25
+  - first:
+      213: -5937062596706027167
+    second: Animated set 4 - Goldv1_26
+  - first:
+      213: -2237634077924658473
+    second: Animated set 4 - Goldv1_27
+  - first:
+      213: -7168078851195406642
+    second: Animated set 4 - Goldv1_28
+  - first:
+      213: 1998638704560150726
+    second: Animated set 4 - Goldv1_29
+  - first:
+      213: 259120841110452585
+    second: Animated set 4 - Goldv1_30
+  - first:
+      213: 5520928245813251871
+    second: Animated set 4 - Goldv1_31
+  - first:
+      213: -7975284290979083151
+    second: Animated set 4 - Goldv1_32
+  - first:
+      213: -6710382280993600240
+    second: Animated set 4 - Goldv1_33
+  - first:
+      213: -5613934278626703922
+    second: Animated set 4 - Goldv1_34
+  - first:
+      213: -2375861343278999346
+    second: Animated set 4 - Goldv1_35
+  - first:
+      213: 6957567997093342509
+    second: Animated set 4 - Goldv1_36
+  - first:
+      213: -3139081086842810901
+    second: Animated set 4 - Goldv1_37
+  - first:
+      213: -2499106671774638238
+    second: Animated set 4 - Goldv1_38
+  - first:
+      213: 1410980856037938376
+    second: Animated set 4 - Goldv1_39
+  - first:
+      213: 1885625542225877838
+    second: Animated set 4 - Goldv1_40
+  - first:
+      213: -399359164972546962
+    second: Animated set 4 - Goldv1_41
+  - first:
+      213: -5534204834412226980
+    second: Animated set 4 - Goldv1_42
+  - first:
+      213: -8935400131827566478
+    second: Animated set 4 - Goldv1_43
+  - first:
+      213: 2014911252517690206
+    second: Animated set 4 - Goldv1_44
+  - first:
+      213: 8588874493936986153
+    second: Animated set 4 - Goldv1_45
+  - first:
+      213: 8653390307395503227
+    second: Animated set 4 - Goldv1_46
+  - first:
+      213: -4186045569960084561
+    second: Animated set 4 - Goldv1_47
+  - first:
+      213: 5896836179447803547
+    second: Animated set 4 - Goldv1_48
+  - first:
+      213: -6255415336036170399
+    second: Animated set 4 - Goldv1_49
+  - first:
+      213: -3062644095612743748
+    second: Animated set 4 - Goldv1_50
+  - first:
+      213: -5673004511343794539
+    second: Animated set 4 - Goldv1_51
+  - first:
+      213: 7629330251109503810
+    second: Animated set 4 - Goldv1_52
+  - first:
+      213: 4672661164764890462
+    second: Animated set 4 - Goldv1_53
+  - first:
+      213: -8462476981722105803
+    second: Animated set 4 - Goldv1_54
+  - first:
+      213: 4589143151499152775
+    second: Animated set 4 - Goldv1_55
+  - first:
+      213: -4522649024165939122
+    second: Animated set 4 - Goldv1_56
+  - first:
+      213: 308758833695542998
+    second: Animated set 4 - Goldv1_57
+  - first:
+      213: -8023595931704100229
+    second: Animated set 4 - Goldv1_58
+  - first:
+      213: -6722308716111198136
+    second: Animated set 4 - Goldv1_59
+  - first:
+      213: -4498580494462000520
+    second: Animated set 4 - Goldv1_60
+  - first:
+      213: 6012415989778855400
+    second: Animated set 4 - Goldv1_61
+  - first:
+      213: 6134960630159996670
+    second: Animated set 4 - Goldv1_62
+  - first:
+      213: 1791765492858444174
+    second: Animated set 4 - Goldv1_63
+  - first:
+      213: 2147711989758213086
+    second: Animated set 4 - Goldv1_64
+  - first:
+      213: -2883397151503404077
+    second: Animated set 4 - Goldv1_65
+  - first:
+      213: 4991969748911257671
+    second: Animated set 4 - Goldv1_66
+  - first:
+      213: 7766163875761585620
+    second: Animated set 4 - Goldv1_67
+  - first:
+      213: 8912155578511409118
+    second: Animated set 4 - Goldv1_68
+  - first:
+      213: 5971820660542881446
+    second: Animated set 4 - Goldv1_69
+  - first:
+      213: -270666414672658952
+    second: Animated set 4 - Goldv1_70
+  - first:
+      213: 6750557816153570486
+    second: Animated set 4 - Goldv1_71
+  - first:
+      213: -991682856555644827
+    second: Animated set 4 - Goldv1_72
+  - first:
+      213: -2026921687227683893
+    second: Animated set 4 - Goldv1_73
+  - first:
+      213: -8607871608832860921
+    second: Animated set 4 - Goldv1_74
+  - first:
+      213: -221542421636162025
+    second: Animated set 4 - Goldv1_75
+  - first:
+      213: 625273937598765351
+    second: Animated set 4 - Goldv1_76
+  - first:
+      213: 498033640350730211
+    second: Animated set 4 - Goldv1_77
+  - first:
+      213: -1955053442346487750
+    second: Animated set 4 - Goldv1_78
+  - first:
+      213: -1207608042776100223
+    second: Animated set 4 - Goldv1_79
+  - first:
+      213: -2107624567966020070
+    second: Animated set 4 - Goldv1_80
+  - first:
+      213: -217159464553250909
+    second: Animated set 4 - Goldv1_81
+  - first:
+      213: 8936396836543813798
+    second: Animated set 4 - Goldv1_82
+  - first:
+      213: -8539472555452382234
+    second: Animated set 4 - Goldv1_83
+  - first:
+      213: 2660469688573689876
+    second: Animated set 4 - Goldv1_84
+  - first:
+      213: 7613337119774330786
+    second: Animated set 4 - Goldv1_85
+  - first:
+      213: -3371382594818680600
+    second: Animated set 4 - Goldv1_86
+  - first:
+      213: -5441381113988991255
+    second: Animated set 4 - Goldv1_87
+  - first:
+      213: -6147810623258618796
+    second: Animated set 4 - Goldv1_88
+  - first:
+      213: -4580913599767675186
+    second: Animated set 4 - Goldv1_89
+  - first:
+      213: 1744039765251896031
+    second: Animated set 4 - Goldv1_90
+  - first:
+      213: -3888591847705693627
+    second: Animated set 4 - Goldv1_91
+  - first:
+      213: -3371210789305808871
+    second: Animated set 4 - Goldv1_92
+  - first:
+      213: 3640487353321995621
+    second: Animated set 4 - Goldv1_93
+  - first:
+      213: 2421913036562763731
+    second: Animated set 4 - Goldv1_94
+  - first:
+      213: 6422803237738834601
+    second: Animated set 4 - Goldv1_95
+  - first:
+      213: 6197485622777590944
+    second: Animated set 4 - Goldv1_96
+  - first:
+      213: -1358731521756624605
+    second: Animated set 4 - Goldv1_97
+  - first:
+      213: -8049808373716981458
+    second: Animated set 4 - Goldv1_98
+  - first:
+      213: 352220278215266417
+    second: Animated set 4 - Goldv1_99
+  - first:
+      213: -5750230799507151072
+    second: Animated set 4 - Goldv1_100
+  - first:
+      213: 3142212702680524710
+    second: Animated set 4 - Goldv1_101
+  - first:
+      213: 3384979755323447864
+    second: Animated set 4 - Goldv1_102
+  - first:
+      213: -2722548595409000527
+    second: Animated set 4 - Goldv1_103
+  - first:
+      213: 7439594908365166236
+    second: Animated set 4 - Goldv1_104
+  - first:
+      213: -6376247955102606264
+    second: Animated set 4 - Goldv1_105
+  - first:
+      213: 2690987982906411218
+    second: Animated set 4 - Goldv1_106
+  - first:
+      213: 6432169596835134066
+    second: Animated set 4 - Goldv1_107
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5da410005bd0c5e0800000000000000
+      internalID: -1891270706850386596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d02e322bac97fd0800000000000000
+      internalID: -2343619264614626045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb59a588854f61fe0800000000000000
+      internalID: -1218517988075203140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041713df2946b1110800000000000000
+      internalID: 1232689505491841344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ace6b297761252f0800000000000000
+      internalID: -985700665622336349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9933fe3dbd6f9e0800000000000000
+      internalID: -1587840115303802419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47c3eecf1b3b7150800000000000000
+      internalID: 5871351547008632653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6199d88ce67089150800000000000000
+      internalID: 5879457485924702486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c415f1aebb85c2c40800000000000000
+      internalID: 5488859609967841612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8501430f012ba8f0800000000000000
+      internalID: -528292182923082354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5171a446476b7620800000000000000
+      internalID: 2772923547073474910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4cb5c5a12599980800000000000000
+      internalID: -8531697745904548689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed7432ad66ddf440800000000000000
+      internalID: 4971365330048024046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a1c98639323dc80800000000000000
+      internalID: -8299250572291466621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224540d59ba0d9840800000000000000
+      internalID: 5232350133320176674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a77470e67e4db10800000000000000
+      internalID: 2005482193841257083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f06de734f01e1d0800000000000000
+      internalID: -3323358267457532150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af8fddb530f6e890800000000000000
+      internalID: -7428986421691576408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca1558ecf94684c0800000000000000
+      internalID: -4285656644817970490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3687d008060a9c4b0800000000000000
+      internalID: -5419624340238010269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55882f2d9956dd040800000000000000
+      internalID: 4674003699623954517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83606a143adb42b0800000000000000
+      internalID: -5599141794389400689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6a6613a31ea2f00800000000000000
+      internalID: 1092933499643930328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594c9a67eb32d0e80800000000000000
+      internalID: -8210867244684950379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3c7956961618bd0800000000000000
+      internalID: -2629713602103753764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5f41044af7d3010800000000000000
+      internalID: 1170231821612676547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169341236015b9da0800000000000000
+      internalID: -5937062596706027167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2fdff59a352f0e0800000000000000
+      internalID: -2237634077924658473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6f180534ed58c90800000000000000
+      internalID: -7168078851195406642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_29
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c897a300579cbb10800000000000000
+      internalID: 1998638704560150726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969f9483805989300800000000000000
+      internalID: 259120841110452585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f8e1a0df64e9c40800000000000000
+      internalID: 5520928245813251871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c40753139125190800000000000000
+      internalID: -7975284290979083151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d0d4a5edeefd2a0800000000000000
+      internalID: -6710382280993600240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5011a748c4712b0800000000000000
+      internalID: -5613934278626703922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 272
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8d54632be370fd0800000000000000
+      internalID: -2375861343278999346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2def570b3f3e8060800000000000000
+      internalID: 6957567997093342509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_37
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed4691126ebf64d0800000000000000
+      internalID: -3139081086842810901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_38
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f501d09b3615dd0800000000000000
+      internalID: -2499106671774638238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_39
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c49405ec9fc49310800000000000000
+      internalID: 1410980856037938376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_40
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bd6cfa0761b2a10800000000000000
+      internalID: 1885625542225877838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_41
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64c30294f0357af0800000000000000
+      internalID: -399359164972546962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_42
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c561c9a460e8233b0800000000000000
+      internalID: -5534204834412226980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27870700ce41ff380800000000000000
+      internalID: -8935400131827566478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_44
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b1144db1766fb10800000000000000
+      internalID: 2014911252517690206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_45
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928e68fa8dfc13770800000000000000
+      internalID: 8588874493936986153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_46
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b740e1f03a4071870800000000000000
+      internalID: 8653390307395503227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_47
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab7ee49bbd28e5c0800000000000000
+      internalID: -4186045569960084561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e68ae2345c5d150800000000000000
+      internalID: 5896836179447803547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_49
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165880df4ec4039a0800000000000000
+      internalID: -6255415336036170399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_50
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf0e8feb6d4f75d0800000000000000
+      internalID: -3062644095612743748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_51
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 287
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5962a2c24707541b0800000000000000
+      internalID: -5673004511343794539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 272
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24316830173d0e960800000000000000
+      internalID: 7629330251109503810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_53
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5503919290a8d040800000000000000
+      internalID: 4672661164764890462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_54
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538b880750e3f8a80800000000000000
+      internalID: -8462476981722105803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_55
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d0688c169efaf30800000000000000
+      internalID: 4589143151499152775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_56
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4872deaca25c31c0800000000000000
+      internalID: -4522649024165939122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_57
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6decfabf58ee84400800000000000000
+      internalID: 308758833695542998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_58
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7af18dc20676a090800000000000000
+      internalID: -8023595931704100229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_59
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8480ea9c6df85b2a0800000000000000
+      internalID: -6722308716111198136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_60
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8726712ffd4d191c0800000000000000
+      internalID: -4498580494462000520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_61
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5b5a0dc74607350800000000000000
+      internalID: 6012415989778855400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_62
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef671bf4032c32550800000000000000
+      internalID: 6134960630159996670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_63
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8951aaf831add810800000000000000
+      internalID: 1791765492858444174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_64
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbb265fca43ecd10800000000000000
+      internalID: 2147711989758213086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_65
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3344e419d1cf7d0800000000000000
+      internalID: -2883397151503404077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_66
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748f95db90a074540800000000000000
+      internalID: 4991969748911257671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_67
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd7d3ae5e4f6cb60800000000000000
+      internalID: 7766163875761585620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_68
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf3030b7465eab70800000000000000
+      internalID: 8912155578511409118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_69
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae3ffd204b20e250800000000000000
+      internalID: 5971820660542881446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdbec474566e3cf0800000000000000
+      internalID: -270666414672658952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 272
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcf19b519ccead50800000000000000
+      internalID: 6750557816153570486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568f72532b5dc32f0800000000000000
+      internalID: -991682856555644827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb224de67deed3e0800000000000000
+      internalID: -2026921687227683893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_74
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dd853d062ba8880800000000000000
+      internalID: -8607871608832860921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_75
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e52bf575cececf0800000000000000
+      internalID: -221542421636162025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72952e9555b6da800800000000000000
+      internalID: 625273937598765351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7cc4b05fe59e600800000000000000
+      internalID: 498033640350730211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_78
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a307804a0414ed4e0800000000000000
+      internalID: -1955053442346487750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1820d6e12e6bd3fe0800000000000000
+      internalID: -1207608042776100223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ecf724f9630c2e0800000000000000
+      internalID: -2107624567966020070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af70b71e9e7cfcf0800000000000000
+      internalID: -217159464553250909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_82
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a85e166395740c70800000000000000
+      internalID: 8936396836543813798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3401374f2bd7980800000000000000
+      internalID: -8539472555452382234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_84
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41001230613ebe420800000000000000
+      internalID: 2660469688573689876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_85
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afc173f5c108a960800000000000000
+      internalID: 7613337119774330786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_86
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8d5e174617631d0800000000000000
+      internalID: -3371382594818680600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6ba2dd4b45c74b0800000000000000
+      internalID: -5441381113988991255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 272
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4541c468fc69eaaa0800000000000000
+      internalID: -6147810623258618796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece771b0a535d60c0800000000000000
+      internalID: -4580913599767675186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2bef91de2143810800000000000000
+      internalID: 1744039765251896031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542b5013152f80ac0800000000000000
+      internalID: -3888591847705693627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_92
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918867806ad0731d0800000000000000
+      internalID: -3371210789305808871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d3f00b5fb958230800000000000000
+      internalID: 3640487353321995621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_94
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df063d231d5c9120800000000000000
+      internalID: 2421913036562763731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aae6a7e381622950800000000000000
+      internalID: 6422803237738834601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_96
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4bf369654e10650800000000000000
+      internalID: 6197485622777590944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329029c31e0d42de0800000000000000
+      internalID: -1358731521756624605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2962ae0fe5594090800000000000000
+      internalID: -8049808373716981458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_99
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170d5b51a7653e400800000000000000
+      internalID: 352220278215266417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_100
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027addacd831330b0800000000000000
+      internalID: -5750230799507151072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a72eff0ec16b9b20800000000000000
+      internalID: 3142212702680524710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_102
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a51ff272dd9fe20800000000000000
+      internalID: 3384979755323447864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b768e62a70973ad0800000000000000
+      internalID: -2722548595409000527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_104
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9619e90720ce3760800000000000000
+      internalID: 7439594908365166236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_105
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c5c4484440387a0800000000000000
+      internalID: -6376247955102606264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 272
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d84bff105f485520800000000000000
+      internalID: 2690987982906411218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 4 - Goldv1_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27afc625b28a34950800000000000000
+      internalID: 6432169596835134066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animated set 4 - Goldv1_0: -1891270706850386596
+      Animated set 4 - Goldv1_1: -2343619264614626045
+      Animated set 4 - Goldv1_10: 2772923547073474910
+      Animated set 4 - Goldv1_100: -5750230799507151072
+      Animated set 4 - Goldv1_101: 3142212702680524710
+      Animated set 4 - Goldv1_102: 3384979755323447864
+      Animated set 4 - Goldv1_103: -2722548595409000527
+      Animated set 4 - Goldv1_104: 7439594908365166236
+      Animated set 4 - Goldv1_105: -6376247955102606264
+      Animated set 4 - Goldv1_106: 2690987982906411218
+      Animated set 4 - Goldv1_107: 6432169596835134066
+      Animated set 4 - Goldv1_11: -8531697745904548689
+      Animated set 4 - Goldv1_12: 4971365330048024046
+      Animated set 4 - Goldv1_13: -8299250572291466621
+      Animated set 4 - Goldv1_14: 5232350133320176674
+      Animated set 4 - Goldv1_15: 2005482193841257083
+      Animated set 4 - Goldv1_16: -3323358267457532150
+      Animated set 4 - Goldv1_17: -7428986421691576408
+      Animated set 4 - Goldv1_18: -4285656644817970490
+      Animated set 4 - Goldv1_19: -5419624340238010269
+      Animated set 4 - Goldv1_2: -1218517988075203140
+      Animated set 4 - Goldv1_20: 4674003699623954517
+      Animated set 4 - Goldv1_21: -5599141794389400689
+      Animated set 4 - Goldv1_22: 1092933499643930328
+      Animated set 4 - Goldv1_23: -8210867244684950379
+      Animated set 4 - Goldv1_24: -2629713602103753764
+      Animated set 4 - Goldv1_25: 1170231821612676547
+      Animated set 4 - Goldv1_26: -5937062596706027167
+      Animated set 4 - Goldv1_27: -2237634077924658473
+      Animated set 4 - Goldv1_28: -7168078851195406642
+      Animated set 4 - Goldv1_29: 1998638704560150726
+      Animated set 4 - Goldv1_3: 1232689505491841344
+      Animated set 4 - Goldv1_30: 259120841110452585
+      Animated set 4 - Goldv1_31: 5520928245813251871
+      Animated set 4 - Goldv1_32: -7975284290979083151
+      Animated set 4 - Goldv1_33: -6710382280993600240
+      Animated set 4 - Goldv1_34: -5613934278626703922
+      Animated set 4 - Goldv1_35: -2375861343278999346
+      Animated set 4 - Goldv1_36: 6957567997093342509
+      Animated set 4 - Goldv1_37: -3139081086842810901
+      Animated set 4 - Goldv1_38: -2499106671774638238
+      Animated set 4 - Goldv1_39: 1410980856037938376
+      Animated set 4 - Goldv1_4: -985700665622336349
+      Animated set 4 - Goldv1_40: 1885625542225877838
+      Animated set 4 - Goldv1_41: -399359164972546962
+      Animated set 4 - Goldv1_42: -5534204834412226980
+      Animated set 4 - Goldv1_43: -8935400131827566478
+      Animated set 4 - Goldv1_44: 2014911252517690206
+      Animated set 4 - Goldv1_45: 8588874493936986153
+      Animated set 4 - Goldv1_46: 8653390307395503227
+      Animated set 4 - Goldv1_47: -4186045569960084561
+      Animated set 4 - Goldv1_48: 5896836179447803547
+      Animated set 4 - Goldv1_49: -6255415336036170399
+      Animated set 4 - Goldv1_5: -1587840115303802419
+      Animated set 4 - Goldv1_50: -3062644095612743748
+      Animated set 4 - Goldv1_51: -5673004511343794539
+      Animated set 4 - Goldv1_52: 7629330251109503810
+      Animated set 4 - Goldv1_53: 4672661164764890462
+      Animated set 4 - Goldv1_54: -8462476981722105803
+      Animated set 4 - Goldv1_55: 4589143151499152775
+      Animated set 4 - Goldv1_56: -4522649024165939122
+      Animated set 4 - Goldv1_57: 308758833695542998
+      Animated set 4 - Goldv1_58: -8023595931704100229
+      Animated set 4 - Goldv1_59: -6722308716111198136
+      Animated set 4 - Goldv1_6: 5871351547008632653
+      Animated set 4 - Goldv1_60: -4498580494462000520
+      Animated set 4 - Goldv1_61: 6012415989778855400
+      Animated set 4 - Goldv1_62: 6134960630159996670
+      Animated set 4 - Goldv1_63: 1791765492858444174
+      Animated set 4 - Goldv1_64: 2147711989758213086
+      Animated set 4 - Goldv1_65: -2883397151503404077
+      Animated set 4 - Goldv1_66: 4991969748911257671
+      Animated set 4 - Goldv1_67: 7766163875761585620
+      Animated set 4 - Goldv1_68: 8912155578511409118
+      Animated set 4 - Goldv1_69: 5971820660542881446
+      Animated set 4 - Goldv1_7: 5879457485924702486
+      Animated set 4 - Goldv1_70: -270666414672658952
+      Animated set 4 - Goldv1_71: 6750557816153570486
+      Animated set 4 - Goldv1_72: -991682856555644827
+      Animated set 4 - Goldv1_73: -2026921687227683893
+      Animated set 4 - Goldv1_74: -8607871608832860921
+      Animated set 4 - Goldv1_75: -221542421636162025
+      Animated set 4 - Goldv1_76: 625273937598765351
+      Animated set 4 - Goldv1_77: 498033640350730211
+      Animated set 4 - Goldv1_78: -1955053442346487750
+      Animated set 4 - Goldv1_79: -1207608042776100223
+      Animated set 4 - Goldv1_8: 5488859609967841612
+      Animated set 4 - Goldv1_80: -2107624567966020070
+      Animated set 4 - Goldv1_81: -217159464553250909
+      Animated set 4 - Goldv1_82: 8936396836543813798
+      Animated set 4 - Goldv1_83: -8539472555452382234
+      Animated set 4 - Goldv1_84: 2660469688573689876
+      Animated set 4 - Goldv1_85: 7613337119774330786
+      Animated set 4 - Goldv1_86: -3371382594818680600
+      Animated set 4 - Goldv1_87: -5441381113988991255
+      Animated set 4 - Goldv1_88: -6147810623258618796
+      Animated set 4 - Goldv1_89: -4580913599767675186
+      Animated set 4 - Goldv1_9: -528292182923082354
+      Animated set 4 - Goldv1_90: 1744039765251896031
+      Animated set 4 - Goldv1_91: -3888591847705693627
+      Animated set 4 - Goldv1_92: -3371210789305808871
+      Animated set 4 - Goldv1_93: 3640487353321995621
+      Animated set 4 - Goldv1_94: 2421913036562763731
+      Animated set 4 - Goldv1_95: 6422803237738834601
+      Animated set 4 - Goldv1_96: 6197485622777590944
+      Animated set 4 - Goldv1_97: -1358731521756624605
+      Animated set 4 - Goldv1_98: -8049808373716981458
+      Animated set 4 - Goldv1_99: 352220278215266417
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

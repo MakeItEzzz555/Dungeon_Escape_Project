@@ -1,0 +1,2834 @@
+fileFormatVersion: 2
+guid: d5e6429828813486db1ed1703b1525a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2504981132623056158
+    second: Animated set 6 - Rose Quartz v1_0
+  - first:
+      213: -7709960272911513913
+    second: Animated set 6 - Rose Quartz v1_1
+  - first:
+      213: -4837606130068985922
+    second: Animated set 6 - Rose Quartz v1_2
+  - first:
+      213: 2255638993961601878
+    second: Animated set 6 - Rose Quartz v1_3
+  - first:
+      213: 1192828546783842975
+    second: Animated set 6 - Rose Quartz v1_4
+  - first:
+      213: -678166492671478936
+    second: Animated set 6 - Rose Quartz v1_5
+  - first:
+      213: -4010046874850148385
+    second: Animated set 6 - Rose Quartz v1_6
+  - first:
+      213: -1149648037435075860
+    second: Animated set 6 - Rose Quartz v1_7
+  - first:
+      213: 8663749741381597972
+    second: Animated set 6 - Rose Quartz v1_8
+  - first:
+      213: -9159410450280318699
+    second: Animated set 6 - Rose Quartz v1_9
+  - first:
+      213: -7173301254559250789
+    second: Animated set 6 - Rose Quartz v1_10
+  - first:
+      213: 197013058311055740
+    second: Animated set 6 - Rose Quartz v1_11
+  - first:
+      213: 8033073105272366191
+    second: Animated set 6 - Rose Quartz v1_12
+  - first:
+      213: -3833739935927754217
+    second: Animated set 6 - Rose Quartz v1_13
+  - first:
+      213: 7206204760419596749
+    second: Animated set 6 - Rose Quartz v1_14
+  - first:
+      213: -7929562834236880089
+    second: Animated set 6 - Rose Quartz v1_15
+  - first:
+      213: -6645160065964260483
+    second: Animated set 6 - Rose Quartz v1_16
+  - first:
+      213: 5059024565507815833
+    second: Animated set 6 - Rose Quartz v1_17
+  - first:
+      213: 4454472133789650512
+    second: Animated set 6 - Rose Quartz v1_18
+  - first:
+      213: 918071322173723430
+    second: Animated set 6 - Rose Quartz v1_19
+  - first:
+      213: -8735503087597009707
+    second: Animated set 6 - Rose Quartz v1_20
+  - first:
+      213: 4637987905329192952
+    second: Animated set 6 - Rose Quartz v1_21
+  - first:
+      213: -9023241370085531939
+    second: Animated set 6 - Rose Quartz v1_22
+  - first:
+      213: 3320268142257715908
+    second: Animated set 6 - Rose Quartz v1_23
+  - first:
+      213: 2244696111452864298
+    second: Animated set 6 - Rose Quartz v1_24
+  - first:
+      213: 7584540640398000286
+    second: Animated set 6 - Rose Quartz v1_25
+  - first:
+      213: 3020395403813335828
+    second: Animated set 6 - Rose Quartz v1_26
+  - first:
+      213: 3635494812179523236
+    second: Animated set 6 - Rose Quartz v1_27
+  - first:
+      213: -4615897026377409468
+    second: Animated set 6 - Rose Quartz v1_28
+  - first:
+      213: -8680318239046029611
+    second: Animated set 6 - Rose Quartz v1_29
+  - first:
+      213: -2371918557762745283
+    second: Animated set 6 - Rose Quartz v1_30
+  - first:
+      213: -8738598069734702824
+    second: Animated set 6 - Rose Quartz v1_31
+  - first:
+      213: -1581455373195986381
+    second: Animated set 6 - Rose Quartz v1_32
+  - first:
+      213: 3951618206063580365
+    second: Animated set 6 - Rose Quartz v1_33
+  - first:
+      213: 1358038971897925415
+    second: Animated set 6 - Rose Quartz v1_34
+  - first:
+      213: -1898418228859880273
+    second: Animated set 6 - Rose Quartz v1_35
+  - first:
+      213: 3733034929751526338
+    second: Animated set 6 - Rose Quartz v1_36
+  - first:
+      213: -307393668587946212
+    second: Animated set 6 - Rose Quartz v1_37
+  - first:
+      213: 5538174809000760152
+    second: Animated set 6 - Rose Quartz v1_38
+  - first:
+      213: 6723088046949202771
+    second: Animated set 6 - Rose Quartz v1_39
+  - first:
+      213: -4058854945140172577
+    second: Animated set 6 - Rose Quartz v1_40
+  - first:
+      213: 2004774989866977232
+    second: Animated set 6 - Rose Quartz v1_41
+  - first:
+      213: -6701866727377608849
+    second: Animated set 6 - Rose Quartz v1_42
+  - first:
+      213: -4432177640124624807
+    second: Animated set 6 - Rose Quartz v1_43
+  - first:
+      213: 60062074885222901
+    second: Animated set 6 - Rose Quartz v1_44
+  - first:
+      213: -3465541848264985703
+    second: Animated set 6 - Rose Quartz v1_45
+  - first:
+      213: 936244929950651070
+    second: Animated set 6 - Rose Quartz v1_46
+  - first:
+      213: 8704393369293231257
+    second: Animated set 6 - Rose Quartz v1_47
+  - first:
+      213: 130412677927164255
+    second: Animated set 6 - Rose Quartz v1_48
+  - first:
+      213: -2043904918535110533
+    second: Animated set 6 - Rose Quartz v1_49
+  - first:
+      213: 6109929895491842991
+    second: Animated set 6 - Rose Quartz v1_50
+  - first:
+      213: 5426690057225311747
+    second: Animated set 6 - Rose Quartz v1_51
+  - first:
+      213: 1477658270198260993
+    second: Animated set 6 - Rose Quartz v1_52
+  - first:
+      213: 8084121547825329318
+    second: Animated set 6 - Rose Quartz v1_53
+  - first:
+      213: -1906728464270298485
+    second: Animated set 6 - Rose Quartz v1_54
+  - first:
+      213: 5166761925637739224
+    second: Animated set 6 - Rose Quartz v1_55
+  - first:
+      213: -3500340681782507191
+    second: Animated set 6 - Rose Quartz v1_56
+  - first:
+      213: -2915574673372569884
+    second: Animated set 6 - Rose Quartz v1_57
+  - first:
+      213: 6508818188365010439
+    second: Animated set 6 - Rose Quartz v1_58
+  - first:
+      213: 7407082663715649055
+    second: Animated set 6 - Rose Quartz v1_59
+  - first:
+      213: 4260673331079117025
+    second: Animated set 6 - Rose Quartz v1_60
+  - first:
+      213: 1084732507668976372
+    second: Animated set 6 - Rose Quartz v1_61
+  - first:
+      213: -6711339962225459614
+    second: Animated set 6 - Rose Quartz v1_62
+  - first:
+      213: 3057983511672927068
+    second: Animated set 6 - Rose Quartz v1_63
+  - first:
+      213: -4284155243966944792
+    second: Animated set 6 - Rose Quartz v1_64
+  - first:
+      213: 3310953402582462489
+    second: Animated set 6 - Rose Quartz v1_65
+  - first:
+      213: 8037688025871146310
+    second: Animated set 6 - Rose Quartz v1_66
+  - first:
+      213: 1624490946298789897
+    second: Animated set 6 - Rose Quartz v1_67
+  - first:
+      213: -8191555982087048793
+    second: Animated set 6 - Rose Quartz v1_68
+  - first:
+      213: -8041099707509458365
+    second: Animated set 6 - Rose Quartz v1_69
+  - first:
+      213: 9169053435729820906
+    second: Animated set 6 - Rose Quartz v1_70
+  - first:
+      213: -1395353978384015319
+    second: Animated set 6 - Rose Quartz v1_71
+  - first:
+      213: -6931658340799901152
+    second: Animated set 6 - Rose Quartz v1_72
+  - first:
+      213: -5559453504397403255
+    second: Animated set 6 - Rose Quartz v1_73
+  - first:
+      213: -796957752414783547
+    second: Animated set 6 - Rose Quartz v1_74
+  - first:
+      213: 6839110797801164320
+    second: Animated set 6 - Rose Quartz v1_75
+  - first:
+      213: 2498591525364052304
+    second: Animated set 6 - Rose Quartz v1_76
+  - first:
+      213: 8237751856692111150
+    second: Animated set 6 - Rose Quartz v1_77
+  - first:
+      213: -7568945587165167922
+    second: Animated set 6 - Rose Quartz v1_78
+  - first:
+      213: 5266223541500529828
+    second: Animated set 6 - Rose Quartz v1_79
+  - first:
+      213: -1062277306452375350
+    second: Animated set 6 - Rose Quartz v1_80
+  - first:
+      213: -2985939363486230015
+    second: Animated set 6 - Rose Quartz v1_81
+  - first:
+      213: -5422154280352752470
+    second: Animated set 6 - Rose Quartz v1_82
+  - first:
+      213: 7257221310517475876
+    second: Animated set 6 - Rose Quartz v1_83
+  - first:
+      213: -6851718478005501094
+    second: Animated set 6 - Rose Quartz v1_84
+  - first:
+      213: -8719648752590923809
+    second: Animated set 6 - Rose Quartz v1_85
+  - first:
+      213: 7121919952146465501
+    second: Animated set 6 - Rose Quartz v1_86
+  - first:
+      213: -3165989972201059650
+    second: Animated set 6 - Rose Quartz v1_87
+  - first:
+      213: 2395255540294614412
+    second: Animated set 6 - Rose Quartz v1_88
+  - first:
+      213: 5632250310947371831
+    second: Animated set 6 - Rose Quartz v1_89
+  - first:
+      213: 7502766334575076428
+    second: Animated set 6 - Rose Quartz v1_90
+  - first:
+      213: 7375973921505859753
+    second: Animated set 6 - Rose Quartz v1_91
+  - first:
+      213: 6841151708459067514
+    second: Animated set 6 - Rose Quartz v1_92
+  - first:
+      213: -1611746249598639250
+    second: Animated set 6 - Rose Quartz v1_93
+  - first:
+      213: -6755078990780669822
+    second: Animated set 6 - Rose Quartz v1_94
+  - first:
+      213: -7182156083569016370
+    second: Animated set 6 - Rose Quartz v1_95
+  - first:
+      213: -2944975005851938557
+    second: Animated set 6 - Rose Quartz v1_96
+  - first:
+      213: 8099980912845120431
+    second: Animated set 6 - Rose Quartz v1_97
+  - first:
+      213: -1300529907769441819
+    second: Animated set 6 - Rose Quartz v1_98
+  - first:
+      213: 6327091558560225909
+    second: Animated set 6 - Rose Quartz v1_99
+  - first:
+      213: -2695569005197904922
+    second: Animated set 6 - Rose Quartz v1_100
+  - first:
+      213: -6236164946940193067
+    second: Animated set 6 - Rose Quartz v1_101
+  - first:
+      213: 1853539506861364018
+    second: Animated set 6 - Rose Quartz v1_102
+  - first:
+      213: 4702203833075472140
+    second: Animated set 6 - Rose Quartz v1_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d8d03711b73c220800000000000000
+      internalID: 2504981132623056158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c64cbc1bf7b00590800000000000000
+      internalID: -7709960272911513913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb76cfdfade5ddcb0800000000000000
+      internalID: -4837606130068985922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bc990d6b3ad4f10800000000000000
+      internalID: 2255638993961601878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f921ff05e37cd8010800000000000000
+      internalID: 1192828546783842975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8637eb10b2ba696f0800000000000000
+      internalID: -678166492671478936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf34eb0d937958c0800000000000000
+      internalID: -4010046874850148385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce215f77331ab00f0800000000000000
+      internalID: -1149648037435075860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bbeedbc72db3870800000000000000
+      internalID: 8663749741381597972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5197a0f59bc33e080800000000000000
+      internalID: -9159410450280318699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96c127c380537c90800000000000000
+      internalID: -7173301254559250789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c796ebc255eebb200800000000000000
+      internalID: 197013058311055740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64e08e9d653b7f60800000000000000
+      internalID: 8033073105272366191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7122ccd17d1dbcac0800000000000000
+      internalID: -3833739935927754217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9f98bac05910460800000000000000
+      internalID: 7206204760419596749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bcb296d9884f190800000000000000
+      internalID: -7929562834236880089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73c698a026a7c3a0800000000000000
+      internalID: -6645160065964260483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9997119d904453640800000000000000
+      internalID: 5059024565507815833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e886c0ec671dd30800000000000000
+      internalID: 4454472133789650512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62353acd005adbc00800000000000000
+      internalID: 918071322173723430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4c379793245c680800000000000000
+      internalID: -8735503087597009707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff54b14d617d5040800000000000000
+      internalID: 4637987905329192952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde5175f7c107c280800000000000000
+      internalID: -9023241370085531939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca315aa846f31e20800000000000000
+      internalID: 3320268142257715908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f39df6833c62f10800000000000000
+      internalID: 2244696111452864298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90cf6f1783b14960800000000000000
+      internalID: 7584540640398000286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4133485fd999ae920800000000000000
+      internalID: 3020395403813335828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a66cbe154fd37230800000000000000
+      internalID: 3635494812179523236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c1efe4c1a01ffb0800000000000000
+      internalID: -4615897026377409468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_29
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de21584d80598780800000000000000
+      internalID: -8680318239046029611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c056083a0451fd0800000000000000
+      internalID: -2371918557762745283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 304
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8118c8aca534ab680800000000000000
+      internalID: -8738598069734702824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a358c87ba8d0ae0800000000000000
+      internalID: -1581455373195986381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 304
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4d26462d7f6d630800000000000000
+      internalID: 3951618206063580365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fcc1fef39b8d210800000000000000
+      internalID: 1358038971897925415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 272
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac3ea9dda677a5e0800000000000000
+      internalID: -1898418228859880273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb07f97d776ec330800000000000000
+      internalID: 3733034929751526338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_37
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f7c99461bebbbf0800000000000000
+      internalID: -307393668587946212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_38
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853d18275ac8bdc40800000000000000
+      internalID: 5538174809000760152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_39
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bf41055f43d4d50800000000000000
+      internalID: 6723088046949202771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_40
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd81510aeec0ca7c0800000000000000
+      internalID: -4058854945140172577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_41
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7cb954b3462db10800000000000000
+      internalID: 2004774989866977232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_42
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fd5ae28bf2ef2a0800000000000000
+      internalID: -6701866727377608849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95051f24bedbd72c0800000000000000
+      internalID: -4432177640124624807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_44
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1b10e832265d000800000000000000
+      internalID: 60062074885222901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_45
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9933aebdc0ce7efc0800000000000000
+      internalID: -3465541848264985703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_46
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb21878adc53efc00800000000000000
+      internalID: 936244929950651070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_47
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9941df9c6a73cc870800000000000000
+      internalID: 8704393369293231257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_48
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f595e0eb3a15fc100800000000000000
+      internalID: 130412677927164255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_49
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 271
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b708a004e4792a3e0800000000000000
+      internalID: -2043904918535110533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_50
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 271
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3b45f3ed4dac450800000000000000
+      internalID: 6109929895491842991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_51
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3061f0fead97f4b40800000000000000
+      internalID: 5426690057225311747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105e5962e52b18410800000000000000
+      internalID: 1477658270198260993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_53
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4b53b57b1903070800000000000000
+      internalID: 8084121547825329318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_54
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82fa046090f985e0800000000000000
+      internalID: -1906728464270298485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_55
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d296a0c89604b740800000000000000
+      internalID: 5166761925637739224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_56
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949418d02ba4c6fc0800000000000000
+      internalID: -3500340681782507191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee908d284cc987d0800000000000000
+      internalID: -2915574673372569884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_58
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706191938a7f35a50800000000000000
+      internalID: 6508818188365010439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_59
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16b9b0307e3bc660800000000000000
+      internalID: 7407082663715649055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_60
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e873f212d3f02b30800000000000000
+      internalID: 4260673331079117025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_61
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f29de3f77ebd0f00800000000000000
+      internalID: 1084732507668976372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_62
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26efaa0dcd78cd2a0800000000000000
+      internalID: -6711339962225459614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_63
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53344e4dc3207a20800000000000000
+      internalID: 3057983511672927068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_64
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e929b8018f9b84c0800000000000000
+      internalID: -4284155243966944792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_65
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9107cc4d39ed2fd20800000000000000
+      internalID: 3310953402582462489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_66
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dd57d8caa9b8f60800000000000000
+      internalID: 8037688025871146310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_67
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9004af2a8e95b8610800000000000000
+      internalID: 1624490946298789897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1b9f92c3fb15e80800000000000000
+      internalID: -8191555982087048793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 272
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ab66a6b66486090800000000000000
+      internalID: -8041099707509458365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec304325850f3f70800000000000000
+      internalID: 9169053435729820906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9202e7613f4b2ace0800000000000000
+      internalID: -1395353978384015319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0229f3ce67dcdcf90800000000000000
+      internalID: -6931658340799901152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b97153e7ad8d2b0800000000000000
+      internalID: -5559453504397403255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7b25a8523a0f4f0800000000000000
+      internalID: -796957752414783547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e0a72190769ee50800000000000000
+      internalID: 6839110797801164320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051302411c7cca220800000000000000
+      internalID: 2498591525364052304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27a2fd0baf525270800000000000000
+      internalID: 8237751856692111150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece72c82714b5f690800000000000000
+      internalID: -7568945587165167922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac40fac862651940800000000000000
+      internalID: 5266223541500529828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac882fffa680241f0800000000000000
+      internalID: -1062277306452375350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a1c8618ffcf86d0800000000000000
+      internalID: -2985939363486230015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacd53ae863a0c4b0800000000000000
+      internalID: -5422154280352752470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42af9cdd454d6b460800000000000000
+      internalID: 7257221310517475876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_84
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a538081a85ec9e0a0800000000000000
+      internalID: -6851718478005501094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7d3af78a59df680800000000000000
+      internalID: -8719648752590923809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd20572867426d260800000000000000
+      internalID: 7121919952146465501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebac188f4e42014d0800000000000000
+      internalID: -3165989972201059650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_88
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8dfb892938ad3120800000000000000
+      internalID: 2395255540294614412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_89
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bf91e11d5c92e40800000000000000
+      internalID: 5632250310947371831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_90
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c446b1dda3e2f1860800000000000000
+      internalID: 7502766334575076428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8d6e7b339bc5660800000000000000
+      internalID: 7375973921505859753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_92
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78624d9b37a0fe50800000000000000
+      internalID: 6841151708459067514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63ea9c435de1a9e0800000000000000
+      internalID: -1611746249598639250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_94
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28060d4a2732142a0800000000000000
+      internalID: -6755078990780669822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_95
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1457d381bd35c90800000000000000
+      internalID: -7182156083569016370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_96
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3019ac7d5d85127d0800000000000000
+      internalID: -2944975005851938557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3e39589b9e86070800000000000000
+      internalID: 8099980912845120431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_98
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e181ab70f693fde0800000000000000
+      internalID: -1300529907769441819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ada5900485ec750800000000000000
+      internalID: 6327091558560225909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e330a1854a679ad0800000000000000
+      internalID: -2695569005197904922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_101
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d613e87501b479a0800000000000000
+      internalID: -6236164946940193067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_102
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233df9b6c5819b910800000000000000
+      internalID: 1853539506861364018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 6 - Rose Quartz v1_103
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0791fb0975914140800000000000000
+      internalID: 4702203833075472140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animated set 6 - Rose Quartz v1_0: 2504981132623056158
+      Animated set 6 - Rose Quartz v1_1: -7709960272911513913
+      Animated set 6 - Rose Quartz v1_10: -7173301254559250789
+      Animated set 6 - Rose Quartz v1_100: -2695569005197904922
+      Animated set 6 - Rose Quartz v1_101: -6236164946940193067
+      Animated set 6 - Rose Quartz v1_102: 1853539506861364018
+      Animated set 6 - Rose Quartz v1_103: 4702203833075472140
+      Animated set 6 - Rose Quartz v1_11: 197013058311055740
+      Animated set 6 - Rose Quartz v1_12: 8033073105272366191
+      Animated set 6 - Rose Quartz v1_13: -3833739935927754217
+      Animated set 6 - Rose Quartz v1_14: 7206204760419596749
+      Animated set 6 - Rose Quartz v1_15: -7929562834236880089
+      Animated set 6 - Rose Quartz v1_16: -6645160065964260483
+      Animated set 6 - Rose Quartz v1_17: 5059024565507815833
+      Animated set 6 - Rose Quartz v1_18: 4454472133789650512
+      Animated set 6 - Rose Quartz v1_19: 918071322173723430
+      Animated set 6 - Rose Quartz v1_2: -4837606130068985922
+      Animated set 6 - Rose Quartz v1_20: -8735503087597009707
+      Animated set 6 - Rose Quartz v1_21: 4637987905329192952
+      Animated set 6 - Rose Quartz v1_22: -9023241370085531939
+      Animated set 6 - Rose Quartz v1_23: 3320268142257715908
+      Animated set 6 - Rose Quartz v1_24: 2244696111452864298
+      Animated set 6 - Rose Quartz v1_25: 7584540640398000286
+      Animated set 6 - Rose Quartz v1_26: 3020395403813335828
+      Animated set 6 - Rose Quartz v1_27: 3635494812179523236
+      Animated set 6 - Rose Quartz v1_28: -4615897026377409468
+      Animated set 6 - Rose Quartz v1_29: -8680318239046029611
+      Animated set 6 - Rose Quartz v1_3: 2255638993961601878
+      Animated set 6 - Rose Quartz v1_30: -2371918557762745283
+      Animated set 6 - Rose Quartz v1_31: -8738598069734702824
+      Animated set 6 - Rose Quartz v1_32: -1581455373195986381
+      Animated set 6 - Rose Quartz v1_33: 3951618206063580365
+      Animated set 6 - Rose Quartz v1_34: 1358038971897925415
+      Animated set 6 - Rose Quartz v1_35: -1898418228859880273
+      Animated set 6 - Rose Quartz v1_36: 3733034929751526338
+      Animated set 6 - Rose Quartz v1_37: -307393668587946212
+      Animated set 6 - Rose Quartz v1_38: 5538174809000760152
+      Animated set 6 - Rose Quartz v1_39: 6723088046949202771
+      Animated set 6 - Rose Quartz v1_4: 1192828546783842975
+      Animated set 6 - Rose Quartz v1_40: -4058854945140172577
+      Animated set 6 - Rose Quartz v1_41: 2004774989866977232
+      Animated set 6 - Rose Quartz v1_42: -6701866727377608849
+      Animated set 6 - Rose Quartz v1_43: -4432177640124624807
+      Animated set 6 - Rose Quartz v1_44: 60062074885222901
+      Animated set 6 - Rose Quartz v1_45: -3465541848264985703
+      Animated set 6 - Rose Quartz v1_46: 936244929950651070
+      Animated set 6 - Rose Quartz v1_47: 8704393369293231257
+      Animated set 6 - Rose Quartz v1_48: 130412677927164255
+      Animated set 6 - Rose Quartz v1_49: -2043904918535110533
+      Animated set 6 - Rose Quartz v1_5: -678166492671478936
+      Animated set 6 - Rose Quartz v1_50: 6109929895491842991
+      Animated set 6 - Rose Quartz v1_51: 5426690057225311747
+      Animated set 6 - Rose Quartz v1_52: 1477658270198260993
+      Animated set 6 - Rose Quartz v1_53: 8084121547825329318
+      Animated set 6 - Rose Quartz v1_54: -1906728464270298485
+      Animated set 6 - Rose Quartz v1_55: 5166761925637739224
+      Animated set 6 - Rose Quartz v1_56: -3500340681782507191
+      Animated set 6 - Rose Quartz v1_57: -2915574673372569884
+      Animated set 6 - Rose Quartz v1_58: 6508818188365010439
+      Animated set 6 - Rose Quartz v1_59: 7407082663715649055
+      Animated set 6 - Rose Quartz v1_6: -4010046874850148385
+      Animated set 6 - Rose Quartz v1_60: 4260673331079117025
+      Animated set 6 - Rose Quartz v1_61: 1084732507668976372
+      Animated set 6 - Rose Quartz v1_62: -6711339962225459614
+      Animated set 6 - Rose Quartz v1_63: 3057983511672927068
+      Animated set 6 - Rose Quartz v1_64: -4284155243966944792
+      Animated set 6 - Rose Quartz v1_65: 3310953402582462489
+      Animated set 6 - Rose Quartz v1_66: 8037688025871146310
+      Animated set 6 - Rose Quartz v1_67: 1624490946298789897
+      Animated set 6 - Rose Quartz v1_68: -8191555982087048793
+      Animated set 6 - Rose Quartz v1_69: -8041099707509458365
+      Animated set 6 - Rose Quartz v1_7: -1149648037435075860
+      Animated set 6 - Rose Quartz v1_70: 9169053435729820906
+      Animated set 6 - Rose Quartz v1_71: -1395353978384015319
+      Animated set 6 - Rose Quartz v1_72: -6931658340799901152
+      Animated set 6 - Rose Quartz v1_73: -5559453504397403255
+      Animated set 6 - Rose Quartz v1_74: -796957752414783547
+      Animated set 6 - Rose Quartz v1_75: 6839110797801164320
+      Animated set 6 - Rose Quartz v1_76: 2498591525364052304
+      Animated set 6 - Rose Quartz v1_77: 8237751856692111150
+      Animated set 6 - Rose Quartz v1_78: -7568945587165167922
+      Animated set 6 - Rose Quartz v1_79: 5266223541500529828
+      Animated set 6 - Rose Quartz v1_8: 8663749741381597972
+      Animated set 6 - Rose Quartz v1_80: -1062277306452375350
+      Animated set 6 - Rose Quartz v1_81: -2985939363486230015
+      Animated set 6 - Rose Quartz v1_82: -5422154280352752470
+      Animated set 6 - Rose Quartz v1_83: 7257221310517475876
+      Animated set 6 - Rose Quartz v1_84: -6851718478005501094
+      Animated set 6 - Rose Quartz v1_85: -8719648752590923809
+      Animated set 6 - Rose Quartz v1_86: 7121919952146465501
+      Animated set 6 - Rose Quartz v1_87: -3165989972201059650
+      Animated set 6 - Rose Quartz v1_88: 2395255540294614412
+      Animated set 6 - Rose Quartz v1_89: 5632250310947371831
+      Animated set 6 - Rose Quartz v1_9: -9159410450280318699
+      Animated set 6 - Rose Quartz v1_90: 7502766334575076428
+      Animated set 6 - Rose Quartz v1_91: 7375973921505859753
+      Animated set 6 - Rose Quartz v1_92: 6841151708459067514
+      Animated set 6 - Rose Quartz v1_93: -1611746249598639250
+      Animated set 6 - Rose Quartz v1_94: -6755078990780669822
+      Animated set 6 - Rose Quartz v1_95: -7182156083569016370
+      Animated set 6 - Rose Quartz v1_96: -2944975005851938557
+      Animated set 6 - Rose Quartz v1_97: 8099980912845120431
+      Animated set 6 - Rose Quartz v1_98: -1300529907769441819
+      Animated set 6 - Rose Quartz v1_99: 6327091558560225909
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3770 @@
+fileFormatVersion: 2
+guid: ce12db077c2b9495385201ad52abf394
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2436128588695733282
+    second: Animated set 3 - Ironv1_0
+  - first:
+      213: -7791468252091031943
+    second: Animated set 3 - Ironv1_1
+  - first:
+      213: -1761515966270759514
+    second: Animated set 3 - Ironv1_2
+  - first:
+      213: -4617066063833704029
+    second: Animated set 3 - Ironv1_3
+  - first:
+      213: -1181919707100217962
+    second: Animated set 3 - Ironv1_4
+  - first:
+      213: 4589645919053988374
+    second: Animated set 3 - Ironv1_5
+  - first:
+      213: -5747287506543582296
+    second: Animated set 3 - Ironv1_6
+  - first:
+      213: 7626727581199172591
+    second: Animated set 3 - Ironv1_7
+  - first:
+      213: 5894061618527553204
+    second: Animated set 3 - Ironv1_8
+  - first:
+      213: 619985683054719501
+    second: Animated set 3 - Ironv1_9
+  - first:
+      213: -6809846124661990872
+    second: Animated set 3 - Ironv1_10
+  - first:
+      213: 3836861940892055927
+    second: Animated set 3 - Ironv1_11
+  - first:
+      213: -2714692626241372684
+    second: Animated set 3 - Ironv1_12
+  - first:
+      213: -4156255007474353996
+    second: Animated set 3 - Ironv1_13
+  - first:
+      213: -4749864194862422573
+    second: Animated set 3 - Ironv1_14
+  - first:
+      213: -5500364751365235423
+    second: Animated set 3 - Ironv1_15
+  - first:
+      213: 6103760379058931608
+    second: Animated set 3 - Ironv1_16
+  - first:
+      213: -8393472899474188869
+    second: Animated set 3 - Ironv1_17
+  - first:
+      213: -5713158673570427458
+    second: Animated set 3 - Ironv1_18
+  - first:
+      213: -2568848810247332649
+    second: Animated set 3 - Ironv1_19
+  - first:
+      213: 2556709334209239499
+    second: Animated set 3 - Ironv1_20
+  - first:
+      213: 8521242757650033356
+    second: Animated set 3 - Ironv1_21
+  - first:
+      213: -8092125505875450968
+    second: Animated set 3 - Ironv1_22
+  - first:
+      213: -3534188312921628023
+    second: Animated set 3 - Ironv1_23
+  - first:
+      213: 3091689273931787469
+    second: Animated set 3 - Ironv1_24
+  - first:
+      213: -1734661140532630119
+    second: Animated set 3 - Ironv1_25
+  - first:
+      213: 2440685430990628400
+    second: Animated set 3 - Ironv1_26
+  - first:
+      213: -4837317871551703658
+    second: Animated set 3 - Ironv1_27
+  - first:
+      213: 7172027622990212482
+    second: Animated set 3 - Ironv1_28
+  - first:
+      213: -2833856060127265251
+    second: Animated set 3 - Ironv1_29
+  - first:
+      213: 7301638546674369959
+    second: Animated set 3 - Ironv1_30
+  - first:
+      213: -2485064460351917212
+    second: Animated set 3 - Ironv1_31
+  - first:
+      213: 9095842394883081489
+    second: Animated set 3 - Ironv1_32
+  - first:
+      213: -8616196557624189264
+    second: Animated set 3 - Ironv1_33
+  - first:
+      213: 8298709995208037451
+    second: Animated set 3 - Ironv1_34
+  - first:
+      213: -9208128294161390922
+    second: Animated set 3 - Ironv1_35
+  - first:
+      213: 3261804083343173063
+    second: Animated set 3 - Ironv1_36
+  - first:
+      213: -2161142989688632852
+    second: Animated set 3 - Ironv1_37
+  - first:
+      213: -4989932251955862076
+    second: Animated set 3 - Ironv1_38
+  - first:
+      213: -2806564595483638900
+    second: Animated set 3 - Ironv1_39
+  - first:
+      213: 2452038081349152547
+    second: Animated set 3 - Ironv1_40
+  - first:
+      213: -4079178285141898998
+    second: Animated set 3 - Ironv1_41
+  - first:
+      213: 3330130108383101956
+    second: Animated set 3 - Ironv1_42
+  - first:
+      213: 820099195970063781
+    second: Animated set 3 - Ironv1_43
+  - first:
+      213: -7955848587141852993
+    second: Animated set 3 - Ironv1_44
+  - first:
+      213: 5639130187605307620
+    second: Animated set 3 - Ironv1_45
+  - first:
+      213: 1010443403349530449
+    second: Animated set 3 - Ironv1_46
+  - first:
+      213: 6314049396899959439
+    second: Animated set 3 - Ironv1_47
+  - first:
+      213: 4737697124559625214
+    second: Animated set 3 - Ironv1_48
+  - first:
+      213: 3668779547201562600
+    second: Animated set 3 - Ironv1_49
+  - first:
+      213: -2078217938107237950
+    second: Animated set 3 - Ironv1_50
+  - first:
+      213: -6169407527635668317
+    second: Animated set 3 - Ironv1_51
+  - first:
+      213: 37993610937087330
+    second: Animated set 3 - Ironv1_52
+  - first:
+      213: -2790294913720255207
+    second: Animated set 3 - Ironv1_53
+  - first:
+      213: -3078320099246050402
+    second: Animated set 3 - Ironv1_54
+  - first:
+      213: 6406972435155343163
+    second: Animated set 3 - Ironv1_55
+  - first:
+      213: -3744741390559346532
+    second: Animated set 3 - Ironv1_56
+  - first:
+      213: -8131380251636633291
+    second: Animated set 3 - Ironv1_57
+  - first:
+      213: -733288717511340368
+    second: Animated set 3 - Ironv1_58
+  - first:
+      213: -1762437951343150795
+    second: Animated set 3 - Ironv1_59
+  - first:
+      213: -5768103354899054558
+    second: Animated set 3 - Ironv1_60
+  - first:
+      213: 1436904668319633180
+    second: Animated set 3 - Ironv1_61
+  - first:
+      213: -2619803597222507145
+    second: Animated set 3 - Ironv1_62
+  - first:
+      213: -5696882026075723761
+    second: Animated set 3 - Ironv1_63
+  - first:
+      213: -7840581400436510965
+    second: Animated set 3 - Ironv1_64
+  - first:
+      213: -8344640262275726994
+    second: Animated set 3 - Ironv1_65
+  - first:
+      213: -315701115028347822
+    second: Animated set 3 - Ironv1_66
+  - first:
+      213: 4935244640226500250
+    second: Animated set 3 - Ironv1_67
+  - first:
+      213: 3922682711316054975
+    second: Animated set 3 - Ironv1_68
+  - first:
+      213: -5816351598906570842
+    second: Animated set 3 - Ironv1_69
+  - first:
+      213: -6557660213383629975
+    second: Animated set 3 - Ironv1_70
+  - first:
+      213: -9026732571480659147
+    second: Animated set 3 - Ironv1_71
+  - first:
+      213: -3988055323381344350
+    second: Animated set 3 - Ironv1_72
+  - first:
+      213: -2893551546468484041
+    second: Animated set 3 - Ironv1_73
+  - first:
+      213: 1905353133041176050
+    second: Animated set 3 - Ironv1_74
+  - first:
+      213: 799188896210162253
+    second: Animated set 3 - Ironv1_75
+  - first:
+      213: 6116359490351162497
+    second: Animated set 3 - Ironv1_76
+  - first:
+      213: 3529818892912007026
+    second: Animated set 3 - Ironv1_77
+  - first:
+      213: 1059838610701948327
+    second: Animated set 3 - Ironv1_78
+  - first:
+      213: 6710698163275354555
+    second: Animated set 3 - Ironv1_79
+  - first:
+      213: 3258651352718971305
+    second: Animated set 3 - Ironv1_80
+  - first:
+      213: -1745837401122205165
+    second: Animated set 3 - Ironv1_81
+  - first:
+      213: -8508748003856920750
+    second: Animated set 3 - Ironv1_82
+  - first:
+      213: -4055932653966515531
+    second: Animated set 3 - Ironv1_83
+  - first:
+      213: -8954658771716122102
+    second: Animated set 3 - Ironv1_84
+  - first:
+      213: 6275349974385665257
+    second: Animated set 3 - Ironv1_85
+  - first:
+      213: 5765062436026796857
+    second: Animated set 3 - Ironv1_86
+  - first:
+      213: 4607813931981073379
+    second: Animated set 3 - Ironv1_87
+  - first:
+      213: -6430646539704001553
+    second: Animated set 3 - Ironv1_88
+  - first:
+      213: 7213512773640344403
+    second: Animated set 3 - Ironv1_89
+  - first:
+      213: 1776225414850160433
+    second: Animated set 3 - Ironv1_90
+  - first:
+      213: 3244663466062045316
+    second: Animated set 3 - Ironv1_91
+  - first:
+      213: -6682680080370243603
+    second: Animated set 3 - Ironv1_92
+  - first:
+      213: 4598352364033703194
+    second: Animated set 3 - Ironv1_93
+  - first:
+      213: -7429952460324057626
+    second: Animated set 3 - Ironv1_94
+  - first:
+      213: -3250638429144324679
+    second: Animated set 3 - Ironv1_95
+  - first:
+      213: -3986904479462176688
+    second: Animated set 3 - Ironv1_96
+  - first:
+      213: 1928255639927415763
+    second: Animated set 3 - Ironv1_97
+  - first:
+      213: 5989956825530215028
+    second: Animated set 3 - Ironv1_98
+  - first:
+      213: 2239989686105554175
+    second: Animated set 3 - Ironv1_99
+  - first:
+      213: 519842321792976117
+    second: Animated set 3 - Ironv1_100
+  - first:
+      213: 1665261542479392446
+    second: Animated set 3 - Ironv1_101
+  - first:
+      213: -5252784152416535410
+    second: Animated set 3 - Ironv1_102
+  - first:
+      213: 674698842356195105
+    second: Animated set 3 - Ironv1_103
+  - first:
+      213: 5173989459886709082
+    second: Animated set 3 - Ironv1_104
+  - first:
+      213: 5475916371223119351
+    second: Animated set 3 - Ironv1_105
+  - first:
+      213: -7320525576535800886
+    second: Animated set 3 - Ironv1_106
+  - first:
+      213: -895108180448308489
+    second: Animated set 3 - Ironv1_107
+  - first:
+      213: -3227724652027875605
+    second: Animated set 3 - Ironv1_108
+  - first:
+      213: -5540449471613822182
+    second: Animated set 3 - Ironv1_109
+  - first:
+      213: -9059338897605152292
+    second: Animated set 3 - Ironv1_110
+  - first:
+      213: -6752952633120736023
+    second: Animated set 3 - Ironv1_111
+  - first:
+      213: 4117407483038651673
+    second: Animated set 3 - Ironv1_112
+  - first:
+      213: -3630034044849708742
+    second: Animated set 3 - Ironv1_113
+  - first:
+      213: -5751158613482770271
+    second: Animated set 3 - Ironv1_114
+  - first:
+      213: -3853665460080411141
+    second: Animated set 3 - Ironv1_115
+  - first:
+      213: 6751012296522982011
+    second: Animated set 3 - Ironv1_116
+  - first:
+      213: -885678995107408644
+    second: Animated set 3 - Ironv1_117
+  - first:
+      213: -5819450897963357443
+    second: Animated set 3 - Ironv1_118
+  - first:
+      213: -8922484116060253712
+    second: Animated set 3 - Ironv1_119
+  - first:
+      213: 8491424061135523677
+    second: Animated set 3 - Ironv1_120
+  - first:
+      213: 6261869409136562618
+    second: Animated set 3 - Ironv1_121
+  - first:
+      213: 5930334323637704129
+    second: Animated set 3 - Ironv1_122
+  - first:
+      213: -6004269111754064238
+    second: Animated set 3 - Ironv1_123
+  - first:
+      213: 2580297386271175810
+    second: Animated set 3 - Ironv1_124
+  - first:
+      213: 3625728733894791321
+    second: Animated set 3 - Ironv1_125
+  - first:
+      213: 3856118280075471620
+    second: Animated set 3 - Ironv1_126
+  - first:
+      213: 3661603243892253368
+    second: Animated set 3 - Ironv1_127
+  - first:
+      213: 4351216627594960142
+    second: Animated set 3 - Ironv1_128
+  - first:
+      213: 1273239863916792794
+    second: Animated set 3 - Ironv1_129
+  - first:
+      213: -9101540538865153792
+    second: Animated set 3 - Ironv1_130
+  - first:
+      213: -3861411524393165260
+    second: Animated set 3 - Ironv1_131
+  - first:
+      213: 1000082829101432391
+    second: Animated set 3 - Ironv1_132
+  - first:
+      213: -4227923645985357960
+    second: Animated set 3 - Ironv1_133
+  - first:
+      213: -2051904110626576919
+    second: Animated set 3 - Ironv1_134
+  - first:
+      213: 3693138446076048394
+    second: Animated set 3 - Ironv1_135
+  - first:
+      213: -130033635885576240
+    second: Animated set 3 - Ironv1_136
+  - first:
+      213: -5729554109287084038
+    second: Animated set 3 - Ironv1_137
+  - first:
+      213: -3775827217833202763
+    second: Animated set 3 - Ironv1_138
+  - first:
+      213: 2973485105250405033
+    second: Animated set 3 - Ironv1_139
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22402645b0edec120800000000000000
+      internalID: 2436128588695733282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e516bd7e42fd390800000000000000
+      internalID: -7791468252091031943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad9044cf86dd87e0800000000000000
+      internalID: -1761515966270759514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a95ea090e2ecefb0800000000000000
+      internalID: -4617066063833704029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69df149d94af89fe0800000000000000
+      internalID: -1181919707100217962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612c80a75a2b1bf30800000000000000
+      internalID: 4589645919053988374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3ed6696788d30b0800000000000000
+      internalID: -5747287506543582296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe30d04b35497d960800000000000000
+      internalID: 7626727581199172591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6499060d9ebc150800000000000000
+      internalID: 5894061618527553204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02fd44a1b1aa9800800000000000000
+      internalID: 619985683054719501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a937c97019e71a0800000000000000
+      internalID: -6809846124661990872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779361f4b954f3530800000000000000
+      internalID: 3836861940892055927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdb2828079735ad0800000000000000
+      internalID: -2714692626241372684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b87d8b67140256c0800000000000000
+      internalID: -4156255007474353996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5e0ed3ea7151eb0800000000000000
+      internalID: -4749864194862422573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d9bcb9667caa3b0800000000000000
+      internalID: -5500364751365235423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89749e3c9b9e4b450800000000000000
+      internalID: 6103760379058931608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb519f25ed4648b80800000000000000
+      internalID: -8393472899474188869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd846cb478c6b0b0800000000000000
+      internalID: -5713158673570427458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcd58f0e9d995cd0800000000000000
+      internalID: -2568848810247332649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9977be7914b7320800000000000000
+      internalID: 2556709334209239499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccaa99ef329814670800000000000000
+      internalID: 8521242757650033356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a36a60f9bef2bf80800000000000000
+      internalID: -8092125505875450968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98228fe447a04fec0800000000000000
+      internalID: -3534188312921628023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcce690a303e7ea20800000000000000
+      internalID: 3091689273931787469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99de0e022ee3de7e0800000000000000
+      internalID: -1734661140532630119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036eaaad77e0fd120800000000000000
+      internalID: 2440685430990628400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695138866056edcb0800000000000000
+      internalID: -4837317871551703658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dee93cf19288360800000000000000
+      internalID: 7172027622990212482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_29
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1eb68f7dee1ca8d0800000000000000
+      internalID: -2833856060127265251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a543dc8291a45560800000000000000
+      internalID: 7301638546674369959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463b6cc2a07438dd0800000000000000
+      internalID: -2485064460351917212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115c1ff577cea3e70800000000000000
+      internalID: 9095842394883081489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0beddd3a1ee1d6880800000000000000
+      internalID: -8616196557624189264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44db5ea5c0fa2370800000000000000
+      internalID: 8298709995208037451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2694c6a18263080800000000000000
+      internalID: -9208128294161390922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5a6923881444d20800000000000000
+      internalID: 3261804083343173063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce988cea6e31202e0800000000000000
+      internalID: -2161142989688632852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_38
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5e7ecfd0330cab0800000000000000
+      internalID: -4989932251955862076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c838207ce541d09d0800000000000000
+      internalID: -2806564595483638900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32feb8eb4a3670220800000000000000
+      internalID: 2452038081349152547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_41
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0941aa46f8d367c0800000000000000
+      internalID: -4079178285141898998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_42
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404020690bff63e20800000000000000
+      internalID: 3330130108383101956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_43
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad0168afd3916b00800000000000000
+      internalID: 820099195970063781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_44
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0dd94acd5279190800000000000000
+      internalID: -7955848587141852993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_45
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0756a3707324e40800000000000000
+      internalID: 5639130187605307620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_46
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157194afbe0d50e00800000000000000
+      internalID: 1010443403349530449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_47
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82dd74297200a750800000000000000
+      internalID: 6314049396899959439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_48
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb14c2fe6eafb140800000000000000
+      internalID: 4737697124559625214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_49
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7ea266f8f1ae230800000000000000
+      internalID: 3668779547201562600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_50
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9f541dbcfa823e0800000000000000
+      internalID: -2078217938107237950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_51
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2b7a06a8cd16aa0800000000000000
+      internalID: -6169407527635668317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_52
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265b3a3ecfaf68000800000000000000
+      internalID: 37993610937087330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_53
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dff114f81e649d0800000000000000
+      internalID: -2790294913720255207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_54
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e937e7bed2c9745d0800000000000000
+      internalID: -3078320099246050402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_55
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b375723fb732ae850800000000000000
+      internalID: 6406972435155343163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_56
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c900208bb81080cc0800000000000000
+      internalID: -3744741390559346532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_57
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53172973eb8872f80800000000000000
+      internalID: -8131380251636633291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_58
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be4feaebc5d2d5f0800000000000000
+      internalID: -733288717511340368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_59
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539368365009a87e0800000000000000
+      internalID: -1762437951343150795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_60
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220c0873f8493ffa0800000000000000
+      internalID: -5768103354899054558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_61
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fca4bce29e0f310800000000000000
+      internalID: 1436904668319633180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_62
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d0346328694abd0800000000000000
+      internalID: -2619803597222507145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_63
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08e27c0bfb90f0b0800000000000000
+      internalID: -5696882026075723761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_64
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f627ae1c8a03390800000000000000
+      internalID: -7840581400436510965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_65
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 255
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6102aca4e1e13c80800000000000000
+      internalID: -8344640262275726994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_66
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 287
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2546a8f22876e9bf0800000000000000
+      internalID: -315701115028347822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 272
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ed95c2ad28d7440800000000000000
+      internalID: 4935244640226500250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_68
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb34f86842b207630800000000000000
+      internalID: 3922682711316054975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 272
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a70662890b284fa0800000000000000
+      internalID: -5816351598906570842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9637e87a7c28ef4a0800000000000000
+      internalID: -6557660213383629975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_71
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b627a4d8a9ab280800000000000000
+      internalID: -9026732571480659147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_72
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7df3120d497a8c0800000000000000
+      internalID: -3988055323381344350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_73
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cb67df23a08d7d0800000000000000
+      internalID: -2893551546468484041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_74
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdc89a549c217a10800000000000000
+      internalID: 1905353133041176050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_75
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d421b0b111a471b00800000000000000
+      internalID: 799188896210162253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_76
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18468f4fc8ca1e450800000000000000
+      internalID: 6116359490351162497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_77
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2779b71d49f6cf030800000000000000
+      internalID: 3529818892912007026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_78
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a51226e99d45be00800000000000000
+      internalID: 1059838610701948327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_79
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1d4e8bc60312d50800000000000000
+      internalID: 6710698163275354555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_80
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a119a5e32e093d20800000000000000
+      internalID: 3258651352718971305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_81
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312158e222a85c7e0800000000000000
+      internalID: -1745837401122205165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_82
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f4bc295cadae980800000000000000
+      internalID: -8508748003856920750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_83
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b22b6f8dbe66b7c0800000000000000
+      internalID: -4055932653966515531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_84
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a560b7a49aab380800000000000000
+      internalID: -8954658771716122102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_85
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4a380bd85861750800000000000000
+      internalID: 6275349974385665257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_86
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b435fadbd910050800000000000000
+      internalID: 5765062436026796857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebe3de9b5e32ff30800000000000000
+      internalID: 4607813931981073379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 272
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb19dc0b01c1c6a0800000000000000
+      internalID: -6430646539704001553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353539716ab8b1460800000000000000
+      internalID: 7213512773640344403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1372a2d9a9b66a810800000000000000
+      internalID: 1776225414850160433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480e05e3b3c570d20800000000000000
+      internalID: 3244663466062045316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7e3fd8fd95243a0800000000000000
+      internalID: -6682680080370243603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d7e4aac11a0df30800000000000000
+      internalID: 4598352364033703194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed48585a9183e890800000000000000
+      internalID: -7429952460324057626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_95
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b56e91429963e2d0800000000000000
+      internalID: -3250638429144324679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0584e3cdf7baba8c0800000000000000
+      internalID: -3986904479462176688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_97
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d36406c94a82ca10800000000000000
+      internalID: 1928255639927415763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47aa7a52ff9902350800000000000000
+      internalID: 5989956825530215028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_99
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc3cd460ca061f10800000000000000
+      internalID: 2239989686105554175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f44fa166d9d63700800000000000000
+      internalID: 519842321792976117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_101
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe6a99cc823c1710800000000000000
+      internalID: 1665261542479392446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_102
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c3961d4ac5a17b0800000000000000
+      internalID: -5252784152416535410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_103
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f120db5030d5900800000000000000
+      internalID: 674698842356195105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5999243004bdc740800000000000000
+      internalID: 5173989459886709082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5008e4dec5efb40800000000000000
+      internalID: 5475916371223119351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac30c6126c4486a90800000000000000
+      internalID: -7320525576535800886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_107
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f215d43adfe393f0800000000000000
+      internalID: -895108180448308489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee6b1bb781d433d0800000000000000
+      internalID: -3227724652027875605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_109
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b15746f8e5c13b0800000000000000
+      internalID: -5540449471613822182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_110
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1bd546543c64280800000000000000
+      internalID: -9059338897605152292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_111
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecbccddb51b842a0800000000000000
+      internalID: -6752952633120736023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_112
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915dd067a48f32930800000000000000
+      internalID: 4117407483038651673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_113
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31a82ad4478f9dc0800000000000000
+      internalID: -3630034044849708742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a07e6446b7cf20b0800000000000000
+      internalID: -5751158613482770271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_115
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdf6b08ea7058ac0800000000000000
+      internalID: -3853665460080411141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72eb805ae960bd50800000000000000
+      internalID: 6751012296522982011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_117
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4199f75af65b3f0800000000000000
+      internalID: -885678995107408644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfae017bd382d3fa0800000000000000
+      internalID: -5819450897963357443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_119
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1d92448f7fc2480800000000000000
+      internalID: -8922484116060253712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_120
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f0031b13997d570800000000000000
+      internalID: 8491424061135523677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_121
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab158710d01a6e650800000000000000
+      internalID: 6261869409136562618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c55bb7a5a7cc4250800000000000000
+      internalID: 5930334323637704129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_123
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e7c0a0e0d8caca0800000000000000
+      internalID: -6004269111754064238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_124
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284ff834dce0fc320800000000000000
+      internalID: 2580297386271175810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_125
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990d9b3d21d215230800000000000000
+      internalID: 3625728733894791321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_126
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40be9c7252fa38530800000000000000
+      internalID: 3856118280075471620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_127
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2ad9410c0a0d230800000000000000
+      internalID: 3661603243892253368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_128
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d12941870a26c30800000000000000
+      internalID: 4351216627594960142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_129
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb80aa09e47ba110800000000000000
+      internalID: 1273239863916792794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_130
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00900281a15d0b180800000000000000
+      internalID: -9101540538865153792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_131
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e12fc5da2896ac0800000000000000
+      internalID: -3861411524393165260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_132
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74efe8ec80201ed00800000000000000
+      internalID: 1000082829101432391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_133
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f719f28d56355c0800000000000000
+      internalID: -4227923645985357960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_134
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e560f4351c2683e0800000000000000
+      internalID: -2051904110626576919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_135
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0473b089d9a04330800000000000000
+      internalID: 3693138446076048394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_136
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df003cd817023ef0800000000000000
+      internalID: -130033635885576240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_137
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 111
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff4092e4e88c70b0800000000000000
+      internalID: -5729554109287084038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbeccb8621999bc0800000000000000
+      internalID: -3775827217833202763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 3 - Ironv1_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa8d53f2f0f34920800000000000000
+      internalID: 2973485105250405033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animated set 3 - Ironv1_0: 2436128588695733282
+      Animated set 3 - Ironv1_1: -7791468252091031943
+      Animated set 3 - Ironv1_10: -6809846124661990872
+      Animated set 3 - Ironv1_100: 519842321792976117
+      Animated set 3 - Ironv1_101: 1665261542479392446
+      Animated set 3 - Ironv1_102: -5252784152416535410
+      Animated set 3 - Ironv1_103: 674698842356195105
+      Animated set 3 - Ironv1_104: 5173989459886709082
+      Animated set 3 - Ironv1_105: 5475916371223119351
+      Animated set 3 - Ironv1_106: -7320525576535800886
+      Animated set 3 - Ironv1_107: -895108180448308489
+      Animated set 3 - Ironv1_108: -3227724652027875605
+      Animated set 3 - Ironv1_109: -5540449471613822182
+      Animated set 3 - Ironv1_11: 3836861940892055927
+      Animated set 3 - Ironv1_110: -9059338897605152292
+      Animated set 3 - Ironv1_111: -6752952633120736023
+      Animated set 3 - Ironv1_112: 4117407483038651673
+      Animated set 3 - Ironv1_113: -3630034044849708742
+      Animated set 3 - Ironv1_114: -5751158613482770271
+      Animated set 3 - Ironv1_115: -3853665460080411141
+      Animated set 3 - Ironv1_116: 6751012296522982011
+      Animated set 3 - Ironv1_117: -885678995107408644
+      Animated set 3 - Ironv1_118: -5819450897963357443
+      Animated set 3 - Ironv1_119: -8922484116060253712
+      Animated set 3 - Ironv1_12: -2714692626241372684
+      Animated set 3 - Ironv1_120: 8491424061135523677
+      Animated set 3 - Ironv1_121: 6261869409136562618
+      Animated set 3 - Ironv1_122: 5930334323637704129
+      Animated set 3 - Ironv1_123: -6004269111754064238
+      Animated set 3 - Ironv1_124: 2580297386271175810
+      Animated set 3 - Ironv1_125: 3625728733894791321
+      Animated set 3 - Ironv1_126: 3856118280075471620
+      Animated set 3 - Ironv1_127: 3661603243892253368
+      Animated set 3 - Ironv1_128: 4351216627594960142
+      Animated set 3 - Ironv1_129: 1273239863916792794
+      Animated set 3 - Ironv1_13: -4156255007474353996
+      Animated set 3 - Ironv1_130: -9101540538865153792
+      Animated set 3 - Ironv1_131: -3861411524393165260
+      Animated set 3 - Ironv1_132: 1000082829101432391
+      Animated set 3 - Ironv1_133: -4227923645985357960
+      Animated set 3 - Ironv1_134: -2051904110626576919
+      Animated set 3 - Ironv1_135: 3693138446076048394
+      Animated set 3 - Ironv1_136: -130033635885576240
+      Animated set 3 - Ironv1_137: -5729554109287084038
+      Animated set 3 - Ironv1_138: -3775827217833202763
+      Animated set 3 - Ironv1_139: 2973485105250405033
+      Animated set 3 - Ironv1_14: -4749864194862422573
+      Animated set 3 - Ironv1_15: -5500364751365235423
+      Animated set 3 - Ironv1_16: 6103760379058931608
+      Animated set 3 - Ironv1_17: -8393472899474188869
+      Animated set 3 - Ironv1_18: -5713158673570427458
+      Animated set 3 - Ironv1_19: -2568848810247332649
+      Animated set 3 - Ironv1_2: -1761515966270759514
+      Animated set 3 - Ironv1_20: 2556709334209239499
+      Animated set 3 - Ironv1_21: 8521242757650033356
+      Animated set 3 - Ironv1_22: -8092125505875450968
+      Animated set 3 - Ironv1_23: -3534188312921628023
+      Animated set 3 - Ironv1_24: 3091689273931787469
+      Animated set 3 - Ironv1_25: -1734661140532630119
+      Animated set 3 - Ironv1_26: 2440685430990628400
+      Animated set 3 - Ironv1_27: -4837317871551703658
+      Animated set 3 - Ironv1_28: 7172027622990212482
+      Animated set 3 - Ironv1_29: -2833856060127265251
+      Animated set 3 - Ironv1_3: -4617066063833704029
+      Animated set 3 - Ironv1_30: 7301638546674369959
+      Animated set 3 - Ironv1_31: -2485064460351917212
+      Animated set 3 - Ironv1_32: 9095842394883081489
+      Animated set 3 - Ironv1_33: -8616196557624189264
+      Animated set 3 - Ironv1_34: 8298709995208037451
+      Animated set 3 - Ironv1_35: -9208128294161390922
+      Animated set 3 - Ironv1_36: 3261804083343173063
+      Animated set 3 - Ironv1_37: -2161142989688632852
+      Animated set 3 - Ironv1_38: -4989932251955862076
+      Animated set 3 - Ironv1_39: -2806564595483638900
+      Animated set 3 - Ironv1_4: -1181919707100217962
+      Animated set 3 - Ironv1_40: 2452038081349152547
+      Animated set 3 - Ironv1_41: -4079178285141898998
+      Animated set 3 - Ironv1_42: 3330130108383101956
+      Animated set 3 - Ironv1_43: 820099195970063781
+      Animated set 3 - Ironv1_44: -7955848587141852993
+      Animated set 3 - Ironv1_45: 5639130187605307620
+      Animated set 3 - Ironv1_46: 1010443403349530449
+      Animated set 3 - Ironv1_47: 6314049396899959439
+      Animated set 3 - Ironv1_48: 4737697124559625214
+      Animated set 3 - Ironv1_49: 3668779547201562600
+      Animated set 3 - Ironv1_5: 4589645919053988374
+      Animated set 3 - Ironv1_50: -2078217938107237950
+      Animated set 3 - Ironv1_51: -6169407527635668317
+      Animated set 3 - Ironv1_52: 37993610937087330
+      Animated set 3 - Ironv1_53: -2790294913720255207
+      Animated set 3 - Ironv1_54: -3078320099246050402
+      Animated set 3 - Ironv1_55: 6406972435155343163
+      Animated set 3 - Ironv1_56: -3744741390559346532
+      Animated set 3 - Ironv1_57: -8131380251636633291
+      Animated set 3 - Ironv1_58: -733288717511340368
+      Animated set 3 - Ironv1_59: -1762437951343150795
+      Animated set 3 - Ironv1_6: -5747287506543582296
+      Animated set 3 - Ironv1_60: -5768103354899054558
+      Animated set 3 - Ironv1_61: 1436904668319633180
+      Animated set 3 - Ironv1_62: -2619803597222507145
+      Animated set 3 - Ironv1_63: -5696882026075723761
+      Animated set 3 - Ironv1_64: -7840581400436510965
+      Animated set 3 - Ironv1_65: -8344640262275726994
+      Animated set 3 - Ironv1_66: -315701115028347822
+      Animated set 3 - Ironv1_67: 4935244640226500250
+      Animated set 3 - Ironv1_68: 3922682711316054975
+      Animated set 3 - Ironv1_69: -5816351598906570842
+      Animated set 3 - Ironv1_7: 7626727581199172591
+      Animated set 3 - Ironv1_70: -6557660213383629975
+      Animated set 3 - Ironv1_71: -9026732571480659147
+      Animated set 3 - Ironv1_72: -3988055323381344350
+      Animated set 3 - Ironv1_73: -2893551546468484041
+      Animated set 3 - Ironv1_74: 1905353133041176050
+      Animated set 3 - Ironv1_75: 799188896210162253
+      Animated set 3 - Ironv1_76: 6116359490351162497
+      Animated set 3 - Ironv1_77: 3529818892912007026
+      Animated set 3 - Ironv1_78: 1059838610701948327
+      Animated set 3 - Ironv1_79: 6710698163275354555
+      Animated set 3 - Ironv1_8: 5894061618527553204
+      Animated set 3 - Ironv1_80: 3258651352718971305
+      Animated set 3 - Ironv1_81: -1745837401122205165
+      Animated set 3 - Ironv1_82: -8508748003856920750
+      Animated set 3 - Ironv1_83: -4055932653966515531
+      Animated set 3 - Ironv1_84: -8954658771716122102
+      Animated set 3 - Ironv1_85: 6275349974385665257
+      Animated set 3 - Ironv1_86: 5765062436026796857
+      Animated set 3 - Ironv1_87: 4607813931981073379
+      Animated set 3 - Ironv1_88: -6430646539704001553
+      Animated set 3 - Ironv1_89: 7213512773640344403
+      Animated set 3 - Ironv1_9: 619985683054719501
+      Animated set 3 - Ironv1_90: 1776225414850160433
+      Animated set 3 - Ironv1_91: 3244663466062045316
+      Animated set 3 - Ironv1_92: -6682680080370243603
+      Animated set 3 - Ironv1_93: 4598352364033703194
+      Animated set 3 - Ironv1_94: -7429952460324057626
+      Animated set 3 - Ironv1_95: -3250638429144324679
+      Animated set 3 - Ironv1_96: -3986904479462176688
+      Animated set 3 - Ironv1_97: 1928255639927415763
+      Animated set 3 - Ironv1_98: 5989956825530215028
+      Animated set 3 - Ironv1_99: 2239989686105554175
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

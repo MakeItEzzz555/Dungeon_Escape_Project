@@ -1,0 +1,3796 @@
+fileFormatVersion: 2
+guid: ba710c877975f444198e076848763326
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3092022589290252515
+    second: Animated set 2 - Stonev2_0
+  - first:
+      213: 2995985819024926962
+    second: Animated set 2 - Stonev2_1
+  - first:
+      213: 4267955873669634567
+    second: Animated set 2 - Stonev2_2
+  - first:
+      213: -4074577859170489575
+    second: Animated set 2 - Stonev2_3
+  - first:
+      213: -3765041534462015959
+    second: Animated set 2 - Stonev2_4
+  - first:
+      213: -9063158422871097541
+    second: Animated set 2 - Stonev2_5
+  - first:
+      213: -8603053328656141078
+    second: Animated set 2 - Stonev2_6
+  - first:
+      213: 5834034403675133040
+    second: Animated set 2 - Stonev2_7
+  - first:
+      213: 5967076454148239439
+    second: Animated set 2 - Stonev2_8
+  - first:
+      213: 2747222665965154471
+    second: Animated set 2 - Stonev2_9
+  - first:
+      213: 2932698039928108345
+    second: Animated set 2 - Stonev2_10
+  - first:
+      213: -3152694390979773638
+    second: Animated set 2 - Stonev2_11
+  - first:
+      213: 3887249727015124684
+    second: Animated set 2 - Stonev2_12
+  - first:
+      213: 6921282935676039277
+    second: Animated set 2 - Stonev2_13
+  - first:
+      213: 5983668401044920267
+    second: Animated set 2 - Stonev2_14
+  - first:
+      213: 6350803650827355412
+    second: Animated set 2 - Stonev2_15
+  - first:
+      213: 2945321189709703275
+    second: Animated set 2 - Stonev2_16
+  - first:
+      213: -2707866624964970143
+    second: Animated set 2 - Stonev2_17
+  - first:
+      213: 1114555370132690156
+    second: Animated set 2 - Stonev2_18
+  - first:
+      213: 5520239756117661949
+    second: Animated set 2 - Stonev2_19
+  - first:
+      213: -5354644018863686056
+    second: Animated set 2 - Stonev2_20
+  - first:
+      213: -5844125797733150161
+    second: Animated set 2 - Stonev2_21
+  - first:
+      213: 779022111691476931
+    second: Animated set 2 - Stonev2_22
+  - first:
+      213: -4041939548496043699
+    second: Animated set 2 - Stonev2_23
+  - first:
+      213: 7749851597761357625
+    second: Animated set 2 - Stonev2_24
+  - first:
+      213: 7190566063714948302
+    second: Animated set 2 - Stonev2_25
+  - first:
+      213: -8875171562902997621
+    second: Animated set 2 - Stonev2_26
+  - first:
+      213: 6009489595797740332
+    second: Animated set 2 - Stonev2_27
+  - first:
+      213: -1942910716261503464
+    second: Animated set 2 - Stonev2_28
+  - first:
+      213: -4433938904381434290
+    second: Animated set 2 - Stonev2_29
+  - first:
+      213: 4303680203216349235
+    second: Animated set 2 - Stonev2_30
+  - first:
+      213: 8723335157804308009
+    second: Animated set 2 - Stonev2_31
+  - first:
+      213: 5737800654617163747
+    second: Animated set 2 - Stonev2_32
+  - first:
+      213: 8370134212873447298
+    second: Animated set 2 - Stonev2_33
+  - first:
+      213: -5019969115297615303
+    second: Animated set 2 - Stonev2_34
+  - first:
+      213: 7604884685330631550
+    second: Animated set 2 - Stonev2_35
+  - first:
+      213: -7707492768725620952
+    second: Animated set 2 - Stonev2_36
+  - first:
+      213: -8634677687168539143
+    second: Animated set 2 - Stonev2_37
+  - first:
+      213: 4125256424518118193
+    second: Animated set 2 - Stonev2_38
+  - first:
+      213: 1594075343806450448
+    second: Animated set 2 - Stonev2_39
+  - first:
+      213: 2323550610636336010
+    second: Animated set 2 - Stonev2_40
+  - first:
+      213: -143898286105128509
+    second: Animated set 2 - Stonev2_41
+  - first:
+      213: -5574615183933516313
+    second: Animated set 2 - Stonev2_42
+  - first:
+      213: 8710633220135796881
+    second: Animated set 2 - Stonev2_43
+  - first:
+      213: -2635168719810919603
+    second: Animated set 2 - Stonev2_44
+  - first:
+      213: -2253462158663805413
+    second: Animated set 2 - Stonev2_45
+  - first:
+      213: -8098756049586020765
+    second: Animated set 2 - Stonev2_46
+  - first:
+      213: -6044974193953396302
+    second: Animated set 2 - Stonev2_47
+  - first:
+      213: 7877489764250030519
+    second: Animated set 2 - Stonev2_48
+  - first:
+      213: -9129242430702916889
+    second: Animated set 2 - Stonev2_49
+  - first:
+      213: -832870114901274827
+    second: Animated set 2 - Stonev2_50
+  - first:
+      213: -2415211548149892568
+    second: Animated set 2 - Stonev2_51
+  - first:
+      213: -2438220894329409067
+    second: Animated set 2 - Stonev2_52
+  - first:
+      213: -180483195229300908
+    second: Animated set 2 - Stonev2_53
+  - first:
+      213: 7229106709977174141
+    second: Animated set 2 - Stonev2_54
+  - first:
+      213: -5692095488381537044
+    second: Animated set 2 - Stonev2_55
+  - first:
+      213: 2935708538230484903
+    second: Animated set 2 - Stonev2_56
+  - first:
+      213: -9014748258996761155
+    second: Animated set 2 - Stonev2_57
+  - first:
+      213: -1191275322737550077
+    second: Animated set 2 - Stonev2_58
+  - first:
+      213: -7338146961142121496
+    second: Animated set 2 - Stonev2_59
+  - first:
+      213: 2533412585195086750
+    second: Animated set 2 - Stonev2_60
+  - first:
+      213: 919749909414295745
+    second: Animated set 2 - Stonev2_61
+  - first:
+      213: -5457442046210546472
+    second: Animated set 2 - Stonev2_62
+  - first:
+      213: -2408111402305579529
+    second: Animated set 2 - Stonev2_63
+  - first:
+      213: -5819539220087688948
+    second: Animated set 2 - Stonev2_64
+  - first:
+      213: -1354809634925143915
+    second: Animated set 2 - Stonev2_65
+  - first:
+      213: -4455904025858550278
+    second: Animated set 2 - Stonev2_66
+  - first:
+      213: -5182110814967829478
+    second: Animated set 2 - Stonev2_67
+  - first:
+      213: -6337804593633771781
+    second: Animated set 2 - Stonev2_68
+  - first:
+      213: -7256635659683377861
+    second: Animated set 2 - Stonev2_69
+  - first:
+      213: 3412132042290516696
+    second: Animated set 2 - Stonev2_70
+  - first:
+      213: 3786444493019068018
+    second: Animated set 2 - Stonev2_71
+  - first:
+      213: -4355094883478510967
+    second: Animated set 2 - Stonev2_72
+  - first:
+      213: 1332729704193569222
+    second: Animated set 2 - Stonev2_73
+  - first:
+      213: 7183688055893864205
+    second: Animated set 2 - Stonev2_74
+  - first:
+      213: 3817010535239230885
+    second: Animated set 2 - Stonev2_75
+  - first:
+      213: -1803808482871090611
+    second: Animated set 2 - Stonev2_76
+  - first:
+      213: 710968745579407223
+    second: Animated set 2 - Stonev2_77
+  - first:
+      213: 4118829746329771014
+    second: Animated set 2 - Stonev2_78
+  - first:
+      213: -6448329027807862203
+    second: Animated set 2 - Stonev2_79
+  - first:
+      213: 3119518274306747476
+    second: Animated set 2 - Stonev2_80
+  - first:
+      213: 7159331401803380509
+    second: Animated set 2 - Stonev2_81
+  - first:
+      213: 8814607564050059859
+    second: Animated set 2 - Stonev2_82
+  - first:
+      213: 6068903757491414683
+    second: Animated set 2 - Stonev2_83
+  - first:
+      213: 6530280003267175808
+    second: Animated set 2 - Stonev2_84
+  - first:
+      213: 6395744795166788730
+    second: Animated set 2 - Stonev2_85
+  - first:
+      213: 8303959657299564383
+    second: Animated set 2 - Stonev2_86
+  - first:
+      213: -5401745101431375602
+    second: Animated set 2 - Stonev2_87
+  - first:
+      213: 3525579404669974359
+    second: Animated set 2 - Stonev2_88
+  - first:
+      213: -3282562629219040912
+    second: Animated set 2 - Stonev2_89
+  - first:
+      213: 917995663936746844
+    second: Animated set 2 - Stonev2_90
+  - first:
+      213: -3252105746382533340
+    second: Animated set 2 - Stonev2_91
+  - first:
+      213: -8536056110269034147
+    second: Animated set 2 - Stonev2_92
+  - first:
+      213: -4667001185702839282
+    second: Animated set 2 - Stonev2_93
+  - first:
+      213: 7622143198029679680
+    second: Animated set 2 - Stonev2_94
+  - first:
+      213: -4365618300382262125
+    second: Animated set 2 - Stonev2_95
+  - first:
+      213: 6364271751092278906
+    second: Animated set 2 - Stonev2_96
+  - first:
+      213: -8771940571320533192
+    second: Animated set 2 - Stonev2_97
+  - first:
+      213: -4524904858748773117
+    second: Animated set 2 - Stonev2_98
+  - first:
+      213: -6166118270182439827
+    second: Animated set 2 - Stonev2_99
+  - first:
+      213: 9116075711770306342
+    second: Animated set 2 - Stonev2_100
+  - first:
+      213: 1586651372512690653
+    second: Animated set 2 - Stonev2_101
+  - first:
+      213: 271403528049368165
+    second: Animated set 2 - Stonev2_102
+  - first:
+      213: 2798096115666684655
+    second: Animated set 2 - Stonev2_103
+  - first:
+      213: -349545914126056336
+    second: Animated set 2 - Stonev2_104
+  - first:
+      213: -4247459514294167876
+    second: Animated set 2 - Stonev2_105
+  - first:
+      213: -2883804252528781280
+    second: Animated set 2 - Stonev2_106
+  - first:
+      213: -2516446682257186345
+    second: Animated set 2 - Stonev2_107
+  - first:
+      213: 1444486656051502662
+    second: Animated set 2 - Stonev2_108
+  - first:
+      213: -800831552312259622
+    second: Animated set 2 - Stonev2_109
+  - first:
+      213: 7800890088513860464
+    second: Animated set 2 - Stonev2_110
+  - first:
+      213: -3628415063875425290
+    second: Animated set 2 - Stonev2_111
+  - first:
+      213: -6384014283205770159
+    second: Animated set 2 - Stonev2_112
+  - first:
+      213: 8784548895028150062
+    second: Animated set 2 - Stonev2_113
+  - first:
+      213: -3483990642279079635
+    second: Animated set 2 - Stonev2_114
+  - first:
+      213: -3096607578307788082
+    second: Animated set 2 - Stonev2_115
+  - first:
+      213: -8398587679351312854
+    second: Animated set 2 - Stonev2_116
+  - first:
+      213: -8921082107230151130
+    second: Animated set 2 - Stonev2_117
+  - first:
+      213: -8138717013365564871
+    second: Animated set 2 - Stonev2_118
+  - first:
+      213: 7020244622424204434
+    second: Animated set 2 - Stonev2_119
+  - first:
+      213: -7683097664237677609
+    second: Animated set 2 - Stonev2_120
+  - first:
+      213: -867636617702489631
+    second: Animated set 2 - Stonev2_121
+  - first:
+      213: -8827030943439764879
+    second: Animated set 2 - Stonev2_122
+  - first:
+      213: 5785084077825889381
+    second: Animated set 2 - Stonev2_123
+  - first:
+      213: 3745714856103122805
+    second: Animated set 2 - Stonev2_124
+  - first:
+      213: 6794125468985965171
+    second: Animated set 2 - Stonev2_125
+  - first:
+      213: -344112969484049039
+    second: Animated set 2 - Stonev2_126
+  - first:
+      213: -1481371736612556931
+    second: Animated set 2 - Stonev2_127
+  - first:
+      213: -9071054664638577097
+    second: Animated set 2 - Stonev2_128
+  - first:
+      213: -996922498116186549
+    second: Animated set 2 - Stonev2_129
+  - first:
+      213: -5099887690520675809
+    second: Animated set 2 - Stonev2_130
+  - first:
+      213: 8647393866173526572
+    second: Animated set 2 - Stonev2_131
+  - first:
+      213: 1307254611213349071
+    second: Animated set 2 - Stonev2_132
+  - first:
+      213: -4995668268714344787
+    second: Animated set 2 - Stonev2_133
+  - first:
+      213: -6491637434736056169
+    second: Animated set 2 - Stonev2_134
+  - first:
+      213: 584624804948994151
+    second: Animated set 2 - Stonev2_135
+  - first:
+      213: 440240093664239853
+    second: Animated set 2 - Stonev2_136
+  - first:
+      213: -965535978238264899
+    second: Animated set 2 - Stonev2_137
+  - first:
+      213: -2285254228254280790
+    second: Animated set 2 - Stonev2_138
+  - first:
+      213: -7283374273527702547
+    second: Animated set 2 - Stonev2_139
+  - first:
+      213: -2901742907991874755
+    second: Animated set 2 - Stonev2_140
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e80128a92219ea20800000000000000
+      internalID: 3092022589290252515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8a61f9a31e39920800000000000000
+      internalID: 2995985819024926962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ade172143da3b30800000000000000
+      internalID: 4267955873669634567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ba87e66013477c0800000000000000
+      internalID: -4074577859170489575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926ccc52ca2efbbc0800000000000000
+      internalID: -3765041534462015959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fbdadde61393280800000000000000
+      internalID: -9063158422871097541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae475b91490db9880800000000000000
+      internalID: -8603053328656141078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074d67e4167a6f050800000000000000
+      internalID: 5834034403675133040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f407a1d8b605fc250800000000000000
+      internalID: 5967076454148239439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a031c39578102620800000000000000
+      internalID: 2747222665965154471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9353667445903b820800000000000000
+      internalID: 2932698039928108345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bb844b7216f34d0800000000000000
+      internalID: -3152694390979773638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce78fbf70942f530800000000000000
+      internalID: 3887249727015124684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6071f2d8265d0060800000000000000
+      internalID: 6921282935676039277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7130a35b24a0350800000000000000
+      internalID: 5983668401044920267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41581ddb546922850800000000000000
+      internalID: 6350803650827355412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68e31e5402efd820800000000000000
+      internalID: 2945321189709703275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169b3d7c6a9bb6ad0800000000000000
+      internalID: -2707866624964970143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce453473432b77f00800000000000000
+      internalID: 1114555370132690156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8d16a8fc4db9c40800000000000000
+      internalID: 5520239756117661949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85eb5fc82ab70b5b0800000000000000
+      internalID: -5354644018863686056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f225b6bec8e75eea0800000000000000
+      internalID: -5844125797733150161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf8b8fab74afca00800000000000000
+      internalID: 779022111691476931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_23
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d416a40556528e7c0800000000000000
+      internalID: -4041939548496043699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9372f8ab7f00d8b60800000000000000
+      internalID: 7749851597761357625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec455b9dcb50ac360800000000000000
+      internalID: 7190566063714948302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85b4887c7e05d480800000000000000
+      internalID: -8875171562902997621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b1eee92fef56350800000000000000
+      internalID: 6009489595797740332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81eeeee5ff46905e0800000000000000
+      internalID: -1942910716261503464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_29
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e465f88fe0c7772c0800000000000000
+      internalID: -4433938904381434290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 319
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338679bc75eb9bb30800000000000000
+      internalID: 4303680203216349235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 304
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9261a999b138f0970800000000000000
+      internalID: 8723335157804308009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7b5729b43c0af40800000000000000
+      internalID: 5737800654617163747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 304
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2876aa048b0b82470800000000000000
+      internalID: 8370134212873447298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932f043cfac755ab0800000000000000
+      internalID: -5019969115297615303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bc0f2345af98960800000000000000
+      internalID: 7604884685330631550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827a733b92c790590800000000000000
+      internalID: -7707492768725620952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5e35a54667b2880800000000000000
+      internalID: -8634677687168539143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_38
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13becce8cdadf3930800000000000000
+      internalID: 4125256424518118193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_39
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bcac4541b4f1610800000000000000
+      internalID: 1594075343806450448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bee9c38f8ee3020800000000000000
+      internalID: 2323550610636336010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_41
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c19aec6545c00ef0800000000000000
+      internalID: -143898286105128509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_42
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5d42a960df2a2b0800000000000000
+      internalID: -5574615183933516313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19049e643c262e870800000000000000
+      internalID: 8710633220135796881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_44
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d430374d2000e6bd0800000000000000
+      internalID: -2635168719810919603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b161f062b181ab0e0800000000000000
+      internalID: -2253462158663805413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_46
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e11ed28407b9f80800000000000000
+      internalID: -8098756049586020765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_47
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9210d8fffeb1ca0800000000000000
+      internalID: -6044974193953396302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_48
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b116ef2437725d60800000000000000
+      internalID: 7877489764250030519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_49
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea6789c06a6e4180800000000000000
+      internalID: -9129242430702916889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_50
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f45411b0d0174f0800000000000000
+      internalID: -832870114901274827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_51
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82aba1fa4e17b7ed0800000000000000
+      internalID: -2415211548149892568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_52
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d17f8dc303b92ed0800000000000000
+      internalID: -2438220894329409067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_53
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4571e6c7d7bce7df0800000000000000
+      internalID: -180483195229300908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_54
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7015935042f25460800000000000000
+      internalID: 7229106709977174141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_55
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce43a63bf4d9101b0800000000000000
+      internalID: -5692095488381537044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_56
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af2f498c5bbdb820800000000000000
+      internalID: 2935708538230484903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_57
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd4dea783e25e280800000000000000
+      internalID: -9014748258996761155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_58
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d1a86d76db77fe0800000000000000
+      internalID: -1191275322737550077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_59
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebf28fc73aa92a90800000000000000
+      internalID: -7338146961142121496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_60
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93ae0ad25d782320800000000000000
+      internalID: 2533412585195086750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_61
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c836d86bab93cc00800000000000000
+      internalID: 919749909414295745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_62
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4e65daf554344b0800000000000000
+      internalID: -5457442046210546472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_63
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f51206307ba49ed0800000000000000
+      internalID: -2408111402305579529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_64
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01383e99e7dc3fa0800000000000000
+      internalID: -5819539220087688948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_65
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598920ca0dfb23de0800000000000000
+      internalID: -1354809634925143915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_66
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 287
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5d77995e27922c0800000000000000
+      internalID: -4455904025858550278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_67
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 272
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ce1277ba17518b0800000000000000
+      internalID: -5182110814967829478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfebe9c1d489b08a0800000000000000
+      internalID: -6337804593633771781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 272
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dc32890504b4b90800000000000000
+      internalID: -7256635659683377861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_70
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d25473a3045a5f20800000000000000
+      internalID: 3412132042290516696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_71
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276b22874372c8430800000000000000
+      internalID: 3786444493019068018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_72
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982642b17489f83c0800000000000000
+      internalID: -4355094883478510967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_73
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1b118da9ece7210800000000000000
+      internalID: 1332729704193569222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_74
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f25ccd93691b360800000000000000
+      internalID: 7183688055893864205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_75
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5abd0cbdeb8f430800000000000000
+      internalID: 3817010535239230885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_76
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42e1a7edb597f6e0800000000000000
+      internalID: -1803808482871090611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_77
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7776aa6ae4eddd900800000000000000
+      internalID: 710968745579407223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_78
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c5c40f4d5092930800000000000000
+      internalID: 4118829746329771014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_79
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5422ca6f9eee286a0800000000000000
+      internalID: -6448329027807862203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_80
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ca462b751ca4b20800000000000000
+      internalID: 3119518274306747476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_81
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d173ac96afd0b5360800000000000000
+      internalID: 7159331401803380509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_82
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352dca1b0e6c35a70800000000000000
+      internalID: 8814607564050059859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_83
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b962f4120d3193450800000000000000
+      internalID: 6068903757491414683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_84
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 255
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085a396601730aa50800000000000000
+      internalID: 6530280003267175808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_85
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c48fd410042c850800000000000000
+      internalID: 6395744795166788730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 272
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57d382ef479d3370800000000000000
+      internalID: 8303959657299564383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_87
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09f9fd23752905b0800000000000000
+      internalID: -5401745101431375602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_88
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75779ca0acf5de030800000000000000
+      internalID: 3525579404669974359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_89
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0714d643eaef172d0800000000000000
+      internalID: -3282562629219040912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_90
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c557c4e41306dbc00800000000000000
+      internalID: 917995663936746844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_91
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dccd6dd033ed2d0800000000000000
+      internalID: -3252105746382533340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_92
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d519c949136d98980800000000000000
+      internalID: -8536056110269034147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_93
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cfadff52b7b3fb0800000000000000
+      internalID: -4667001185702839282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_94
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c08b1dada47c960800000000000000
+      internalID: 7622143198029679680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_95
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c45cc29453a63c0800000000000000
+      internalID: -4365618300382262125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_96
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7698e1307f625850800000000000000
+      internalID: 6364271751092278906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_97
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f3a9fa68ec34680800000000000000
+      internalID: -8771940571320533192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_98
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d17d3410f4431c0800000000000000
+      internalID: -4524904858748773117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_99
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64cabe4a1c8d6aa0800000000000000
+      internalID: -6166118270182439827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_100
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627a2a19f8ec28e70800000000000000
+      internalID: 9116075711770306342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_101
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd14101540be40610800000000000000
+      internalID: 1586651372512690653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_102
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c9b20221834c300800000000000000
+      internalID: 271403528049368165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_103
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea86bd9795d4d620800000000000000
+      internalID: 2798096115666684655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074c3d3d7d9262bf0800000000000000
+      internalID: -349545914126056336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 272
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb694a4631efd05c0800000000000000
+      internalID: -4247459514294167876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_106
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028d246bf4baaf7d0800000000000000
+      internalID: -2883804252528781280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1a9df3319c31dd0800000000000000
+      internalID: -2516446682257186345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_108
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64eddb0e5f8db0410800000000000000
+      internalID: 1444486656051502662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbc08732ffd2e4f0800000000000000
+      internalID: -800831552312259622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073fbb16434524c60800000000000000
+      internalID: 7800890088513860464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb670c39b745adc0800000000000000
+      internalID: -3628415063875425290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_112
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154008855dc6767a0800000000000000
+      internalID: -6384014283205770159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ff3307dacf8e970800000000000000
+      internalID: 8784548895028150062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_114
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21ab2648f066afc0800000000000000
+      internalID: -3483990642279079635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_115
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec28e2660d3a605d0800000000000000
+      internalID: -3096607578307788082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_116
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2eea45d009327b80800000000000000
+      internalID: -8398587679351312854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e1472e613f13480800000000000000
+      internalID: -8921082107230151130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_118
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93adae24ff77d0f80800000000000000
+      internalID: -8138717013365564871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294e0fb0a4bec6160800000000000000
+      internalID: 7020244622424204434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_120
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3da749167206590800000000000000
+      internalID: -7683097664237677609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1c8b7d71985f3f0800000000000000
+      internalID: -867636617702489631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17244e2ef16108580800000000000000
+      internalID: -8827030943439764879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 272
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564949e615fb84050800000000000000
+      internalID: 5785084077825889381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_124
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5771ee3e0d37bf330800000000000000
+      internalID: 3745714856103122805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ab7520e15994e50800000000000000
+      internalID: 6794125468985965171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_126
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1756c43d317793bf0800000000000000
+      internalID: -344112969484049039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fa7e2114c117be0800000000000000
+      internalID: -1481371736612556931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_128
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7364110d7d32d1280800000000000000
+      internalID: -9071054664638577097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_129
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e803715483a22f0800000000000000
+      internalID: -996922498116186549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_130
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ab0247a2f8939b0800000000000000
+      internalID: -5099887690520675809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_131
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c223a2ac7e6b10870800000000000000
+      internalID: 8647393866173526572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0fc5c842d442210800000000000000
+      internalID: 1307254611213349071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae37938d22dbaab0800000000000000
+      internalID: -4995668268714344787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_134
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798ede3b52219e5a0800000000000000
+      internalID: -6491637434736056169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_135
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768edd1a9210d1800800000000000000
+      internalID: 584624804948994151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_136
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0edbe580c0c1600800000000000000
+      internalID: 440240093664239853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_137
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9bf37b42ab992f0800000000000000
+      internalID: -965535978238264899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_138
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3b17f13652940e0800000000000000
+      internalID: -2285254228254280790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb992cefa14cea90800000000000000
+      internalID: -7283374273527702547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Animated set 2 - Stonev2_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33a2a30330fab7d0800000000000000
+      internalID: -2901742907991874755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Animated set 2 - Stonev2_0: 3092022589290252515
+      Animated set 2 - Stonev2_1: 2995985819024926962
+      Animated set 2 - Stonev2_10: 2932698039928108345
+      Animated set 2 - Stonev2_100: 9116075711770306342
+      Animated set 2 - Stonev2_101: 1586651372512690653
+      Animated set 2 - Stonev2_102: 271403528049368165
+      Animated set 2 - Stonev2_103: 2798096115666684655
+      Animated set 2 - Stonev2_104: -349545914126056336
+      Animated set 2 - Stonev2_105: -4247459514294167876
+      Animated set 2 - Stonev2_106: -2883804252528781280
+      Animated set 2 - Stonev2_107: -2516446682257186345
+      Animated set 2 - Stonev2_108: 1444486656051502662
+      Animated set 2 - Stonev2_109: -800831552312259622
+      Animated set 2 - Stonev2_11: -3152694390979773638
+      Animated set 2 - Stonev2_110: 7800890088513860464
+      Animated set 2 - Stonev2_111: -3628415063875425290
+      Animated set 2 - Stonev2_112: -6384014283205770159
+      Animated set 2 - Stonev2_113: 8784548895028150062
+      Animated set 2 - Stonev2_114: -3483990642279079635
+      Animated set 2 - Stonev2_115: -3096607578307788082
+      Animated set 2 - Stonev2_116: -8398587679351312854
+      Animated set 2 - Stonev2_117: -8921082107230151130
+      Animated set 2 - Stonev2_118: -8138717013365564871
+      Animated set 2 - Stonev2_119: 7020244622424204434
+      Animated set 2 - Stonev2_12: 3887249727015124684
+      Animated set 2 - Stonev2_120: -7683097664237677609
+      Animated set 2 - Stonev2_121: -867636617702489631
+      Animated set 2 - Stonev2_122: -8827030943439764879
+      Animated set 2 - Stonev2_123: 5785084077825889381
+      Animated set 2 - Stonev2_124: 3745714856103122805
+      Animated set 2 - Stonev2_125: 6794125468985965171
+      Animated set 2 - Stonev2_126: -344112969484049039
+      Animated set 2 - Stonev2_127: -1481371736612556931
+      Animated set 2 - Stonev2_128: -9071054664638577097
+      Animated set 2 - Stonev2_129: -996922498116186549
+      Animated set 2 - Stonev2_13: 6921282935676039277
+      Animated set 2 - Stonev2_130: -5099887690520675809
+      Animated set 2 - Stonev2_131: 8647393866173526572
+      Animated set 2 - Stonev2_132: 1307254611213349071
+      Animated set 2 - Stonev2_133: -4995668268714344787
+      Animated set 2 - Stonev2_134: -6491637434736056169
+      Animated set 2 - Stonev2_135: 584624804948994151
+      Animated set 2 - Stonev2_136: 440240093664239853
+      Animated set 2 - Stonev2_137: -965535978238264899
+      Animated set 2 - Stonev2_138: -2285254228254280790
+      Animated set 2 - Stonev2_139: -7283374273527702547
+      Animated set 2 - Stonev2_14: 5983668401044920267
+      Animated set 2 - Stonev2_140: -2901742907991874755
+      Animated set 2 - Stonev2_15: 6350803650827355412
+      Animated set 2 - Stonev2_16: 2945321189709703275
+      Animated set 2 - Stonev2_17: -2707866624964970143
+      Animated set 2 - Stonev2_18: 1114555370132690156
+      Animated set 2 - Stonev2_19: 5520239756117661949
+      Animated set 2 - Stonev2_2: 4267955873669634567
+      Animated set 2 - Stonev2_20: -5354644018863686056
+      Animated set 2 - Stonev2_21: -5844125797733150161
+      Animated set 2 - Stonev2_22: 779022111691476931
+      Animated set 2 - Stonev2_23: -4041939548496043699
+      Animated set 2 - Stonev2_24: 7749851597761357625
+      Animated set 2 - Stonev2_25: 7190566063714948302
+      Animated set 2 - Stonev2_26: -8875171562902997621
+      Animated set 2 - Stonev2_27: 6009489595797740332
+      Animated set 2 - Stonev2_28: -1942910716261503464
+      Animated set 2 - Stonev2_29: -4433938904381434290
+      Animated set 2 - Stonev2_3: -4074577859170489575
+      Animated set 2 - Stonev2_30: 4303680203216349235
+      Animated set 2 - Stonev2_31: 8723335157804308009
+      Animated set 2 - Stonev2_32: 5737800654617163747
+      Animated set 2 - Stonev2_33: 8370134212873447298
+      Animated set 2 - Stonev2_34: -5019969115297615303
+      Animated set 2 - Stonev2_35: 7604884685330631550
+      Animated set 2 - Stonev2_36: -7707492768725620952
+      Animated set 2 - Stonev2_37: -8634677687168539143
+      Animated set 2 - Stonev2_38: 4125256424518118193
+      Animated set 2 - Stonev2_39: 1594075343806450448
+      Animated set 2 - Stonev2_4: -3765041534462015959
+      Animated set 2 - Stonev2_40: 2323550610636336010
+      Animated set 2 - Stonev2_41: -143898286105128509
+      Animated set 2 - Stonev2_42: -5574615183933516313
+      Animated set 2 - Stonev2_43: 8710633220135796881
+      Animated set 2 - Stonev2_44: -2635168719810919603
+      Animated set 2 - Stonev2_45: -2253462158663805413
+      Animated set 2 - Stonev2_46: -8098756049586020765
+      Animated set 2 - Stonev2_47: -6044974193953396302
+      Animated set 2 - Stonev2_48: 7877489764250030519
+      Animated set 2 - Stonev2_49: -9129242430702916889
+      Animated set 2 - Stonev2_5: -9063158422871097541
+      Animated set 2 - Stonev2_50: -832870114901274827
+      Animated set 2 - Stonev2_51: -2415211548149892568
+      Animated set 2 - Stonev2_52: -2438220894329409067
+      Animated set 2 - Stonev2_53: -180483195229300908
+      Animated set 2 - Stonev2_54: 7229106709977174141
+      Animated set 2 - Stonev2_55: -5692095488381537044
+      Animated set 2 - Stonev2_56: 2935708538230484903
+      Animated set 2 - Stonev2_57: -9014748258996761155
+      Animated set 2 - Stonev2_58: -1191275322737550077
+      Animated set 2 - Stonev2_59: -7338146961142121496
+      Animated set 2 - Stonev2_6: -8603053328656141078
+      Animated set 2 - Stonev2_60: 2533412585195086750
+      Animated set 2 - Stonev2_61: 919749909414295745
+      Animated set 2 - Stonev2_62: -5457442046210546472
+      Animated set 2 - Stonev2_63: -2408111402305579529
+      Animated set 2 - Stonev2_64: -5819539220087688948
+      Animated set 2 - Stonev2_65: -1354809634925143915
+      Animated set 2 - Stonev2_66: -4455904025858550278
+      Animated set 2 - Stonev2_67: -5182110814967829478
+      Animated set 2 - Stonev2_68: -6337804593633771781
+      Animated set 2 - Stonev2_69: -7256635659683377861
+      Animated set 2 - Stonev2_7: 5834034403675133040
+      Animated set 2 - Stonev2_70: 3412132042290516696
+      Animated set 2 - Stonev2_71: 3786444493019068018
+      Animated set 2 - Stonev2_72: -4355094883478510967
+      Animated set 2 - Stonev2_73: 1332729704193569222
+      Animated set 2 - Stonev2_74: 7183688055893864205
+      Animated set 2 - Stonev2_75: 3817010535239230885
+      Animated set 2 - Stonev2_76: -1803808482871090611
+      Animated set 2 - Stonev2_77: 710968745579407223
+      Animated set 2 - Stonev2_78: 4118829746329771014
+      Animated set 2 - Stonev2_79: -6448329027807862203
+      Animated set 2 - Stonev2_8: 5967076454148239439
+      Animated set 2 - Stonev2_80: 3119518274306747476
+      Animated set 2 - Stonev2_81: 7159331401803380509
+      Animated set 2 - Stonev2_82: 8814607564050059859
+      Animated set 2 - Stonev2_83: 6068903757491414683
+      Animated set 2 - Stonev2_84: 6530280003267175808
+      Animated set 2 - Stonev2_85: 6395744795166788730
+      Animated set 2 - Stonev2_86: 8303959657299564383
+      Animated set 2 - Stonev2_87: -5401745101431375602
+      Animated set 2 - Stonev2_88: 3525579404669974359
+      Animated set 2 - Stonev2_89: -3282562629219040912
+      Animated set 2 - Stonev2_9: 2747222665965154471
+      Animated set 2 - Stonev2_90: 917995663936746844
+      Animated set 2 - Stonev2_91: -3252105746382533340
+      Animated set 2 - Stonev2_92: -8536056110269034147
+      Animated set 2 - Stonev2_93: -4667001185702839282
+      Animated set 2 - Stonev2_94: 7622143198029679680
+      Animated set 2 - Stonev2_95: -4365618300382262125
+      Animated set 2 - Stonev2_96: 6364271751092278906
+      Animated set 2 - Stonev2_97: -8771940571320533192
+      Animated set 2 - Stonev2_98: -4524904858748773117
+      Animated set 2 - Stonev2_99: -6166118270182439827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
