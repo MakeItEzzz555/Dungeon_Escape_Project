@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5925652866916815700}
   - component: {fileID: 8973139165460068394}
   m_Layer: 0
-  m_Name: StoneGate
+  m_Name: MetalGate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
