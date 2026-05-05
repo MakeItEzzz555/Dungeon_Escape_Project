@@ -69,18 +69,32 @@ public class FollowPlayer : MonoBehaviour
     {
         if (pauseMenu == null)
         {
-            Debug.LogWarning("[DEBUG_LOG] FollowPlayer: pauseMenu reference is missing! Please assign it in the Inspector.");
-            return;
+            Debug.LogWarning("[DEBUG_LOG] FollowPlayer: pauseMenu reference is missing! Attempting to find it in the scene...");
+            pauseMenu = Object.FindAnyObjectByType<MainMenu>();
+            if (pauseMenu == null)
+            {
+                Debug.LogError("[DEBUG_LOG] FollowPlayer: Could not find MainMenu script in the scene!");
+                return;
+            }
         }
 
-        Debug.Log("[DEBUG_LOG] FollowPlayer: ESC pressed. Current menu state: " + pauseMenu.gameObject.activeSelf);
+        Debug.Log("[DEBUG_LOG] FollowPlayer: ESC pressed. Current menu state (gameObject.activeSelf): " + pauseMenu.gameObject.activeSelf);
 
-        if (pauseMenu.gameObject.activeSelf)
+        // Check both GameObject state and Canvas component if possible
+        Canvas canvas = pauseMenu.GetComponent<Canvas>();
+        bool isMenuShowing = pauseMenu.gameObject.activeSelf;
+        if (canvas != null) isMenuShowing = isMenuShowing && canvas.enabled;
+
+        if (isMenuShowing)
         {
+            Debug.Log("[DEBUG_LOG] FollowPlayer: Resuming game...");
             pauseMenu.ResumeGame();
         }
         else
         {
+            Debug.Log("[DEBUG_LOG] FollowPlayer: Pausing game...");
+            // Ensure any canvas component is enabled before calling PauseGame
+            if (canvas != null) canvas.enabled = true;
             pauseMenu.PauseGame();
         }
     }

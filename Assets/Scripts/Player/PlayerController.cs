@@ -10,10 +10,14 @@ public class PlayerController : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float inputDeadzone = 0.1f;
+    [SerializeField] private int idleThreshold = 5; // Time in seconds before standby triggers
 
     private Rigidbody2D rb;
     private PlayerAnimator playerAnimator;
     private Vector2 moveInput;
+    private int lastTimeMove = 0;
+    private float idleTimer = 0f;
+    private bool hasTriggeredStandBy = false;
 
     private void Awake()
     {
@@ -45,11 +49,54 @@ public class PlayerController : MonoBehaviour
             moveInput = Vector2.zero;
         }
 
-        // 3. Update Animations (normalize to ensure consistent direction values)
+        // 3. Update Idle Timer and Trigger Standby
+        if (moveInput.sqrMagnitude < inputDeadzone * inputDeadzone)
+        {
+            idleTimer += Time.deltaTime;
+            lastTimeMove = Mathf.FloorToInt(idleTimer);
+
+            if (lastTimeMove >= idleThreshold)
+            {
+                if (!hasTriggeredStandBy)
+                {
+                    Debug.Log($"[DEBUG_LOG] PlayerController: Idle threshold {idleThreshold} reached. Enabling StandBy bool.");
+                    hasTriggeredStandBy = true;
+                    
+                    if (playerAnimator != null)
+                    {
+                        playerAnimator.SetStandByStatus(true);
+                    }
+                }
+            }
+        }
+        else
+        {
+            if (hasTriggeredStandBy)
+            {
+                Debug.Log("[DEBUG_LOG] PlayerController: Movement detected. Resetting idle status.");
+                if (playerAnimator != null)
+                {
+                    playerAnimator.SetStandByStatus(false);
+                }
+            }
+            idleTimer = 0f;
+            lastTimeMove = 0;
+            hasTriggeredStandBy = false;
+        }
+
+        // 4. Update Animations
         if (playerAnimator != null)
         {
-            playerAnimator.UpdateAnimations(moveInput.normalized);
+            playerAnimator.UpdateAnimations(moveInput.normalized, lastTimeMove);
         }
+    }
+
+    public void ResetIdleTimer()
+    {
+        Debug.Log("[DEBUG_LOG] PlayerController: Resetting idle timers via ResetIdleTimer().");
+        idleTimer = 0f;
+        lastTimeMove = 0;
+        hasTriggeredStandBy = false;
     }
 
     private void FixedUpdate()

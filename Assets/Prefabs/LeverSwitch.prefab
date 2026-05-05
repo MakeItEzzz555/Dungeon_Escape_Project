@@ -223,21 +223,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lever_on
   playerTag: Player
-  onParameterName: ON
-  onStateChanged:
+  onToggle:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5672699585633496409, guid: b2287fd8aa8324c8a9fce1dea209fc02, type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LeverResponder, Assembly-CSharp
-        m_MethodName: OnLeverStateChanged
-        m_Mode: 0
+        m_MethodName: Respond
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &7440636136964624420
 MonoBehaviour:
