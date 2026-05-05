@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3367979906737903872}
   - component: {fileID: 507112356776478074}
   - component: {fileID: 7977168844371849645}
+  - component: {fileID: 7040376477432892247}
   - component: {fileID: 2693555912872548658}
   m_Layer: 0
   m_Name: chest_yellow_blue
@@ -224,6 +225,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::open_chest
   playerTag: Player
   openAnimationTrigger: Open
+--- !u!114 &7040376477432892247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816221461075954794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ee03c8ee8f42619b852f5f601eddc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LeverResponder
+  parameterName: Open
+  isTrigger: 1
 --- !u!114 &2693555912872548658
 MonoBehaviour:
   m_ObjectHideFlags: 0
