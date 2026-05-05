@@ -1,217 +1,226 @@
 fileFormatVersion: 2
-guid: a9356f9433ec040aebcba695d720d817
+guid: 41c924636064a4692879983cc20242ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4562494685966782615
-    second: Blue Asha Death 32x32_0
+      213: -182947329087580858
+    second: Hearts Blue_0
   - first:
-      213: -2352307096754707891
-    second: Blue Asha Death 32x32_1
+      213: 8846945684634930186
+    second: Hearts Blue_1
   - first:
-      213: -5833981678757208729
-    second: Blue Asha Death 32x32_2
+      213: 5647207676359555183
+    second: Hearts Blue_2
   - first:
-      213: -8720614166250778547
-    second: Blue Asha Death 32x32_3
+      213: 1770902593532059152
+    second: Hearts Blue_3
   - first:
-      213: -4654013882133851522
-    second: Blue Asha Death 32x32_4
+      213: -4343536030544359420
+    second: Hearts Blue_4
   - first:
-      213: 4363692225795696777
-    second: Blue Asha Death 32x32_5
+      213: -8476075324933155093
+    second: Hearts Blue_5
   - first:
-      213: 904074342269410758
-    second: Blue Asha Death 32x32_6
+      213: -509001760859628611
+    second: Hearts Blue_6
   - first:
-      213: 4410357396038209787
-    second: Blue Asha Death 32x32_7
+      213: 3338783392138934863
+    second: Hearts Blue_7
   - first:
-      213: -6671603518768241514
-    second: Blue Asha Death 32x32_8
+      213: -8586671311075271355
+    second: Hearts Blue_8
   - first:
-      213: 664465954851854477
-    second: Blue Asha Death 32x32_9
+      213: 7299738381213048921
+    second: Hearts Blue_9
   - first:
-      213: -3837799398214679277
-    second: Blue Asha Death 32x32_10
+      213: -5928376599013986337
+    second: Hearts Blue_10
   - first:
-      213: -734311478703071102
-    second: Blue Asha Death 32x32_11
+      213: -5821042070775821112
+    second: Hearts Blue_11
   - first:
-      213: 692369811284851494
-    second: Blue Asha Death 32x32_12
+      213: -907531583917685238
+    second: Hearts Blue_12
   - first:
-      213: -5298503165683468140
-    second: Blue Asha Death 32x32_13
+      213: 6657118966921859418
+    second: Hearts Blue_13
   - first:
-      213: -65804485751027145
-    second: Blue Asha Death 32x32_14
+      213: -5314140183813286284
+    second: Hearts Blue_14
   - first:
-      213: 1983052540312550217
-    second: Blue Asha Death 32x32_15
+      213: 6845415804799044741
+    second: Hearts Blue_15
   - first:
-      213: 1209523985170369231
-    second: Blue Asha Death 32x32_16
+      213: 1937519169486336569
+    second: Hearts Blue_16
   - first:
-      213: -444719865605309680
-    second: Blue Asha Death 32x32_17
+      213: 940729691116340569
+    second: Hearts Blue_17
   - first:
-      213: 4340079665414025950
-    second: Blue Asha Death 32x32_18
+      213: -8220603341924279787
+    second: Hearts Blue_18
   - first:
-      213: 2329502687307313692
-    second: Blue Asha Death 32x32_19
+      213: -7078258877956144038
+    second: Hearts Blue_19
   - first:
-      213: 2403489633079222509
-    second: Blue Asha Death 32x32_20
+      213: -1210841490309322728
+    second: Hearts Blue_20
   - first:
-      213: 8243536302368399796
-    second: Blue Asha Death 32x32_21
+      213: 5985416715821666625
+    second: Hearts Blue_21
   - first:
-      213: -3649932250734260855
-    second: Blue Asha Death 32x32_22
+      213: 3965597321408715534
+    second: Hearts Blue_22
   - first:
-      213: 7962075913686927966
-    second: Blue Asha Death 32x32_23
+      213: -5354331701240351874
+    second: Hearts Blue_23
   - first:
-      213: -1525977208932003009
-    second: Blue Asha Death 32x32_24
+      213: -8784031990433774903
+    second: Hearts Blue_24
   - first:
-      213: 780509645433941999
-    second: Blue Asha Death 32x32_25
+      213: -5620527808910689221
+    second: Hearts Blue_25
   - first:
-      213: 8946467133540632738
-    second: Blue Asha Death 32x32_26
+      213: 7731651461418663243
+    second: Hearts Blue_26
   - first:
-      213: 2583337731407921042
-    second: Blue Asha Death 32x32_27
+      213: 3639531751317007664
+    second: Hearts Blue_27
   - first:
-      213: 1861319970800930361
-    second: Blue Asha Death 32x32_28
+      213: 3045500786242482580
+    second: Hearts Blue_28
   - first:
-      213: -3641207142272233091
-    second: Blue Asha Death 32x32_29
+      213: -7370278418677399315
+    second: Hearts Blue_29
   - first:
-      213: -6517364055287437736
-    second: Blue Asha Death 32x32_30
+      213: 2572020520716271840
+    second: Hearts Blue_30
   - first:
-      213: -2226655372179725745
-    second: Blue Asha Death 32x32_31
+      213: 3815041809333334328
+    second: Hearts Blue_31
   - first:
-      213: 2841087733867549656
-    second: Blue Asha Death 32x32_32
+      213: -2977424943232463316
+    second: Hearts Blue_32
   - first:
-      213: 4355474862413757671
-    second: Blue Asha Death 32x32_33
+      213: 3810274683917137254
+    second: Hearts Blue_33
   - first:
-      213: 3232816046480359495
-    second: Blue Asha Death 32x32_34
+      213: 8701033392909906156
+    second: Hearts Blue_34
   - first:
-      213: -4561522089237379173
-    second: Blue Asha Death 32x32_35
+      213: 2199376818413255427
+    second: Hearts Blue_35
   - first:
-      213: 5171313305556166235
-    second: Blue Asha Death 32x32_36
+      213: -8281882103010405138
+    second: Hearts Blue_36
   - first:
-      213: -2233521945153464601
-    second: Blue Asha Death 32x32_37
+      213: -7025481214434198657
+    second: Hearts Blue_37
   - first:
-      213: 2138099588803624371
-    second: Blue Asha Death 32x32_38
+      213: -9106996638249805555
+    second: Hearts Blue_38
   - first:
-      213: 3828444173498978285
-    second: Blue Asha Death 32x32_39
+      213: -3721887653542959818
+    second: Hearts Blue_39
   - first:
-      213: 8210932937077809920
-    second: Blue Asha Death 32x32_40
+      213: -4908172888443128712
+    second: Hearts Blue_40
   - first:
-      213: 6915174749212435435
-    second: Blue Asha Death 32x32_41
+      213: 3568721681461918339
+    second: Hearts Blue_41
   - first:
-      213: 3490630712803625316
-    second: Blue Asha Death 32x32_42
+      213: 1043760102759910531
+    second: Hearts Blue_42
   - first:
-      213: -5230025469668493713
-    second: Blue Asha Death 32x32_43
+      213: 2762363787256822697
+    second: Hearts Blue_43
   - first:
-      213: 209320244578450575
-    second: Blue Asha Death 32x32_44
+      213: 3957148497384576339
+    second: Hearts Blue_44
   - first:
-      213: -5500166636730735141
-    second: Blue Asha Death 32x32_45
+      213: -5667008024084324371
+    second: Hearts Blue_45
   - first:
-      213: 3881541524670138089
-    second: Blue Asha Death 32x32_46
+      213: -8620184157040822186
+    second: Hearts Blue_46
   - first:
-      213: 7314202005968967758
-    second: Blue Asha Death 32x32_47
+      213: -6233019700456944462
+    second: Hearts Blue_47
   - first:
-      213: 7109883866874430103
-    second: Blue Asha Death 32x32_48
+      213: 591299971141055829
+    second: Hearts Blue_48
   - first:
-      213: -2385837691589815324
-    second: Blue Asha Death 32x32_49
+      213: 6651093099910829678
+    second: Hearts Blue_49
   - first:
-      213: 628365024195759330
-    second: Blue Asha Death 32x32_50
+      213: 5115350202478917013
+    second: Hearts Blue_50
   - first:
-      213: -6375939284048855712
-    second: Blue Asha Death 32x32_51
+      213: 1362837337841711715
+    second: Hearts Blue_51
   - first:
-      213: 3129508713996346779
-    second: Blue Asha Death 32x32_52
+      213: -1096881886201135321
+    second: Hearts Blue_52
   - first:
-      213: 273377503867935741
-    second: Blue Asha Death 32x32_53
+      213: 8690909084055788251
+    second: Hearts Blue_53
   - first:
-      213: 2417381527831538097
-    second: Blue Asha Death 32x32_54
+      213: -594769054716391752
+    second: Hearts Blue_54
   - first:
-      213: -4258399747975718594
-    second: Blue Asha Death 32x32_55
+      213: -8244545858114908131
+    second: Hearts Blue_55
   - first:
-      213: 2174832469258653415
-    second: Blue Asha Death 32x32_56
+      213: -4954625559173043974
+    second: Hearts Blue_56
   - first:
-      213: 3631906779316927380
-    second: Blue Asha Death 32x32_57
+      213: 5597755617456947393
+    second: Hearts Blue_57
   - first:
-      213: 8768297199929395001
-    second: Blue Asha Death 32x32_58
+      213: -8233707949192140274
+    second: Hearts Blue_58
   - first:
-      213: 1279978878938023646
-    second: Blue Asha Death 32x32_59
+      213: -1351733241758739111
+    second: Hearts Blue_59
   - first:
-      213: 772818482544847837
-    second: Blue Asha Death 32x32_60
+      213: 3453616249267319076
+    second: Hearts Blue_60
   - first:
-      213: -8156301086122814667
-    second: Blue Asha Death 32x32_61
+      213: 200765893247108928
+    second: Hearts Blue_61
   - first:
-      213: 2797555435107702249
-    second: Blue Asha Death 32x32_62
+      213: -6485057047741763720
+    second: Hearts Blue_62
   - first:
-      213: -5905594304137827560
-    second: Blue Asha Death 32x32_63
+      213: 231320870190759114
+    second: Hearts Blue_63
   - first:
-      213: 3003807603913005914
-    second: Blue Asha Death 32x32_64
+      213: 8774691159937589555
+    second: Hearts Blue_64
   - first:
-      213: 1757538831166063606
-    second: Blue Asha Death 32x32_65
+      213: -7873157392518659737
+    second: Hearts Blue_65
   - first:
-      213: -6682577012561765274
-    second: Blue Asha Death 32x32_66
+      213: -1935388651916177493
+    second: Hearts Blue_66
   - first:
-      213: 5604537699924392431
-    second: Blue Asha Death 32x32_67
+      213: 7971196673483935597
+    second: Hearts Blue_67
   - first:
-      213: 2559985401612442636
-    second: Blue Asha Death 32x32_68
+      213: 4241263974931744182
+    second: Hearts Blue_68
   - first:
-      213: 7311967035432233706
-    second: Blue Asha Death 32x32_69
+      213: 8263543490089097816
+    second: Hearts Blue_69
+  - first:
+      213: 658774580329200828
+    second: Hearts Blue_70
+  - first:
+      213: -4760109544649549225
+    second: Hearts Blue_71
+  - first:
+      213: -5616832196530714655
+    second: Hearts Blue_72
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -320,13 +329,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_0
+      name: Hearts Blue_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 103
+        x: 0
+        y: 177
         width: 16
-        height: 18
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,20 +344,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79058a66ebc315f30800000000000000
-      internalID: 4562494685966782615
+      spriteID: 645d02d9f5a067df0800000000000000
+      internalID: -182947329087580858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_1
+      name: Hearts Blue_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 103
+        x: 16
+        y: 177
         width: 16
-        height: 18
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,20 +366,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d422e47982dea5fd0800000000000000
-      internalID: -2352307096754707891
+      spriteID: a0c07df1a3aa6ca70800000000000000
+      internalID: 8846945684634930186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_2
+      name: Hearts Blue_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 102
+        x: 32
+        y: 177
         width: 16
-        height: 18
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,19 +388,1273 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76d1a8ba298890fa0800000000000000
-      internalID: -5833981678757208729
+      spriteID: f6835422679ee5e40800000000000000
+      internalID: 5647207676359555183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_3
+      name: Hearts Blue_3
       rect:
         serializedVersion: 2
-        x: 103
-        y: 102
-        width: 18
+        x: 48
+        y: 177
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01edb43b682839810800000000000000
+      internalID: 1770902593532059152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 177
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4001b464ef8a8b3c0800000000000000
+      internalID: -4343536030544359420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 177
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6d7ef666eee5a80800000000000000
+      internalID: -8476075324933155093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 177
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbd9e56899afe8f0800000000000000
+      internalID: -509001760859628611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 177
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a3a663ecdb55e20800000000000000
+      internalID: 3338783392138934863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 179
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d125ccfe306d880800000000000000
+      internalID: -8586671311075271355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 179
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9502d7dc161ed4560800000000000000
+      internalID: 7299738381213048921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_10
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 176
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf6801a4ec2abda0800000000000000
+      internalID: -5928376599013986337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc8dcce311873fa0800000000000000
+      internalID: -5821042070775821112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06832e25dcc763f0800000000000000
+      internalID: -907531583917685238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5194e2fd66d26c50800000000000000
+      internalID: 6657118966921859418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4761e2988a16046b0800000000000000
+      internalID: -5314140183813286284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c44e8e76dcffe50800000000000000
+      internalID: 6845415804799044741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9323eb25b6373ea10800000000000000
+      internalID: 1937519169486336569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95507ac7ba42e0d00800000000000000
+      internalID: 940729691116340569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ad63da0dc8aed80800000000000000
+      internalID: -8220603341924279787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 163
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a544b2f7d09f4cd90800000000000000
+      internalID: -7078258877956144038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 163
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818eec2741a323fe0800000000000000
+      internalID: -1210841490309322728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 160
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1415c3b7ac8701350800000000000000
+      internalID: 5985416715821666625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b9ec0d0c1a80730800000000000000
+      internalID: 3965597321408715534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73b4f9afa791b5b0800000000000000
+      internalID: -5354331701240351874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2078ac179d81680800000000000000
+      internalID: -8784031990433774903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c7ca39cbfdff1b0800000000000000
+      internalID: -5620527808910689221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d3df44a085c4b60800000000000000
+      internalID: 7731651461418663243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d610248d6328230800000000000000
+      internalID: 3639531751317007664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491f72f44dac34a20800000000000000
+      internalID: 3045500786242482580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0810fd3d287b990800000000000000
+      internalID: -7370278418677399315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_30
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 147
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e00f445907a1b320800000000000000
+      internalID: 2572020520716271840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 147
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831b3980050c1f430800000000000000
+      internalID: 3815041809333334328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_32
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 144
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ecd390acf0ea6d0800000000000000
+      internalID: -2977424943232463316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6657b8723a0d0e430800000000000000
+      internalID: 3810274683917137254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0f43355c740c870800000000000000
+      internalID: 8701033392909906156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b30c44091c58e10800000000000000
+      internalID: 2199376818413255427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4566a4b18d01d80800000000000000
+      internalID: -8281882103010405138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b387dde0a708e90800000000000000
+      internalID: -7025481214434198657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d099176fec27d9180800000000000000
+      internalID: -9106996638249805555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635e8a406e2395cc0800000000000000
+      internalID: -3721887653542959818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 129
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874f42833caa2ebb0800000000000000
+      internalID: -4908172888443128712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 131
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ab5cd1675a68130800000000000000
+      internalID: 3568721681461918339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 131
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ccabb884e2c7e00800000000000000
+      internalID: 1043760102759910531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 128
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab78d79a33e55620800000000000000
+      internalID: 2762363787256822697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355141ea79d9ae630800000000000000
+      internalID: 3957148497384576339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 113
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def5a292a3eba51b0800000000000000
+      internalID: -5667008024084324371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 113
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658b12d4e24fe5880800000000000000
+      internalID: -8620184157040822186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 113
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc804c3b9ddf79a0800000000000000
+      internalID: -6233019700456944462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 113
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555bf8fd038b43800800000000000000
+      internalID: 591299971141055829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 113
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e669c347fed6d4c50800000000000000
+      internalID: 6651093099910829678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 113
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5957a7828ef5df640800000000000000
+      internalID: 5115350202478917013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_51
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 113
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ab1b09655c9e210800000000000000
+      internalID: 1362837337841711715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_52
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 115
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fbb6c6cb717c0f0800000000000000
+      internalID: -1096881886201135321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_53
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 115
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda5c5af3cf4c9870800000000000000
+      internalID: 8690909084055788251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_54
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 112
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be0c3a22b4feb7f0800000000000000
+      internalID: -594769054716391752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1094a8393d759d80800000000000000
+      internalID: -8244545858114908131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 97
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af86b6efd42ad3bb0800000000000000
+      internalID: -4954625559173043974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 97
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c008fd63193fad40800000000000000
+      internalID: 5597755617456947393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_58
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 97
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0aa7188e3efbbd80800000000000000
+      internalID: -8233707949192140274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 97
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95512e547cdad3de0800000000000000
+      internalID: -1351733241758739111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_60
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 79
+        width: 20
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -401,129 +1664,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d40126d9e972af680800000000000000
-      internalID: -8720614166250778547
+      spriteID: 42178104ea5bdef20800000000000000
+      internalID: 3453616249267319076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_4
+      name: Hearts Blue_61
       rect:
         serializedVersion: 2
         x: 134
-        y: 103
+        y: 79
         width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e72dcaf380f996fb0800000000000000
-      internalID: -4654013882133851522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_5
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 103
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 988afa3a5f2fe8c30800000000000000
-      internalID: 4363692225795696777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_6
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 103
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6cd538503daeb8c00800000000000000
-      internalID: 904074342269410758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_7
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 103
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf0df534facb43d30800000000000000
-      internalID: 4410357396038209787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_8
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 97
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 694a29582f3b963a0800000000000000
-      internalID: -6671603518768241514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_9
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 97
-        width: 16
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -533,393 +1686,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d881944f348a83900800000000000000
-      internalID: 664465954851854477
+      spriteID: 0470206248349c200800000000000000
+      internalID: 200765893247108928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_10
+      name: Hearts Blue_62
       rect:
         serializedVersion: 2
-        x: 327
-        y: 97
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 315c436e7c56dbac0800000000000000
-      internalID: -3837799398214679277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_11
-      rect:
-        serializedVersion: 2
-        x: 358
+        x: 159
         y: 96
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2806965c9933fc5f0800000000000000
-      internalID: -734311478703071102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_12
-      rect:
-        serializedVersion: 2
-        x: 359
-        y: 112
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62b76deccaacb9900800000000000000
-      internalID: 692369811284851494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_13
-      rect:
-        serializedVersion: 2
-        x: 369
-        y: 112
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4987728817fe776b0800000000000000
-      internalID: -5298503165683468140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_14
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 95
-        width: 22
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73ace2a3b27361ff0800000000000000
-      internalID: -65804485751027145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_15
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 95
-        width: 24
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94bf34c57c7358b10800000000000000
-      internalID: 1983052540312550217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_16
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 97
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fca056bf7a719c010800000000000000
-      internalID: 1209523985170369231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_17
-      rect:
-        serializedVersion: 2
-        x: 488
-        y: 97
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01b390273a904d9f0800000000000000
-      internalID: -444719865605309680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_18
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 71
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed236e1067f0b3c30800000000000000
-      internalID: 4340079665414025950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_19
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 71
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1235441a5e045020800000000000000
-      internalID: 2329502687307313692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_20
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 71
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de065094619ea5120800000000000000
-      internalID: 2403489633079222509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_21
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 71
         width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b1a4b3479ce66270800000000000000
-      internalID: 8243536302368399796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_22
-      rect:
-        serializedVersion: 2
-        x: 137
-        y: 71
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98d0eb4c4f5d85dc0800000000000000
-      internalID: -3649932250734260855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_23
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 71
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5ac00ecbd9fe7e60800000000000000
-      internalID: 7962075913686927966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_24
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 71
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f33144e30d3a2dae0800000000000000
-      internalID: -1525977208932003009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_25
-      rect:
-        serializedVersion: 2
-        x: 235
-        y: 71
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fef2bdf136de4da00800000000000000
-      internalID: 780509645433941999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_26
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 69
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a88561257c382c70800000000000000
-      internalID: 8946467133540632738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_27
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 68
-        width: 19
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -929,20 +1708,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29fbe67cafbd9d320800000000000000
-      internalID: 2583337731407921042
+      spriteID: 87f653179f27006a0800000000000000
+      internalID: -6485057047741763720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_28
+      name: Hearts Blue_63
       rect:
         serializedVersion: 2
-        x: 329
-        y: 65
-        width: 21
-        height: 18
+        x: 0
+        y: 80
+        width: 97
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,723 +1730,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93e0ee8d6acb4d910800000000000000
-      internalID: 1861319970800930361
+      spriteID: accbad81b11d53300800000000000000
+      internalID: 231320870190759114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_29
+      name: Hearts Blue_64
       rect:
         serializedVersion: 2
-        x: 360
-        y: 75
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d719f336565d77dc0800000000000000
-      internalID: -3641207142272233091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_30
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 65
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85661b41cebad85a0800000000000000
-      internalID: -6517364055287437736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_31
-      rect:
-        serializedVersion: 2
-        x: 363
+        x: 0
         y: 64
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4223008cb45911e0800000000000000
-      internalID: -2226655372179725745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_32
-      rect:
-        serializedVersion: 2
-        x: 391
-        y: 63
-        width: 25
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d315e0cd329d6720800000000000000
-      internalID: 2841087733867549656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_33
-      rect:
-        serializedVersion: 2
-        x: 422
-        y: 63
-        width: 27
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ecb052af41c17c30800000000000000
-      internalID: 4355474862413757671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_34
-      rect:
-        serializedVersion: 2
-        x: 459
-        y: 71
-        width: 19
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74005aae0154ddc20800000000000000
-      internalID: 3232816046480359495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_35
-      rect:
-        serializedVersion: 2
-        x: 491
-        y: 71
-        width: 19
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9788ebe3d732b0c0800000000000000
-      internalID: -4561522089237379173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_36
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 39
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b562de77d0234c740800000000000000
-      internalID: 5171313305556166235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_37
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 39
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e69615ef9fe001e0800000000000000
-      internalID: -2233521945153464601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_38
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 39
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3bd7c057f3e0cad10800000000000000
-      internalID: 2138099588803624371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_39
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 39
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: def02db11bd512530800000000000000
-      internalID: 3828444173498978285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_40
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 39
-        width: 22
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 003e31db00813f170800000000000000
-      internalID: 8210932937077809920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_41
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 39
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be3ee86dbc2a7ff50800000000000000
-      internalID: 6915174749212435435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_42
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 39
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4698abe9326317030800000000000000
-      internalID: 3490630712803625316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_43
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 39
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f66f9229b873b67b0800000000000000
-      internalID: -5230025469668493713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_44
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 41
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f8c756647a7a7e200800000000000000
-      internalID: 209320244578450575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_45
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 40
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd5a534c59b7ba3b0800000000000000
-      internalID: -5500166636730735141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_46
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 38
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e644ee83710ed530800000000000000
-      internalID: 3881541524670138089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_47
-      rect:
-        serializedVersion: 2
-        x: 358
-        y: 37
-        width: 20
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e48da3dd8f3418560800000000000000
-      internalID: 7314202005968967758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_48
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 36
-        width: 22
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 792c45705b16ba260800000000000000
-      internalID: 7109883866874430103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_49
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 35
-        width: 23
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e31d0d924dc3eed0800000000000000
-      internalID: -2385837691589815324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_50
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 40
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ecc77809a668b800800000000000000
-      internalID: 628365024195759330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_51
-      rect:
-        serializedVersion: 2
-        x: 488
-        y: 40
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 06d3fc8900d1487a0800000000000000
-      internalID: -6375939284048855712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_52
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 7
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b95ed33389f3e6b20800000000000000
-      internalID: 3129508713996346779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_53
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 7
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dfb91af246b3bc300800000000000000
-      internalID: 273377503867935741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_54
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 7
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b96df411b34c8120800000000000000
-      internalID: 2417381527831538097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_55
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 7
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e395b4ebdff17e4c0800000000000000
-      internalID: -4258399747975718594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_56
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 7
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7eec528ab9e8e2e10800000000000000
-      internalID: 2174832469258653415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_57
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 7
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49bb48e19ff176230800000000000000
-      internalID: 3631906779316927380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_58
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 7
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93708dec8df3fa970800000000000000
-      internalID: 8768297199929395001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_59
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 7
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed68a1f320663c110800000000000000
-      internalID: 1279978878938023646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_60
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 5
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ddb21f7b05a99ba00800000000000000
-      internalID: 772818482544847837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_61
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 4
-        width: 19
+        width: 97
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1677,19 +1752,63 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5335488406ffece80800000000000000
-      internalID: -8156301086122814667
+      spriteID: 33127d1ae17f5c970800000000000000
+      internalID: 8774691159937589555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_62
+      name: Hearts Blue_65
       rect:
         serializedVersion: 2
-        x: 321
-        y: 1
-        width: 21
+        x: 0
+        y: 48
+        width: 97
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7614f26b01decb290800000000000000
+      internalID: -7873157392518659737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 97
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafc634764e1425e0800000000000000
+      internalID: -1935388651916177493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_67
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 47
+        width: 20
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1699,20 +1818,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e5de0d98d9e2d620800000000000000
-      internalID: 2797555435107702249
+      spriteID: d6f09cd24216f9e60800000000000000
+      internalID: 7971196673483935597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_63
+      name: Hearts Blue_68
       rect:
         serializedVersion: 2
-        x: 352
+        x: 134
+        y: 47
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5c7703d1ffbda30800000000000000
+      internalID: 4241263974931744182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 97
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a90c8a5010ea270800000000000000
+      internalID: 8263543490089097816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts Blue_70
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
-        width: 21
-        height: 20
+        width: 81
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1721,20 +1884,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81b6b42054d1b0ea0800000000000000
-      internalID: -5905594304137827560
+      spriteID: cbc349f8dff642900800000000000000
+      internalID: 658774580329200828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_64
+      name: Hearts Blue_71
       rect:
         serializedVersion: 2
-        x: 368
-        y: 11
-        width: 7
-        height: 8
+        x: 102
+        y: 15
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,20 +1906,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5b1ad4d91bafa920800000000000000
-      internalID: 3003807603913005914
+      spriteID: 75a973bd691b0fdb0800000000000000
+      internalID: -4760109544649549225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blue Asha Death 32x32_65
+      name: Hearts Blue_72
       rect:
         serializedVersion: 2
-        x: 368
-        y: 1
-        width: 7
-        height: 10
+        x: 134
+        y: 15
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1765,96 +1928,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f3cb9e4148046810800000000000000
-      internalID: 1757538831166063606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_66
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 0
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66c9016ec97b243a0800000000000000
-      internalID: -6682577012561765274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_67
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 0
-        width: 26
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe9374e085157cd40800000000000000
-      internalID: 5604537699924392431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_68
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 7
-        width: 19
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c0c9b4dc825e68320800000000000000
-      internalID: 2559985401612442636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue Asha Death 32x32_69
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 7
-        width: 19
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aeaed4c3743597560800000000000000
-      internalID: 7311967035432233706
+      spriteID: 1e74fc260e00d02b0800000000000000
+      internalID: -5616832196530714655
       vertices: []
       indices: 
       edges: []
@@ -1873,76 +1948,79 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Blue Asha Death 32x32_0: 4562494685966782615
-      Blue Asha Death 32x32_1: -2352307096754707891
-      Blue Asha Death 32x32_10: -3837799398214679277
-      Blue Asha Death 32x32_11: -734311478703071102
-      Blue Asha Death 32x32_12: 692369811284851494
-      Blue Asha Death 32x32_13: -5298503165683468140
-      Blue Asha Death 32x32_14: -65804485751027145
-      Blue Asha Death 32x32_15: 1983052540312550217
-      Blue Asha Death 32x32_16: 1209523985170369231
-      Blue Asha Death 32x32_17: -444719865605309680
-      Blue Asha Death 32x32_18: 4340079665414025950
-      Blue Asha Death 32x32_19: 2329502687307313692
-      Blue Asha Death 32x32_2: -5833981678757208729
-      Blue Asha Death 32x32_20: 2403489633079222509
-      Blue Asha Death 32x32_21: 8243536302368399796
-      Blue Asha Death 32x32_22: -3649932250734260855
-      Blue Asha Death 32x32_23: 7962075913686927966
-      Blue Asha Death 32x32_24: -1525977208932003009
-      Blue Asha Death 32x32_25: 780509645433941999
-      Blue Asha Death 32x32_26: 8946467133540632738
-      Blue Asha Death 32x32_27: 2583337731407921042
-      Blue Asha Death 32x32_28: 1861319970800930361
-      Blue Asha Death 32x32_29: -3641207142272233091
-      Blue Asha Death 32x32_3: -8720614166250778547
-      Blue Asha Death 32x32_30: -6517364055287437736
-      Blue Asha Death 32x32_31: -2226655372179725745
-      Blue Asha Death 32x32_32: 2841087733867549656
-      Blue Asha Death 32x32_33: 4355474862413757671
-      Blue Asha Death 32x32_34: 3232816046480359495
-      Blue Asha Death 32x32_35: -4561522089237379173
-      Blue Asha Death 32x32_36: 5171313305556166235
-      Blue Asha Death 32x32_37: -2233521945153464601
-      Blue Asha Death 32x32_38: 2138099588803624371
-      Blue Asha Death 32x32_39: 3828444173498978285
-      Blue Asha Death 32x32_4: -4654013882133851522
-      Blue Asha Death 32x32_40: 8210932937077809920
-      Blue Asha Death 32x32_41: 6915174749212435435
-      Blue Asha Death 32x32_42: 3490630712803625316
-      Blue Asha Death 32x32_43: -5230025469668493713
-      Blue Asha Death 32x32_44: 209320244578450575
-      Blue Asha Death 32x32_45: -5500166636730735141
-      Blue Asha Death 32x32_46: 3881541524670138089
-      Blue Asha Death 32x32_47: 7314202005968967758
-      Blue Asha Death 32x32_48: 7109883866874430103
-      Blue Asha Death 32x32_49: -2385837691589815324
-      Blue Asha Death 32x32_5: 4363692225795696777
-      Blue Asha Death 32x32_50: 628365024195759330
-      Blue Asha Death 32x32_51: -6375939284048855712
-      Blue Asha Death 32x32_52: 3129508713996346779
-      Blue Asha Death 32x32_53: 273377503867935741
-      Blue Asha Death 32x32_54: 2417381527831538097
-      Blue Asha Death 32x32_55: -4258399747975718594
-      Blue Asha Death 32x32_56: 2174832469258653415
-      Blue Asha Death 32x32_57: 3631906779316927380
-      Blue Asha Death 32x32_58: 8768297199929395001
-      Blue Asha Death 32x32_59: 1279978878938023646
-      Blue Asha Death 32x32_6: 904074342269410758
-      Blue Asha Death 32x32_60: 772818482544847837
-      Blue Asha Death 32x32_61: -8156301086122814667
-      Blue Asha Death 32x32_62: 2797555435107702249
-      Blue Asha Death 32x32_63: -5905594304137827560
-      Blue Asha Death 32x32_64: 3003807603913005914
-      Blue Asha Death 32x32_65: 1757538831166063606
-      Blue Asha Death 32x32_66: -6682577012561765274
-      Blue Asha Death 32x32_67: 5604537699924392431
-      Blue Asha Death 32x32_68: 2559985401612442636
-      Blue Asha Death 32x32_69: 7311967035432233706
-      Blue Asha Death 32x32_7: 4410357396038209787
-      Blue Asha Death 32x32_8: -6671603518768241514
-      Blue Asha Death 32x32_9: 664465954851854477
+      Hearts Blue_0: -182947329087580858
+      Hearts Blue_1: 8846945684634930186
+      Hearts Blue_10: -5928376599013986337
+      Hearts Blue_11: -5821042070775821112
+      Hearts Blue_12: -907531583917685238
+      Hearts Blue_13: 6657118966921859418
+      Hearts Blue_14: -5314140183813286284
+      Hearts Blue_15: 6845415804799044741
+      Hearts Blue_16: 1937519169486336569
+      Hearts Blue_17: 940729691116340569
+      Hearts Blue_18: -8220603341924279787
+      Hearts Blue_19: -7078258877956144038
+      Hearts Blue_2: 5647207676359555183
+      Hearts Blue_20: -1210841490309322728
+      Hearts Blue_21: 5985416715821666625
+      Hearts Blue_22: 3965597321408715534
+      Hearts Blue_23: -5354331701240351874
+      Hearts Blue_24: -8784031990433774903
+      Hearts Blue_25: -5620527808910689221
+      Hearts Blue_26: 7731651461418663243
+      Hearts Blue_27: 3639531751317007664
+      Hearts Blue_28: 3045500786242482580
+      Hearts Blue_29: -7370278418677399315
+      Hearts Blue_3: 1770902593532059152
+      Hearts Blue_30: 2572020520716271840
+      Hearts Blue_31: 3815041809333334328
+      Hearts Blue_32: -2977424943232463316
+      Hearts Blue_33: 3810274683917137254
+      Hearts Blue_34: 8701033392909906156
+      Hearts Blue_35: 2199376818413255427
+      Hearts Blue_36: -8281882103010405138
+      Hearts Blue_37: -7025481214434198657
+      Hearts Blue_38: -9106996638249805555
+      Hearts Blue_39: -3721887653542959818
+      Hearts Blue_4: -4343536030544359420
+      Hearts Blue_40: -4908172888443128712
+      Hearts Blue_41: 3568721681461918339
+      Hearts Blue_42: 1043760102759910531
+      Hearts Blue_43: 2762363787256822697
+      Hearts Blue_44: 3957148497384576339
+      Hearts Blue_45: -5667008024084324371
+      Hearts Blue_46: -8620184157040822186
+      Hearts Blue_47: -6233019700456944462
+      Hearts Blue_48: 591299971141055829
+      Hearts Blue_49: 6651093099910829678
+      Hearts Blue_5: -8476075324933155093
+      Hearts Blue_50: 5115350202478917013
+      Hearts Blue_51: 1362837337841711715
+      Hearts Blue_52: -1096881886201135321
+      Hearts Blue_53: 8690909084055788251
+      Hearts Blue_54: -594769054716391752
+      Hearts Blue_55: -8244545858114908131
+      Hearts Blue_56: -4954625559173043974
+      Hearts Blue_57: 5597755617456947393
+      Hearts Blue_58: -8233707949192140274
+      Hearts Blue_59: -1351733241758739111
+      Hearts Blue_6: -509001760859628611
+      Hearts Blue_60: 3453616249267319076
+      Hearts Blue_61: 200765893247108928
+      Hearts Blue_62: -6485057047741763720
+      Hearts Blue_63: 231320870190759114
+      Hearts Blue_64: 8774691159937589555
+      Hearts Blue_65: -7873157392518659737
+      Hearts Blue_66: -1935388651916177493
+      Hearts Blue_67: 7971196673483935597
+      Hearts Blue_68: 4241263974931744182
+      Hearts Blue_69: 8263543490089097816
+      Hearts Blue_7: 3338783392138934863
+      Hearts Blue_70: 658774580329200828
+      Hearts Blue_71: -4760109544649549225
+      Hearts Blue_72: -5616832196530714655
+      Hearts Blue_8: -8586671311075271355
+      Hearts Blue_9: 7299738381213048921
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
