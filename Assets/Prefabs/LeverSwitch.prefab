@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &335616788089494960
+--- !u!1 &825579026651524049
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2833120930799482285}
-  - component: {fileID: 1775915805350025853}
-  - component: {fileID: 2719089596049528595}
-  - component: {fileID: 8423927777672097499}
-  - component: {fileID: 478605066933386919}
-  - component: {fileID: 37173373965758465}
+  - component: {fileID: 179210388360182093}
+  - component: {fileID: 3552385517388919573}
+  - component: {fileID: 7086966843971253532}
+  - component: {fileID: 6280851910458219234}
+  - component: {fileID: 3695658609936666872}
+  - component: {fileID: 7434948297869879604}
+  - component: {fileID: 7440636136964624420}
   m_Layer: 0
-  m_Name: BlueCoin
-  m_TagString: Coin
+  m_Name: LeverSwitch
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2833120930799482285
+--- !u!4 &179210388360182093
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335616788089494960}
+  m_GameObject: {fileID: 825579026651524049}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.01, y: 11.16, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0}
+  m_LocalPosition: {x: 22.46471, y: 9.31555, z: 0}
+  m_LocalScale: {x: 5.486447, y: 5.268832, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1775915805350025853
+--- !u!212 &3552385517388919573
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335616788089494960}
+  m_GameObject: {fileID: 825579026651524049}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -83,29 +84,29 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1188671895
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2885766614806269623, guid: 329decf4dfb0c44b1af4e029df81956f, type: 3}
+  m_Sprite: {fileID: 2705228264335246300, guid: 7b146f88e1b494960a221850beb3ef69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.12, y: 0.16}
+  m_Size: {x: 0.17, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &2719089596049528595
+--- !u!95 &7086966843971253532
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335616788089494960}
+  m_GameObject: {fileID: 825579026651524049}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a56e1ad4d2c714706b072f01926bc28a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0e06d12699570aa478de7c5225dab42b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -117,13 +118,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!58 &8423927777672097499
-CircleCollider2D:
+--- !u!61 &6280851910458219234
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335616788089494960}
+  m_GameObject: {fileID: 825579026651524049}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -151,29 +152,100 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.08
---- !u!114 &478605066933386919
+  m_Offset: {x: 0.002185654, y: -0.0028446764}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.19, y: 0.17}
+    newSize: {x: 0.17, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.20529827, y: 0.17568937}
+  m_EdgeRadius: 0
+--- !u!61 &3695658609936666872
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825579026651524049}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0043707937, y: -0.015929986}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.19, y: 0.17}
+    newSize: {x: 0.17, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.15503228, y: 0.11765862}
+  m_EdgeRadius: 0
+--- !u!114 &7434948297869879604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335616788089494960}
+  m_GameObject: {fileID: 825579026651524049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d80e31f1aa4944aa967e8c09e88a963, type: 3}
+  m_Script: {fileID: 11500000, guid: b83fe2e6fb91d2f4db6c3bc3be5fa2f4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Collect_coins
-  collectionStateName: coin_collected
-  destroyDelay: 1
---- !u!114 &37173373965758465
+  m_EditorClassIdentifier: Assembly-CSharp::Lever_on
+  playerTag: Player
+  onParameterName: ON
+  onStateChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5672699585633496409, guid: b2287fd8aa8324c8a9fce1dea209fc02, type: 3}
+        m_TargetAssemblyTypeName: LeverResponder, Assembly-CSharp
+        m_MethodName: OnLeverStateChanged
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7440636136964624420
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335616788089494960}
+  m_GameObject: {fileID: 825579026651524049}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11d7fdeb30bc84adf8784370f6edf490, type: 3}
