@@ -14,6 +14,12 @@ public class HUDManager : MonoBehaviour
     public Image coinIcon;
     public Image keyIcon;
 
+    [Header("Collection Settings")]
+    [Tooltip("If set to 0, it will automatically count objects with the 'Coin' tag in the scene.")]
+    public int manualMaxCoins = 0;
+    [Tooltip("If set to 0, it will automatically count objects with the 'Key' tag in the scene.")]
+    public int manualMaxKeys = 0;
+
     private int coinsCollected = 0;
     private int totalCoins = 0;
     private int keysCollected = 0;
@@ -27,9 +33,9 @@ public class HUDManager : MonoBehaviour
 
     private void Start()
     {
-        // Automatically count how many coins and keys are in the scene at the start
-        totalCoins = GameObject.FindGameObjectsWithTag("Coin").Length;
-        totalKeys = GameObject.FindGameObjectsWithTag("Key").Length;
+        // Use manual values if provided, otherwise count how many coins and keys are in the scene
+        totalCoins = manualMaxCoins > 0 ? manualMaxCoins : GameObject.FindGameObjectsWithTag("Coin").Length;
+        totalKeys = manualMaxKeys > 0 ? manualMaxKeys : GameObject.FindGameObjectsWithTag("Key").Length;
         
         UpdateUI();
     }
