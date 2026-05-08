@@ -12,8 +12,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float inputDeadzone = 0.1f;
     [SerializeField] private int idleThreshold = 5; // Time in seconds before standby triggers
 
+    private bool isDead = false;
     private Rigidbody2D rb;
-    private PlayerAnimator playerAnimator;
+    public PlayerAnimator playerAnimator;
     private Vector2 moveInput;
     private int lastTimeMove = 0;
     private float idleTimer = 0f;
@@ -22,7 +23,6 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        playerAnimator = GetComponent<PlayerAnimator>();
 
         // Ensure the player doesn't fall due to gravity or spin from collisions
         rb.gravityScale = 0f;
@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (isDead) return;
         // 1. Read Raw Input (WASD or Arrow Keys)
         float inputX = Input.GetAxisRaw("Horizontal");
         float inputY = Input.GetAxisRaw("Vertical");
@@ -99,8 +100,31 @@ public class PlayerController : MonoBehaviour
         hasTriggeredStandBy = false;
     }
 
+    public bool IsDead => isDead;
+
+    public void Die()
+    {
+        if (isDead) return;
+        isDead = true;
+        moveInput = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Kinematic; // Stop all physics movement immediately
+
+        // Ensure IsMoving is set to false in the animator to prevent animation direction changes
+        if (playerAnimator != null && playerAnimator.animator != null)
+        {
+            playerAnimator.animator.SetBool(PlayerAnimator.IsMoving, false);
+            playerAnimator.animator.applyRootMotion = false; // Prevent animation from moving the player
+        }
+    }
+
     private void FixedUpdate()
     {
+        if (isDead)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
         // 4. Apply Physics Movement
         // Note: Using velocity for compatibility. In Unity 6, rb.linearVelocity is preferred.
         rb.linearVelocity = moveInput.normalized * moveSpeed;

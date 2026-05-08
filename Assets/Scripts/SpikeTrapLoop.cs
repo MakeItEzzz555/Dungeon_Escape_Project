@@ -1,96 +1,190 @@
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
-/// A spike trap animated by an Animator that kills the player during specific frames.
-/// Frames 4-13 are deadly; others (1-3 and the end) are safe.
+/// Production-safe spike trap FSM (event-driven version).
+/// Animation events define the damage window.
+/// No frame math. No timing guessing.
 /// </summary>
-public class SpikeTrapLoop : MonoBehaviour
+public class SpikeTrapFSM : MonoBehaviour
 {
-    [Header("Animator Settings")]
-    [Tooltip("The Animator controlling the trap animation.")]
-    public Animator animator;
+    // ─────────────────────────────────────────────────────────────
+    // STATE MACHINE
+    // ─────────────────────────────────────────────────────────────
 
-    [Tooltip("The name of the animation state or clip to check for frames.")]
-    public string animationStateName = "SpikeTrap_Anim";
+    private enum TrapState
+    {
+        Idle,
+        Armed,
+        PlayerDetected,
+        Active,        // damage window OPEN (controlled by animation event)
+        Triggered,
+        CoolingDown
+    }
 
-    [Header("Deadly Frames (1-indexed)")]
-    public int startDeadlyFrame = 4;
-    public int endDeadlyFrame = 13;
+    private TrapState state = TrapState.Armed;
 
-    private bool playerIsInside = false;
+    // ─────────────────────────────────────────────────────────────
+    // REFERENCES
+    // ─────────────────────────────────────────────────────────────
 
-    private void Start()
+    [Header("References")]
+    [SerializeField] private Animator animator;
+    [SerializeField] private PlayerAnimator playerAnimator;
+
+    private PlayerController detectedPlayer;
+    private bool deathRunning = false;
+
+    // ─────────────────────────────────────────────────────────────
+    // UNITY
+    // ─────────────────────────────────────────────────────────────
+
+    private void Awake()
     {
         if (animator == null)
-        {
             animator = GetComponent<Animator>();
-        }
 
         if (animator == null)
-        {
-            Debug.LogError($"SpikeTrapLoop on {gameObject.name} has no Animator assigned!");
-        }
+            Debug.LogError("[SpikeTrapFSM] Missing Animator on spike trap.");
     }
 
     private void Update()
     {
-        if (playerIsInside && IsTrapDeadly())
+        if (deathRunning)
+            return;
+
+        // Only kill when:
+        // 1. trap is in ACTIVE window (animation says spikes are up)
+        // 2. player is inside trigger
+        if (state == TrapState.Active && detectedPlayer != null)
         {
-            KillPlayer();
+            TriggerDeath();
         }
     }
 
-    private bool IsTrapDeadly()
-    {
-        if (animator == null) return false;
-
-        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        
-        // Ensure we are in the correct state
-        if (!stateInfo.IsName(animationStateName)) return false;
-
-        // Get current clip info to find total frames
-        AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
-        if (clipInfo.Length == 0) return false;
-
-        AnimationClip clip = clipInfo[0].clip;
-        float totalFrames = clip.frameRate * clip.length;
-        
-        // Calculate current frame (1-indexed based on user description)
-        // stateInfo.normalizedTime % 1 gives the progress within the loop [0, 1]
-        float currentNormalizedTime = stateInfo.normalizedTime % 1f;
-        int currentFrame = Mathf.FloorToInt(currentNormalizedTime * totalFrames) + 1;
-
-        return currentFrame >= startDeadlyFrame && currentFrame <= endDeadlyFrame;
-    }
+    // ─────────────────────────────────────────────────────────────
+    // COLLISIONS
+    // ─────────────────────────────────────────────────────────────
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player"))
+            return;
+
+        detectedPlayer = other.GetComponent<PlayerController>();
+
+        if (state == TrapState.Armed)
         {
-            playerIsInside = true;
-            if (IsTrapDeadly())
-            {
-                KillPlayer();
-            }
+            state = TrapState.PlayerDetected;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player"))
+            return;
+
+        detectedPlayer = null;
+
+        if (state == TrapState.PlayerDetected || state == TrapState.Active)
         {
-            playerIsInside = false;
+            state = TrapState.Armed;
         }
     }
 
-    private void KillPlayer()
+    // ─────────────────────────────────────────────────────────────
+    // 🎯 ANIMATION EVENTS (THIS IS THE CORE SYSTEM NOW)
+    // ─────────────────────────────────────────────────────────────
+
+    /// <summary>
+    /// Called by animation event when spikes are FULLY UP.
+    /// This opens the damage window.
+    /// </summary>
+    public void EnableDamageWindow()
     {
-        Debug.Log("PLAYER KILLED BY SPIKE TRAP");
-        
-        // Stop the game
+        if (state != TrapState.PlayerDetected && state != TrapState.Armed)
+            return;
+
+        state = TrapState.Active;
+    }
+
+    /// <summary>
+    /// Called by animation event when spikes are no longer dangerous.
+    /// </summary>
+    public void DisableDamageWindow()
+    {
+        if (state == TrapState.Active)
+        {
+            state = TrapState.Armed;
+        }
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // DEATH LOGIC
+    // ─────────────────────────────────────────────────────────────
+
+    private void TriggerDeath()
+    {
+        if (state == TrapState.Triggered || detectedPlayer == null)
+            return;
+
+        state = TrapState.Triggered;
+        deathRunning = true;
+
+        Debug.Log("[SpikeTrapFSM] Player killed by spike trap.");
+
+        detectedPlayer.Die();
+
+        if (playerAnimator != null)
+            playerAnimator.TriggerDie();
+
+        StartCoroutine(DeathSequence());
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // DEATH SEQUENCE
+    // ─────────────────────────────────────────────────────────────
+
+    private IEnumerator DeathSequence()
+    {
+        yield return null;
+
+        Animator anim = playerAnimator != null
+            ? playerAnimator.GetComponent<Animator>()
+            : null;
+
+        if (anim != null)
+        {
+            while (!anim.GetCurrentAnimatorStateInfo(0).IsName("Die"))
+                yield return null;
+
+            while (anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f)
+                yield return null;
+        }
+
+        if (animator != null)
+            animator.speed = 0f;
+
+        state = TrapState.CoolingDown;
+
+        Debug.Log("[SpikeTrapFSM] Trap frozen.");
+
         Time.timeScale = 0f;
-        
-        // Additional game-over logic can be added here
+    }
+
+    // ─────────────────────────────────────────────────────────────
+    // RESET
+    // ─────────────────────────────────────────────────────────────
+
+    public void ResetTrap()
+    {
+        state = TrapState.Armed;
+        detectedPlayer = null;
+        deathRunning = false;
+
+        if (animator != null)
+            animator.speed = 1f;
+
+        Time.timeScale = 1f;
     }
 }

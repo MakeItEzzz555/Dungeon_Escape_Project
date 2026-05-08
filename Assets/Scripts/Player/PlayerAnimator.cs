@@ -14,12 +14,13 @@ public class PlayerAnimator : MonoBehaviour
     private static readonly string MoveY = "MoveY";
     private static readonly string LastMoveX = "LastMoveX";
     private static readonly string LastMoveY = "LastMoveY";
-    private static readonly string IsMoving = "IsMoving";
+    public static string IsMoving = "IsMoving";
+    public static readonly string DieTrigger = "Die";
     private static readonly string LastTimeMove = "LastTimeMove";
     private static readonly string StandByIdleDown = "StandBy_idle_down";
     private static readonly string IsInStandBy = "IsInStandBy";
 
-    private void Start()
+    private void Awake()
     {
         if (animator == null)
         {
@@ -108,9 +109,17 @@ public class PlayerAnimator : MonoBehaviour
         // Detailed logging to help debug transitions
         if (isInState)
         {
-             Debug.Log("[DEBUG_LOG] PlayerAnimator: Currently in StandBy_idle_down state.");
+            Debug.Log("[DEBUG_LOG] PlayerAnimator: Currently in StandBy_idle_down state.");
         }
         
         return isInState;
+    }
+
+    public void TriggerDie()
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger(DieTrigger);
+        }
     }
 }
