@@ -1,44 +1,55 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Lever_on : MonoBehaviour
+public class Lever_On : MonoBehaviour
 {
     [Header("Settings")]
     public string playerTag = "Player";
-    public UnityEvent<bool> onToggle;
 
-    private bool inRange = false;
-    private bool isOn = false;
+    [System.Serializable]
+    public class LeverEvent : UnityEvent<bool> { }
+
+    public LeverEvent onToggle;
+
+    private bool inRange;
+    private bool isOn;
     private Animator anim;
 
-    void Awake()
+    private void Awake()
     {
         anim = GetComponent<Animator>();
     }
 
-    void Update()
+    private void Update()
     {
-        if (inRange && Input.GetKeyDown(KeyCode.E))
-        {
-            isOn = !isOn;
-            
-            // 1. Animate the lever itself
-            if (anim != null) anim.SetBool("ON", isOn);
-            
-            // 2. Send signal to others
-            onToggle?.Invoke(isOn);
-            
-            Debug.Log($"[LEVER] State: {isOn}");
-        }
+        if (!inRange)
+            return;
+
+        if (Input.GetKeyDown(KeyCode.E))
+            Toggle();
+    }
+
+    private void Toggle()
+    {
+        isOn = !isOn;
+
+        if (anim != null)
+            anim.SetBool("ON", isOn);
+
+        onToggle?.Invoke(isOn);
+
+        Debug.Log($"[LEVER] State: {isOn}");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag(playerTag)) inRange = true;
+        if (other.CompareTag(playerTag))
+            inRange = true;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag(playerTag)) inRange = false;
+        if (other.CompareTag(playerTag))
+            inRange = false;
     }
 }

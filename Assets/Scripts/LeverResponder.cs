@@ -2,33 +2,47 @@ using UnityEngine;
 
 public class LeverResponder : MonoBehaviour
 {
+    [Header("Target")]
+    [SerializeField] private MonoBehaviour target;
+
+    [Header("Animator (optional fallback)")]
+    [SerializeField] private Animator animator;
+
+    [Header("Animation Control")]
     public string parameterName = "Open";
     public bool isTrigger = true;
 
-    private Animator anim;
-
-    void Awake()
+    private void Awake()
     {
-        anim = GetComponent<Animator>();
+        if (animator == null)
+            animator = GetComponent<Animator>();
     }
 
     public void Respond(bool signal)
     {
-        if (anim == null)
+        // ─────────────────────────────
+        // 1. PRIORITY: Spike Trap FSM
+        // ─────────────────────────────
+        if (target is SpikeTrapFSM trap)
         {
-            Debug.LogError($"[RESPONDER] No Animator on {gameObject.name}!");
+            trap.SetTrapActive(signal);
             return;
         }
 
+        // ─────────────────────────────
+        // 2. FALLBACK: Animator toggle
+        // ─────────────────────────────
+        if (animator == null)
+            return;
+
         if (isTrigger)
         {
-            if (signal) anim.SetTrigger(parameterName);
+            if (signal)
+                animator.SetTrigger(parameterName);
         }
         else
         {
-            anim.SetBool(parameterName, signal);
+            animator.SetBool(parameterName, signal);
         }
-        
-        Debug.Log($"[RESPONDER] Received signal {signal}. Triggering '{parameterName}' on {gameObject.name}");
     }
 }
