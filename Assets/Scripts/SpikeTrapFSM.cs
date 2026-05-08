@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class SpikeTrapFSM : MonoBehaviour
 {
-    // ─────────────────────────────────────────────
-    // STATE
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
+    // STATE MACHINE
+    // ─────────────────────────────────────────────────────────────
 
     private enum TrapState
     {
@@ -17,32 +17,51 @@ public class SpikeTrapFSM : MonoBehaviour
         CoolingDown
     }
 
-    private TrapState state = TrapState.Disabled;
+    [Header("Startup")]
+    [SerializeField] private bool startEnabled = true;
 
-    // ─────────────────────────────────────────────
+    private TrapState state;
+
+    // ─────────────────────────────────────────────────────────────
     // REFERENCES
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
 
     [Header("References")]
     [SerializeField] private Animator animator;
     [SerializeField] private PlayerAnimator playerAnimator;
 
+    // ─────────────────────────────────────────────────────────────
+    // INTERNAL
+    // ─────────────────────────────────────────────────────────────
+
     private PlayerController detectedPlayer;
 
-    private bool trapEnabled = false;
-    private bool damageWindowOpen = false;
-    private bool deathRunning = false;
+    private bool trapEnabled;
+    private bool damageWindowOpen;
+    private bool deathRunning;
 
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
     // UNITY
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
 
     private void Awake()
     {
-        animator ??= GetComponent<Animator>();
+        if (animator == null)
+            animator = GetComponent<Animator>();
 
         if (animator == null)
             Debug.LogError("[SpikeTrapFSM] Missing Animator.");
+
+        trapEnabled = startEnabled;
+
+        state = trapEnabled
+            ? TrapState.Armed
+            : TrapState.Disabled;
+
+        if (animator != null)
+        {
+            animator.speed = trapEnabled ? 1f : 0f;
+        }
     }
 
     private void Update()
@@ -50,31 +69,33 @@ public class SpikeTrapFSM : MonoBehaviour
         if (deathRunning || !trapEnabled)
             return;
 
-        if (state == TrapState.Active &&
-            damageWindowOpen &&
-            detectedPlayer != null)
+        if (damageWindowOpen && detectedPlayer != null)
         {
             TriggerDeath();
         }
     }
 
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
     // LEVER CONTROL
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
 
     public void SetTrapActive(bool isOn)
     {
         trapEnabled = isOn;
 
-        if (!isOn)
+        if (!trapEnabled)
         {
             state = TrapState.Disabled;
+
             detectedPlayer = null;
             damageWindowOpen = false;
 
             if (animator != null)
+            {
                 animator.speed = 0f;
+            }
 
+            Debug.Log("[SpikeTrapFSM] DISABLED");
             return;
         }
 
@@ -83,25 +104,29 @@ public class SpikeTrapFSM : MonoBehaviour
         if (animator != null)
         {
             animator.speed = 1f;
-            animator.SetBool("Active", true);
         }
+
+        Debug.Log("[SpikeTrapFSM] ENABLED");
     }
 
-    // ─────────────────────────────────────────────
-    // TRIGGERS
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
+    // PLAYER DETECTION
+    // ─────────────────────────────────────────────────────────────
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (!trapEnabled)
+            return;
+
         if (!other.CompareTag("Player"))
             return;
 
         detectedPlayer = other.GetComponent<PlayerController>();
 
-        if (trapEnabled && state == TrapState.Armed)
-        {
-            state = TrapState.PlayerDetected;
-        }
+        if (detectedPlayer == null)
+            return;
+
+        state = TrapState.PlayerDetected;
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -109,89 +134,152 @@ public class SpikeTrapFSM : MonoBehaviour
         if (!other.CompareTag("Player"))
             return;
 
-        detectedPlayer = null;
+        if (detectedPlayer != null &&
+            other.gameObject == detectedPlayer.gameObject)
+        {
+            detectedPlayer = null;
+        }
 
-        if (trapEnabled && state != TrapState.Disabled)
+        if (trapEnabled &&
+            state != TrapState.Triggered &&
+            state != TrapState.CoolingDown)
         {
             state = TrapState.Armed;
         }
     }
 
-    // ─────────────────────────────────────────────
-    // ANIMATION EVENTS (CRITICAL)
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
+    // ANIMATION EVENTS
+    // ─────────────────────────────────────────────────────────────
 
+    /// <summary>
+    /// Animation Event:
+    /// Called when spikes are visually fully extended.
+    /// </summary>
     public void EnableDamageWindow()
     {
-        if (!trapEnabled) return;
+        if (!trapEnabled)
+            return;
+
+        if (state == TrapState.Triggered ||
+            state == TrapState.CoolingDown)
+            return;
 
         damageWindowOpen = true;
         state = TrapState.Active;
+
+        Debug.Log("[SpikeTrapFSM] DAMAGE WINDOW OPEN");
     }
 
+    /// <summary>
+    /// Animation Event:
+    /// Called when spikes are retracting / safe.
+    /// </summary>
     public void DisableDamageWindow()
     {
         damageWindowOpen = false;
 
-        if (state == TrapState.Active)
+        if (trapEnabled &&
+            state != TrapState.Triggered &&
+            state != TrapState.CoolingDown)
+        {
             state = TrapState.Armed;
+        }
+
+        Debug.Log("[SpikeTrapFSM] DAMAGE WINDOW CLOSED");
     }
 
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
     // DEATH
-    // ─────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────
 
     private void TriggerDeath()
     {
-        if (state == TrapState.Triggered || detectedPlayer == null)
+        if (deathRunning)
             return;
 
-        state = TrapState.Triggered;
+        if (detectedPlayer == null)
+            return;
+
+        if (detectedPlayer.IsDead)
+            return;
+
         deathRunning = true;
+        state = TrapState.Triggered;
+
+        Debug.Log("[SpikeTrapFSM] Player killed.");
 
         detectedPlayer.Die();
 
-        playerAnimator?.TriggerDie();
+        if (playerAnimator != null)
+        {
+            playerAnimator.TriggerDie();
+        }
 
         StartCoroutine(DeathSequence());
     }
+
+    // ─────────────────────────────────────────────────────────────
+    // DEATH SEQUENCE
+    // ─────────────────────────────────────────────────────────────
 
     private IEnumerator DeathSequence()
     {
         yield return null;
 
-        Animator anim = playerAnimator != null
-            ? playerAnimator.GetComponent<Animator>()
-            : null;
+        Animator playerAnim = null;
 
-        if (anim != null)
+        if (playerAnimator != null)
         {
-            while (!anim.GetCurrentAnimatorStateInfo(0).IsName("Die"))
-                yield return null;
+            playerAnim = playerAnimator.GetComponent<Animator>();
+        }
 
-            while (anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f)
+        if (playerAnim != null)
+        {
+            while (!playerAnim.GetCurrentAnimatorStateInfo(0).IsName("Die"))
+            {
                 yield return null;
+            }
+
+            while (playerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f)
+            {
+                yield return null;
+            }
         }
 
         if (animator != null)
+        {
             animator.speed = 0f;
+        }
 
         state = TrapState.CoolingDown;
+
+        Debug.Log("[SpikeTrapFSM] Trap frozen.");
 
         Time.timeScale = 0f;
     }
 
+    // ─────────────────────────────────────────────────────────────
+    // RESET
+    // ─────────────────────────────────────────────────────────────
+
     public void ResetTrap()
     {
-        state = TrapState.Disabled;
+        trapEnabled = startEnabled;
 
-        trapEnabled = false;
+        state = trapEnabled
+            ? TrapState.Armed
+            : TrapState.Disabled;
+
         detectedPlayer = null;
+
         damageWindowOpen = false;
         deathRunning = false;
 
         if (animator != null)
-            animator.speed = 1f;
+        {
+            animator.speed = trapEnabled ? 1f : 0f;
+        }
 
         Time.timeScale = 1f;
     }

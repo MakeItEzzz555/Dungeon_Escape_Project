@@ -1520,43 +1520,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 641343379567340822, guid: 5f8faf9f218f440df813adeb1c9390ab, type: 3}
   m_PrefabInstance: {fileID: 1265449156}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &298180643 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8436984701992562860, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-  m_PrefabInstance: {fileID: 800870110469258117}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &298180646 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9089911948470129900, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-  m_PrefabInstance: {fileID: 800870110469258117}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298180643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a64a1ce07d741d98aa1fbb5ec334ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpikeTrapLoop
---- !u!95 &298180648 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 9129721798925199836, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-  m_PrefabInstance: {fileID: 800870110469258117}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &298180651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298180643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63ee03c8ee8f42619b852f5f601eddc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LeverResponder
-  target: {fileID: 298180646}
-  animator: {fileID: 298180648}
-  parameterName: Open
-  isTrigger: 1
 --- !u!1001 &300629069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12056,49 +12019,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8042568240503102603, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-      propertyPath: m_Size.x
-      value: 0.3547583
-      objectReference: {fileID: 0}
-    - target: {fileID: 8042568240503102603, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-      propertyPath: m_Size.y
-      value: 0.2529167
-      objectReference: {fileID: 0}
-    - target: {fileID: 8042568240503102603, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8042568240503102603, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.014585659
-      objectReference: {fileID: 0}
-    - target: {fileID: 8042568240503102603, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.011614792
-      objectReference: {fileID: 0}
     - target: {fileID: 8436984701992562860, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
       propertyPath: m_Name
       value: Spike Trap
       objectReference: {fileID: 0}
     - target: {fileID: 9089911948470129900, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-      propertyPath: endDeadlyFrame
-      value: 95
-      objectReference: {fileID: 0}
-    - target: {fileID: 9089911948470129900, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
       propertyPath: playerAnimator
       value: 
       objectReference: {fileID: 3869712308493622880}
-    - target: {fileID: 9089911948470129900, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-      propertyPath: startDeadlyFrame
-      value: 25
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8436984701992562860, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 298180651}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49085205db5d1478aa37ba597efaefe0, type: 3}
 --- !u!1001 &1729187754487784373
 PrefabInstance:
@@ -12210,41 +12142,9 @@ PrefabInstance:
       value: LeverSwitch
       objectReference: {fileID: 0}
     - target: {fileID: 7434948297869879604, guid: cfe5c255f49aee7459c4b564c6444bc5, type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7434948297869879604, guid: cfe5c255f49aee7459c4b564c6444bc5, type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7434948297869879604, guid: cfe5c255f49aee7459c4b564c6444bc5, type: 3}
       propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1976934006}
-    - target: {fileID: 7434948297869879604, guid: cfe5c255f49aee7459c4b564c6444bc5, type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 298180651}
-    - target: {fileID: 7434948297869879604, guid: cfe5c255f49aee7459c4b564c6444bc5, type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7434948297869879604, guid: cfe5c255f49aee7459c4b564c6444bc5, type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Respond
-      objectReference: {fileID: 0}
-    - target: {fileID: 7434948297869879604, guid: cfe5c255f49aee7459c4b564c6444bc5, type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: LeverResponder, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7434948297869879604, guid: cfe5c255f49aee7459c4b564c6444bc5, type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7434948297869879604, guid: cfe5c255f49aee7459c4b564c6444bc5, type: 3}
-      propertyPath: onToggle.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
