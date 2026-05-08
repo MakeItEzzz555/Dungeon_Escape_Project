@@ -4,15 +4,17 @@ using UnityEngine.Events;
 public class Lever_On : MonoBehaviour
 {
     [Header("Settings")]
-    public string playerTag = "Player";
+    [SerializeField] private string playerTag = "Player";
 
     [System.Serializable]
     public class LeverEvent : UnityEvent<bool> { }
 
+    [Header("Events")]
     public LeverEvent onToggle;
 
     private bool inRange;
     private bool isOn;
+
     private Animator anim;
 
     private void Awake()
@@ -26,15 +28,19 @@ public class Lever_On : MonoBehaviour
             return;
 
         if (Input.GetKeyDown(KeyCode.E))
-            Toggle();
+        {
+            ToggleLever();
+        }
     }
 
-    private void Toggle()
+    private void ToggleLever()
     {
         isOn = !isOn;
 
         if (anim != null)
+        {
             anim.SetBool("ON", isOn);
+        }
 
         onToggle?.Invoke(isOn);
 
@@ -44,12 +50,16 @@ public class Lever_On : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag(playerTag))
+        {
             inRange = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag(playerTag))
+        {
             inRange = false;
+        }
     }
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8042568240503102603}
   - component: {fileID: 9089911948470129900}
   - component: {fileID: 2910777489755152455}
-  - component: {fileID: 8982122970882820362}
+  - component: {fileID: 8818043710965040733}
   m_Layer: 0
   m_Name: Spike Trap
   m_TagString: Untagged
@@ -152,7 +152,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.014585659, y: 0.011614792}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -162,7 +162,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.17, y: 0.16}
+  m_Size: {x: 0.3547583, y: 0.2529167}
   m_EdgeRadius: 0
 --- !u!114 &9089911948470129900
 MonoBehaviour:
@@ -176,10 +176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a64a1ce07d741d98aa1fbb5ec334ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTrapLoop
+  startEnabled: 1
   animator: {fileID: 9129721798925199836}
-  animationStateName: SpikeTrap_Anim
-  startDeadlyFrame: 3
-  endDeadlyFrame: 8
+  playerAnimator: {fileID: 0}
 --- !u!114 &2910777489755152455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::YSort
   baseOrder: 5000
   offset: 0
---- !u!114 &8982122970882820362
+--- !u!114 &8818043710965040733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -203,8 +202,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8436984701992562860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11d7fdeb30bc84adf8784370f6edf490, type: 3}
+  m_Script: {fileID: 11500000, guid: 63ee03c8ee8f42619b852f5f601eddc9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::YSort
-  baseOrder: 5000
-  offset: 0
+  m_EditorClassIdentifier: Assembly-CSharp::LeverResponder
+  animator: {fileID: 9129721798925199836}
+  parameterName: Open
+  isTrigger: 1
