@@ -11,7 +11,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float inputDeadzone = 0.1f;
     [SerializeField] private int idleThreshold = 5; // Time in seconds before standby triggers
+    [Header("Footsteps")]
+    [SerializeField] private float footstepInterval = 0.4f;
 
+    private float footstepTimer;
+    private bool isMoving;
+    
     private bool isDead = false;
     private Rigidbody2D rb;
     public PlayerAnimator playerAnimator;
@@ -19,6 +24,7 @@ public class PlayerController : MonoBehaviour
     private int lastTimeMove = 0;
     private float idleTimer = 0f;
     private bool hasTriggeredStandBy = false;
+    private bool wasMovingLastFrame = false;
 
     private void Awake()
     {
@@ -90,6 +96,9 @@ public class PlayerController : MonoBehaviour
         {
             playerAnimator.UpdateAnimations(moveInput.normalized, lastTimeMove);
         }
+
+        // 5. Trigger Walk Sound
+        HandleFootsteps();
     }
 
     public void ResetIdleTimer()
@@ -106,6 +115,12 @@ public class PlayerController : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
+        
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayDeath();
+        }
+
         moveInput = Vector2.zero;
         rb.linearVelocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Kinematic; // Stop all physics movement immediately
@@ -128,5 +143,27 @@ public class PlayerController : MonoBehaviour
         // 4. Apply Physics Movement
         // Note: Using velocity for compatibility. In Unity 6, rb.linearVelocity is preferred.
         rb.linearVelocity = moveInput.normalized * moveSpeed;
+    }
+    private void HandleFootsteps()
+    {
+        isMoving = moveInput.sqrMagnitude > inputDeadzone * inputDeadzone;
+
+        if (!isMoving)
+        {
+            footstepTimer = 0f;
+            return;
+        }
+
+        footstepTimer -= Time.deltaTime;
+
+        if (footstepTimer <= 0f)
+        {
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlayWalk();
+            }
+
+            footstepTimer = footstepInterval;
+        }
     }
 }

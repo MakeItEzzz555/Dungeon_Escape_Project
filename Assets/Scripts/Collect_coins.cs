@@ -45,6 +45,11 @@ public class Collect_coins : MonoBehaviour
             animator.Play(collectionStateName);
         }
 
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayCoin();
+        }
+
         Debug.Log("Coin collected!");
 
         // Update the HUD

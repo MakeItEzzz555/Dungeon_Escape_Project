@@ -45,6 +45,11 @@ public class Collect_keys : MonoBehaviour
             animator.Play(collectionStateName);
         }
 
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayKey();
+        }
+
         Debug.Log("Key collected!");
 
         // Update the HUD
