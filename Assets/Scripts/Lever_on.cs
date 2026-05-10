@@ -42,6 +42,11 @@ public class Lever_On : MonoBehaviour
             anim.SetBool("ON", isOn);
         }
 
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayInteract();
+        }
+
         onToggle?.Invoke(isOn);
 
         Debug.Log($"[LEVER] State: {isOn}");

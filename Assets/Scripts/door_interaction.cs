@@ -43,6 +43,11 @@ public class door_interaction : MonoBehaviour
             animator.SetTrigger(openTrigger);
         }
 
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayInteract();
+        }
+
         // Disable physical collision so player can pass
         if (physicalCollider != null)
         {
@@ -58,6 +63,11 @@ public class door_interaction : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger(closeTrigger);
+        }
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayInteract();
         }
 
         // Enable physical collision to block the way

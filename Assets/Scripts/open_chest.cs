@@ -37,6 +37,11 @@ public class open_chest : MonoBehaviour
             Debug.LogWarning($"[open_chest] Animator missing on {gameObject.name}");
         }
 
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayInteract();
+        }
+
         Debug.Log("Chest Opened!");
     }
 
