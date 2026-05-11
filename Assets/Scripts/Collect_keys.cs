@@ -52,10 +52,10 @@ public class Collect_keys : MonoBehaviour
 
         Debug.Log("Key collected!");
 
-        // Update the HUD
-        if (HUDManager.Instance != null)
+        // Update the GlobalQuestManager
+        if (Scripts.Managers.GlobalQuestManager.Instance != null)
         {
-            HUDManager.Instance.RegisterKeyCollection();
+            Scripts.Managers.GlobalQuestManager.Instance.AddKey();
         }
 
         // Start the countdown to disappear
