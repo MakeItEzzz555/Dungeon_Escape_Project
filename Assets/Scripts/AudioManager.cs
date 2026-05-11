@@ -32,6 +32,20 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    private void Start()
+    {
+        // Automatically play Main Menu music if we are in the main menu scene,
+        // or Gameplay music otherwise.
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Main Menu")
+        {
+            PlayMainMenuMusic();
+        }
+        else
+        {
+            PlayGameplayMusic();
+        }
+    }
+
     // ---------------- MUSIC ----------------
     public void PlayMusic(AudioClip clip, bool loop = true)
     {
