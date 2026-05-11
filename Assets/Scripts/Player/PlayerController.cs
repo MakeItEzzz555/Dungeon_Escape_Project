@@ -1,8 +1,8 @@
 using UnityEngine;
 
 /// <summary>
-/// A simple, student-friendly top-down 2D player controller.
-/// Handles movement with Rigidbody2D and connects to the PlayerAnimator system.
+/// Clean deterministic player controller.
+/// Single responsibility: state + movement.
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -10,160 +10,167 @@ public class PlayerController : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float inputDeadzone = 0.1f;
-    [SerializeField] private int idleThreshold = 5; // Time in seconds before standby triggers
+    [SerializeField] private int idleThreshold = 5;
+
     [Header("Footsteps")]
     [SerializeField] private float footstepInterval = 0.4f;
 
-    private float footstepTimer;
-    private bool isMoving;
-    
-    private bool isDead = false;
     private Rigidbody2D rb;
     public PlayerAnimator playerAnimator;
+
     private Vector2 moveInput;
-    private int lastTimeMove = 0;
-    private float idleTimer = 0f;
-    private bool hasTriggeredStandBy = false;
-    private bool wasMovingLastFrame = false;
+    private float idleTimer;
+    private int lastTimeMove;
+    private float footstepTimer;
+
+    private bool isDead;
+    private bool isFalling;
+    private bool canMove = true;
+
+    private bool IsLocked => isDead || isFalling || !canMove;
+
+    public bool IsDead => isDead;
+    public bool IsFalling => isFalling;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-
-        // Ensure the player doesn't fall due to gravity or spin from collisions
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
     }
 
     private void Update()
     {
-        if (isDead) return;
-        // 1. Read Raw Input (WASD or Arrow Keys)
-        float inputX = Input.GetAxisRaw("Horizontal");
-        float inputY = Input.GetAxisRaw("Vertical");
+        HandleInput();
+        HandleAnimation();
+        HandleFootsteps();
+    }
 
-        // 2. Lock to 4-direction movement (Horizontal priority)
-        if (Mathf.Abs(inputX) > inputDeadzone)
-        {
-            moveInput = new Vector2(inputX, 0);
-        }
-        else if (Mathf.Abs(inputY) > inputDeadzone)
-        {
-            moveInput = new Vector2(0, inputY);
-        }
-        else
+    private void HandleInput()
+    {
+        if (IsLocked)
         {
             moveInput = Vector2.zero;
+            return;
         }
 
-        // 3. Update Idle Timer and Trigger Standby
-        if (moveInput.sqrMagnitude < inputDeadzone * inputDeadzone)
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
+
+        moveInput =
+            Mathf.Abs(x) > inputDeadzone ? new Vector2(x, 0) :
+            Mathf.Abs(y) > inputDeadzone ? new Vector2(0, y) :
+            Vector2.zero;
+
+        bool idle = moveInput.sqrMagnitude < inputDeadzone * inputDeadzone;
+
+        if (idle)
         {
             idleTimer += Time.deltaTime;
             lastTimeMove = Mathf.FloorToInt(idleTimer);
 
             if (lastTimeMove >= idleThreshold)
-            {
-                if (!hasTriggeredStandBy)
-                {
-                    Debug.Log($"[DEBUG_LOG] PlayerController: Idle threshold {idleThreshold} reached. Enabling StandBy bool.");
-                    hasTriggeredStandBy = true;
-                    
-                    if (playerAnimator != null)
-                    {
-                        playerAnimator.SetStandByStatus(true);
-                    }
-                }
-            }
+                playerAnimator?.SetStandByStatus(true);
         }
         else
         {
-            if (hasTriggeredStandBy)
-            {
-                Debug.Log("[DEBUG_LOG] PlayerController: Movement detected. Resetting idle status.");
-                if (playerAnimator != null)
-                {
-                    playerAnimator.SetStandByStatus(false);
-                }
-            }
-            idleTimer = 0f;
+            idleTimer = 0;
             lastTimeMove = 0;
-            hasTriggeredStandBy = false;
+            playerAnimator?.SetStandByStatus(false);
         }
-
-        // 4. Update Animations
-        if (playerAnimator != null)
-        {
-            playerAnimator.UpdateAnimations(moveInput.normalized, lastTimeMove);
-        }
-
-        // 5. Trigger Walk Sound
-        HandleFootsteps();
     }
 
-    public void ResetIdleTimer()
+    private void HandleAnimation()
     {
-        Debug.Log("[DEBUG_LOG] PlayerController: Resetting idle timers via ResetIdleTimer().");
-        idleTimer = 0f;
-        lastTimeMove = 0;
-        hasTriggeredStandBy = false;
-    }
+        if (playerAnimator == null) return;
 
-    public bool IsDead => isDead;
-
-    public void Die()
-    {
-        if (isDead) return;
-        isDead = true;
-        
-        if (AudioManager.Instance != null)
+        if (IsLocked)
         {
-            AudioManager.Instance.PlayDeath();
+            playerAnimator.SetFallingStatus(isFalling);
+            playerAnimator.UpdateAnimations(Vector2.zero, lastTimeMove, true);
+            return;
         }
 
-        moveInput = Vector2.zero;
-        rb.linearVelocity = Vector2.zero;
-        rb.bodyType = RigidbodyType2D.Kinematic; // Stop all physics movement immediately
-
-        // Ensure IsMoving is set to false in the animator to prevent animation direction changes
-        if (playerAnimator != null && playerAnimator.animator != null)
-        {
-            playerAnimator.animator.SetBool(PlayerAnimator.IsMoving, false);
-            playerAnimator.animator.applyRootMotion = false; // Prevent animation from moving the player
-        }
+        playerAnimator.UpdateAnimations(moveInput, lastTimeMove, false);
     }
 
     private void FixedUpdate()
     {
-        if (isDead)
+        if (IsLocked)
         {
             rb.linearVelocity = Vector2.zero;
             return;
         }
-        // 4. Apply Physics Movement
-        // Note: Using velocity for compatibility. In Unity 6, rb.linearVelocity is preferred.
+
         rb.linearVelocity = moveInput.normalized * moveSpeed;
     }
+
     private void HandleFootsteps()
     {
-        isMoving = moveInput.sqrMagnitude > inputDeadzone * inputDeadzone;
-
-        if (!isMoving)
+        if (IsLocked)
         {
-            footstepTimer = 0f;
+            footstepTimer = 0;
+            return;
+        }
+
+        bool moving = moveInput.sqrMagnitude > inputDeadzone * inputDeadzone;
+
+        if (!moving)
+        {
+            footstepTimer = 0;
             return;
         }
 
         footstepTimer -= Time.deltaTime;
 
-        if (footstepTimer <= 0f)
+        if (footstepTimer <= 0)
         {
-            if (AudioManager.Instance != null)
-            {
-                AudioManager.Instance.PlayWalk();
-            }
-
+            AudioManager.Instance?.PlayWalk();
             footstepTimer = footstepInterval;
         }
+    }
+
+    public void StartFallSequence()
+    {
+        if (IsLocked) return;
+
+        isFalling = true;
+        canMove = false;
+
+        moveInput = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Kinematic;
+
+        playerAnimator?.SetFallingStatus(true);
+
+        StartCoroutine(FallRoutine());
+    }
+
+    private System.Collections.IEnumerator FallRoutine()
+    {
+        yield return new WaitForSeconds(1.5f);
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene(
+            UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    }
+
+    public void Die()
+    {
+        if (IsLocked) return;
+
+        isDead = true;
+        canMove = false;
+
+        moveInput = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Kinematic;
+
+        playerAnimator?.TriggerDie();
+    }
+
+    public void ResetIdleTimer()
+    {
+        idleTimer = 0;
+        lastTimeMove = 0;
     }
 }
