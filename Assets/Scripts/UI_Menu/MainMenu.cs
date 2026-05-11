@@ -22,6 +22,12 @@ public class MainMenu : MonoBehaviour
 
             // Load the first level of the game (Level 1)
             SceneManager.LoadScene("Level 1");
+
+            // Update Music to gameplay
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlayGameplayMusic();
+            }
         }
         else
         {
