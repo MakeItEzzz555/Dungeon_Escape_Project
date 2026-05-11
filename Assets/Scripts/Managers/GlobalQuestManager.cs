@@ -48,12 +48,12 @@ namespace Scripts.Managers
         /// Resets progress for a new level with a specific number of required keys.
         /// </summary>
         /// <param name="newRequiredKeys">Number of keys needed for the level.</param>
-        public void ResetLevelProgress(int newRequiredKeys)
+        public void ResetKeys(int newRequiredKeys)
         {
             collectedKeys = 0;
             requiredKeys = newRequiredKeys;
             UpdateHUD();
-            Debug.Log($"Level progress reset. Required keys: {requiredKeys}");
+            Debug.Log($"Keys reset. Required keys: {requiredKeys}");
         }
 
         public int GetCollectedKeys() => collectedKeys;
