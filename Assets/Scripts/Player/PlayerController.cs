@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -27,6 +28,9 @@ public class PlayerController : MonoBehaviour
     private bool isFalling;
     private bool canMove = true;
 
+    // 🔥 NEW: spawn protection
+    private bool spawnGracePeriod = true;
+
     private bool IsLocked => isDead || isFalling || !canMove;
 
     public bool IsDead => isDead;
@@ -37,6 +41,14 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
+    }
+
+    private IEnumerator Start()
+    {
+        // 🔥 Prevent instant trigger on scene load
+        spawnGracePeriod = true;
+        yield return new WaitForSeconds(0.2f);
+        spawnGracePeriod = false;
     }
 
     private void Update()
@@ -146,7 +158,7 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(FallRoutine());
     }
 
-    private System.Collections.IEnumerator FallRoutine()
+    private IEnumerator FallRoutine()
     {
         yield return new WaitForSeconds(1.5f);
 
@@ -168,9 +180,33 @@ public class PlayerController : MonoBehaviour
         playerAnimator?.TriggerDie();
     }
 
-    public void ResetIdleTimer()
+    public void SetControlEnabled(bool enabled)
     {
-        idleTimer = 0;
-        lastTimeMove = 0;
+        canMove = enabled;
+
+        if (!enabled)
+        {
+            moveInput = Vector2.zero;
+            if (rb != null) rb.linearVelocity = Vector2.zero;
+        }
+    }
+
+    // 🔥 NEW RESET
+    public void ResetState()
+    {
+        isDead = false;
+        isFalling = false;
+        canMove = true;
+
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        rb.linearVelocity = Vector2.zero;
+
+        playerAnimator?.SetFallingStatus(false);
+    }
+
+    // 🔥 NEW: used by FallZone
+    public bool IsSpawnProtected()
+    {
+        return spawnGracePeriod;
     }
 }
