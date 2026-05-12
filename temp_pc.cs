@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -28,9 +27,6 @@ public class PlayerController : MonoBehaviour
     private bool isFalling;
     private bool canMove = true;
 
-    // 🔥 NEW: spawn protection
-    private bool spawnGracePeriod = true;
-
     private bool IsLocked => isDead || isFalling || !canMove;
 
     public bool IsDead => isDead;
@@ -41,14 +37,6 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
-    }
-
-    private IEnumerator Start()
-    {
-        // 🔥 Prevent instant trigger on scene load
-        spawnGracePeriod = true;
-        yield return new WaitForSeconds(0.2f);
-        spawnGracePeriod = false;
     }
 
     private void Update()
@@ -82,23 +70,12 @@ public class PlayerController : MonoBehaviour
             lastTimeMove = Mathf.FloorToInt(idleTimer);
 
             if (lastTimeMove >= idleThreshold)
-            {
-                // Only trigger if we aren't already in standby.
-                if (playerAnimator != null && !playerAnimator.IsInStandByActive)
-                {
-                    Debug.Log($"[DEBUG_LOG] PlayerController: Triggering StandBy. idleTimer: {idleTimer:F2}, lastTimeMove: {lastTimeMove}");
-                    playerAnimator.SetStandByStatus(true);
-                    
-                    // 🔥 AUTO-EXIT FALLBACK:
-                    // If the animation event fails for some reason, we manually reset after a duration.
-                    // This is a safety measure to prevent getting stuck.
-                    StartCoroutine(AutoExitStandBy(6f)); // Slightly longer than the 5.25s animation
-                }
-            }
+                playerAnimator?.SetStandByStatus(true);
         }
         else
         {
-            ResetIdleTimer();
+            idleTimer = 0;
+            lastTimeMove = 0;
             playerAnimator?.SetStandByStatus(false);
         }
     }
@@ -110,8 +87,7 @@ public class PlayerController : MonoBehaviour
         if (IsLocked)
         {
             playerAnimator.SetFallingStatus(isFalling);
-            // Pass lastTimeMove = 0 when locked to prevent StandBy logic from seeing old timer values
-            playerAnimator.UpdateAnimations(Vector2.zero, 0, true);
+            playerAnimator.UpdateAnimations(Vector2.zero, lastTimeMove, true);
             return;
         }
 
@@ -170,7 +146,7 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(FallRoutine());
     }
 
-    private IEnumerator FallRoutine()
+    private System.Collections.IEnumerator FallRoutine()
     {
         yield return new WaitForSeconds(1.5f);
 
@@ -192,66 +168,9 @@ public class PlayerController : MonoBehaviour
         playerAnimator?.TriggerDie();
     }
 
-    public void SetControlEnabled(bool enabled)
-    {
-        canMove = enabled;
-
-        if (!enabled)
-        {
-            moveInput = Vector2.zero;
-            if (rb != null) rb.linearVelocity = Vector2.zero;
-            
-            // Immediately kill standby state when locking
-            ResetIdleTimer();
-            playerAnimator?.SetStandByStatus(false);
-        }
-    }
-
-    // 🔥 NEW RESET
-    public void ResetState()
-    {
-        isDead = false;
-        isFalling = false;
-        canMove = true;
-        ResetIdleTimer();
-
-        rb.bodyType = RigidbodyType2D.Dynamic;
-        rb.linearVelocity = Vector2.zero;
-
-        playerAnimator?.SetFallingStatus(false);
-        playerAnimator?.SetStandByStatus(false);
-    }
-
-    // 🔥 NEW: used by FallZone
-    public bool IsSpawnProtected()
-    {
-        return spawnGracePeriod;
-    }
-
     public void ResetIdleTimer()
     {
-        Debug.Log("[DEBUG_LOG] PlayerController: ResetIdleTimer called.");
         idleTimer = 0;
         lastTimeMove = 0;
-    }
-
-    public void OnStandByAnimationEnd()
-    {
-        Debug.Log("[DEBUG_LOG] PlayerController: OnStandByAnimationEnd triggered via Animation Event.");
-        ResetIdleTimer();
-        playerAnimator?.SetStandByStatus(false);
-    }
-
-    private IEnumerator AutoExitStandBy(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        
-        // If we are still in standby and haven't moved, force reset
-        if (playerAnimator != null && playerAnimator.IsInStandByActive)
-        {
-            Debug.LogWarning("[DEBUG_LOG] PlayerController: AutoExitStandBy TRIGGERED. Animation event might have failed.");
-            ResetIdleTimer();
-            playerAnimator.SetStandByStatus(false);
-        }
     }
 }

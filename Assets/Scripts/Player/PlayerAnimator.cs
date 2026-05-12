@@ -11,11 +11,14 @@ public class PlayerAnimator : MonoBehaviour
 
     private static readonly string MoveX = "MoveX";
     private static readonly string MoveY = "MoveY";
+    private static readonly string LastMoveX = "LastMoveX";
+    private static readonly string LastMoveY = "LastMoveY";
     public static readonly string IsMoving = "IsMoving";
     public static readonly string DieTrigger = "Die";
     private static readonly string LastTimeMove = "LastTimeMove";
     private static readonly string IsInStandBy = "IsInStandBy";
     private static readonly string IsFalling = "IsFalling";
+    public bool IsInStandByActive => animator != null && animator.GetBool(IsInStandBy);
 
     private void Awake()
     {
@@ -33,13 +36,24 @@ public class PlayerAnimator : MonoBehaviour
             animator.SetBool(IsMoving, false);
             animator.SetFloat(MoveX, 0);
             animator.SetFloat(MoveY, 0);
-            animator.SetInteger(LastTimeMove, lastTimeMove);
+            animator.SetInteger(LastTimeMove, 0);
+            
+            // Critical fix: force IsInStandBy to false while locked
+            // This prevents the animator from getting stuck in the StandBy clip
+            // if a transition starts exactly when it was playing.
+            if (animator.GetBool(IsInStandBy))
+            {
+                Debug.Log("[DEBUG_LOG] PlayerAnimator: Forcing StandBy FALSE because of isLocked.");
+                animator.SetBool(IsInStandBy, false);
+            }
             return;
         }
 
         bool moving = moveInput.sqrMagnitude > 0.01f;
 
         animator.SetBool(IsMoving, moving);
+        
+        // Always pass LastTimeMove to ensure the animator reflects the current timer
         animator.SetInteger(LastTimeMove, lastTimeMove);
 
         if (moving)
@@ -47,12 +61,22 @@ public class PlayerAnimator : MonoBehaviour
             Vector2 dir = moveInput.normalized;
             animator.SetFloat(MoveX, dir.x);
             animator.SetFloat(MoveY, dir.y);
+
+            animator.SetFloat(LastMoveX, dir.x);
+            animator.SetFloat(LastMoveY, dir.y);
         }
     }
 
     public void SetStandByStatus(bool value)
     {
-        animator?.SetBool(IsInStandBy, value);
+        if (animator != null)
+        {
+            if (animator.GetBool(IsInStandBy) != value)
+            {
+                Debug.Log($"[DEBUG_LOG] PlayerAnimator: SetStandByStatus CHANGED to {value}.");
+                animator.SetBool(IsInStandBy, value);
+            }
+        }
     }
 
     public void SetFallingStatus(bool value)
@@ -63,5 +87,23 @@ public class PlayerAnimator : MonoBehaviour
     public void TriggerDie()
     {
         animator?.SetTrigger(DieTrigger);
+    }
+
+    public void OnStandByAnimationEnd()
+    {
+        Debug.Log("[DEBUG_LOG] PlayerAnimator: OnStandByAnimationEnd called (Redirecting to PlayerController).");
+        
+        PlayerController pc = GetComponent<PlayerController>();
+        if (pc == null) pc = GetComponentInParent<PlayerController>();
+        
+        if (pc != null)
+        {
+            pc.OnStandByAnimationEnd();
+        }
+        else
+        {
+            // Fallback if PC not found
+            animator?.SetBool(IsInStandBy, false);
+        }
     }
 }
