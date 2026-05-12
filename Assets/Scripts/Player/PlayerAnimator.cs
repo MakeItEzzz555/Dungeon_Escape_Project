@@ -34,8 +34,6 @@ public class PlayerAnimator : MonoBehaviour
             animator.SetFloat(MoveX, 0);
             animator.SetFloat(MoveY, 0);
             animator.SetInteger(LastTimeMove, lastTimeMove);
-
-            animator.SetBool(IsFalling, true);
             return;
         }
 

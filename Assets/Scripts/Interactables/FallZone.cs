@@ -1,28 +1,44 @@
+using Scripts.Managers;
 using UnityEngine;
 
 namespace Scripts.Interactables
 {
-    /// <summary>
-    /// A zone that triggers a fall sequence when the player enters it.
-    /// Used for water, pits, and void areas.
-    /// </summary>
     public class FallZone : MonoBehaviour
     {
         private bool hasTriggered = false;
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            // Only trigger if it's the player and we haven't triggered yet
-            if (!hasTriggered && other.CompareTag("Player"))
+            if (!other.CompareTag("Player")) return;
+
+            PlayerController player = other.GetComponent<PlayerController>();
+            if (player == null) return;
+
+            // 🔥 BLOCK DURING TRANSITIONS
+            if (SceneTransitionManager.Instance != null &&
+                SceneTransitionManager.Instance.IsTransitioning)
             {
-                PlayerController player = other.GetComponent<PlayerController>();
-                if (player != null)
-                {
-                    hasTriggered = true;
-                    Debug.Log($"[DEBUG_LOG] FallZone: Player entered {gameObject.name}. Starting fall sequence.");
-                    player.StartFallSequence();
-                }
+                return;
             }
+
+            // 🔥 BLOCK SPAWN FRAME BUG
+            if (player.IsSpawnProtected())
+            {
+                return;
+            }
+
+            if (hasTriggered) return;
+
+            hasTriggered = true;
+
+            Debug.Log($"FallZone triggered: {gameObject.name}");
+
+            player.StartFallSequence();
+        }
+
+        private void OnEnable()
+        {
+            hasTriggered = false;
         }
     }
 }
