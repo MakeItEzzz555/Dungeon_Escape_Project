@@ -8,9 +8,9 @@ namespace Scripts.Managers
     {
         None,
         ZoomingIn,
-        IrisClosing,
+        FadingToBlack,
         LoadingScene,
-        IrisOpening,
+        FadingFromBlack,
         ZoomingOut
     }
     public class SceneTransitionManager : MonoBehaviour
@@ -18,9 +18,9 @@ namespace Scripts.Managers
         public static SceneTransitionManager Instance { get; private set; }
 
         private TransitionState currentState = TransitionState.None;
-        private GameObject player;
 
-        [SerializeField] private float irisDuration = 0.5f;
+        [SerializeField] private float fadeInDuration = 0.5f;
+        [SerializeField] private float fadeOutDuration = 0.8f;
 
         public bool IsTransitioning => currentState != TransitionState.None;
 
@@ -28,12 +28,16 @@ namespace Scripts.Managers
         {
             if (Instance != null && Instance != this)
             {
+                Debug.Log($"[DEBUG_LOG] SceneTransitionManager: Duplicate detected on {gameObject.name}, destroying.");
                 Destroy(gameObject);
                 return;
             }
 
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            if (transform.parent == null)
+            {
+                DontDestroyOnLoad(gameObject);
+            }
         }
 
         public void BeginTransition(string targetScene, Transform zoomTarget)
@@ -45,56 +49,128 @@ namespace Scripts.Managers
 
         private IEnumerator TransitionRoutine(string targetScene, Transform zoomTarget)
         {
+            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: BeginTransition to {targetScene}");
             currentState = TransitionState.ZoomingIn;
 
-            player = GameObject.FindGameObjectWithTag("Player");
-            player?.GetComponent<PlayerController>()?.SetControlEnabled(false);
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            Debug.Log("[DEBUG_LOG] SceneTransitionManager: Disabling player control");
+            playerObj?.GetComponent<PlayerController>()?.SetControlEnabled(false);
 
-            CameraTransitionSystem.Instance?.StartZoomIn(zoomTarget, null);
+            bool zoomInDone = false;
+            Debug.Log("[DEBUG_LOG] SceneTransitionManager: Calling StartZoomIn");
+            if (CameraTransitionSystem.Instance != null)
+            {
+                CameraTransitionSystem.Instance.StartZoomIn(zoomTarget, () => {
+                    Debug.Log("[DEBUG_LOG] SceneTransitionManager: ZoomIn callback received");
+                    zoomInDone = true;
+                });
+            }
+            else
+            {
+                Debug.LogWarning("[DEBUG_LOG] SceneTransitionManager: CameraTransitionSystem.Instance is null!");
+                zoomInDone = true;
+            }
+            
+            float timeout = 5f;
+            float timer = 0f;
+            while (!zoomInDone && timer < timeout) 
+            {
+                timer += Time.deltaTime;
+                yield return null;
+            }
+            
+            if (timer >= timeout) Debug.LogError("[DEBUG_LOG] SceneTransitionManager: ZoomIn TIMEOUT!");
 
-            yield return new WaitForSeconds(0.5f);
+            currentState = TransitionState.FadingToBlack;
+            Debug.Log("[DEBUG_LOG] SceneTransitionManager: FadingToBlack");
 
-            currentState = TransitionState.IrisClosing;
-
-            IrisTransitionUI.Instance?.Close(irisDuration, null);
-
-            yield return new WaitForSeconds(irisDuration);
+            bool fadeToBlackDone = false;
+            if (UITransitionManager.Instance != null)
+            {
+                UITransitionManager.Instance.FadeToBlack(fadeInDuration, () => {
+                    Debug.Log("[DEBUG_LOG] SceneTransitionManager: FadeToBlack callback received");
+                    fadeToBlackDone = true;
+                });
+            }
+            else
+            {
+                Debug.LogWarning("[DEBUG_LOG] SceneTransitionManager: UITransitionManager.Instance is null!");
+                fadeToBlackDone = true;
+            }
+            
+            timer = 0f;
+            while (!fadeToBlackDone && timer < timeout)
+            {
+                timer += Time.deltaTime;
+                yield return null;
+            }
+            if (timer >= timeout) Debug.LogError("[DEBUG_LOG] SceneTransitionManager: FadeToBlack TIMEOUT!");
 
             currentState = TransitionState.LoadingScene;
+            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: LoadingScene {targetScene}");
 
             AsyncOperation load = SceneManager.LoadSceneAsync(targetScene);
+            if (load != null)
+            {
+                while (!load.isDone) yield return null;
+            }
 
-            while (!load.isDone)
-                yield return null;
-
+            Debug.Log("[DEBUG_LOG] SceneTransitionManager: Scene loaded, waiting one frame");
+            // Wait one frame to ensure SceneLoaded events fire and Player is spawned/found
             yield return null;
 
-            player = GameObject.FindGameObjectWithTag("Player");
-
-            if (player != null)
+            playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null)
             {
-                var controller = player.GetComponent<PlayerController>();
+                Debug.Log("[DEBUG_LOG] SceneTransitionManager: Player found, resetting state");
+                var controller = playerObj.GetComponent<PlayerController>();
                 controller?.ResetState();
                 controller?.SetControlEnabled(false);
             }
 
-            CameraTransitionSystem.Instance?.Reinitialize();
+            currentState = TransitionState.FadingFromBlack;
+            Debug.Log("[DEBUG_LOG] SceneTransitionManager: FadingFromBlack");
 
-            currentState = TransitionState.IrisOpening;
+            bool fadeFromBlackDone = false;
+            if (UITransitionManager.Instance != null)
+            {
+                UITransitionManager.Instance.FadeFromBlack(fadeOutDuration, () => {
+                    Debug.Log("[DEBUG_LOG] SceneTransitionManager: FadeFromBlack callback received");
+                    fadeFromBlackDone = true;
+                });
+            }
+            else
+            {
+                Debug.LogWarning("[DEBUG_LOG] SceneTransitionManager: UITransitionManager.Instance is null!");
+                fadeFromBlackDone = true;
+            }
 
-            IrisTransitionUI.Instance?.Open(irisDuration, null);
-
-            yield return new WaitForSeconds(irisDuration);
+            timer = 0f;
+            while (!fadeFromBlackDone && timer < timeout)
+            {
+                timer += Time.deltaTime;
+                yield return null;
+            }
+            if (timer >= timeout) Debug.LogError("[DEBUG_LOG] SceneTransitionManager: FadeFromBlack TIMEOUT!");
 
             currentState = TransitionState.ZoomingOut;
+            Debug.Log("[DEBUG_LOG] SceneTransitionManager: ZoomingOut");
 
-            CameraTransitionSystem.Instance?.StartZoomOut(null);
-
-            yield return new WaitForSeconds(0.8f);
-
-            player?.GetComponent<PlayerController>()?.SetControlEnabled(true);
-
-            currentState = TransitionState.None;
+            if (CameraTransitionSystem.Instance != null)
+            {
+                CameraTransitionSystem.Instance.StartZoomOut(() =>
+                {
+                    Debug.Log("[DEBUG_LOG] SceneTransitionManager: ZoomOut callback received, enabling player control");
+                    playerObj?.GetComponent<PlayerController>()?.SetControlEnabled(true);
+                    currentState = TransitionState.None;
+                });
+            }
+            else
+            {
+                Debug.LogWarning("[DEBUG_LOG] SceneTransitionManager: CameraTransitionSystem.Instance is null in ZoomingOut!");
+                playerObj?.GetComponent<PlayerController>()?.SetControlEnabled(true);
+                currentState = TransitionState.None;
+            }
         }
     }
 }

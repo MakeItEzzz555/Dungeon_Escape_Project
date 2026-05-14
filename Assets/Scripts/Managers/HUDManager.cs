@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 
@@ -32,23 +33,51 @@ public class HUDManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
+            return;
         }
+
+        Instance = this;
+    }
+
+    private void OnEnable()
+    {
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+    {
+        // Reset state for the new scene
+        coinsCollected = 0;
+        hudRevealed = false;
+        coinsDiscovered = false;
+        keysDiscovered = false;
+
+        // Recalculate total coins in the new scene
+        totalCoins = manualMaxCoins > 0 ? manualMaxCoins : GameObject.FindGameObjectsWithTag("Coin").Length;
+        
+        // Ensure UI matches the reset state
+        ResetHUDUI();
     }
 
     private void Start()
     {
-        // Use manual values if provided, otherwise count how many coins in the scene
+        // Recalculate if not already done by OnSceneLoaded
         totalCoins = manualMaxCoins > 0 ? manualMaxCoins : GameObject.FindGameObjectsWithTag("Coin").Length;
 
-        // On Start(): set HUD panel to hiddenX, disable coinsObject, disable keysObject
+        ResetHUDUI();
+    }
+
+    private void ResetHUDUI()
+    {
+        // On Reset/Start: set HUD panel to hiddenX, disable coinsObject, disable keysObject
         if (hudPanelRect != null)
         {
             Vector2 pos = hudPanelRect.anchoredPosition;
@@ -59,8 +88,8 @@ public class HUDManager : MonoBehaviour
         if (coinsObject != null) coinsObject.SetActive(false);
         if (keysObject != null) keysObject.SetActive(false);
         
-        // Ensure counters are up to date but they stay hidden until discovered
         UpdateCoinsText();
+        // Keys update is usually handled by GlobalQuestManager calling UpdateKeys
     }
 
     public void UpdateCoins(int current, int total)

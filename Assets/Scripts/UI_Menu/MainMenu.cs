@@ -13,12 +13,8 @@ public class MainMenu : MonoBehaviour
         // Otherwise, if we are already in a level, just resume.
         if (SceneManager.GetActiveScene().name == "Main Menu") // Adjust name if needed
         {
-            // Effect the main camera: disable its component or its GameObject 
-            // to stop it from rendering/functioning before the scene transition.
-            if (Camera.main != null)
-            {
-                Camera.main.enabled = false;
-            }
+            // No need to disable camera anymore as we are using a persistent system
+            // and we want it to render throughout the transition.
 
             // Load the first level of the game (Level 1)
             SceneManager.LoadScene("Level 1");

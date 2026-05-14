@@ -19,14 +19,17 @@ namespace Scripts.Managers
         private void Awake()
         {
             // Singleton pattern with duplicate prevention
-            if (Instance == null)
+            if (Instance != null && Instance != this)
             {
-                Instance = this;
-                DontDestroyOnLoad(gameObject);
-            }
-            else
-            {
+                Debug.Log($"[DEBUG_LOG] GlobalQuestManager: Duplicate detected on {gameObject.name}, destroying.");
                 Destroy(gameObject);
+                return;
+            }
+
+            Instance = this;
+            if (transform.parent == null)
+            {
+                DontDestroyOnLoad(gameObject);
             }
         }
 

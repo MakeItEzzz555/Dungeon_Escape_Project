@@ -24,12 +24,16 @@ public class AudioManager : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
+            Debug.Log($"[DEBUG_LOG] AudioManager: Duplicate detected on {gameObject.name}, destroying.");
             Destroy(gameObject);
             return;
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
+        if (transform.parent == null)
+        {
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
     private void Start()

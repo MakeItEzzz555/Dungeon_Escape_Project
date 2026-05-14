@@ -7,32 +7,61 @@ public class FollowPlayer : MonoBehaviour
     public float smoothSpeed = 8f;
     public bool snapOnStart = true;
 
-    [Header("Zoom Settings")]
-    [Tooltip("The size of the camera view. Larger values = zoomed out, Smaller values = zoomed in.")]
-    public float targetZoom = 5f;
     private Camera cam;
+    private static FollowPlayer _instance;
 
     [Header("Menu Settings")]
     public MainMenu pauseMenu;
 
-    private void Start()
+    private void Awake()
     {
-        cam = GetComponent<Camera>();
-        if (cam != null)
+        if (_instance != null && _instance != this)
         {
-            cam.orthographicSize = targetZoom;
+            Debug.Log($"[DEBUG_LOG] FollowPlayer: Duplicate detected on {gameObject.name}, destroying.");
+            Destroy(gameObject);
+            return;
         }
 
+        _instance = this;
+        if (transform.parent == null)
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+        
+        cam = GetComponent<Camera>();
+    }
+
+    private void OnEnable()
+    {
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+    {
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            SetTarget(playerObj.transform);
+        }
+        else
+        {
+            target = null;
+        }
+    }
+
+    private void Start()
+    {
         if (target == null)
         {
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null)
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null)
             {
-                target = player.transform;
-            }
-            else
-            {
-                Debug.LogWarning("FollowPlayer: No target assigned and no GameObject with tag 'Player' found.");
+                target = playerObj.transform;
             }
         }
 
@@ -41,7 +70,6 @@ public class FollowPlayer : MonoBehaviour
             transform.position = target.position + offset;
         }
 
-        // Automatically hide the pause menu at the start of the level
         if (pauseMenu != null)
         {
             pauseMenu.gameObject.SetActive(false);
@@ -53,6 +81,15 @@ public class FollowPlayer : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePauseMenu();
+        }
+    }
+
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
+        if (target != null && snapOnStart)
+        {
+            transform.position = target.position + offset;
         }
     }
 
