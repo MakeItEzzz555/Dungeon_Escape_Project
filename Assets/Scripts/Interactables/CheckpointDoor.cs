@@ -106,6 +106,7 @@ public class CheckpointDoor : MonoBehaviour
     private void DenyInteraction()
     {
         Debug.Log("Collect all keys first.");
+        HUDManager.Instance?.ShowUXMessage("Requires Key");
     }
 
     private void OnTriggerEnter2D(Collider2D other)

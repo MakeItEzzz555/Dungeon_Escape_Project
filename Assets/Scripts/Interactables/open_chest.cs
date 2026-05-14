@@ -61,6 +61,8 @@ public class open_chest : MonoBehaviour
             AudioManager.Instance.PlayInteract();
         }
 
+        HUDManager.Instance?.ShowUXMessage("Chest Opened");
+
         Debug.Log("Chest Opened!");
     }
 
