@@ -19,10 +19,19 @@ public class HUDManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI coinsText;
     [SerializeField] private TextMeshProUGUI keysText;
 
+    [Header("UX Notification UI")]
+    [SerializeField] private CanvasGroup uxPanelCanvasGroup;
+    [SerializeField] private TextMeshProUGUI uxMessageText;
+
     [Header("Animation Settings")]
     [SerializeField] private float hiddenX = -1000f;
     [SerializeField] private float shownX = 0f;
     [SerializeField] private float slideDuration = 0.5f;
+
+    [Header("UX Animation Settings")]
+    [SerializeField] private float uxFadeInDuration = 0.2f;
+    [SerializeField] private float uxHoldDuration = 1.0f;
+    [SerializeField] private float uxFadeOutDuration = 0.3f;
 
     [Header("Collection Tracking")]
     [Tooltip("If set to 0, it will automatically count objects with the 'Coin' tag in the scene.")]
@@ -30,6 +39,8 @@ public class HUDManager : MonoBehaviour
 
     private int coinsCollected = 0;
     private int totalCoins = 0;
+
+    private Coroutine uxMessageCoroutine;
 
     private void Awake()
     {
@@ -88,6 +99,14 @@ public class HUDManager : MonoBehaviour
         if (coinsObject != null) coinsObject.SetActive(false);
         if (keysObject != null) keysObject.SetActive(false);
         
+        // Initialize UX panel state
+        if (uxPanelCanvasGroup != null)
+        {
+            uxPanelCanvasGroup.alpha = 0f;
+            uxPanelCanvasGroup.interactable = false;
+            uxPanelCanvasGroup.blocksRaycasts = false;
+        }
+
         UpdateCoinsText();
         // Keys update is usually handled by GlobalQuestManager calling UpdateKeys
     }
@@ -149,8 +168,6 @@ public class HUDManager : MonoBehaviour
             float t = elapsed / slideDuration;
             
             // Back ease-out for slight overshoot feel
-            // formula: 1 - (1 - t)^3 * (1 - t * (1.70158 * t - 1.70158)) -- roughly
-            // Standard back ease-out:
             float s = 1.70158f;
             float t1 = t - 1;
             float curvedT = t1 * t1 * ((s + 1) * t1 + s) + 1;
@@ -160,6 +177,51 @@ public class HUDManager : MonoBehaviour
         }
 
         hudPanelRect.anchoredPosition = endPos;
+    }
+
+    // --- UX Notification API ---
+
+    public void ShowUXMessage(string message)
+    {
+        if (uxPanelCanvasGroup == null || uxMessageText == null) return;
+
+        if (uxMessageCoroutine != null)
+        {
+            StopCoroutine(uxMessageCoroutine);
+        }
+
+        uxMessageCoroutine = StartCoroutine(UXMessageRoutine(message));
+    }
+
+    private IEnumerator UXMessageRoutine(string message)
+    {
+        uxMessageText.text = message;
+        float startAlpha = uxPanelCanvasGroup.alpha;
+        float elapsed = 0f;
+
+        // Fade In (from current alpha to 1)
+        while (elapsed < uxFadeInDuration)
+        {
+            elapsed += Time.deltaTime;
+            uxPanelCanvasGroup.alpha = Mathf.Lerp(startAlpha, 1f, elapsed / uxFadeInDuration);
+            yield return null;
+        }
+        uxPanelCanvasGroup.alpha = 1f;
+
+        // Hold
+        yield return new WaitForSeconds(uxHoldDuration);
+
+        // Fade Out
+        elapsed = 0f;
+        while (elapsed < uxFadeOutDuration)
+        {
+            elapsed += Time.deltaTime;
+            uxPanelCanvasGroup.alpha = Mathf.Lerp(1f, 0f, elapsed / uxFadeOutDuration);
+            yield return null;
+        }
+        uxPanelCanvasGroup.alpha = 0f;
+
+        uxMessageCoroutine = null;
     }
 
     // Support for existing Collect_coins.cs

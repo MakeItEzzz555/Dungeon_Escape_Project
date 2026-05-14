@@ -48,6 +48,8 @@ public class InteractiveGate : MonoBehaviour
         // Ensure Close state is cleared to prevent looping/conflict
         SetParam(closeParameter, false);
         
+        HUDManager.Instance?.ShowUXMessage("Gate Opened");
+
         Debug.Log($"[InteractiveGate] {gameObject.name} -> Open() called. Parameter '{openParameter}' set, '{closeParameter}' reset.");
     }
 
@@ -68,6 +70,8 @@ public class InteractiveGate : MonoBehaviour
         // Ensure Open state is cleared to prevent looping/conflict
         SetParam(openParameter, false);
         
+        HUDManager.Instance?.ShowUXMessage("Gate Closed");
+
         Debug.Log($"[InteractiveGate] {gameObject.name} -> Close() called. Parameter '{closeParameter}' set, '{openParameter}' reset.");
     }
 

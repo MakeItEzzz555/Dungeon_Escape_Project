@@ -56,6 +56,7 @@ public class Collect_keys : MonoBehaviour
         if (Scripts.Managers.GlobalQuestManager.Instance != null)
         {
             Scripts.Managers.GlobalQuestManager.Instance.AddKey();
+            HUDManager.Instance?.ShowUXMessage("Key Collected");
         }
 
         // Start the countdown to disappear
