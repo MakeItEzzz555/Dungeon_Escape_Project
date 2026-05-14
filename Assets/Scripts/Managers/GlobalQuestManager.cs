@@ -63,7 +63,7 @@ namespace Scripts.Managers
         {
             if (HUDManager.Instance != null)
             {
-                HUDManager.Instance.UpdateKeyText(collectedKeys, requiredKeys);
+                HUDManager.Instance.UpdateKeys(collectedKeys, requiredKeys);
             }
         }
     }

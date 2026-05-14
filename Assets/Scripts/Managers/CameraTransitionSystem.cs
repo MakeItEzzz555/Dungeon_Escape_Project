@@ -64,6 +64,12 @@ namespace Scripts.Managers
 
             Reinitialize();
 
+            if (mainCamera != null)
+            {
+                // IMMEDIATELY FORCE transitionZoom as the starting point
+                mainCamera.orthographicSize = transitionZoom;
+            }
+
             zoomCoroutine = StartCoroutine(
                 ZoomRoutine(null, gameplayZoom, zoomOutDuration, onComplete)
             );
