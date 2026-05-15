@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class SpikeTrapFSM : MonoBehaviour
@@ -28,8 +27,6 @@ public class SpikeTrapFSM : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private Animator animator;
-    [SerializeField] private PlayerAnimator playerAnimator;
-
     // ─────────────────────────────────────────────────────────────
     // INTERNAL
     // ─────────────────────────────────────────────────────────────
@@ -122,6 +119,7 @@ public class SpikeTrapFSM : MonoBehaviour
             return;
 
         detectedPlayer = other.GetComponent<PlayerController>();
+        if (detectedPlayer == null) detectedPlayer = other.GetComponentInParent<PlayerController>();
 
         if (detectedPlayer == null)
             return;
@@ -134,8 +132,10 @@ public class SpikeTrapFSM : MonoBehaviour
         if (!other.CompareTag("Player"))
             return;
 
-        if (detectedPlayer != null &&
-            other.gameObject == detectedPlayer.gameObject)
+        PlayerController exitingPlayer = other.GetComponent<PlayerController>();
+        if (exitingPlayer == null) exitingPlayer = other.GetComponentInParent<PlayerController>();
+
+        if (detectedPlayer != null && exitingPlayer == detectedPlayer)
         {
             detectedPlayer = null;
         }
@@ -209,54 +209,7 @@ public class SpikeTrapFSM : MonoBehaviour
 
         Debug.Log("[SpikeTrapFSM] Player killed.");
 
-        detectedPlayer.Die();
-
-        if (playerAnimator != null)
-        {
-            playerAnimator.TriggerDie();
-        }
-
-        StartCoroutine(DeathSequence());
-    }
-
-    // ─────────────────────────────────────────────────────────────
-    // DEATH SEQUENCE
-    // ─────────────────────────────────────────────────────────────
-
-    private IEnumerator DeathSequence()
-    {
-        yield return null;
-
-        Animator playerAnim = null;
-
-        if (playerAnimator != null)
-        {
-            playerAnim = playerAnimator.GetComponent<Animator>();
-        }
-
-        if (playerAnim != null)
-        {
-            while (!playerAnim.GetCurrentAnimatorStateInfo(0).IsName("Die"))
-            {
-                yield return null;
-            }
-
-            while (playerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f)
-            {
-                yield return null;
-            }
-        }
-
-        if (animator != null)
-        {
-            animator.speed = 0f;
-        }
-
-        state = TrapState.CoolingDown;
-
-        Debug.Log("[SpikeTrapFSM] Trap frozen.");
-
-        Time.timeScale = 0f;
+        detectedPlayer.StartDeathSequence();
     }
 
     // ─────────────────────────────────────────────────────────────
