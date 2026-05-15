@@ -15,16 +15,9 @@ public class PlayerAnimator : MonoBehaviour
     private static readonly string LastMoveY = "LastMoveY";
     public static readonly string IsMoving = "IsMoving";
     public static readonly string DieTrigger = "Die";
-    private static readonly string AttackTrigger = "Attack";
     private static readonly string LastTimeMove = "LastTimeMove";
     private static readonly string IsInStandBy = "IsInStandBy";
     private static readonly string IsFalling = "IsFalling";
-    private static readonly string IsDead = "IsDead";
-
-    // Public getters for combat system
-    public float LastMoveXValue => animator != null ? animator.GetFloat(LastMoveX) : 0f;
-    public float LastMoveYValue => animator != null ? animator.GetFloat(LastMoveY) : 0f;
-
     public bool IsInStandByActive => animator != null && animator.GetBool(IsInStandBy);
 
     private void Awake()
@@ -91,81 +84,9 @@ public class PlayerAnimator : MonoBehaviour
         animator?.SetBool(IsFalling, value);
     }
 
-    public void SetDeadStatus(bool value)
-    {
-        SetBoolIfExists(IsDead, value);
-    }
-
     public void TriggerDie()
     {
-        SetTriggerIfExists(DieTrigger);
-    }
-
-    private void SetBoolIfExists(string paramName, bool value)
-    {
-        if (animator == null || string.IsNullOrEmpty(paramName)) return;
-
-        foreach (AnimatorControllerParameter param in animator.parameters)
-        {
-            if (param.name == paramName && param.type == AnimatorControllerParameterType.Bool)
-            {
-                animator.SetBool(paramName, value);
-                return;
-            }
-        }
-    }
-
-    private void SetTriggerIfExists(string paramName)
-    {
-        if (animator == null || string.IsNullOrEmpty(paramName)) return;
-
-        foreach (AnimatorControllerParameter param in animator.parameters)
-        {
-            if (param.name == paramName && param.type == AnimatorControllerParameterType.Trigger)
-            {
-                animator.SetTrigger(paramName);
-                return;
-            }
-        }
-    }
-
-    public void PlayAttack()
-    {
-        if (animator == null) return;
-
-        float lx = animator.GetFloat(LastMoveX);
-        float ly = animator.GetFloat(LastMoveY);
-
-        // Default to down if both are zero
-        if (Mathf.Approximately(lx, 0f) && Mathf.Approximately(ly, 0f))
-        {
-            lx = 0f;
-            ly = -1f;
-            animator.SetFloat(LastMoveX, lx);
-            animator.SetFloat(LastMoveY, ly);
-        }
-
-        Debug.Log($"[PlayerAnimator] PlayAttack LastMoveX={lx}, LastMoveY={ly}");
-        animator.SetTrigger(AttackTrigger);
-    }
-
-    // Animation Event Forwarding
-    public void EnableHitbox()
-    {
-        PlayerCombat pc = GetComponent<PlayerCombat>();
-        if (pc == null) pc = GetComponentInParent<PlayerCombat>();
-        
-        if (pc != null) pc.EnableHitbox();
-        else Debug.LogWarning("[DEBUG_LOG] PlayerAnimator: EnableHitbox called but PlayerCombat not found!");
-    }
-
-    public void DisableHitbox()
-    {
-        PlayerCombat pc = GetComponent<PlayerCombat>();
-        if (pc == null) pc = GetComponentInParent<PlayerCombat>();
-        
-        if (pc != null) pc.DisableHitbox();
-        else Debug.LogWarning("[DEBUG_LOG] PlayerAnimator: DisableHitbox called but PlayerCombat not found!");
+        animator?.SetTrigger(DieTrigger);
     }
 
     public void OnStandByAnimationEnd()

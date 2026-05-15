@@ -67,4 +67,19 @@ public class PlayerCombat : MonoBehaviour
             swordHitbox.DisableHitbox();
         }
     }
+
+    public void PlayAttack1SFX()
+    {
+        AudioManager.Instance?.PlayPlayerAttack1();
+    }
+
+    public void PlayAttack2SFX()
+    {
+        AudioManager.Instance?.PlayPlayerAttack2();
+    }
+
+    public void PlayAttack3SFX()
+    {
+        AudioManager.Instance?.PlayPlayerAttack3();
+    }
 }

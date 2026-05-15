@@ -27,7 +27,7 @@ RectTransform:
   m_GameObject: {fileID: 3218020034666684898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6, y: 5, z: 0.32972494}
+  m_LocalScale: {x: 50, y: 50, z: 0.32972494}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3942931830576153733}
@@ -135,7 +135,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!114 &7905532670189997963
 MonoBehaviour:
@@ -452,6 +452,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 78ad99fd0a0a5144280b07bbdba84815, type: 3}
     - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
+      propertyPath: playerAttack1SFX
+      value: 
+      objectReference: {fileID: 8300000, guid: c37e5156ffcc4b345ad763ce9d2c4824, type: 3}
+    - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
+      propertyPath: playerAttack2SFX
+      value: 
+      objectReference: {fileID: 8300000, guid: edb6eaaf36222f9429a9b2214ec69ad0, type: 3}
+    - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
+      propertyPath: playerAttack3SFX
+      value: 
+      objectReference: {fileID: 8300000, guid: c2dade153431323449798d5d5fd92ee4, type: 3}
+    - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
       propertyPath: keyCollectedSound
       value: 
       objectReference: {fileID: 8300000, guid: c5cb2ac29e89dbf43a9b644caaad45e6, type: 3}
@@ -459,6 +471,14 @@ PrefabInstance:
       propertyPath: coinCollectedSound
       value: 
       objectReference: {fileID: 8300000, guid: abdbbfd33a46f4549987385f85c536b5, type: 3}
+    - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
+      propertyPath: enemySwordSwing1SFX
+      value: 
+      objectReference: {fileID: 8300000, guid: c067c247a5a92db49b855dd284a21369, type: 3}
+    - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
+      propertyPath: enemySwordSwing2SFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e3cfd8a4cd1afe40b6ddda869151d13, type: 3}
     - target: {fileID: 3743412933770317470, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
       propertyPath: m_Name
       value: AudioManager
