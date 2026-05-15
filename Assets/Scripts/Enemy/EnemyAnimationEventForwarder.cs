@@ -33,4 +33,14 @@ public class EnemyAnimationEventForwarder : MonoBehaviour
         Debug.Log($"[EnemyAnimationEventForwarder] DisableHitbox called on {gameObject.name}");
         if (enemyCombat != null) enemyCombat.DisableHitbox();
     }
+
+    public void PlayEnemySwing1SFX()
+    {
+        AudioManager.Instance?.PlayEnemySwordSwing1();
+    }
+
+    public void PlayEnemySwing2SFX()
+    {
+        AudioManager.Instance?.PlayEnemySwordSwing2();
+    }
 }
