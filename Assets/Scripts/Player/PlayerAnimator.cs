@@ -18,6 +18,9 @@ public class PlayerAnimator : MonoBehaviour
     private static readonly string LastTimeMove = "LastTimeMove";
     private static readonly string IsInStandBy = "IsInStandBy";
     private static readonly string IsFalling = "IsFalling";
+    private static readonly string AttackTrigger = "Attack";
+    private static readonly string IsDead = "IsDead";
+
     public bool IsInStandByActive => animator != null && animator.GetBool(IsInStandBy);
 
     private void Awake()
@@ -88,7 +91,27 @@ public class PlayerAnimator : MonoBehaviour
     {
         animator?.SetTrigger(DieTrigger);
     }
+    public void PlayAttack()
+    {
+        if (animator == null) return;
 
+        float lx = animator.GetFloat(LastMoveX);
+        float ly = animator.GetFloat(LastMoveY);
+
+        if (Mathf.Approximately(lx, 0f) && Mathf.Approximately(ly, 0f))
+        {
+            animator.SetFloat(LastMoveX, 0f);
+            animator.SetFloat(LastMoveY, -1f);
+        }
+
+        animator.SetTrigger(AttackTrigger);
+    }
+
+    public void SetDeadStatus(bool value)
+    {
+        if (animator != null)
+            animator.SetBool(IsDead, value);
+    }
     public void OnStandByAnimationEnd()
     {
         Debug.Log("[DEBUG_LOG] PlayerAnimator: OnStandByAnimationEnd called (Redirecting to PlayerController).");
