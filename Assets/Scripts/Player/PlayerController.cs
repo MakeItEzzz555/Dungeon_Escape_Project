@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Clean deterministic player controller.
@@ -16,6 +17,9 @@ public class PlayerController : MonoBehaviour
     [Header("Footsteps")]
     [SerializeField] private float footstepInterval = 0.4f;
 
+    [Header("Death")]
+    [SerializeField] private float deathRespawnDelay = 1.5f;
+
     private Rigidbody2D rb;
     public PlayerAnimator playerAnimator;
 
@@ -27,6 +31,8 @@ public class PlayerController : MonoBehaviour
     private bool isDead;
     private bool isFalling;
     private bool canMove = true;
+    private Coroutine fallSequenceRoutine;
+    private Coroutine deathSequenceRoutine;
 
     // 🔥 NEW: spawn protection
     private bool spawnGracePeriod = true;
@@ -41,6 +47,30 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
+
+        EnsureHurtBox();
+    }
+
+    private void EnsureHurtBox()
+    {
+        // Check if HurtBox already exists
+        Transform hurtBoxTransform = transform.Find("HurtBox");
+        if (hurtBoxTransform != null) return;
+
+        // Create HurtBox GameObject
+        GameObject hurtBoxObj = new GameObject("HurtBox");
+        hurtBoxObj.transform.SetParent(this.transform);
+        hurtBoxObj.transform.localPosition = new Vector3(0, 0.3f, 0);
+        hurtBoxObj.transform.localRotation = Quaternion.identity;
+        hurtBoxObj.transform.localScale = Vector3.one;
+
+        // Add BoxCollider2D
+        BoxCollider2D col = hurtBoxObj.AddComponent<BoxCollider2D>();
+        col.isTrigger = true;
+        col.size = new Vector2(0.8f, 1.0f);
+        col.offset = Vector2.zero; // Local position already handles Y offset
+        
+        Debug.Log("[PlayerController] Created HurtBox child dynamically.");
     }
 
     private IEnumerator Start()
@@ -167,29 +197,57 @@ public class PlayerController : MonoBehaviour
 
         playerAnimator?.SetFallingStatus(true);
 
-        StartCoroutine(FallRoutine());
+        fallSequenceRoutine = StartCoroutine(FallRoutine());
     }
 
     private IEnumerator FallRoutine()
     {
         yield return new WaitForSeconds(1.5f);
 
-        UnityEngine.SceneManagement.SceneManager.LoadScene(
-            UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        ReloadActiveScene();
     }
 
     public void Die()
     {
-        if (IsLocked) return;
+        StartDeathSequence();
+    }
+
+    public void OnDeath()
+    {
+        StartDeathSequence();
+    }
+
+    public void StartDeathSequence()
+    {
+        if (isDead || isFalling) return;
+        if (deathSequenceRoutine != null) return;
 
         isDead = true;
         canMove = false;
 
         moveInput = Vector2.zero;
+        ResetIdleTimer();
         rb.linearVelocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Kinematic;
 
+        playerAnimator?.SetFallingStatus(false);
+        playerAnimator?.SetStandByStatus(false);
+        playerAnimator?.SetDeadStatus(true);
         playerAnimator?.TriggerDie();
+
+        deathSequenceRoutine = StartCoroutine(DeathRoutine());
+    }
+
+    private IEnumerator DeathRoutine()
+    {
+        yield return new WaitForSeconds(deathRespawnDelay);
+
+        ReloadActiveScene();
+    }
+
+    private void ReloadActiveScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void SetControlEnabled(bool enabled)
@@ -219,7 +277,11 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
 
         playerAnimator?.SetFallingStatus(false);
+        playerAnimator?.SetDeadStatus(false);
         playerAnimator?.SetStandByStatus(false);
+
+        fallSequenceRoutine = null;
+        deathSequenceRoutine = null;
     }
 
     // 🔥 NEW: used by FallZone
