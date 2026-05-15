@@ -29,11 +29,8 @@ public class AudioManager : MonoBehaviour
     {
         if (Instance != null && Instance != this)
         {
-<<<<<<< Updated upstream
-=======
             Instance.ApplyMissingClipReferencesFrom(this);
             Debug.Log($"[DEBUG_LOG] AudioManager: Duplicate detected on {gameObject.name}, destroying.");
->>>>>>> Stashed changes
             Destroy(gameObject);
             return;
         }
