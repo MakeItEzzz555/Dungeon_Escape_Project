@@ -2,11 +2,20 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    private const string MusicVolumeKey = "MusicVolume";
+    private const string SFXVolumeKey = "SFXVolume";
+
     public static AudioManager Instance { get; private set; }
 
     [Header("Audio Sources")]
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource sfxSource;
+
+    [Header("Volume Settings")]
+    [Range(0f, 1f)]
+    [SerializeField] private float musicVolume = 1f;
+    [Range(0f, 1f)]
+    [SerializeField] private float sfxVolume = 1f;
 
     [Header("Background Music")]
     [SerializeField] private AudioClip mainMenuMusic;
@@ -37,6 +46,8 @@ public class AudioManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+        LoadVolumeSettings();
+        ApplyVolumeSettings();
     }
 
     private void ApplyMissingClipReferencesFrom(AudioManager source)
@@ -56,6 +67,34 @@ public class AudioManager : MonoBehaviour
         if (playerAttack3SFX == null) playerAttack3SFX = source.playerAttack3SFX;
         if (enemySwordSwing1SFX == null) enemySwordSwing1SFX = source.enemySwordSwing1SFX;
         if (enemySwordSwing2SFX == null) enemySwordSwing2SFX = source.enemySwordSwing2SFX;
+    }
+
+    private void LoadVolumeSettings()
+    {
+        musicVolume = Mathf.Clamp01(PlayerPrefs.GetFloat(MusicVolumeKey, 1f));
+        sfxVolume = Mathf.Clamp01(PlayerPrefs.GetFloat(SFXVolumeKey, 1f));
+    }
+
+    private void ApplyVolumeSettings()
+    {
+        ApplyMusicVolume();
+        ApplySFXVolume();
+    }
+
+    private void ApplyMusicVolume()
+    {
+        if (musicSource != null)
+        {
+            musicSource.volume = musicVolume;
+        }
+    }
+
+    private void ApplySFXVolume()
+    {
+        if (sfxSource != null)
+        {
+            sfxSource.volume = sfxVolume;
+        }
     }
 
     private void Start()
@@ -87,6 +126,32 @@ public class AudioManager : MonoBehaviour
 
     public void PlayMainMenuMusic() => PlayMusic(mainMenuMusic, true);
     public void PlayGameplayMusic() => PlayMusic(gameplayMusic, true);
+
+    public void SetMusicVolume(float value)
+    {
+        musicVolume = Mathf.Clamp01(value);
+        ApplyMusicVolume();
+        PlayerPrefs.SetFloat(MusicVolumeKey, musicVolume);
+        PlayerPrefs.Save();
+    }
+
+    public void SetSFXVolume(float value)
+    {
+        sfxVolume = Mathf.Clamp01(value);
+        ApplySFXVolume();
+        PlayerPrefs.SetFloat(SFXVolumeKey, sfxVolume);
+        PlayerPrefs.Save();
+    }
+
+    public float GetMusicVolume()
+    {
+        return musicVolume;
+    }
+
+    public float GetSFXVolume()
+    {
+        return sfxVolume;
+    }
 
     // ---------------- SFX ----------------
     public void PlayDeath() => PlaySFX(deathSound);

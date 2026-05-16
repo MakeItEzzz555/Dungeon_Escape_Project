@@ -1,0 +1,47 @@
+# Mega-Brain Wiki Index
+
+## Categories
+- [ADR](./ADR/)
+- [Systems](./Systems/)
+- [Features](./Features/)
+- [Lore](./Lore/)
+
+## Feature Documents
+- [Feature Index](./Features/FeatureIndex.md)
+- [Persistent Runtime Bootstrap](./Features/PersistentRuntimeBootstrap.md)
+- [Main Menu And Pause Menu](./Features/MainMenuAndPauseMenu.md)
+- [Audio Volume Settings](./Features/AudioVolumeSettings.md)
+- [Player Movement And State](./Features/PlayerMovementAndState.md)
+- [Player Combat](./Features/PlayerCombat.md)
+- [Enemy Encounters](./Features/EnemyEncounters.md)
+- [Key Quest And Level Exit](./Features/KeyQuestAndLevelExit.md)
+- [Coin And Key Collection](./Features/CoinAndKeyCollection.md)
+- [HUD And Feedback](./Features/HUDAndFeedback.md)
+- [Lever And Gate Interaction](./Features/LeverAndGateInteraction.md)
+- [Chest Interaction](./Features/ChestInteraction.md)
+- [Traps And Fall Hazards](./Features/TrapsAndFallHazards.md)
+- [Scene Transition Experience](./Features/SceneTransitionExperience.md)
+- [Camera Follow And Zoom](./Features/CameraFollowAndZoom.md)
+- [Environment Presentation](./Features/EnvironmentPresentation.md)
+
+## System Documents
+- [System Map](./Systems/SystemMap.md)
+- [Audio System](./Systems/Audio.md)
+- [Bootstrap And Persistence System](./Systems/BootstrapAndPersistence.md)
+- [Input System](./Systems/Input.md)
+- [UI And HUD System](./Systems/UIAndHUD.md)
+- [Player System](./Systems/Player.md)
+- [Combat System](./Systems/Combat.md)
+- [Enemy AI System](./Systems/EnemyAI.md)
+- [Progression System](./Systems/Progression.md)
+- [Collectibles System](./Systems/Collectibles.md)
+- [Interactables System](./Systems/Interactables.md)
+- [Traps And Hazards System](./Systems/TrapsAndHazards.md)
+- [Scene Transition System](./Systems/SceneTransitions.md)
+- [Camera System](./Systems/Camera.md)
+- [Environment And Presentation System](./Systems/EnvironmentAndPresentation.md)
+- [Animation Assets Inventory](./Systems/AnimationAssets.md)
+- [Scenes And Prefabs Inventory](./Systems/ScenesAndPrefabs.md)
+
+## Logs
+- [Wiki Log](./Log.md)

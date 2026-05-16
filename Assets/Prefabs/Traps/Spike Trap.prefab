@@ -152,7 +152,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.014585659, y: 0.011614792}
+  m_Offset: {x: -0.0054111183, y: -0.044114403}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -162,7 +162,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.3547583, y: 0.2529167}
+  m_Size: {x: 0.47473663, y: 0.3643751}
   m_EdgeRadius: 0
 --- !u!114 &9089911948470129900
 MonoBehaviour:
@@ -178,7 +178,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpikeTrapLoop
   startEnabled: 1
   animator: {fileID: 9129721798925199836}
-  playerAnimator: {fileID: 0}
 --- !u!114 &2910777489755152455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,3 +207,5 @@ MonoBehaviour:
   animator: {fileID: 9129721798925199836}
   parameterName: Open
   isTrigger: 1
+  useTwoTriggers: 0
+  offParameterName: Close

@@ -1,4 +1,9 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem.UI;
+#endif
 
 namespace Scripts.Core
 {
@@ -9,11 +14,13 @@ namespace Scripts.Core
     public static class GameBootstrapper
     {
         private const string PREFAB_PATH = "PersistentSystems";
+        private static bool sceneLoadedHookRegistered;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         public static void Bootstrap()
         {
             Debug.Log("[DEBUG_LOG] GameBootstrapper: Initializing...");
+            RegisterSceneLoadedHook();
 
             // Check if PersistentSystems already exists in the scene
             GameObject existingSystems = GameObject.Find("PersistentSystems");
@@ -47,6 +54,22 @@ namespace Scripts.Core
             EnsureMainCameraExists();
         }
 
+        private static void RegisterSceneLoadedHook()
+        {
+            if (sceneLoadedHookRegistered)
+            {
+                return;
+            }
+
+            SceneManager.sceneLoaded += OnSceneLoaded;
+            sceneLoadedHookRegistered = true;
+        }
+
+        private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            EnsureEventSystemExists();
+        }
+
         public static void EnsureMainCameraExists()
         {
             if (Camera.main == null)
@@ -59,11 +82,37 @@ namespace Scripts.Core
                 Object.DontDestroyOnLoad(camObj);
             }
         }
+
+        public static void EnsureEventSystemExists()
+        {
+            EventSystem[] eventSystems = Object.FindObjectsByType<EventSystem>(
+                FindObjectsInactive.Include,
+                FindObjectsSortMode.None);
+
+            if (eventSystems.Length > 0)
+            {
+                return;
+            }
+
+            Debug.LogWarning("[DEBUG_LOG] GameBootstrapper: No EventSystem found! Recreating safety EventSystem.");
+
+            GameObject eventSystemObject = new GameObject("Runtime EventSystem");
+            eventSystemObject.AddComponent<EventSystem>();
+
+#if ENABLE_INPUT_SYSTEM
+            InputSystemUIInputModule inputModule = eventSystemObject.AddComponent<InputSystemUIInputModule>();
+            inputModule.AssignDefaultActions();
+#else
+            eventSystemObject.AddComponent<StandaloneInputModule>();
+#endif
+        }
+
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         public static void PostBootstrap()
         {
             // Safety check: Ensure a Camera exists after scene load if it was somehow missing or destroyed
             EnsureMainCameraExists();
+            EnsureEventSystemExists();
         }
     }
 }

@@ -1,11 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
 
 public class MainMenu : MonoBehaviour
 {
     [Header("Menu Panels")]
     public GameObject mainPausePanel;
     public GameObject settingsPanel;
+
+    private CursorLockMode cursorLockStateBeforePause;
+    private bool cursorVisibleBeforePause;
+    private bool hasCursorStateBeforePause;
 
     public void PlayGame()
     {
@@ -36,6 +43,7 @@ public class MainMenu : MonoBehaviour
     {
         gameObject.SetActive(false);
         Time.timeScale = 1f;
+        RestoreCursorStateAfterPause();
     }
 
     public void PauseGame()
@@ -99,7 +107,8 @@ public class MainMenu : MonoBehaviour
                 Debug.Log($"[DEBUG_LOG] MainMenu: '{child.name}' child deactivated via search.");
             }
         }
-        
+        EnsureUIInputUsesDynamicUpdate();
+        UnlockCursorForMenu();
         Time.timeScale = 0f;
         Debug.Log("[DEBUG_LOG] MainMenu: Game Paused. GameObject, Canvas, and Panels updated.");
     }
@@ -120,5 +129,38 @@ public class MainMenu : MonoBehaviour
     {
         if (mainPausePanel != null) mainPausePanel.SetActive(true);
         if (settingsPanel != null) settingsPanel.SetActive(false);
+    }
+
+    private void UnlockCursorForMenu()
+    {
+        if (!hasCursorStateBeforePause)
+        {
+            cursorLockStateBeforePause = Cursor.lockState;
+            cursorVisibleBeforePause = Cursor.visible;
+            hasCursorStateBeforePause = true;
+        }
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    private void RestoreCursorStateAfterPause()
+    {
+        if (!hasCursorStateBeforePause) return;
+
+        Cursor.lockState = cursorLockStateBeforePause;
+        Cursor.visible = cursorVisibleBeforePause;
+        hasCursorStateBeforePause = false;
+    }
+
+    private void EnsureUIInputUsesDynamicUpdate()
+    {
+#if ENABLE_INPUT_SYSTEM
+        if (InputSystem.settings != null &&
+            InputSystem.settings.updateMode != InputSettings.UpdateMode.ProcessEventsInDynamicUpdate)
+        {
+            InputSystem.settings.updateMode = InputSettings.UpdateMode.ProcessEventsInDynamicUpdate;
+        }
+#endif
     }
 }
