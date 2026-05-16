@@ -25,6 +25,8 @@ namespace Scripts.Managers
             {
                 DontDestroyOnLoad(gameObject);
             }
+
+            SetFadeOverlayBlocksInput(false);
         }
 
         public void FadeToBlack(float duration, System.Action onComplete = null)
@@ -47,6 +49,8 @@ namespace Scripts.Managers
                 yield break;
             }
 
+            SetFadeOverlayBlocksInput(true);
+
             float startAlpha = fadeOverlay.color.a;
             float elapsed = 0f;
             Color c = fadeOverlay.color;
@@ -64,7 +68,16 @@ namespace Scripts.Managers
 
             c.a = targetAlpha;
             fadeOverlay.color = c;
+            SetFadeOverlayBlocksInput(targetAlpha > 0.001f);
             onComplete?.Invoke();
+        }
+
+        private void SetFadeOverlayBlocksInput(bool blocksInput)
+        {
+            if (fadeOverlay != null)
+            {
+                fadeOverlay.raycastTarget = blocksInput;
+            }
         }
     }
 }
