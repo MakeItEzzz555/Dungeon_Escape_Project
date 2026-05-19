@@ -446,7 +446,7 @@ PrefabInstance:
     - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
       propertyPath: mainMenuMusic
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 8a6e499d93d72483aa5b32bee44a45c7, type: 3}
     - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
       propertyPath: openChestSound
       value: 

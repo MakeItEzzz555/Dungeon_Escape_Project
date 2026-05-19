@@ -140,6 +140,10 @@ namespace Scripts.Managers
             }
 
             cam.orthographicSize = targetSize;
+            if (target != null && followScript != null)
+            {
+                followScript.target = originalTarget;
+            }
 
             Debug.Log("[DEBUG_LOG] CameraTransitionSystem: ZoomRoutine finished. Invoking onComplete.");
             zoomCoroutine = null;

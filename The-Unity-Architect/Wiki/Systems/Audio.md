@@ -51,6 +51,10 @@ Both values are normalized from 0 to 1 and default to 1 when no saved value exis
 | `PlayPlayerAttack1/2/3()` | Player attack animation-event SFX wrappers. |
 | `PlayEnemySwordSwing1/2()` | Enemy animation-event SFX wrappers. |
 
+## Scene Music Enforcement
+
+`AudioManager` subscribes to `SceneManager.sceneLoaded` and applies scene music centrally. `Main Menu` plays `mainMenuMusic`; all other scenes play `gameplayMusic`. Explicit calls from transition code remain valid, but scene-load enforcement is the fallback that keeps pause exit, results exit, and direct scene loads consistent.
+
 ## Callers
 
 | Caller | Calls |
@@ -68,6 +72,5 @@ Both values are normalized from 0 to 1 and default to 1 when no saved value exis
 
 ## Known Risks
 
-- `AudioManager.Start()` selects music based only on active scene name at startup. Later scene changes rely on explicit callers such as `MainMenu.PlayGame()`.
 - Audio calls are made directly from gameplay scripts. This is functional but couples simulation scripts to presentation/audio.
 - `PlayOpenChest()` exists but `open_chest` currently uses `PlayInteract()`.

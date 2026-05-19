@@ -10,6 +10,7 @@
 
 - Implemented [Respawn Transition](./Features/RespawnTransition.md) through `SceneTransitionManager.BeginRespawnTransition`.
 - Updated [Scene Transition System](./Systems/SceneTransitions.md) and [Player System](./Systems/Player.md) to document death/fall respawn zoom and fade behavior.
+- Fixed pause exit and returned-main-menu play transitions through `SceneTransitionManager`; logged [ADR: Menu Exit Transition Ownership](./ADR/2026-05-19-menu-exit-transition-ownership.md).
 - Implemented [Player HP HUD](./Features/PlayerHPHUD.md), including health-change HUD binding, configurable trap damage, and fall-zone HP depletion.
 - Created feature GDD: [Run Results Panel](./Features/RunResultsPanel.md).
 - Added `RunResultsPanel`, `RunStats`, `LevelTimer`, `LevelCompletionFlow`, and `DeathResultsFlow` to the root `CONTEXT.md` glossary.

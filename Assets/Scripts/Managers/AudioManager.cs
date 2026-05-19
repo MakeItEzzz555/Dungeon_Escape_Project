@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
     private const string MusicVolumeKey = "MusicVolume";
     private const string SFXVolumeKey = "SFXVolume";
+    private const string MainMenuSceneName = "Main Menu";
 
     public static AudioManager Instance { get; private set; }
 
@@ -48,6 +50,16 @@ public class AudioManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         LoadVolumeSettings();
         ApplyVolumeSettings();
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void ApplyMissingClipReferencesFrom(AudioManager source)
@@ -99,16 +111,23 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        // Automatically play Main Menu music if we are in the main menu scene,
-        // or Gameplay music otherwise.
-        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Main Menu")
+        ApplyMusicForScene(SceneManager.GetActiveScene().name);
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        ApplyMusicForScene(scene.name);
+    }
+
+    private void ApplyMusicForScene(string sceneName)
+    {
+        if (sceneName == MainMenuSceneName)
         {
             PlayMainMenuMusic();
+            return;
         }
-        else
-        {
-            PlayGameplayMusic();
-        }
+
+        PlayGameplayMusic();
     }
 
     // ---------------- MUSIC ----------------
