@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using Scripts.Managers;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
@@ -20,23 +22,31 @@ public class MainMenu : MonoBehaviour
     private bool cursorVisibleBeforePause;
     private bool hasCursorStateBeforePause;
 
+    private void Awake()
+    {
+        BindPauseMenuButtons();
+    }
+
+    private void OnEnable()
+    {
+        BindPauseMenuButtons();
+    }
+
     public void PlayGame()
     {
         // If we are in the Main Menu scene (Scene 0 or named "MainMenu"), load the level.
         // Otherwise, if we are already in a level, just resume.
         if (SceneManager.GetActiveScene().name == MainMenuSceneName)
         {
-            // No need to disable camera anymore as we are using a persistent system
-            // and we want it to render throughout the transition.
-
-            // Load the first level of the game (Level 1)
-            SceneManager.LoadScene(FirstLevelSceneName);
-
-            // Update Music to gameplay
-            if (AudioManager.Instance != null)
+            Time.timeScale = 1f;
+            if (SceneTransitionManager.Instance != null)
             {
-                AudioManager.Instance.PlayGameplayMusic();
+                SceneTransitionManager.Instance.StartGameFromMainMenu(FirstLevelSceneName);
+                return;
             }
+
+            SceneManager.LoadScene(FirstLevelSceneName);
+            AudioManager.Instance?.PlayGameplayMusic();
         }
         else
         {
@@ -148,10 +158,17 @@ public class MainMenu : MonoBehaviour
 
         Time.timeScale = 1f;
         HUDManager.Instance?.SetGameplayHudSuppressed(false);
+        gameObject.SetActive(false);
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         hasCursorStateBeforePause = false;
+
+        if (SceneTransitionManager.Instance != null)
+        {
+            SceneTransitionManager.Instance.ExitToMainMenuFromGameplay();
+            return;
+        }
 
         SceneManager.LoadScene(MainMenuSceneName);
         AudioManager.Instance?.PlayMainMenuMusic();
@@ -208,5 +225,36 @@ public class MainMenu : MonoBehaviour
             InputSystem.settings.updateMode = InputSettings.UpdateMode.ProcessEventsInDynamicUpdate;
         }
 #endif
+    }
+
+    private void BindPauseMenuButtons()
+    {
+        if (mainPausePanel == null) return;
+
+        Button[] buttons = mainPausePanel.GetComponentsInChildren<Button>(true);
+        foreach (Button button in buttons)
+        {
+            if (button.name != "Exit_bttn") continue;
+
+            if (HasPersistentQuitGameBinding(button)) continue;
+
+            button.onClick.RemoveListener(QuitGame);
+            button.onClick.AddListener(QuitGame);
+        }
+    }
+
+    private bool HasPersistentQuitGameBinding(Button button)
+    {
+        int eventCount = button.onClick.GetPersistentEventCount();
+        for (int i = 0; i < eventCount; i++)
+        {
+            if (button.onClick.GetPersistentTarget(i) == this &&
+                button.onClick.GetPersistentMethodName(i) == nameof(QuitGame))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

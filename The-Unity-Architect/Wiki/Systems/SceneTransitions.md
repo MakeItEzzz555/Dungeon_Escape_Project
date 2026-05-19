@@ -70,6 +70,14 @@ Scene transitions and respawn transitions are orchestrated by `SceneTransitionMa
 
 When the results panel `Exit` button is pressed, `SceneTransitionManager` restores `Time.timeScale`, loads `Main Menu` while black, switches audio to main menu music after the menu scene loads, unlocks the cursor, fades from black, and returns state to `None`.
 
+## Pause Menu Exit Flow
+
+When the pause menu `Exit` button is pressed during gameplay, `MainMenu` delegates to `SceneTransitionManager.ExitToMainMenuFromGameplay()`. The transition manager restores `Time.timeScale`, fades to black, loads `Main Menu`, switches audio to main menu music, resets persistent camera zoom to gameplay zoom for menu presentation, unlocks the cursor, fades from black, and returns state to `None`.
+
+## Main Menu Play Flow
+
+When the `Main Menu` Play button is pressed, `MainMenu` delegates to `SceneTransitionManager.StartGameFromMainMenu("Level 1")`. The transition manager fades to black, loads `Level 1`, locks the new player until restoration, sets the persistent camera to transition zoom, fades from black, zooms out to gameplay zoom, restores player control, and returns state to `None`.
+
 ## Fade Overlay Input Rule
 
 `UITransitionManager` uses a full-screen fade overlay canvas sorted above gameplay UI. The overlay must block raycasts only while fading or black. When transparent and idle, `fadeOverlay.raycastTarget` must be false or it will invisibly block pause menu UI input.

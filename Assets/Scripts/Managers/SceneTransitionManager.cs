@@ -131,6 +131,34 @@ namespace Scripts.Managers
             StartCoroutine(ExitRunResultsToMainMenuRoutine());
         }
 
+        public void ExitToMainMenuFromGameplay()
+        {
+            if (currentState != TransitionState.None)
+            {
+                Debug.LogWarning($"[DEBUG_LOG] SceneTransitionManager: Ignored gameplay menu exit. State={currentState}.");
+                return;
+            }
+
+            StartCoroutine(ExitToMainMenuFromGameplayRoutine());
+        }
+
+        public void StartGameFromMainMenu(string targetScene)
+        {
+            if (currentState != TransitionState.None)
+            {
+                Debug.LogWarning($"[DEBUG_LOG] SceneTransitionManager: Ignored menu play. State={currentState}.");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(targetScene))
+            {
+                Debug.LogWarning("[DEBUG_LOG] SceneTransitionManager: Ignored menu play with empty target scene.");
+                return;
+            }
+
+            StartCoroutine(StartGameFromMainMenuRoutine(targetScene));
+        }
+
         private IEnumerator ContinueFromRunResultsRoutine()
         {
             RestoreTimeScaleAfterRunResults();
@@ -141,12 +169,7 @@ namespace Scripts.Managers
                 currentState = TransitionState.ExitingToMenu;
                 Debug.Log($"[DEBUG_LOG] SceneTransitionManager: Continue target is {mainMenuSceneName}");
 
-                yield return LoadSceneWithoutPlayerLock(pendingTargetScene);
-                AudioManager.Instance?.PlayMainMenuMusic();
-                UnlockCursorForMenu();
-                yield return FadeFromBlack();
-
-                currentState = TransitionState.None;
+                yield return LoadMainMenuWhileBlack();
                 ClearPendingResults();
                 yield break;
             }
@@ -181,13 +204,35 @@ namespace Scripts.Managers
             currentState = TransitionState.ExitingToMenu;
             Debug.Log($"[DEBUG_LOG] SceneTransitionManager: Exiting to {mainMenuSceneName}");
 
-            yield return LoadSceneWithoutPlayerLock(mainMenuSceneName);
-            AudioManager.Instance?.PlayMainMenuMusic();
+            yield return LoadMainMenuWhileBlack();
+            ClearPendingResults();
+        }
+
+        private IEnumerator ExitToMainMenuFromGameplayRoutine()
+        {
+            currentState = TransitionState.ExitingToMenu;
+            Time.timeScale = 1f;
+            HUDManager.Instance?.SetGameplayHudSuppressed(false);
+            HUDManager.Instance?.HideRunResultsImmediate();
+
+            yield return FadeToBlack();
+            yield return LoadMainMenuWhileBlack();
+        }
+
+        private IEnumerator StartGameFromMainMenuRoutine(string targetScene)
+        {
+            currentState = TransitionState.LoadingScene;
+            Time.timeScale = 1f;
             UnlockCursorForMenu();
 
-            yield return FadeFromBlack();
-            currentState = TransitionState.None;
-            ClearPendingResults();
+            yield return FadeToBlack();
+            AudioManager.Instance?.PlayGameplayMusic();
+
+            yield return LoadSceneAndLockPlayer(targetScene);
+            CameraTransitionSystem cameraTransitionSystem = CameraTransitionSystem.Instance;
+            cameraTransitionSystem?.SetInstantZoom(cameraTransitionSystem.TransitionZoom);
+
+            yield return RestoreSceneAfterBlack();
         }
 
         private IEnumerator RestoreSceneAfterBlack()
@@ -390,6 +435,18 @@ namespace Scripts.Managers
             }
 
             yield return null;
+        }
+
+        private IEnumerator LoadMainMenuWhileBlack()
+        {
+            yield return LoadSceneWithoutPlayerLock(mainMenuSceneName);
+            AudioManager.Instance?.PlayMainMenuMusic();
+            UnlockCursorForMenu();
+            CameraTransitionSystem cameraTransitionSystem = CameraTransitionSystem.Instance;
+            cameraTransitionSystem?.SetInstantZoom(cameraTransitionSystem.GameplayZoom);
+
+            yield return FadeFromBlack();
+            currentState = TransitionState.None;
         }
 
         private void ClearPendingResults()
