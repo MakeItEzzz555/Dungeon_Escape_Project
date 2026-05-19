@@ -38,6 +38,8 @@ Enemy behavior is prefab-driven and built from an AI state machine, range trigge
 6. Leaving aggro returns enemy to home.
 7. Dead state stops walking.
 
+Active enemy deaths are also counted by the run results flow. `HUDManager` counts active `EnemyAI` instances at attempt start, subscribes to their `Health.OnDied` events, and reports `Enemies Killed` on `RunResultsPanel`. If no active enemies exist, results display `Enemies Killed: N/A`.
+
 ## Range Detection
 
 `EnemyRangeTrigger.IsPlayer()` returns true when:

@@ -1,6 +1,9 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
 
 namespace Scripts.Managers
 {
@@ -10,11 +13,13 @@ namespace Scripts.Managers
         FailureAnimation,
         ZoomingIn,
         FadingToBlack,
+        ResultsVisible,
         LoadingScene,
         ReloadingScene,
         FadingFromBlack,
         ZoomingOut,
-        RestoringControl
+        RestoringControl,
+        ExitingToMenu
     }
     public class SceneTransitionManager : MonoBehaviour
     {
@@ -24,8 +29,15 @@ namespace Scripts.Managers
 
         [SerializeField] private float fadeInDuration = 0.5f;
         [SerializeField] private float fadeOutDuration = 0.8f;
+        [SerializeField] private string mainMenuSceneName = "Main Menu";
 
         public bool IsTransitioning => currentState != TransitionState.None;
+        public bool IsRunResultsVisible => currentState == TransitionState.ResultsVisible;
+
+        private string pendingTargetScene;
+        private RunResultsMode pendingResultsMode;
+        private float timeScaleBeforeRunResults = 1f;
+        private bool hasTimeScaleBeforeRunResults;
 
         private void Awake()
         {
@@ -45,9 +57,14 @@ namespace Scripts.Managers
 
         public void BeginTransition(string targetScene, Transform zoomTarget)
         {
+            BeginLevelCompletionTransition(targetScene, zoomTarget);
+        }
+
+        public void BeginLevelCompletionTransition(string targetScene, Transform zoomTarget)
+        {
             if (currentState != TransitionState.None) return;
 
-            StartCoroutine(TransitionRoutine(targetScene, zoomTarget));
+            StartCoroutine(LevelCompletionResultsRoutine(targetScene, zoomTarget));
         }
 
         public void BeginRespawnTransition(Transform zoomTarget, float failureAnimationDuration)
@@ -57,10 +74,12 @@ namespace Scripts.Managers
             StartCoroutine(RespawnTransitionRoutine(zoomTarget, failureAnimationDuration));
         }
 
-        private IEnumerator TransitionRoutine(string targetScene, Transform zoomTarget)
+        private IEnumerator LevelCompletionResultsRoutine(string targetScene, Transform zoomTarget)
         {
-            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: BeginTransition to {targetScene}");
+            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: BeginLevelCompletionTransition to {targetScene}");
             currentState = TransitionState.ZoomingIn;
+            pendingResultsMode = RunResultsMode.Completion;
+            pendingTargetScene = targetScene;
 
             GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
             Debug.Log("[DEBUG_LOG] SceneTransitionManager: Disabling player control");
@@ -73,12 +92,106 @@ namespace Scripts.Managers
 
             yield return FadeToBlack();
 
+            ShowRunResults(RunResultsMode.Completion);
+        }
+
+        public void ContinueFromRunResults()
+        {
+            if (currentState != TransitionState.ResultsVisible ||
+                pendingResultsMode != RunResultsMode.Completion ||
+                string.IsNullOrEmpty(pendingTargetScene))
+            {
+                Debug.LogWarning($"[DEBUG_LOG] SceneTransitionManager: Ignored Continue. State={currentState}, PendingMode={pendingResultsMode}, Target='{pendingTargetScene}'.");
+                return;
+            }
+
+            StartCoroutine(ContinueFromRunResultsRoutine());
+        }
+
+        public void RespawnFromRunResults()
+        {
+            if (currentState != TransitionState.ResultsVisible ||
+                pendingResultsMode != RunResultsMode.Failure)
+            {
+                Debug.LogWarning($"[DEBUG_LOG] SceneTransitionManager: Ignored Respawn. State={currentState}, PendingMode={pendingResultsMode}.");
+                return;
+            }
+
+            StartCoroutine(RespawnFromRunResultsRoutine());
+        }
+
+        public void ExitRunResultsToMainMenu()
+        {
+            if (currentState != TransitionState.ResultsVisible)
+            {
+                Debug.LogWarning($"[DEBUG_LOG] SceneTransitionManager: Ignored Exit. State={currentState}.");
+                return;
+            }
+
+            StartCoroutine(ExitRunResultsToMainMenuRoutine());
+        }
+
+        private IEnumerator ContinueFromRunResultsRoutine()
+        {
+            RestoreTimeScaleAfterRunResults();
+            HUDManager.Instance?.HideRunResultsImmediate();
+
+            if (IsMainMenuScene(pendingTargetScene))
+            {
+                currentState = TransitionState.ExitingToMenu;
+                Debug.Log($"[DEBUG_LOG] SceneTransitionManager: Continue target is {mainMenuSceneName}");
+
+                yield return LoadSceneWithoutPlayerLock(pendingTargetScene);
+                AudioManager.Instance?.PlayMainMenuMusic();
+                UnlockCursorForMenu();
+                yield return FadeFromBlack();
+
+                currentState = TransitionState.None;
+                ClearPendingResults();
+                yield break;
+            }
+
             currentState = TransitionState.LoadingScene;
-            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: LoadingScene {targetScene}");
+            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: LoadingScene {pendingTargetScene}");
 
-            yield return LoadSceneAndLockPlayer(targetScene);
-            playerObj = GameObject.FindGameObjectWithTag("Player");
+            yield return LoadSceneAndLockPlayer(pendingTargetScene);
 
+            yield return RestoreSceneAfterBlack();
+        }
+
+        private IEnumerator RespawnFromRunResultsRoutine()
+        {
+            RestoreTimeScaleAfterRunResults();
+            HUDManager.Instance?.HideRunResultsImmediate();
+
+            currentState = TransitionState.ReloadingScene;
+            string activeScene = SceneManager.GetActiveScene().name;
+            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: Respawn reloading active scene {activeScene}");
+
+            yield return LoadSceneAndLockPlayer(activeScene);
+
+            yield return RestoreSceneAfterBlack();
+        }
+
+        private IEnumerator ExitRunResultsToMainMenuRoutine()
+        {
+            RestoreTimeScaleAfterRunResults();
+            HUDManager.Instance?.HideRunResultsImmediate();
+
+            currentState = TransitionState.ExitingToMenu;
+            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: Exiting to {mainMenuSceneName}");
+
+            yield return LoadSceneWithoutPlayerLock(mainMenuSceneName);
+            AudioManager.Instance?.PlayMainMenuMusic();
+            UnlockCursorForMenu();
+
+            yield return FadeFromBlack();
+            currentState = TransitionState.None;
+            ClearPendingResults();
+        }
+
+        private IEnumerator RestoreSceneAfterBlack()
+        {
             currentState = TransitionState.FadingFromBlack;
             Debug.Log("[DEBUG_LOG] SceneTransitionManager: FadingFromBlack");
 
@@ -89,8 +202,10 @@ namespace Scripts.Managers
 
             yield return ZoomOut();
 
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
             playerObj?.GetComponent<PlayerController>()?.SetControlEnabled(true);
             currentState = TransitionState.None;
+            ClearPendingResults();
         }
 
         private IEnumerator RespawnTransitionRoutine(Transform zoomTarget, float failureAnimationDuration)
@@ -114,32 +229,53 @@ namespace Scripts.Managers
             Debug.Log("[DEBUG_LOG] SceneTransitionManager: Respawn FadingToBlack");
             yield return FadeToBlack();
 
-            currentState = TransitionState.ReloadingScene;
-            string activeScene = SceneManager.GetActiveScene().name;
-            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: Respawn reloading active scene {activeScene}");
-            yield return LoadSceneAndLockPlayer(activeScene);
+            pendingResultsMode = RunResultsMode.Failure;
+            pendingTargetScene = SceneManager.GetActiveScene().name;
+            ShowRunResults(RunResultsMode.Failure);
+        }
 
-            currentState = TransitionState.FadingFromBlack;
-            Debug.Log("[DEBUG_LOG] SceneTransitionManager: Respawn FadingFromBlack");
-            yield return FadeFromBlack();
+        private void ShowRunResults(RunResultsMode mode)
+        {
+            currentState = TransitionState.ResultsVisible;
+            RunStatsSnapshot snapshot = HUDManager.Instance != null
+                ? HUDManager.Instance.CreateRunStatsSnapshot()
+                : new RunStatsSnapshot(SceneManager.GetActiveScene().name, 0, 0, 0f, 0, 0);
 
-            currentState = TransitionState.ZoomingOut;
-            Debug.Log("[DEBUG_LOG] SceneTransitionManager: Respawn ZoomingOut");
-            yield return ZoomOut();
+            HUDManager.Instance?.ShowRunResults(mode, snapshot);
+            FreezeTimeForRunResults();
+        }
 
-            currentState = TransitionState.RestoringControl;
-            playerObj = GameObject.FindGameObjectWithTag("Player");
-            controller = playerObj?.GetComponent<PlayerController>();
-            if (controller != null)
+        private void FreezeTimeForRunResults()
+        {
+            if (!hasTimeScaleBeforeRunResults)
             {
-                controller.SetControlEnabled(true);
-            }
-            else
-            {
-                Debug.LogError("[DEBUG_LOG] SceneTransitionManager: Respawn completed without finding a PlayerController.");
+                timeScaleBeforeRunResults = Time.timeScale;
+                hasTimeScaleBeforeRunResults = true;
             }
 
-            currentState = TransitionState.None;
+            EnsureUIInputUsesDynamicUpdate();
+            Time.timeScale = 0f;
+            Debug.Log("[DEBUG_LOG] SceneTransitionManager: Time frozen while RunResultsPanel is visible.");
+        }
+
+        private void RestoreTimeScaleAfterRunResults()
+        {
+            if (!hasTimeScaleBeforeRunResults) return;
+
+            Time.timeScale = timeScaleBeforeRunResults > 0f ? timeScaleBeforeRunResults : 1f;
+            hasTimeScaleBeforeRunResults = false;
+            Debug.Log($"[DEBUG_LOG] SceneTransitionManager: Time restored after RunResultsPanel. timeScale={Time.timeScale}");
+        }
+
+        private void EnsureUIInputUsesDynamicUpdate()
+        {
+#if ENABLE_INPUT_SYSTEM
+            if (InputSystem.settings != null &&
+                InputSystem.settings.updateMode != InputSettings.UpdateMode.ProcessEventsInDynamicUpdate)
+            {
+                InputSystem.settings.updateMode = InputSettings.UpdateMode.ProcessEventsInDynamicUpdate;
+            }
+#endif
         }
 
         private IEnumerator ZoomIn(Transform zoomTarget)
@@ -243,6 +379,34 @@ namespace Scripts.Managers
             {
                 Debug.LogError("[DEBUG_LOG] SceneTransitionManager: Scene loaded without a Player tagged object.");
             }
+        }
+
+        private IEnumerator LoadSceneWithoutPlayerLock(string sceneName)
+        {
+            AsyncOperation load = SceneManager.LoadSceneAsync(sceneName);
+            if (load != null)
+            {
+                while (!load.isDone) yield return null;
+            }
+
+            yield return null;
+        }
+
+        private void ClearPendingResults()
+        {
+            pendingTargetScene = null;
+            pendingResultsMode = RunResultsMode.Completion;
+        }
+
+        private bool IsMainMenuScene(string sceneName)
+        {
+            return string.Equals(sceneName, mainMenuSceneName, System.StringComparison.Ordinal);
+        }
+
+        private void UnlockCursorForMenu()
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
 
         private IEnumerator WaitForTransitionStep(System.Func<bool> isDone, string stepName)

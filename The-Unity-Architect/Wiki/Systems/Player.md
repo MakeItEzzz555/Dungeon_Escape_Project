@@ -65,8 +65,9 @@ This coexists with `ADD_PLAYER_HURTBOX_INSTRUCTIONS.md`, which documents a prefa
 - `SpikeTrapFSM` damages player `Health`; lethal trap damage reaches `Health.Die()` and starts death sequence.
 - `FallZone` calls `Health.DepleteHealth()` to wipe HP presentation, then calls `PlayerController.StartFallSequence()`.
 - Both fall and death delegate to `SceneTransitionManager.BeginRespawnTransition()` after setting the correct failure animation state.
-- The respawn transition shows the configured animation read time, zooms in on the player, fades to black, reloads the active scene, fades from black, zooms out, and restores control.
-- If `SceneTransitionManager` is missing, `PlayerController` falls back to direct active-scene reload after the same animation read time.
+- The respawn transition shows the configured animation read time, zooms in on the player, fades to black, shows `RunResultsPanel` in failure mode, and waits for the player to press `Respawn`.
+- Pressing `Respawn` reloads the active scene, fades from black, zooms out, and restores control.
+- If `SceneTransitionManager` is missing, `PlayerController` logs an error and does not auto-reload because death/fall respawn must be player-confirmed.
 - `SceneTransitionManager` calls `ResetState()` and `SetControlEnabled(false)` during scene transitions.
 
 ## Known Risks

@@ -1,4 +1,5 @@
 using UnityEngine;
+using Scripts.Managers;
 
 public class FollowPlayer : MonoBehaviour
 {
@@ -80,6 +81,12 @@ public class FollowPlayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            if (SceneTransitionManager.Instance != null &&
+                SceneTransitionManager.Instance.IsTransitioning)
+            {
+                return;
+            }
+
             TogglePauseMenu();
         }
     }

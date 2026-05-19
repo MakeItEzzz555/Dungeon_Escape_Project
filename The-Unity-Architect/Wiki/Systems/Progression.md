@@ -4,7 +4,7 @@ Last audited: 2026-05-16
 
 ## Ownership
 
-Progression is key-based. `GlobalQuestManager` tracks required and collected keys. `CheckpointDoor` uses quest completion to authorize scene transitions.
+Progression is key-based. `GlobalQuestManager` tracks required and collected keys. `CheckpointDoor` uses quest completion to authorize level completion, which now opens the run results flow before the target scene is loaded.
 
 ## Primary Scripts And Assets
 
@@ -30,8 +30,12 @@ Progression is key-based. `GlobalQuestManager` tracks required and collected key
 2. `Collect_keys` detects player trigger, plays pickup animation/SFX, then calls `GlobalQuestManager.AddKey()`.
 3. `GlobalQuestManager.AddKey()` increments collected keys and updates `HUDManager`.
 4. `CheckpointDoor` checks `GlobalQuestManager.IsQuestComplete` when player presses `E` in range.
-5. If complete, it locks the player and calls `SceneTransitionManager.BeginTransition(targetScene, zoomTarget)`.
+5. If complete, it locks the player and calls `SceneTransitionManager.BeginLevelCompletionTransition(targetScene, zoomTarget)`.
 6. If incomplete, it shows `Requires Key` through `HUDManager`.
+
+## Completion Results
+
+After a checkpoint accepts completion, the scene transition system zooms in, fades to black, shows `RunResultsPanel` in completion mode, and waits for `Continue`. The target scene is loaded only after the player confirms. Level 1 can target Level 2, and Level 2 can target Main Menu using the same serialized `targetScene` field.
 
 ## Scene Transition Contract
 

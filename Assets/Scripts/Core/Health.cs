@@ -19,6 +19,7 @@ public class Health : MonoBehaviour
 
     public bool IsDead => isDead;
     public event Action<int, int> OnHealthChanged;
+    public event Action<Health> OnDied;
 
     private void Awake()
     {
@@ -101,6 +102,8 @@ public class Health : MonoBehaviour
             SetAnimatorBoolIfExists(isDeadParam, true);
             SetAnimatorTriggerIfExists(deathTrigger);
         }
+
+        OnDied?.Invoke(this);
 
         PlayerController playerController = GetComponent<PlayerController>();
         if (playerController == null) playerController = GetComponentInParent<PlayerController>();

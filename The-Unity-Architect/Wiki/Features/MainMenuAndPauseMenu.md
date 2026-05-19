@@ -16,14 +16,16 @@ Last audited: 2026-05-16
 1. Player starts in `Main Menu`.
 2. `PlayGame()` loads `Level 1`.
 3. Gameplay music is started through `AudioManager`.
-4. Settings panel exposes audio sliders.
+4. `QuitGame()` quits the application. In the Unity Editor it stops Play Mode so the button can be verified before building.
+5. Settings panel exposes audio sliders.
 
 ### Pause Menu
 
 1. During gameplay, pressing `ESC` toggles the pause menu.
-2. `PauseGame()` activates the menu, unlocks/shows cursor, opens the main pause panel, closes settings, and sets `Time.timeScale = 0`.
-3. `ResumeGame()` hides the menu, restores `Time.timeScale = 1`, and restores cursor state.
-4. Settings panel exposes audio sliders.
+2. `PauseGame()` activates the menu, moves it to the last sibling under `HUD_Canvas`, suppresses gameplay HUD panels, unlocks/shows cursor, opens the main pause panel, closes settings, and sets `Time.timeScale = 0`.
+3. `ResumeGame()` hides the menu, restores gameplay HUD panels, restores `Time.timeScale = 1`, and restores cursor state.
+4. The pause menu `Exit_bttn` can keep calling `QuitGame()`; outside the `Main Menu` scene that method restores time/cursor/HUD state and loads `Main Menu` instead of quitting.
+5. Settings panel exposes audio sliders.
 
 ## Implementation References
 

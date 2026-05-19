@@ -18,6 +18,7 @@
 - [Coin And Key Collection](./Features/CoinAndKeyCollection.md)
 - [HUD And Feedback](./Features/HUDAndFeedback.md)
 - [Player HP HUD](./Features/PlayerHPHUD.md)
+- [Run Results Panel](./Features/RunResultsPanel.md)
 - [Lever And Gate Interaction](./Features/LeverAndGateInteraction.md)
 - [Chest Interaction](./Features/ChestInteraction.md)
 - [Traps And Fall Hazards](./Features/TrapsAndFallHazards.md)

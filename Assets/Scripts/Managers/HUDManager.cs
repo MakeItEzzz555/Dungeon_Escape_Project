@@ -4,6 +4,40 @@ using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using Scripts.Managers;
+using UnityEngine.Events;
+
+public enum RunResultsMode
+{
+    Completion,
+    Failure
+}
+
+public readonly struct RunStatsSnapshot
+{
+    public RunStatsSnapshot(
+        string levelName,
+        int coinsCollected,
+        int totalCoins,
+        float elapsedSeconds,
+        int enemiesKilled,
+        int totalActiveEnemies)
+    {
+        LevelName = levelName;
+        CoinsCollected = coinsCollected;
+        TotalCoins = totalCoins;
+        ElapsedSeconds = elapsedSeconds;
+        EnemiesKilled = enemiesKilled;
+        TotalActiveEnemies = totalActiveEnemies;
+    }
+
+    public string LevelName { get; }
+    public int CoinsCollected { get; }
+    public int TotalCoins { get; }
+    public float ElapsedSeconds { get; }
+    public int EnemiesKilled { get; }
+    public int TotalActiveEnemies { get; }
+}
 
 public class HUDManager : MonoBehaviour
 {
@@ -23,6 +57,7 @@ public class HUDManager : MonoBehaviour
 
     [Header("HP UI")]
     [SerializeField] private Transform hudHpPanel;
+    [SerializeField] private GameObject hudItemsPanel;
 
     [Header("UX Notification UI")]
     [SerializeField] private CanvasGroup uxPanelCanvasGroup;
@@ -38,6 +73,22 @@ public class HUDManager : MonoBehaviour
     [SerializeField] private float uxHoldDuration = 1.0f;
     [SerializeField] private float uxFadeOutDuration = 0.3f;
 
+    [Header("Run Results UI")]
+    [SerializeField] private CanvasGroup runResultsPanelCanvasGroup;
+    [SerializeField] private TextMeshProUGUI runResultsTitleText;
+    [SerializeField] private TextMeshProUGUI runResultsCoinsText;
+    [SerializeField] private TextMeshProUGUI runResultsTimeText;
+    [SerializeField] private TextMeshProUGUI runResultsEnemiesText;
+    [SerializeField] private GameObject runResultsContentPanel;
+    [SerializeField] private GameObject runResultsSettingsPanel;
+    [SerializeField] private GameObject summaryBanner;
+    [SerializeField] private GameObject failedBanner;
+    [SerializeField] private GameObject continueButton;
+    [SerializeField] private GameObject respawnButton;
+    [SerializeField] private GameObject exitButton;
+    [SerializeField] private float runResultsFadeDuration = 0.25f;
+    [SerializeField] private int runResultsCanvasSortingOrder = 200;
+
     [Header("Collection Tracking")]
     [Tooltip("If set to 0, it will automatically count objects with the 'Coin' tag in the scene.")]
     public int manualMaxCoins = 0;
@@ -47,9 +98,28 @@ public class HUDManager : MonoBehaviour
 
     private Coroutine uxMessageCoroutine;
     private readonly List<Image> hpImages = new List<Image>();
+    private readonly List<Health> trackedEnemyHealth = new List<Health>();
     private Health subscribedPlayerHealth;
     private int lastDisplayedHealth = -1;
     private int lastDisplayedMaxHealth = -1;
+    private Canvas hudCanvas;
+    private int defaultCanvasSortingOrder;
+    private bool defaultCanvasOverrideSorting;
+    private bool runTimerActive;
+    private float runElapsedSeconds;
+    private int totalActiveEnemies;
+    private int enemiesKilled;
+    private Coroutine runTimerStartRoutine;
+    private Coroutine runResultsFadeRoutine;
+    private CursorLockMode cursorLockStateBeforeRunResults;
+    private bool cursorVisibleBeforeRunResults;
+    private bool hasCursorStateBeforeRunResults;
+    private bool hudItemsWasActiveBeforeModal;
+    private bool hudHpWasActiveBeforeModal;
+    private bool hasGameplayHudVisibilityBeforeModal;
+    private Button boundContinueButton;
+    private Button boundRespawnButton;
+    private Button boundExitButton;
 
     private void Awake()
     {
@@ -60,7 +130,17 @@ public class HUDManager : MonoBehaviour
         }
 
         Instance = this;
+        hudCanvas = GetComponent<Canvas>();
+        if (hudCanvas != null)
+        {
+            defaultCanvasSortingOrder = hudCanvas.sortingOrder;
+            defaultCanvasOverrideSorting = hudCanvas.overrideSorting;
+        }
+
         CacheHpImages();
+        CacheRunResultsReferences();
+        CacheGameplayHudReferences();
+        ResetRunStats();
     }
 
     private void OnEnable()
@@ -72,6 +152,7 @@ public class HUDManager : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
         UnsubscribeFromPlayerHealth();
+        UnsubscribeFromEnemyHealth();
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -84,19 +165,23 @@ public class HUDManager : MonoBehaviour
 
         // Recalculate total coins in the new scene
         totalCoins = manualMaxCoins > 0 ? manualMaxCoins : GameObject.FindGameObjectsWithTag("Coin").Length;
+        ResetRunStats();
         
         // Ensure UI matches the reset state
         ResetHUDUI();
         BindPlayerHealth();
+        ScheduleRunTimerStart();
     }
 
     private void Start()
     {
         // Recalculate if not already done by OnSceneLoaded
         totalCoins = manualMaxCoins > 0 ? manualMaxCoins : GameObject.FindGameObjectsWithTag("Coin").Length;
+        ResetRunStats();
 
         ResetHUDUI();
         BindPlayerHealth();
+        ScheduleRunTimerStart();
     }
 
     private void Update()
@@ -111,6 +196,11 @@ public class HUDManager : MonoBehaviour
             subscribedPlayerHealth.maxHealth != lastDisplayedMaxHealth)
         {
             UpdatePlayerHp(subscribedPlayerHealth.currentHealth, subscribedPlayerHealth.maxHealth);
+        }
+
+        if (runTimerActive)
+        {
+            runElapsedSeconds += Time.deltaTime;
         }
     }
 
@@ -137,7 +227,478 @@ public class HUDManager : MonoBehaviour
 
         UpdateCoinsText();
         SetHpImagesVisible(hpImages.Count);
+        ResetRunResultsUI();
+        SetGameplayHudSuppressed(false);
         // Keys update is usually handled by GlobalQuestManager calling UpdateKeys
+    }
+
+    private void ResetRunResultsUI()
+    {
+        CacheRunResultsReferences();
+
+        if (runResultsFadeRoutine != null)
+        {
+            StopCoroutine(runResultsFadeRoutine);
+            runResultsFadeRoutine = null;
+        }
+
+        if (runResultsPanelCanvasGroup != null)
+        {
+            runResultsPanelCanvasGroup.alpha = 0f;
+            runResultsPanelCanvasGroup.interactable = false;
+            runResultsPanelCanvasGroup.blocksRaycasts = false;
+            runResultsPanelCanvasGroup.gameObject.SetActive(false);
+        }
+
+        SetRunResultsCanvasPriority(false);
+    }
+
+    private void CacheRunResultsReferences()
+    {
+        if (runResultsPanelCanvasGroup == null)
+        {
+            Transform panel = FindChildByName(transform, "RunResultsPanel");
+            if (panel != null)
+            {
+                runResultsPanelCanvasGroup = panel.GetComponent<CanvasGroup>();
+            }
+        }
+
+        Transform runResultsPanel = runResultsPanelCanvasGroup != null
+            ? runResultsPanelCanvasGroup.transform
+            : FindChildByName(transform, "RunResultsPanel");
+
+        if (runResultsPanel == null) return;
+
+        if (runResultsContentPanel == null)
+        {
+            Transform contentPanel = FindChildByName(runResultsPanel, "ResultsPanel");
+            if (contentPanel != null)
+            {
+                runResultsContentPanel = contentPanel.gameObject;
+            }
+        }
+
+        if (runResultsSettingsPanel == null)
+        {
+            Transform settingsPanel = FindChildByName(runResultsPanel, "settings_panel");
+            if (settingsPanel != null)
+            {
+                runResultsSettingsPanel = settingsPanel.gameObject;
+            }
+        }
+
+        if (continueButton == null)
+        {
+            Transform button = FindChildByName(runResultsPanel, "Continue_bttn");
+            if (button != null)
+            {
+                continueButton = button.gameObject;
+            }
+        }
+
+        if (respawnButton == null)
+        {
+            Transform button = FindChildByName(runResultsPanel, "Respawn_bttn");
+            if (button != null)
+            {
+                respawnButton = button.gameObject;
+            }
+        }
+
+        if (exitButton == null)
+        {
+            Transform button = FindChildByName(runResultsPanel, "Exit_bttn");
+            if (button != null)
+            {
+                exitButton = button.gameObject;
+            }
+        }
+
+        BindRunResultsButton(continueButton, ref boundContinueButton, OnRunResultsContinuePressed);
+        BindRunResultsButton(respawnButton, ref boundRespawnButton, OnRunResultsRespawnPressed);
+        BindRunResultsButton(exitButton, ref boundExitButton, OnRunResultsExitPressed);
+    }
+
+    private void BindRunResultsButton(GameObject buttonObject, ref Button boundButton, UnityAction action)
+    {
+        if (buttonObject == null) return;
+
+        Button button = buttonObject.GetComponent<Button>();
+        if (button == null)
+        {
+            Debug.LogWarning($"[DEBUG_LOG] HUDManager: {buttonObject.name} is assigned for RunResults but has no Button component.");
+            return;
+        }
+
+        if (boundButton == button) return;
+
+        if (boundButton != null)
+        {
+            boundButton.onClick.RemoveListener(action);
+        }
+
+        button.onClick.RemoveListener(action);
+        button.onClick.AddListener(action);
+        boundButton = button;
+    }
+
+    private void CacheGameplayHudReferences()
+    {
+        if (hudItemsPanel == null)
+        {
+            Transform itemsPanel = FindChildByName(transform, "HUD_Items");
+            if (itemsPanel != null)
+            {
+                hudItemsPanel = itemsPanel.gameObject;
+            }
+        }
+
+        if (hudHpPanel == null || hudHpPanel.name != "HUD_HP")
+        {
+            Transform hpPanel = FindChildByName(transform, "HUD_HP");
+            if (hpPanel != null)
+            {
+                hudHpPanel = hpPanel;
+            }
+        }
+    }
+
+    private void ResetRunStats()
+    {
+        StopRunTimer();
+        runElapsedSeconds = 0f;
+        enemiesKilled = 0;
+        UnsubscribeFromEnemyHealth();
+        CacheActiveEnemies();
+    }
+
+    private void CacheActiveEnemies()
+    {
+        totalActiveEnemies = 0;
+        EnemyAI[] enemies = FindObjectsByType<EnemyAI>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+        foreach (EnemyAI enemy in enemies)
+        {
+            if (enemy == null || !enemy.gameObject.activeInHierarchy) continue;
+
+            Health health = enemy.GetComponent<Health>();
+            if (health == null) health = enemy.GetComponentInParent<Health>();
+            if (health == null || health.IsDead) continue;
+
+            totalActiveEnemies++;
+            trackedEnemyHealth.Add(health);
+            health.OnDied += OnTrackedEnemyDied;
+        }
+    }
+
+    private void UnsubscribeFromEnemyHealth()
+    {
+        foreach (Health health in trackedEnemyHealth)
+        {
+            if (health != null)
+            {
+                health.OnDied -= OnTrackedEnemyDied;
+            }
+        }
+
+        trackedEnemyHealth.Clear();
+    }
+
+    private void OnTrackedEnemyDied(Health health)
+    {
+        if (!trackedEnemyHealth.Contains(health)) return;
+
+        enemiesKilled++;
+        health.OnDied -= OnTrackedEnemyDied;
+        trackedEnemyHealth.Remove(health);
+    }
+
+    private void ScheduleRunTimerStart()
+    {
+        if (runTimerStartRoutine != null)
+        {
+            StopCoroutine(runTimerStartRoutine);
+        }
+
+        runTimerStartRoutine = StartCoroutine(StartRunTimerWhenGameplayReady());
+    }
+
+    private IEnumerator StartRunTimerWhenGameplayReady()
+    {
+        yield return null;
+
+        while (SceneTransitionManager.Instance != null && SceneTransitionManager.Instance.IsTransitioning)
+        {
+            yield return null;
+        }
+
+        StartRunTimer();
+        runTimerStartRoutine = null;
+    }
+
+    public void StartRunTimer()
+    {
+        runTimerActive = true;
+    }
+
+    public void StopRunTimer()
+    {
+        runTimerActive = false;
+    }
+
+    public RunStatsSnapshot CreateRunStatsSnapshot()
+    {
+        return new RunStatsSnapshot(
+            SceneManager.GetActiveScene().name,
+            coinsCollected,
+            totalCoins,
+            runElapsedSeconds,
+            enemiesKilled,
+            totalActiveEnemies);
+    }
+
+    public void ShowRunResults(RunResultsMode mode, RunStatsSnapshot stats)
+    {
+        StopRunTimer();
+        CacheRunResultsReferences();
+
+        if (runResultsPanelCanvasGroup == null)
+        {
+            Debug.LogWarning("[DEBUG_LOG] HUDManager: RunResultsPanel CanvasGroup missing. Results UI cannot be shown.");
+            return;
+        }
+
+        SetRunResultsText(mode, stats);
+        SetRunResultsButtons(mode);
+        SetRunResultsPanelState();
+        SetRunResultsCanvasPriority(true);
+        SetGameplayHudSuppressed(true);
+        UnlockCursorForRunResults();
+
+        runResultsPanelCanvasGroup.gameObject.SetActive(true);
+        runResultsPanelCanvasGroup.transform.SetAsLastSibling();
+        runResultsPanelCanvasGroup.interactable = false;
+        runResultsPanelCanvasGroup.blocksRaycasts = false;
+
+        if (runResultsFadeRoutine != null)
+        {
+            StopCoroutine(runResultsFadeRoutine);
+        }
+
+        runResultsFadeRoutine = StartCoroutine(FadeRunResultsPanel(1f, true));
+    }
+
+    public void HideRunResultsImmediate()
+    {
+        CacheRunResultsReferences();
+        if (runResultsFadeRoutine != null)
+        {
+            StopCoroutine(runResultsFadeRoutine);
+            runResultsFadeRoutine = null;
+        }
+
+        if (runResultsPanelCanvasGroup != null)
+        {
+            runResultsPanelCanvasGroup.alpha = 0f;
+            runResultsPanelCanvasGroup.interactable = false;
+            runResultsPanelCanvasGroup.blocksRaycasts = false;
+            runResultsPanelCanvasGroup.gameObject.SetActive(false);
+        }
+
+        SetRunResultsCanvasPriority(false);
+        SetGameplayHudSuppressed(false);
+        RestoreCursorAfterRunResults();
+    }
+
+    public void OnRunResultsContinuePressed()
+    {
+        Debug.Log("[DEBUG_LOG] HUDManager: RunResults Continue pressed.");
+        SceneTransitionManager.Instance?.ContinueFromRunResults();
+    }
+
+    public void OnRunResultsRespawnPressed()
+    {
+        Debug.Log("[DEBUG_LOG] HUDManager: RunResults Respawn pressed.");
+        SceneTransitionManager.Instance?.RespawnFromRunResults();
+    }
+
+    public void OnRunResultsExitPressed()
+    {
+        Debug.Log("[DEBUG_LOG] HUDManager: RunResults Exit pressed.");
+        SceneTransitionManager.Instance?.ExitRunResultsToMainMenu();
+    }
+
+    private void SetRunResultsText(RunResultsMode mode, RunStatsSnapshot stats)
+    {
+        string resultWord = mode == RunResultsMode.Completion ? "Passed" : "Failed";
+
+        if (runResultsTitleText != null)
+        {
+            runResultsTitleText.text = $"{stats.LevelName} {resultWord}";
+        }
+
+        if (runResultsCoinsText != null)
+        {
+            runResultsCoinsText.text = $"Coins: {stats.CoinsCollected} / {stats.TotalCoins}";
+        }
+
+        if (runResultsTimeText != null)
+        {
+            runResultsTimeText.text = $"Time: {FormatElapsedTime(stats.ElapsedSeconds)}";
+        }
+
+        if (runResultsEnemiesText != null)
+        {
+            runResultsEnemiesText.text = stats.TotalActiveEnemies > 0
+                ? $"Enemies Killed: {stats.EnemiesKilled} / {stats.TotalActiveEnemies}"
+                : "Enemies Killed: N/A";
+        }
+    }
+
+    private void SetRunResultsButtons(RunResultsMode mode)
+    {
+        if (summaryBanner != null)
+        {
+            summaryBanner.SetActive(mode == RunResultsMode.Completion);
+        }
+
+        if (failedBanner != null)
+        {
+            failedBanner.SetActive(mode == RunResultsMode.Failure);
+        }
+
+        if (continueButton != null)
+        {
+            continueButton.SetActive(mode == RunResultsMode.Completion);
+        }
+
+        if (respawnButton != null)
+        {
+            respawnButton.SetActive(mode == RunResultsMode.Failure);
+        }
+    }
+
+    private void SetRunResultsPanelState()
+    {
+        CacheRunResultsReferences();
+
+        if (runResultsContentPanel != null)
+        {
+            runResultsContentPanel.SetActive(true);
+            runResultsContentPanel.transform.SetAsLastSibling();
+        }
+
+        if (runResultsSettingsPanel != null)
+        {
+            runResultsSettingsPanel.SetActive(false);
+        }
+    }
+
+    private IEnumerator FadeRunResultsPanel(float targetAlpha, bool keepActive)
+    {
+        float startAlpha = runResultsPanelCanvasGroup.alpha;
+        float elapsed = 0f;
+
+        while (elapsed < runResultsFadeDuration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float t = runResultsFadeDuration > 0f ? elapsed / runResultsFadeDuration : 1f;
+            runResultsPanelCanvasGroup.alpha = Mathf.Lerp(startAlpha, targetAlpha, t);
+            yield return null;
+        }
+
+        runResultsPanelCanvasGroup.alpha = targetAlpha;
+        runResultsPanelCanvasGroup.interactable = targetAlpha > 0.99f;
+        runResultsPanelCanvasGroup.blocksRaycasts = targetAlpha > 0.99f;
+
+        if (!keepActive)
+        {
+            runResultsPanelCanvasGroup.gameObject.SetActive(false);
+            SetRunResultsCanvasPriority(false);
+        }
+
+        runResultsFadeRoutine = null;
+    }
+
+    public void SetGameplayHudSuppressed(bool suppressed)
+    {
+        CacheGameplayHudReferences();
+
+        GameObject hpPanelObject = hudHpPanel != null ? hudHpPanel.gameObject : null;
+
+        if (suppressed)
+        {
+            if (!hasGameplayHudVisibilityBeforeModal)
+            {
+                hudItemsWasActiveBeforeModal = hudItemsPanel != null && hudItemsPanel.activeSelf;
+                hudHpWasActiveBeforeModal = hpPanelObject != null && hpPanelObject.activeSelf;
+                hasGameplayHudVisibilityBeforeModal = true;
+            }
+
+            if (hudItemsPanel != null)
+            {
+                hudItemsPanel.SetActive(false);
+            }
+
+            if (hpPanelObject != null)
+            {
+                hpPanelObject.SetActive(false);
+            }
+
+            return;
+        }
+
+        if (!hasGameplayHudVisibilityBeforeModal) return;
+
+        if (hudItemsPanel != null)
+        {
+            hudItemsPanel.SetActive(hudItemsWasActiveBeforeModal);
+        }
+
+        if (hpPanelObject != null)
+        {
+            hpPanelObject.SetActive(hudHpWasActiveBeforeModal);
+        }
+
+        hasGameplayHudVisibilityBeforeModal = false;
+    }
+
+    private void SetRunResultsCanvasPriority(bool showAboveFadeOverlay)
+    {
+        if (hudCanvas == null) return;
+
+        hudCanvas.overrideSorting = showAboveFadeOverlay || defaultCanvasOverrideSorting;
+        hudCanvas.sortingOrder = showAboveFadeOverlay ? runResultsCanvasSortingOrder : defaultCanvasSortingOrder;
+    }
+
+    private void UnlockCursorForRunResults()
+    {
+        if (!hasCursorStateBeforeRunResults)
+        {
+            cursorLockStateBeforeRunResults = Cursor.lockState;
+            cursorVisibleBeforeRunResults = Cursor.visible;
+            hasCursorStateBeforeRunResults = true;
+        }
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    private void RestoreCursorAfterRunResults()
+    {
+        if (!hasCursorStateBeforeRunResults) return;
+
+        Cursor.lockState = cursorLockStateBeforeRunResults;
+        Cursor.visible = cursorVisibleBeforeRunResults;
+        hasCursorStateBeforeRunResults = false;
+    }
+
+    private string FormatElapsedTime(float elapsedSeconds)
+    {
+        int totalSeconds = Mathf.FloorToInt(Mathf.Max(0f, elapsedSeconds));
+        int minutes = totalSeconds / 60;
+        int seconds = totalSeconds % 60;
+        return $"{minutes:00}:{seconds:00}";
     }
 
     private void CacheHpImages()

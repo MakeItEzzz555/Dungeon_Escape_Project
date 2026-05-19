@@ -1,7 +1,6 @@
 using System.Collections;
 using Scripts.Managers;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Clean deterministic player controller.
@@ -251,14 +250,8 @@ public class PlayerController : MonoBehaviour
             yield break;
         }
 
-        Debug.LogWarning("[DEBUG_LOG] PlayerController: SceneTransitionManager missing. Falling back to direct scene reload.");
+        Debug.LogError("[DEBUG_LOG] PlayerController: SceneTransitionManager missing. Cannot show RunResultsPanel or respawn safely.");
         yield return new WaitForSeconds(failureAnimationDuration);
-        ReloadActiveScene();
-    }
-
-    private void ReloadActiveScene()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void SetControlEnabled(bool enabled)

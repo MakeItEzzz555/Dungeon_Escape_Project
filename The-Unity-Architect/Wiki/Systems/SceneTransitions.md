@@ -26,26 +26,30 @@ Scene transitions and respawn transitions are orchestrated by `SceneTransitionMa
 - `FailureAnimation`
 - `ZoomingIn`
 - `FadingToBlack`
+- `ResultsVisible`
 - `LoadingScene`
 - `ReloadingScene`
 - `FadingFromBlack`
 - `ZoomingOut`
 - `RestoringControl`
+- `ExitingToMenu`
 
 ## Transition Flow
 
 1. `CheckpointDoor` validates quest completion.
 2. It disables player control, physics velocity, rigidbody simulation, and collider.
-3. It calls `SceneTransitionManager.BeginTransition(targetScene, zoomTarget)`.
+3. It calls `SceneTransitionManager.BeginLevelCompletionTransition(targetScene, zoomTarget)`.
 4. `SceneTransitionManager` disables player control again as a safety layer.
 5. It calls `CameraTransitionSystem.StartZoomIn()`.
 6. It calls `UITransitionManager.FadeToBlack()`.
-7. It loads the target scene asynchronously.
-8. It waits one frame.
-9. It finds the new player and calls `ResetState()` and `SetControlEnabled(false)`.
-10. It calls `UITransitionManager.FadeFromBlack()`.
-11. It calls `CameraTransitionSystem.StartZoomOut()`.
-12. It re-enables player control and returns state to `None`.
+7. It snapshots run stats through `HUDManager`.
+8. It shows `RunResultsPanel` in completion mode over full black and freezes `Time.timeScale`.
+9. `Continue` restores `Time.timeScale` and loads the target scene asynchronously while the screen remains black.
+10. It waits one frame.
+11. If the loaded scene contains a player, it calls `ResetState()` and `SetControlEnabled(false)`.
+12. It calls `UITransitionManager.FadeFromBlack()`.
+13. It calls `CameraTransitionSystem.StartZoomOut()` for gameplay scenes.
+14. It re-enables player control and returns state to `None`.
 
 ## Respawn Transition Flow
 
@@ -54,11 +58,17 @@ Scene transitions and respawn transitions are orchestrated by `SceneTransitionMa
 3. `SceneTransitionManager` enters `FailureAnimation` immediately, so hazard triggers see `IsTransitioning`.
 4. After the failure animation read time, it zooms in on the player.
 5. It fades to black.
-6. It reloads the active scene asynchronously.
-7. It waits one frame, finds the new player, calls `ResetState()`, and keeps control disabled.
-8. It fades from black.
-9. It zooms out to gameplay zoom.
-10. It restores player control and returns state to `None`.
+6. It snapshots run stats through `HUDManager`.
+7. It shows `RunResultsPanel` in respawn mode over full black and freezes `Time.timeScale`.
+8. `Respawn` restores `Time.timeScale` and reloads the active scene asynchronously while the screen remains black.
+9. It waits one frame, finds the new player, calls `ResetState()`, and keeps control disabled.
+10. It fades from black.
+11. It zooms out to gameplay zoom.
+12. It restores player control and returns state to `None`.
+
+## Run Results Exit Flow
+
+When the results panel `Exit` button is pressed, `SceneTransitionManager` restores `Time.timeScale`, loads `Main Menu` while black, switches audio to main menu music after the menu scene loads, unlocks the cursor, fades from black, and returns state to `None`.
 
 ## Fade Overlay Input Rule
 
@@ -73,4 +83,4 @@ Zoom and fade waits have a 5 second timeout. If a callback does not arrive, the 
 - `CheckpointDoor` and `SceneTransitionManager` both manipulate player control/physics.
 - Scene loading uses scene names as strings.
 - Transition logic finds the player by tag after load; missing `Player` tag will break control restoration.
-- Respawn transitions depend on the persistent transition infrastructure being present; if missing, `PlayerController` falls back to direct active-scene reload.
+- Respawn transitions depend on the persistent transition infrastructure being present. If missing, `PlayerController` logs an error and does not auto-reload because death/fall respawn must be player-confirmed through `RunResultsPanel`.
