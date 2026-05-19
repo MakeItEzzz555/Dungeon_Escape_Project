@@ -18,6 +18,7 @@ public class SpikeTrapFSM : MonoBehaviour
 
     [Header("Startup")]
     [SerializeField] private bool startEnabled = true;
+    [SerializeField] private int trapDamageAmount = 5;
 
     private TrapState state;
 
@@ -35,7 +36,7 @@ public class SpikeTrapFSM : MonoBehaviour
 
     private bool trapEnabled;
     private bool damageWindowOpen;
-    private bool deathRunning;
+    private bool damageAppliedThisWindow;
 
     // ─────────────────────────────────────────────────────────────
     // UNITY
@@ -63,12 +64,12 @@ public class SpikeTrapFSM : MonoBehaviour
 
     private void Update()
     {
-        if (deathRunning || !trapEnabled)
+        if (!trapEnabled)
             return;
 
         if (damageWindowOpen && detectedPlayer != null)
         {
-            TriggerDeath();
+            ApplyTrapDamage();
         }
     }
 
@@ -161,11 +162,11 @@ public class SpikeTrapFSM : MonoBehaviour
         if (!trapEnabled)
             return;
 
-        if (state == TrapState.Triggered ||
-            state == TrapState.CoolingDown)
+        if (state == TrapState.CoolingDown)
             return;
 
         damageWindowOpen = true;
+        damageAppliedThisWindow = false;
         state = TrapState.Active;
 
         Debug.Log("[SpikeTrapFSM] DAMAGE WINDOW OPEN");
@@ -178,12 +179,14 @@ public class SpikeTrapFSM : MonoBehaviour
     public void DisableDamageWindow()
     {
         damageWindowOpen = false;
+        damageAppliedThisWindow = false;
 
         if (trapEnabled &&
-            state != TrapState.Triggered &&
             state != TrapState.CoolingDown)
         {
-            state = TrapState.Armed;
+            state = detectedPlayer != null
+                ? TrapState.PlayerDetected
+                : TrapState.Armed;
         }
 
         Debug.Log("[SpikeTrapFSM] DAMAGE WINDOW CLOSED");
@@ -193,23 +196,34 @@ public class SpikeTrapFSM : MonoBehaviour
     // DEATH
     // ─────────────────────────────────────────────────────────────
 
-    private void TriggerDeath()
+    private void ApplyTrapDamage()
     {
-        if (deathRunning)
+        if (damageAppliedThisWindow)
             return;
 
         if (detectedPlayer == null)
             return;
 
-        if (detectedPlayer.IsDead)
+        if (detectedPlayer.IsDead || detectedPlayer.IsFalling)
             return;
 
-        deathRunning = true;
+        Health health = detectedPlayer.GetComponent<Health>();
+        if (health == null) health = detectedPlayer.GetComponentInParent<Health>();
+
+        if (health == null)
+        {
+            Debug.LogWarning("[SpikeTrapFSM] Player Health missing. Falling back to death sequence.");
+            damageAppliedThisWindow = true;
+            detectedPlayer.StartDeathSequence();
+            return;
+        }
+
+        damageAppliedThisWindow = true;
         state = TrapState.Triggered;
 
-        Debug.Log("[SpikeTrapFSM] Player killed.");
+        Debug.Log($"[SpikeTrapFSM] Player damaged for {trapDamageAmount}.");
 
-        detectedPlayer.StartDeathSequence();
+        health.TakeDamage(trapDamageAmount, transform);
     }
 
     // ─────────────────────────────────────────────────────────────
@@ -227,7 +241,7 @@ public class SpikeTrapFSM : MonoBehaviour
         detectedPlayer = null;
 
         damageWindowOpen = false;
-        deathRunning = false;
+        damageAppliedThisWindow = false;
 
         if (animator != null)
         {

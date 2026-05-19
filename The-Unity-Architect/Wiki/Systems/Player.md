@@ -1,6 +1,6 @@
 # Player System
 
-Last audited: 2026-05-16
+Last audited: 2026-05-19
 
 ## Ownership
 
@@ -11,7 +11,7 @@ The player system controls movement, animation bridging, combat input, fall/deat
 | Asset | Role |
 |:------|:-----|
 | `Assets/Prefabs/Player/Player 1.prefab` | Player prefab used in Level 1 and Level 2. |
-| `Assets/Scripts/Player/PlayerController.cs` | Movement, lock state, idle timer, footstep calls, fall/death/reload flow, HurtBox creation. |
+| `Assets/Scripts/Player/PlayerController.cs` | Movement, lock state, idle timer, footstep calls, fall/death respawn transition delegation, HurtBox creation. |
 | `Assets/Scripts/Player/PlayerAnimator.cs` | Animator parameter bridge. |
 | `Assets/Scripts/Player/PlayerCombat.cs` | Attack input, attack animation trigger, sword hitbox events, attack SFX. |
 | `Assets/Scripts/FollowPlayer.cs` | Camera follow and pause menu toggle. |
@@ -21,8 +21,8 @@ The player system controls movement, animation bridging, combat input, fall/deat
 
 | State | Owner | Notes |
 |:------|:------|:------|
-| `isDead` | `PlayerController` | Blocks movement/input and starts death reload. |
-| `isFalling` | `PlayerController` | Blocks movement/input and starts fall reload. |
+| `isDead` | `PlayerController` | Blocks movement/input and starts death respawn transition. |
+| `isFalling` | `PlayerController` | Blocks movement/input and starts fall respawn transition. |
 | `canMove` | `PlayerController` | Used by scene transitions and pause-like locks. |
 | `spawnGracePeriod` | `PlayerController` | Prevents instant fall-zone trigger after scene load. |
 | `IsInStandBy` | `PlayerAnimator` / Animator | Idle animation state. |
@@ -62,9 +62,12 @@ This coexists with `ADD_PLAYER_HURTBOX_INSTRUCTIONS.md`, which documents a prefa
 ## Death And Fall
 
 - `Health.Die()` calls `PlayerController.StartDeathSequence()` for player objects.
-- `SpikeTrapFSM` calls `PlayerController.StartDeathSequence()` directly.
-- `FallZone` calls `PlayerController.StartFallSequence()`.
-- Both fall and death eventually reload the active scene.
+- `SpikeTrapFSM` damages player `Health`; lethal trap damage reaches `Health.Die()` and starts death sequence.
+- `FallZone` calls `Health.DepleteHealth()` to wipe HP presentation, then calls `PlayerController.StartFallSequence()`.
+- Both fall and death delegate to `SceneTransitionManager.BeginRespawnTransition()` after setting the correct failure animation state.
+- The respawn transition shows the configured animation read time, zooms in on the player, fades to black, shows `RunResultsPanel` in failure mode, and waits for the player to press `Respawn`.
+- Pressing `Respawn` reloads the active scene, fades from black, zooms out, and restores control.
+- If `SceneTransitionManager` is missing, `PlayerController` logs an error and does not auto-reload because death/fall respawn must be player-confirmed.
 - `SceneTransitionManager` calls `ResetState()` and `SetControlEnabled(false)` during scene transitions.
 
 ## Known Risks

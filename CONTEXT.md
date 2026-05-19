@@ -24,9 +24,17 @@ This file defines canonical project terms. Code, Inspector labels, Wiki pages, a
 | `GlobalQuestManager` | Persistent singleton that owns collected/required key state and quest completion. | Progression |
 | `CheckpointDoor` | Level completion interactable that checks quest completion and starts scene transition. | Progression |
 | `SceneTransitionManager` | Persistent singleton that sequences zoom, fade, scene load, and player control restoration. | Scene Transitions |
+| `RespawnTransition` | Player-facing death or fall recovery sequence that reuses camera zoom and UI fade before reloading the active scene and restoring control. | Scene Transitions |
 | `CameraTransitionSystem` | Camera zoom owner used during scene transitions. | Camera |
 | `UITransitionManager` | Fade overlay owner used during scene transitions. | Scene Transitions |
 | `HUDManager` | UGUI gameplay HUD owner for coin/key counters and short UX messages. | UI |
+| `HUD_HP` | HUD panel under `HUD_Canvas` that contains the player's HP images. | UI |
+| `HPImage` | One UGUI Image under `HUD_HP` representing one current player hit point. | UI |
+| `RunResultsPanel` | Results panel under `HUD_Canvas` shown over full black after either level completion or player death/fall, with mode-specific primary action. | UI |
+| `RunStats` | Per-attempt summary values shown by `RunResultsPanel`: coins collected, total coins, active gameplay time, enemies killed, and total active enemies. | Progression |
+| `LevelTimer` | Per-attempt active gameplay timer that starts when player control is restored, pauses outside gameplay, stops on completion or failure, and supplies elapsed time to `RunResultsPanel`. | Progression |
+| `LevelCompletionFlow` | Checkpoint-driven sequence that locks gameplay, stops the `LevelTimer`, zooms/fades to black, shows `RunResultsPanel` in completion mode, then continues to the next scene after player confirmation. | Progression |
+| `DeathResultsFlow` | Death/fall sequence that locks gameplay, stops the `LevelTimer`, zooms/fades to black, shows `RunResultsPanel` in respawn mode, then reloads the active scene after player confirmation. | Progression |
 | `Player` | Main player avatar, currently represented by `Player 1.prefab`. | Player |
 | `PlayerController` | Player movement, state lock, fall/death, idle, footstep, and HurtBox provisioning component. | Player |
 | `PlayerAnimator` | Animator bridge for player movement, idle, attack, falling, and death parameters. | Player |

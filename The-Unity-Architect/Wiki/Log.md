@@ -1,5 +1,19 @@
 # Wiki Log
 
+## 2026-05-18
+
+- Created feature GDD: [Respawn Transition](./Features/RespawnTransition.md)
+- Added `RespawnTransition` to the root `CONTEXT.md` glossary.
+- Linked Respawn Transition from the wiki index and feature index.
+
+## 2026-05-19
+
+- Implemented [Respawn Transition](./Features/RespawnTransition.md) through `SceneTransitionManager.BeginRespawnTransition`.
+- Updated [Scene Transition System](./Systems/SceneTransitions.md) and [Player System](./Systems/Player.md) to document death/fall respawn zoom and fade behavior.
+- Implemented [Player HP HUD](./Features/PlayerHPHUD.md), including health-change HUD binding, configurable trap damage, and fall-zone HP depletion.
+- Created feature GDD: [Run Results Panel](./Features/RunResultsPanel.md).
+- Added `RunResultsPanel`, `RunStats`, `LevelTimer`, `LevelCompletionFlow`, and `DeathResultsFlow` to the root `CONTEXT.md` glossary.
+
 ## 2026-05-16
 
 - Created feature GDD: [Audio Volume Settings](./Features/AudioVolumeSettings.md)

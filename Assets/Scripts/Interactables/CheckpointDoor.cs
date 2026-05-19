@@ -58,6 +58,13 @@ public class CheckpointDoor : MonoBehaviour
 
         Debug.Log($"Quest complete. Transitioning to {targetScene}...");
 
+        if (SceneTransitionManager.Instance == null)
+        {
+            Debug.LogError("SceneTransitionManager is missing from scene!");
+            isTransitioning = false;
+            return;
+        }
+
         // ----------------------------------------------------
         // HARD PLAYER LOCK (prevents fall/death triggers)
         // ----------------------------------------------------
@@ -86,18 +93,9 @@ public class CheckpointDoor : MonoBehaviour
         }
 
         // ----------------------------------------------------
-        // SAFETY CHECK: Transition Manager
+        // START RESULTS-AWARE TRANSITION
         // ----------------------------------------------------
-        if (SceneTransitionManager.Instance == null)
-        {
-            Debug.LogError("SceneTransitionManager is missing from scene!");
-            return;
-        }
-
-        // ----------------------------------------------------
-        // START TRANSITION
-        // ----------------------------------------------------
-        SceneTransitionManager.Instance.BeginTransition(
+        SceneTransitionManager.Instance.BeginLevelCompletionTransition(
             targetScene,
             zoomTarget != null ? zoomTarget : transform
         );

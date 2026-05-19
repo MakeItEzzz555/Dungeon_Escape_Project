@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class Health : MonoBehaviour
 {
@@ -17,19 +18,23 @@ public class Health : MonoBehaviour
     private bool isDead = false;
 
     public bool IsDead => isDead;
+    public event Action<int, int> OnHealthChanged;
+    public event Action<Health> OnDied;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
         if (animator == null) animator = GetComponentInChildren<Animator>();
         currentHealth = maxHealth;
+        NotifyHealthChanged();
     }
 
     public void TakeDamage(int amount, Transform attacker)
     {
         if (isDead) return;
+        if (amount <= 0) return;
 
-        currentHealth -= amount;
+        currentHealth = Mathf.Clamp(currentHealth - amount, 0, maxHealth);
         Debug.Log($"[DEBUG_LOG] {gameObject.name} took {amount} damage. HP: {currentHealth}/{maxHealth}");
 
         if (currentHealth <= 0)
@@ -38,8 +43,23 @@ public class Health : MonoBehaviour
         }
         else
         {
+            NotifyHealthChanged();
             TriggerHurt(attacker);
         }
+    }
+
+    public void DepleteHealth()
+    {
+        if (isDead && currentHealth <= 0)
+        {
+            NotifyHealthChanged();
+            return;
+        }
+
+        isDead = true;
+        currentHealth = 0;
+        Debug.Log($"[DEBUG_LOG] {gameObject.name} HP depleted.");
+        NotifyHealthChanged();
     }
 
     private void TriggerHurt(Transform attacker)
@@ -73,6 +93,7 @@ public class Health : MonoBehaviour
         if (isDead) return;
         isDead = true;
         currentHealth = 0;
+        NotifyHealthChanged();
 
         Debug.Log($"[DEBUG_LOG] {gameObject.name} has died.");
 
@@ -81,6 +102,8 @@ public class Health : MonoBehaviour
             SetAnimatorBoolIfExists(isDeadParam, true);
             SetAnimatorTriggerIfExists(deathTrigger);
         }
+
+        OnDied?.Invoke(this);
 
         PlayerController playerController = GetComponent<PlayerController>();
         if (playerController == null) playerController = GetComponentInParent<PlayerController>();
@@ -92,6 +115,11 @@ public class Health : MonoBehaviour
         }
 
         SendMessage("OnDeath", SendMessageOptions.DontRequireReceiver);
+    }
+
+    private void NotifyHealthChanged()
+    {
+        OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
     private void SetAnimatorFloatIfExists(string paramName, float value)

@@ -3,9 +3,15 @@ using UnityEngine.SceneManagement;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class MainMenu : MonoBehaviour
 {
+    private const string MainMenuSceneName = "Main Menu";
+    private const string FirstLevelSceneName = "Level 1";
+
     [Header("Menu Panels")]
     public GameObject mainPausePanel;
     public GameObject settingsPanel;
@@ -18,13 +24,13 @@ public class MainMenu : MonoBehaviour
     {
         // If we are in the Main Menu scene (Scene 0 or named "MainMenu"), load the level.
         // Otherwise, if we are already in a level, just resume.
-        if (SceneManager.GetActiveScene().name == "Main Menu") // Adjust name if needed
+        if (SceneManager.GetActiveScene().name == MainMenuSceneName)
         {
             // No need to disable camera anymore as we are using a persistent system
             // and we want it to render throughout the transition.
 
             // Load the first level of the game (Level 1)
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene(FirstLevelSceneName);
 
             // Update Music to gameplay
             if (AudioManager.Instance != null)
@@ -42,6 +48,7 @@ public class MainMenu : MonoBehaviour
     public void ResumeGame()
     {
         gameObject.SetActive(false);
+        HUDManager.Instance?.SetGameplayHudSuppressed(false);
         Time.timeScale = 1f;
         RestoreCursorStateAfterPause();
     }
@@ -50,6 +57,11 @@ public class MainMenu : MonoBehaviour
     {
         // First ensure the GameObject itself is active
         gameObject.SetActive(true);
+        if (transform.parent != null)
+        {
+            transform.SetAsLastSibling();
+        }
+        HUDManager.Instance?.SetGameplayHudSuppressed(true);
         
         // Ensure the Canvas component is also enabled if it exists
         Canvas canvas = GetComponent<Canvas>();
@@ -64,6 +76,7 @@ public class MainMenu : MonoBehaviour
         if (mainPausePanel != null)
         {
             mainPausePanel.SetActive(true);
+            mainPausePanel.transform.SetAsLastSibling();
             Debug.Log("[DEBUG_LOG] MainMenu: mainPausePanel activated via reference.");
         }
         else
@@ -115,19 +128,52 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("QUIT!");
+        if (SceneManager.GetActiveScene().name != MainMenuSceneName)
+        {
+            ReturnToMainMenu();
+            return;
+        }
+
+        Debug.Log("[DEBUG_LOG] MainMenu: Quit requested.");
         Application.Quit();
+
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#endif
+    }
+
+    public void ReturnToMainMenu()
+    {
+        Debug.Log("[DEBUG_LOG] MainMenu: Returning to Main Menu.");
+
+        Time.timeScale = 1f;
+        HUDManager.Instance?.SetGameplayHudSuppressed(false);
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        hasCursorStateBeforePause = false;
+
+        SceneManager.LoadScene(MainMenuSceneName);
+        AudioManager.Instance?.PlayMainMenuMusic();
     }
 
     public void OpenSettings()
     {
         if (mainPausePanel != null) mainPausePanel.SetActive(false);
-        if (settingsPanel != null) settingsPanel.SetActive(true);
+        if (settingsPanel != null)
+        {
+            settingsPanel.SetActive(true);
+            settingsPanel.transform.SetAsLastSibling();
+        }
     }
 
     public void CloseSettings()
     {
-        if (mainPausePanel != null) mainPausePanel.SetActive(true);
+        if (mainPausePanel != null)
+        {
+            mainPausePanel.SetActive(true);
+            mainPausePanel.transform.SetAsLastSibling();
+        }
         if (settingsPanel != null) settingsPanel.SetActive(false);
     }
 

@@ -1,6 +1,6 @@
 # Combat System
 
-Last audited: 2026-05-16
+Last audited: 2026-05-19
 
 ## Ownership
 
@@ -28,13 +28,19 @@ Combat is built around reusable `Health` and `Hitbox` components. Player and ene
 - hurt trigger
 - hurt direction animator floats
 - death trigger/bool
+- `OnHealthChanged(currentHealth, maxHealth)` event
+- `OnDied(Health)` event for death-specific listeners such as run enemy kill stats
 
 When health reaches zero:
 
 1. It marks itself dead.
-2. It drives animator death parameters if present.
-3. If a `PlayerController` exists on self or parent, it starts the player death sequence.
-4. Otherwise it sends `OnDeath` using `SendMessage`.
+2. It clamps `currentHealth` to `0` and notifies health listeners.
+3. It drives animator death parameters if present.
+4. It invokes `OnDied`.
+5. If a `PlayerController` exists on self or parent, it starts the player death sequence.
+6. Otherwise it sends `OnDeath` using `SendMessage`.
+
+`Health.DepleteHealth()` sets HP to `0` and notifies listeners without starting the standard death animation path. Fall zones use this before starting the fall sequence.
 
 ## Hitbox
 

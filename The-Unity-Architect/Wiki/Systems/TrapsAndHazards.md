@@ -1,10 +1,10 @@
 # Traps And Hazards System
 
-Last audited: 2026-05-16
+Last audited: 2026-05-19
 
 ## Ownership
 
-Hazards kill or reset the player through trap state machines and fall zones.
+Hazards damage, kill, or reset the player through trap state machines and fall zones.
 
 ## Primary Scripts And Assets
 
@@ -30,9 +30,10 @@ Hazards kill or reset the player through trap state machines and fall zones.
 2. Animator speed is `1` when enabled and `0` when disabled.
 3. Player trigger enter stores `detectedPlayer`.
 4. Animation event `EnableDamageWindow()` opens the damage window.
-5. If a detected player exists while the damage window is open, `TriggerDeath()` calls `PlayerController.StartDeathSequence()`.
-6. Animation event `DisableDamageWindow()` closes the damage window.
-7. `SetTrapActive(bool)` supports lever-driven enable/disable.
+5. If a detected player exists while the damage window is open, `SpikeTrapFSM` applies `trapDamageAmount` to player `Health`.
+6. Each damage window can damage the player once; closing the window resets the per-window hit guard.
+7. Animation event `DisableDamageWindow()` closes the damage window.
+8. `SetTrapActive(bool)` supports lever-driven enable/disable.
 
 ## FallZone Runtime Flow
 
@@ -40,7 +41,8 @@ Hazards kill or reset the player through trap state machines and fall zones.
 2. It ignores activation during `SceneTransitionManager.IsTransitioning`.
 3. It ignores activation while `PlayerController.IsSpawnProtected()` is true.
 4. It triggers only once per enable.
-5. It calls `PlayerController.StartFallSequence()`.
+5. It calls `Health.DepleteHealth()` to hide all HP images immediately.
+6. It calls `PlayerController.StartFallSequence()`.
 
 ## Scene Wiring
 
@@ -52,4 +54,4 @@ Hazards kill or reset the player through trap state machines and fall zones.
 
 - `SpikeTrapFSM` contains several non-ASCII comment artifacts from prior encoding issues; keep future docs/code ASCII.
 - `ResetTrap()` sets `Time.timeScale = 1f`, which is a global side effect inside a trap component.
-- Damage is not currently routed through `Health`; traps call the player death sequence directly.
+- Trap damage is routed through `Health`, but trap detection still stores `PlayerController` directly.
