@@ -17,9 +17,11 @@ This folder documents current game features from the player/runtime behavior poi
 | Key Quest And Level Exit | [KeyQuestAndLevelExit.md](./KeyQuestAndLevelExit.md) | [Progression](../Systems/Progression.md), [Scene Transitions](../Systems/SceneTransitions.md) |
 | Coin And Key Collection | [CoinAndKeyCollection.md](./CoinAndKeyCollection.md) | [Collectibles](../Systems/Collectibles.md), [UI And HUD](../Systems/UIAndHUD.md) |
 | HUD And Feedback | [HUDAndFeedback.md](./HUDAndFeedback.md) | [UI And HUD](../Systems/UIAndHUD.md) |
+| Player HP HUD | [PlayerHPHUD.md](./PlayerHPHUD.md) | [UI And HUD](../Systems/UIAndHUD.md), [Combat](../Systems/Combat.md), [Traps And Hazards](../Systems/TrapsAndHazards.md) |
 | Lever And Gate Interaction | [LeverAndGateInteraction.md](./LeverAndGateInteraction.md) | [Interactables](../Systems/Interactables.md) |
 | Chest Interaction | [ChestInteraction.md](./ChestInteraction.md) | [Interactables](../Systems/Interactables.md), [Collectibles](../Systems/Collectibles.md) |
 | Traps And Fall Hazards | [TrapsAndFallHazards.md](./TrapsAndFallHazards.md) | [Traps And Hazards](../Systems/TrapsAndHazards.md), [Player](../Systems/Player.md) |
+| Respawn Transition | [RespawnTransition.md](./RespawnTransition.md) | [Scene Transitions](../Systems/SceneTransitions.md), [Camera](../Systems/Camera.md), [Player](../Systems/Player.md) |
 | Scene Transition Experience | [SceneTransitionExperience.md](./SceneTransitionExperience.md) | [Scene Transitions](../Systems/SceneTransitions.md), [Camera](../Systems/Camera.md) |
 | Camera Follow And Zoom | [CameraFollowAndZoom.md](./CameraFollowAndZoom.md) | [Camera](../Systems/Camera.md) |
 | Environment Presentation | [EnvironmentPresentation.md](./EnvironmentPresentation.md) | [Environment And Presentation](../Systems/EnvironmentAndPresentation.md) |

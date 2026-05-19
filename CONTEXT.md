@@ -24,9 +24,12 @@ This file defines canonical project terms. Code, Inspector labels, Wiki pages, a
 | `GlobalQuestManager` | Persistent singleton that owns collected/required key state and quest completion. | Progression |
 | `CheckpointDoor` | Level completion interactable that checks quest completion and starts scene transition. | Progression |
 | `SceneTransitionManager` | Persistent singleton that sequences zoom, fade, scene load, and player control restoration. | Scene Transitions |
+| `RespawnTransition` | Player-facing death or fall recovery sequence that reuses camera zoom and UI fade before reloading the active scene and restoring control. | Scene Transitions |
 | `CameraTransitionSystem` | Camera zoom owner used during scene transitions. | Camera |
 | `UITransitionManager` | Fade overlay owner used during scene transitions. | Scene Transitions |
 | `HUDManager` | UGUI gameplay HUD owner for coin/key counters and short UX messages. | UI |
+| `HUD_HP` | HUD panel under `HUD_Canvas` that contains the player's HP images. | UI |
+| `HPImage` | One UGUI Image under `HUD_HP` representing one current player hit point. | UI |
 | `Player` | Main player avatar, currently represented by `Player 1.prefab`. | Player |
 | `PlayerController` | Player movement, state lock, fall/death, idle, footstep, and HurtBox provisioning component. | Player |
 | `PlayerAnimator` | Animator bridge for player movement, idle, attack, falling, and death parameters. | Player |

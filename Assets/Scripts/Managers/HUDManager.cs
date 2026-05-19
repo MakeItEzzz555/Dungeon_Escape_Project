@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class HUDManager : MonoBehaviour
 {
@@ -18,6 +20,9 @@ public class HUDManager : MonoBehaviour
     [SerializeField] private GameObject keysObject;
     [SerializeField] private TextMeshProUGUI coinsText;
     [SerializeField] private TextMeshProUGUI keysText;
+
+    [Header("HP UI")]
+    [SerializeField] private Transform hudHpPanel;
 
     [Header("UX Notification UI")]
     [SerializeField] private CanvasGroup uxPanelCanvasGroup;
@@ -41,6 +46,10 @@ public class HUDManager : MonoBehaviour
     private int totalCoins = 0;
 
     private Coroutine uxMessageCoroutine;
+    private readonly List<Image> hpImages = new List<Image>();
+    private Health subscribedPlayerHealth;
+    private int lastDisplayedHealth = -1;
+    private int lastDisplayedMaxHealth = -1;
 
     private void Awake()
     {
@@ -51,19 +60,21 @@ public class HUDManager : MonoBehaviour
         }
 
         Instance = this;
+        CacheHpImages();
     }
 
     private void OnEnable()
     {
-        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     private void OnDisable()
     {
-        UnityEngine.SceneManagement.SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        UnsubscribeFromPlayerHealth();
     }
 
-    private void OnSceneLoaded(UnityEngine.SceneManagement.Scene scene, UnityEngine.SceneManagement.LoadSceneMode mode)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // Reset state for the new scene
         coinsCollected = 0;
@@ -76,6 +87,7 @@ public class HUDManager : MonoBehaviour
         
         // Ensure UI matches the reset state
         ResetHUDUI();
+        BindPlayerHealth();
     }
 
     private void Start()
@@ -84,6 +96,22 @@ public class HUDManager : MonoBehaviour
         totalCoins = manualMaxCoins > 0 ? manualMaxCoins : GameObject.FindGameObjectsWithTag("Coin").Length;
 
         ResetHUDUI();
+        BindPlayerHealth();
+    }
+
+    private void Update()
+    {
+        if (subscribedPlayerHealth == null)
+        {
+            BindPlayerHealth();
+            return;
+        }
+
+        if (subscribedPlayerHealth.currentHealth != lastDisplayedHealth ||
+            subscribedPlayerHealth.maxHealth != lastDisplayedMaxHealth)
+        {
+            UpdatePlayerHp(subscribedPlayerHealth.currentHealth, subscribedPlayerHealth.maxHealth);
+        }
     }
 
     private void ResetHUDUI()
@@ -108,7 +136,139 @@ public class HUDManager : MonoBehaviour
         }
 
         UpdateCoinsText();
+        SetHpImagesVisible(hpImages.Count);
         // Keys update is usually handled by GlobalQuestManager calling UpdateKeys
+    }
+
+    private void CacheHpImages()
+    {
+        hpImages.Clear();
+
+        if (hudHpPanel == null || hudHpPanel.name != "HUD_HP")
+        {
+            if (hudHpPanel != null)
+            {
+                Debug.LogWarning($"[DEBUG_LOG] HUDManager: hudHpPanel points to '{hudHpPanel.name}', expected HUD_HP. Rebinding by name.");
+            }
+
+            hudHpPanel = FindChildByName(transform, "HUD_HP");
+        }
+
+        if (hudHpPanel == null)
+        {
+            Debug.LogWarning("[DEBUG_LOG] HUDManager: HUD_HP panel reference missing. Player HP UI will not update.");
+            return;
+        }
+
+        Image[] images = hudHpPanel.GetComponentsInChildren<Image>(true);
+        foreach (Image image in images)
+        {
+            if (image.transform == hudHpPanel) continue;
+            hpImages.Add(image);
+        }
+
+        hpImages.Sort(CompareHpImagesByPosition);
+
+        if (hpImages.Count == 0)
+        {
+            Debug.LogWarning("[DEBUG_LOG] HUDManager: HUD_HP has no child Image components.");
+        }
+    }
+
+    private Transform FindChildByName(Transform parent, string childName)
+    {
+        foreach (Transform child in parent)
+        {
+            if (child.name == childName)
+            {
+                return child;
+            }
+
+            Transform found = FindChildByName(child, childName);
+            if (found != null)
+            {
+                return found;
+            }
+        }
+
+        return null;
+    }
+
+    private void BindPlayerHealth()
+    {
+        CacheHpImages();
+        UnsubscribeFromPlayerHealth();
+
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject == null)
+        {
+            Debug.LogWarning("[DEBUG_LOG] HUDManager: Player not found. HP UI cannot bind.");
+            return;
+        }
+
+        Health health = playerObject.GetComponent<Health>();
+        if (health == null) health = playerObject.GetComponentInParent<Health>();
+
+        if (health == null)
+        {
+            Debug.LogWarning("[DEBUG_LOG] HUDManager: Player Health component missing. HP UI cannot bind.");
+            return;
+        }
+
+        subscribedPlayerHealth = health;
+        subscribedPlayerHealth.OnHealthChanged += UpdatePlayerHp;
+        UpdatePlayerHp(subscribedPlayerHealth.currentHealth, subscribedPlayerHealth.maxHealth);
+    }
+
+    private void UnsubscribeFromPlayerHealth()
+    {
+        if (subscribedPlayerHealth == null) return;
+
+        subscribedPlayerHealth.OnHealthChanged -= UpdatePlayerHp;
+        subscribedPlayerHealth = null;
+    }
+
+    private void UpdatePlayerHp(int currentHealth, int maxHealth)
+    {
+        if (hpImages.Count == 0) return;
+
+        if (hpImages.Count < maxHealth)
+        {
+            Debug.LogWarning($"[DEBUG_LOG] HUDManager: HUD_HP has {hpImages.Count} images for max health {maxHealth}.");
+        }
+
+        int visibleCount = Mathf.Clamp(currentHealth, 0, hpImages.Count);
+        SetHpImagesVisible(visibleCount);
+        lastDisplayedHealth = currentHealth;
+        lastDisplayedMaxHealth = maxHealth;
+    }
+
+    private void SetHpImagesVisible(int visibleCount)
+    {
+        for (int i = 0; i < hpImages.Count; i++)
+        {
+            hpImages[i].enabled = i < visibleCount;
+        }
+    }
+
+    private int CompareHpImagesByPosition(Image left, Image right)
+    {
+        RectTransform leftRect = left.rectTransform;
+        RectTransform rightRect = right.rectTransform;
+
+        float yDelta = rightRect.anchoredPosition.y - leftRect.anchoredPosition.y;
+        if (Mathf.Abs(yDelta) > 0.01f)
+        {
+            return yDelta > 0f ? 1 : -1;
+        }
+
+        float xDelta = leftRect.anchoredPosition.x - rightRect.anchoredPosition.x;
+        if (Mathf.Abs(xDelta) > 0.01f)
+        {
+            return xDelta > 0f ? 1 : -1;
+        }
+
+        return left.transform.GetSiblingIndex().CompareTo(right.transform.GetSiblingIndex());
     }
 
     public void UpdateCoins(int current, int total)

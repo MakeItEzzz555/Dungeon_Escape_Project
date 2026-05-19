@@ -114,3 +114,29 @@ The fallback EventSystem check was executing too early. It was intended as a saf
 - `EnsureEventSystemExists()` now runs after scene load, when scene-authored EventSystems are visible.
 - The fallback object is named `Runtime EventSystem` to make runtime-created safety infrastructure obvious.
 - The lookup now includes inactive objects, so the bootstrapper will not create a duplicate just because an authored EventSystem is temporarily inactive.
+
+## HP HUD Icons Not Hiding On Trap Damage
+
+Date: 2026-05-19
+
+### Symptom
+
+- Trap damage applies correctly to the player Health component.
+- HP images under `HUD_HP` remain visible after trap hits, even when traps deal 5 damage.
+
+### Confirmed Data
+
+- `SpikeTrapFSM` calls `Health.TakeDamage(trapDamageAmount, transform)` and damage logs show HP changing.
+- `Health.TakeDamage()` fires `OnHealthChanged` for non-lethal damage and death.
+- `HUDManager` subscribes to the player Health event and also polls `currentHealth/maxHealth`.
+- `HUD_Canvas.prefab` had `HUDManager.hudHpPanel` assigned to fileID `8906961554848753430`, which is `HUD_UX_Panel`, not `HUD_HP`.
+- The actual `HUD_HP` RectTransform is fileID `4617025985266312981`.
+
+### Root Cause
+
+`HUDManager.CacheHpImages()` trusted the non-null serialized `hudHpPanel` reference. Because the prefab pointed at `HUD_UX_Panel`, the manager cached and toggled Images under the wrong panel while the actual HP icons remained untouched.
+
+### Fix Applied
+
+- Rewired `HUD_Canvas.prefab` so `HUDManager.hudHpPanel` points to the actual `HUD_HP` RectTransform.
+- Hardened `HUDManager.CacheHpImages()` to reject any assigned panel whose name is not `HUD_HP` and rebind by name.

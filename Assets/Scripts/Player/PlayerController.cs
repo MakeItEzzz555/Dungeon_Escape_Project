@@ -1,4 +1,5 @@
 using System.Collections;
+using Scripts.Managers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Death")]
     [SerializeField] private float deathRespawnDelay = 1.5f;
+    [SerializeField] private float fallRespawnDelay = 1.5f;
 
     private Rigidbody2D rb;
     public PlayerAnimator playerAnimator;
@@ -200,13 +202,6 @@ public class PlayerController : MonoBehaviour
         fallSequenceRoutine = StartCoroutine(FallRoutine());
     }
 
-    private IEnumerator FallRoutine()
-    {
-        yield return new WaitForSeconds(1.5f);
-
-        ReloadActiveScene();
-    }
-
     public void Die()
     {
         StartDeathSequence();
@@ -240,8 +235,24 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator DeathRoutine()
     {
-        yield return new WaitForSeconds(deathRespawnDelay);
+        yield return StartRespawnTransition(deathRespawnDelay);
+    }
 
+    private IEnumerator FallRoutine()
+    {
+        yield return StartRespawnTransition(fallRespawnDelay);
+    }
+
+    private IEnumerator StartRespawnTransition(float failureAnimationDuration)
+    {
+        if (SceneTransitionManager.Instance != null)
+        {
+            SceneTransitionManager.Instance.BeginRespawnTransition(transform, failureAnimationDuration);
+            yield break;
+        }
+
+        Debug.LogWarning("[DEBUG_LOG] PlayerController: SceneTransitionManager missing. Falling back to direct scene reload.");
+        yield return new WaitForSeconds(failureAnimationDuration);
         ReloadActiveScene();
     }
 

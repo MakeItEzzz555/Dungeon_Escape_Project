@@ -33,6 +33,10 @@ namespace Scripts.Interactables
 
             Debug.Log($"FallZone triggered: {gameObject.name}");
 
+            Health health = other.GetComponent<Health>();
+            if (health == null) health = other.GetComponentInParent<Health>();
+            health?.DepleteHealth();
+
             player.StartFallSequence();
         }
 
