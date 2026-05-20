@@ -44,6 +44,13 @@ Hazards damage, kill, or reset the player through trap state machines and fall z
 5. It calls `Health.DepleteHealth()` to hide all HP images immediately.
 6. It calls `PlayerController.StartFallSequence()`.
 
+## FallZone Directional Nudge
+
+- `FallZoneDirectionalNudge` applies to all `FallZone` death triggers.
+- It does not apply to `SpikeTrapFSM`, rolling traps, enemy damage, or standard death triggers.
+- The player glides briefly in the last valid cardinal movement direction while `Fall_Dive` begins.
+- The player system, not the animation bridge, owns the gameplay direction used by the nudge.
+
 ## Scene Wiring
 
 - `FallZone` is directly referenced in `Level 2.unity`.

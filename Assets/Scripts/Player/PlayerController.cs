@@ -21,10 +21,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float deathRespawnDelay = 1.5f;
     [SerializeField] private float fallRespawnDelay = 1.5f;
 
+    [Header("FallZone Directional Nudge")]
+    [SerializeField, Min(0f)] private float fallZoneNudgeDistance = 0.35f;
+    [SerializeField, Min(0.01f)] private float fallZoneNudgeDuration = 0.16f;
+
     private Rigidbody2D rb;
     public PlayerAnimator playerAnimator;
 
     private Vector2 moveInput;
+    private Vector2 lastMoveDirection = Vector2.down;
     private float idleTimer;
     private int lastTimeMove;
     private float footstepTimer;
@@ -33,6 +38,7 @@ public class PlayerController : MonoBehaviour
     private bool isFalling;
     private bool canMove = true;
     private Coroutine fallSequenceRoutine;
+    private Coroutine fallZoneNudgeRoutine;
     private Coroutine deathSequenceRoutine;
 
     // 🔥 NEW: spawn protection
@@ -48,6 +54,12 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f;
         rb.freezeRotation = true;
+
+        if (playerAnimator == null)
+        {
+            playerAnimator = GetComponent<PlayerAnimator>();
+            if (playerAnimator == null) playerAnimator = GetComponentInChildren<PlayerAnimator>();
+        }
 
         EnsureHurtBox();
     }
@@ -77,6 +89,7 @@ public class PlayerController : MonoBehaviour
     private IEnumerator Start()
     {
         // 🔥 Prevent instant trigger on scene load
+        playerAnimator?.SetLastMoveDirection(lastMoveDirection);
         spawnGracePeriod = true;
         yield return new WaitForSeconds(0.2f);
         spawnGracePeriod = false;
@@ -129,6 +142,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            lastMoveDirection = moveInput.normalized;
             ResetIdleTimer();
             playerAnimator?.SetStandByStatus(false);
         }
@@ -141,6 +155,7 @@ public class PlayerController : MonoBehaviour
         if (IsLocked)
         {
             playerAnimator.SetFallingStatus(isFalling);
+            playerAnimator.SetLastMoveDirection(lastMoveDirection);
             // Pass lastTimeMove = 0 when locked to prevent StandBy logic from seeing old timer values
             playerAnimator.UpdateAnimations(Vector2.zero, 0, true);
             return;
@@ -197,6 +212,14 @@ public class PlayerController : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Kinematic;
 
         playerAnimator?.SetFallingStatus(true);
+        playerAnimator?.SetLastMoveDirection(lastMoveDirection);
+
+        if (fallZoneNudgeRoutine != null)
+        {
+            StopFallZoneDirectionalNudge();
+        }
+
+        fallZoneNudgeRoutine = StartCoroutine(FallZoneDirectionalNudgeRoutine());
 
         fallSequenceRoutine = StartCoroutine(FallRoutine());
     }
@@ -218,6 +241,7 @@ public class PlayerController : MonoBehaviour
 
         isDead = true;
         canMove = false;
+        StopFallZoneDirectionalNudge();
 
         moveInput = Vector2.zero;
         ResetIdleTimer();
@@ -240,6 +264,43 @@ public class PlayerController : MonoBehaviour
     private IEnumerator FallRoutine()
     {
         yield return StartRespawnTransition(fallRespawnDelay);
+    }
+
+    private IEnumerator FallZoneDirectionalNudgeRoutine()
+    {
+        if (fallZoneNudgeDistance <= 0f || fallZoneNudgeDuration <= 0f)
+        {
+            fallZoneNudgeRoutine = null;
+            yield break;
+        }
+
+        Vector2 startPosition = rb.position;
+        Vector2 endPosition = startPosition + GetFallZoneNudgeDirection() * fallZoneNudgeDistance;
+        float elapsed = 0f;
+
+        while (elapsed < fallZoneNudgeDuration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / fallZoneNudgeDuration);
+            rb.position = Vector2.Lerp(startPosition, endPosition, t);
+            yield return null;
+        }
+
+        rb.position = endPosition;
+        fallZoneNudgeRoutine = null;
+    }
+
+    private Vector2 GetFallZoneNudgeDirection()
+    {
+        return lastMoveDirection.sqrMagnitude > 0.01f ? lastMoveDirection.normalized : Vector2.down;
+    }
+
+    private void StopFallZoneDirectionalNudge()
+    {
+        if (fallZoneNudgeRoutine == null) return;
+
+        StopCoroutine(fallZoneNudgeRoutine);
+        fallZoneNudgeRoutine = null;
     }
 
     private IEnumerator StartRespawnTransition(float failureAnimationDuration)
@@ -275,12 +336,15 @@ public class PlayerController : MonoBehaviour
         isDead = false;
         isFalling = false;
         canMove = true;
+        lastMoveDirection = Vector2.down;
+        StopFallZoneDirectionalNudge();
         ResetIdleTimer();
 
         rb.bodyType = RigidbodyType2D.Dynamic;
         rb.linearVelocity = Vector2.zero;
 
         playerAnimator?.SetFallingStatus(false);
+        playerAnimator?.SetLastMoveDirection(lastMoveDirection);
         playerAnimator?.SetDeadStatus(false);
         playerAnimator?.SetStandByStatus(false);
 

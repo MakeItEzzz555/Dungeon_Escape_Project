@@ -70,6 +70,12 @@ This coexists with `ADD_PLAYER_HURTBOX_INSTRUCTIONS.md`, which documents a prefa
 - If `SceneTransitionManager` is missing, `PlayerController` logs an error and does not auto-reload because death/fall respawn must be player-confirmed.
 - `SceneTransitionManager` calls `ResetState()` and `SetControlEnabled(false)` during scene transitions.
 
+## FallZone Directional Nudge
+
+- The player system owns the last valid cardinal movement direction as gameplay state.
+- `PlayerAnimator` mirrors direction into animation parameters, but it is not the gameplay source of truth for `FallZoneDirectionalNudge`.
+- When a `FallZone` starts the fall sequence, `IsFalling` and the short glide begin together after normal movement has been locked.
+
 ## Known Risks
 
 - `PlayerController` is a high-responsibility class.

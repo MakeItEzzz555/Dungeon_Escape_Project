@@ -22,6 +22,7 @@
 - [Lever And Gate Interaction](./Features/LeverAndGateInteraction.md)
 - [Chest Interaction](./Features/ChestInteraction.md)
 - [Traps And Fall Hazards](./Features/TrapsAndFallHazards.md)
+- [FallZone Directional Nudge](./Features/FallZoneDirectionalNudge.md)
 - [Respawn Transition](./Features/RespawnTransition.md)
 - [Scene Transition Experience](./Features/SceneTransitionExperience.md)
 - [Camera Follow And Zoom](./Features/CameraFollowAndZoom.md)

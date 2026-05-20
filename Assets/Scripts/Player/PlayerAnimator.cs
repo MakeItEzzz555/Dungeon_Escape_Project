@@ -70,6 +70,14 @@ public class PlayerAnimator : MonoBehaviour
         }
     }
 
+    public void SetLastMoveDirection(Vector2 direction)
+    {
+        if (animator == null) return;
+
+        animator.SetFloat(LastMoveX, direction.x);
+        animator.SetFloat(LastMoveY, direction.y);
+    }
+
     public void SetStandByStatus(bool value)
     {
         if (animator != null)

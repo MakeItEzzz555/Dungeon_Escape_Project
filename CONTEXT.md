@@ -49,5 +49,6 @@ This file defines canonical project terms. Code, Inspector labels, Wiki pages, a
 | `InteractiveGate` | Gate controller that owns open/close animator parameters and physical collider state. | Interactables |
 | `SpikeTrapFSM` | Trap state machine that opens damage windows from animation events and can kill the player. | Hazards |
 | `FallZone` | Trigger hazard that starts the player fall sequence. | Hazards |
+| `FallZoneDirectionalNudge` | Short timed glide applied in the player's last valid cardinal movement direction after `FallZone` locks normal movement and starts a fall sequence. Uses player-owned default tuning for consistent `FallZone` behavior, falls back to down when no direction exists, and does not apply to trap hazards. | Hazards |
 | `YSort` | Sprite presentation component that sets sorting order based on world Y. | Presentation |
 | `AnimationAssets` | Inventory of non-deluxe animation clips, controllers, and animated tile assets under `Assets/Animations`. | Presentation |

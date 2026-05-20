@@ -1,5 +1,12 @@
 # Wiki Log
 
+## 2026-05-20
+
+- Created feature GDD: [FallZone Directional Nudge](./Features/FallZoneDirectionalNudge.md).
+- Added `FallZoneDirectionalNudge` to the root `CONTEXT.md` glossary.
+- Linked FallZone Directional Nudge from the wiki index and feature index.
+- Implemented `FallZoneDirectionalNudge` through player-owned last valid cardinal direction and a short fall-sequence glide.
+
 ## 2026-05-18
 
 - Created feature GDD: [Respawn Transition](./Features/RespawnTransition.md)
