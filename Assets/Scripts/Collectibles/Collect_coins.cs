@@ -56,7 +56,7 @@ public class Collect_coins : MonoBehaviour
         if (HUDManager.Instance != null)
         {
             HUDManager.Instance.RegisterCoinCollection();
-            HUDManager.Instance.ShowUXMessage("Coin Collected");
+            // [REMOVED: coin UX notif - HUD_UX_Panel] HUDManager.Instance.ShowUXMessage("Coin Collected");
         }
 
         // Start the countdown to disappear

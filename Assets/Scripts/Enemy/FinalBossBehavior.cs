@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using Scripts.Managers;
 
@@ -60,6 +61,7 @@ public class FinalBossBehavior : MonoBehaviour, IEnemyRangeReceiver
     [SerializeField] private bool showRunResultsOnDeath;
     [SerializeField] private string resultsTargetScene = "Main Menu";
     [SerializeField] private Transform resultsZoomTarget;
+    [SerializeField] private float bossDeathTransitionDelay = 1.68f;
 
     private readonly RaycastHit2D[] castHits = new RaycastHit2D[8];
     private const float PlayerResolveRetryInterval = 0.5f;
@@ -500,10 +502,17 @@ public class FinalBossBehavior : MonoBehaviour, IEnemyRangeReceiver
         ChangeState(FinalBossState.Dead);
         animationBridge?.SetWalking(false);
         animationBridge?.SetDeadStatus(true);
+        AudioManager.Instance?.PlayBossDeath();
         combatBridge?.DisableAllHitboxes();
         StopChargeTrail(true);
         HideBossHud();
         RevealDeathRewardIfAssigned();
+        StartCoroutine(ShowResultsAfterDeath());
+    }
+
+    private IEnumerator ShowResultsAfterDeath()
+    {
+        yield return new WaitForSeconds(bossDeathTransitionDelay);
         ShowRunResultsIfEnabled();
     }
 
