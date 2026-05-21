@@ -1,5 +1,46 @@
 # Debug Report
 
+## FinalBoss Death Results Flicker
+
+Date: 2026-05-21
+
+### Symptom
+
+- After FinalBoss death, the death animation finishes and the scene briefly shows an empty background before `RunResultsPanel` fades in.
+- The boss-death completion path does not feel like checkpoint completion because the camera zoom/fade transition starts late.
+
+### Confirmed Data
+
+- `Level 3.unity` has `FinalBossBehavior.showRunResultsOnDeath` enabled and targets `Main Menu`.
+- `FinalBossBehavior.OnDeath()` revealed the optional `DeathRewardObject`, waited `bossDeathTransitionDelay`, then called `SceneTransitionManager.BeginLevelCompletionTransition()`.
+- During that delay, `SceneTransitionManager.currentState` stayed `None`, so no transition zoom or fade overlay was active.
+- `RunResultsPanel` is designed to fade in only after the fade overlay is fully black.
+
+### Root Cause
+
+FinalBoss death delayed before entering the shared `LevelCompletionFlow`. That left the transition infrastructure idle during the boss death presentation window, creating a visible uncovered gap before the black fade and results panel.
+
+### Fix Applied
+
+- Added `SceneTransitionManager.BeginLevelCompletionTransitionWithPresentationWindow()` so FinalBoss can enter the shared completion transition immediately while still delaying fade until the death animation read window completes.
+- Added `CameraTransitionSystem.StartZoomInAndHoldTarget()` plus `ReleaseHeldTarget()` so the camera can zoom to and hold the FinalBoss target through the death presentation window, then release once the screen is black.
+- Updated `FinalBossBehavior` to call the new completion presentation-window path immediately on death instead of waiting in a local coroutine before starting the transition.
+
+### Follow-up Finding
+
+- Unity did recompile the changed scripts: the Editor log reported `Mono: successfully reloaded assembly`.
+- FinalBoss death clips are approximately `1.52s`, with `Death_Down` at `1.683s`.
+- The serialized `bossDeathTransitionDelay` is `1.68s`, and the transition fade duration is `0.5s`.
+- Waiting the full death window before starting fade still leaves the final invisible/dead animation frame visible for the fade duration.
+- Runtime logs showed `CameraTransitionSystem` switching the follow target to `ResultsPanel` during FinalBoss death.
+- `Assets/Scenes/Level 3.unity` had `FinalBossBehavior.resultsZoomTarget` assigned to a stripped `RectTransform` from the `HUD_Canvas` prefab's `ResultsPanel` instead of the FinalBoss world transform.
+
+### Follow-up Fix Applied
+
+- `SceneTransitionManager` now starts the fade at `presentationDuration - fadeInDuration`, so the screen reaches full black at the end of the boss death presentation window instead of after it.
+- `Level 3.unity` now assigns `resultsZoomTarget` to the FinalBoss root transform.
+- `FinalBossBehavior.ResolveResultsZoomTarget()` rejects UI `RectTransform` targets and falls back to the FinalBoss transform, preventing future HUD targets from driving camera transitions.
+
 ## Pause Menu Buttons Not Responding
 
 Date: 2026-05-16

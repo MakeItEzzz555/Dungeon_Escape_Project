@@ -17,6 +17,8 @@ namespace Scripts.Managers
         private Camera cam;
         private FollowPlayer followScript;
         private Coroutine zoomCoroutine;
+        private Transform heldOriginalTarget;
+        private bool hasHeldOriginalTarget;
 
         private void Awake()
         {
@@ -80,13 +82,31 @@ namespace Scripts.Managers
             }
 
             zoomCoroutine = StartCoroutine(
-                ZoomRoutine(target, transitionZoom, zoomInDuration, onComplete)
+                ZoomRoutine(target, transitionZoom, zoomInDuration, true, onComplete)
+            );
+        }
+
+        public void StartZoomInAndHoldTarget(Transform target, System.Action onComplete)
+        {
+            Debug.Log("[DEBUG_LOG] CameraTransitionSystem: StartZoomInAndHoldTarget called");
+
+            if (zoomCoroutine != null)
+            {
+                Debug.Log("[DEBUG_LOG] CameraTransitionSystem: Stopping existing zoom coroutine.");
+                StopCoroutine(zoomCoroutine);
+                zoomCoroutine = null;
+            }
+
+            zoomCoroutine = StartCoroutine(
+                ZoomRoutine(target, transitionZoom, zoomInDuration, false, onComplete)
             );
         }
 
         public void StartZoomOut(System.Action onComplete)
         {
             Debug.Log("[DEBUG_LOG] CameraTransitionSystem: StartZoomOut called");
+            ReleaseHeldTarget();
+
             if (zoomCoroutine != null)
             {
                 Debug.Log("[DEBUG_LOG] CameraTransitionSystem: Stopping existing zoom coroutine.");
@@ -104,10 +124,19 @@ namespace Scripts.Managers
                 cam.orthographicSize = transitionZoom;
             }
 
-            yield return ZoomRoutine(null, gameplayZoom, zoomOutDuration, onComplete);
+            yield return ZoomRoutine(null, gameplayZoom, zoomOutDuration, true, onComplete);
         }
 
-        private IEnumerator ZoomRoutine(Transform target, float targetSize, float duration, System.Action onComplete)
+        public void ReleaseHeldTarget()
+        {
+            if (!hasHeldOriginalTarget || followScript == null) return;
+
+            followScript.target = heldOriginalTarget;
+            heldOriginalTarget = null;
+            hasHeldOriginalTarget = false;
+        }
+
+        private IEnumerator ZoomRoutine(Transform target, float targetSize, float duration, bool restoreTargetOnComplete, System.Action onComplete)
         {
             Debug.Log($"[DEBUG_LOG] CameraTransitionSystem: ZoomRoutine started. TargetSize: {targetSize}, Duration: {duration}");
             if (cam == null)
@@ -125,7 +154,13 @@ namespace Scripts.Managers
             if (target != null && followScript != null)
             {
                 Debug.Log($"[DEBUG_LOG] CameraTransitionSystem: Switching follow target to {target.name}");
-                originalTarget = followScript.target;
+                if (!hasHeldOriginalTarget)
+                {
+                    heldOriginalTarget = followScript.target;
+                    hasHeldOriginalTarget = !restoreTargetOnComplete;
+                }
+
+                originalTarget = hasHeldOriginalTarget ? heldOriginalTarget : followScript.target;
                 followScript.target = target;
             }
 
@@ -140,7 +175,7 @@ namespace Scripts.Managers
             }
 
             cam.orthographicSize = targetSize;
-            if (target != null && followScript != null)
+            if (restoreTargetOnComplete && target != null && followScript != null)
             {
                 followScript.target = originalTarget;
             }

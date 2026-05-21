@@ -67,6 +67,13 @@ namespace Scripts.Managers
             StartCoroutine(LevelCompletionResultsRoutine(targetScene, zoomTarget));
         }
 
+        public void BeginLevelCompletionTransitionWithPresentationWindow(string targetScene, Transform zoomTarget, float presentationDuration)
+        {
+            if (currentState != TransitionState.None) return;
+
+            StartCoroutine(LevelCompletionResultsRoutine(targetScene, zoomTarget, Mathf.Max(0f, presentationDuration), true));
+        }
+
         public void BeginRespawnTransition(Transform zoomTarget, float failureAnimationDuration)
         {
             if (currentState != TransitionState.None) return;
@@ -75,6 +82,11 @@ namespace Scripts.Managers
         }
 
         private IEnumerator LevelCompletionResultsRoutine(string targetScene, Transform zoomTarget)
+        {
+            yield return LevelCompletionResultsRoutine(targetScene, zoomTarget, 0f, false);
+        }
+
+        private IEnumerator LevelCompletionResultsRoutine(string targetScene, Transform zoomTarget, float presentationDuration, bool holdZoomTarget)
         {
             Debug.Log($"[DEBUG_LOG] SceneTransitionManager: BeginLevelCompletionTransition to {targetScene}");
             currentState = TransitionState.ZoomingIn;
@@ -85,12 +97,21 @@ namespace Scripts.Managers
             Debug.Log("[DEBUG_LOG] SceneTransitionManager: Disabling player control");
             playerObj?.GetComponent<PlayerController>()?.SetControlEnabled(false);
 
-            yield return ZoomIn(zoomTarget);
+            if (presentationDuration > 0f)
+            {
+                float fadeStartDelay = Mathf.Max(0f, presentationDuration - fadeInDuration);
+                yield return ZoomInDuringPresentationWindow(zoomTarget, fadeStartDelay, holdZoomTarget);
+            }
+            else
+            {
+                yield return ZoomIn(zoomTarget);
+            }
 
             currentState = TransitionState.FadingToBlack;
             Debug.Log("[DEBUG_LOG] SceneTransitionManager: FadingToBlack");
 
             yield return FadeToBlack();
+            CameraTransitionSystem.Instance?.ReleaseHeldTarget();
 
             ShowRunResults(RunResultsMode.Completion);
         }
@@ -341,6 +362,47 @@ namespace Scripts.Managers
             }
 
             yield return WaitForTransitionStep(() => zoomInDone, "ZoomIn");
+        }
+
+        private IEnumerator ZoomInDuringPresentationWindow(Transform zoomTarget, float presentationDuration, bool holdZoomTarget)
+        {
+            bool zoomInDone = false;
+            float elapsed = 0f;
+
+            Debug.Log("[DEBUG_LOG] SceneTransitionManager: Calling StartZoomIn for presentation window");
+            if (CameraTransitionSystem.Instance != null)
+            {
+                if (holdZoomTarget)
+                {
+                    CameraTransitionSystem.Instance.StartZoomInAndHoldTarget(zoomTarget, () => {
+                        Debug.Log("[DEBUG_LOG] SceneTransitionManager: Presentation ZoomIn callback received");
+                        zoomInDone = true;
+                    });
+                }
+                else
+                {
+                    CameraTransitionSystem.Instance.StartZoomIn(zoomTarget, () => {
+                        Debug.Log("[DEBUG_LOG] SceneTransitionManager: Presentation ZoomIn callback received");
+                        zoomInDone = true;
+                    });
+                }
+            }
+            else
+            {
+                Debug.LogWarning("[DEBUG_LOG] SceneTransitionManager: CameraTransitionSystem.Instance is null!");
+                zoomInDone = true;
+            }
+
+            while ((!zoomInDone || elapsed < presentationDuration) && elapsed < 5f)
+            {
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            if (elapsed >= 5f && !zoomInDone)
+            {
+                Debug.LogError("[DEBUG_LOG] SceneTransitionManager: Presentation ZoomIn TIMEOUT!");
+            }
         }
 
         private IEnumerator ZoomOut()

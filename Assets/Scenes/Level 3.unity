@@ -4122,7 +4122,7 @@ MonoBehaviour:
   deathRewardObject: {fileID: 0}
   showRunResultsOnDeath: 1
   resultsTargetScene: Main Menu
-  resultsZoomTarget: {fileID: 1894297446}
+  resultsZoomTarget: {fileID: 1183550197}
 --- !u!114 &1183550199
 MonoBehaviour:
   m_ObjectHideFlags: 0
