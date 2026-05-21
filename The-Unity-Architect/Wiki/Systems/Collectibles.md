@@ -13,6 +13,7 @@ Collectibles are trigger-based scene objects that play a collection animation/SF
 | `Assets/Scripts/Collectibles/Collect_coins.cs` | Coin pickup behavior. |
 | `Assets/Scripts/Collectibles/Collect_keys.cs` | Key pickup behavior. |
 | `Assets/Scripts/Collectibles/HPConsumable.cs` | HP pickup behavior. |
+| `Assets/Scripts/Collectibles/SwordConsumable.cs` | Scene-local sword upgrade pickup that unlocks `PlayerChargeAttack`. |
 | `Assets/Prefabs/Collectibles/BlueCoin.prefab` | Coin prefab used in Level 1 and Level 2. |
 | `Assets/Prefabs/Collectibles/Key 1 - GOLD - .prefab` | Key prefab used in Level 1 and Level 2. |
 
@@ -48,6 +49,7 @@ Collectibles are trigger-based scene objects that play a collection animation/SF
 
 - `HUDManager` discovers total coins by counting objects tagged `Coin` unless `manualMaxCoins` is set.
 - Key totals come from `GlobalQuestManager`.
+- `SwordConsumable` uses HUD feedback to confirm `PlayerChargeAttack` unlock.
 
 ## Known Risks
 

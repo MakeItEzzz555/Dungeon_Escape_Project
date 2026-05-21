@@ -8,7 +8,7 @@ Last updated: 2026-05-21
 |:------|:------|
 | Name | FinalBoss |
 | Objective | Add a boss enemy that reuses the existing enemy combat foundation while introducing a readable second phase and a high-damage charge attack. |
-| Scope | This feature covers FinalBoss behavior, animation contract, hitbox ownership, range detection, phase transition, charge movement, charge trail presentation, boss HP HUD, optional death loot, optional completion results, and Inspector tuning. It does not cover arena scripting, cutscenes, or new player abilities. |
+| Scope | This feature covers FinalBoss behavior, animation contract, hitbox ownership, range detection, phase transition, charge movement, charge trail presentation, boss HP HUD, optional death reward reveal, optional completion results, and Inspector tuning. It does not cover arena scripting, cutscenes, or new player abilities. |
 
 ## 2. Business Rules
 
@@ -27,7 +27,7 @@ Last updated: 2026-05-21
 11. After the dash ends, FinalBoss enters `ChargeRecovery` before resuming chase or attack decisions.
 12. When aggro activates, `FinalBossBehavior` asks `HUDManager` to show `HUD_HP_FinalBoss` bound to the boss `Health`.
 13. When aggro deactivates, FinalBoss dies, or a modal results view opens, `HUD_HP_FinalBoss` is hidden.
-14. On death, FinalBoss can optionally spawn a configured loot prefab and start the completion-mode `RunResultsPanel` flow to `Main Menu`.
+14. On death, FinalBoss can optionally reveal a configured `DeathRewardObject` and start the completion-mode `RunResultsPanel` flow to `Main Menu`.
 
 ### States
 
@@ -47,7 +47,7 @@ Last updated: 2026-05-21
 | Condition | Result |
 |:----------|:-------|
 | Health reaches zero | FinalBoss enters `Dead` and stops behavior decisions. |
-| Health reaches zero with death rewards enabled | Death rewards run once: boss HUD hides, optional loot spawns, and completion results begin. |
+| Health reaches zero with death rewards enabled | Death rewards run once: boss HUD hides, optional reward object reveals, and completion results begin. |
 | Player leaves aggro range outside committed attack states | FinalBoss returns home. |
 | Blocking obstacle is hit during charge | Charge stops and enters `ChargeRecovery`. |
 | Player damages FinalBoss during active charge | Damage applies, but `ChargeAttack` is not cancelled. |
@@ -103,9 +103,8 @@ FinalBoss tuning must be exposed through serialized Inspector fields. Required s
 | Charge recovery duration | Post-charge lockout. |
 | Charge trail reference | Optional `ChargeTrail` component enabled only during active charge dash movement. |
 | Show boss HUD on aggro | Enables `HUD_HP_FinalBoss` while aggro is active. |
-| Loot prefab | Optional prefab spawned once when FinalBoss dies. |
-| Loot spawn point | Optional transform used for loot spawn position; falls back to FinalBoss transform. |
-| Show run results on death | Starts completion-mode `RunResultsPanel` when FinalBoss dies. |
+| Death reward object | Optional scene-authored reward GameObject hidden at runtime start and activated once when FinalBoss dies. |
+| Show run results on death | Optional completion-mode `RunResultsPanel` when FinalBoss dies; leave disabled for reward-chest/key/checkpoint-door progression. |
 | Results target scene | Scene loaded by Continue after boss death results; default is `Main Menu`. |
 | Results zoom target | Optional transform used for the death-completion zoom; falls back to FinalBoss transform. |
 | Clear charge trail on dash start | Clears old trail points before a new dash begins. |
@@ -185,4 +184,4 @@ FinalBoss tuning must be exposed through serialized Inspector fields. Required s
 
 ## Implementation Status
 
-Script support exists for `IEnemyRangeReceiver`, `FinalBossBehavior`, `FinalBossAnimationBridge`, `FinalBossCombatBridge`, boss HP HUD binding, optional FinalBoss loot spawning, and FinalBoss death completion results. `HUDManager` creates a clean `HUD_HP_FinalBoss` panel at runtime if the prefab does not already contain the boss panel, then populates exact boss-health image slots from the player HP image template. FinalBoss charge wind-up schedules the `ChargeAttack` Animator trigger before dash movement is allowed, preventing the first charge from dashing while stuck in idle or hurt presentation.
+Script support exists for `IEnemyRangeReceiver`, `FinalBossBehavior`, `FinalBossAnimationBridge`, `FinalBossCombatBridge`, boss HP HUD binding, optional `DeathRewardObject` reveal, and FinalBoss death completion results. `HUDManager` creates a clean `HUD_HP_FinalBoss` panel at runtime if the prefab does not already contain the boss panel, then populates exact boss-health image slots from the player HP image template. FinalBoss charge wind-up schedules the `ChargeAttack` Animator trigger before dash movement is allowed, preventing the first charge from dashing while stuck in idle or hurt presentation.

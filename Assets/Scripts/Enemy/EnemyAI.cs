@@ -20,10 +20,14 @@ public class EnemyAI : MonoBehaviour, IEnemyRangeReceiver
     [SerializeField] private Animator animator;
     [SerializeField] private Health health;
 
+    [Header("Death Rewards")]
+    [SerializeField] private GameObject deathRewardObject;
+
     private Vector3 homePosition;
     private float nextAttackTime;
     private bool playerInAggroRange;
     private bool playerInAttackRange;
+    private bool deathRewardRevealed;
     private EnemyState currentState = EnemyState.IdleAtHome;
     private EnemyState previousState;
     private Rigidbody2D rb;
@@ -41,6 +45,7 @@ public class EnemyAI : MonoBehaviour, IEnemyRangeReceiver
         }
 
         homePosition = transform.position;
+        HideDeathRewardAtRuntimeStart();
 
         if (player == null)
         {
@@ -225,5 +230,21 @@ public class EnemyAI : MonoBehaviour, IEnemyRangeReceiver
     {
         ChangeState(EnemyState.Dead);
         SetWalking(false);
+        RevealDeathRewardIfAssigned();
+    }
+
+    private void HideDeathRewardAtRuntimeStart()
+    {
+        if (deathRewardObject == null) return;
+
+        deathRewardObject.SetActive(false);
+    }
+
+    private void RevealDeathRewardIfAssigned()
+    {
+        if (deathRewardRevealed || deathRewardObject == null) return;
+
+        deathRewardRevealed = true;
+        deathRewardObject.SetActive(true);
     }
 }

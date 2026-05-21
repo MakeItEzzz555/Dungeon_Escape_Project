@@ -18,6 +18,11 @@ Last audited: 2026-05-16
 5. The sword `Hitbox` damages each `HurtBox` target once per activation.
 6. Attack animation events can play one of three player attack SFX clips.
 
+## Charge Attack Extension
+
+- [Sword Consumable And Player Charge Attack](./SwordConsumableAndPlayerChargeAttack.md) adds a scene-local `SwordConsumable` unlock and a `Q`-driven `PlayerChargeAttack` with dedicated `ChargeHitbox`, movement lock, cooldown, obstacle stop, and reusable `ChargeTrail`.
+- `PlayerCombat` now blocks regular `F` attack input while `PlayerController.IsControlLocked` is true, so normal attacks cannot overlap the charge dash.
+
 ## Implementation References
 
 | Asset | Role |

@@ -31,7 +31,7 @@ Combat is built around reusable `Health` and `Hitbox` components. Player and ene
 - hurt direction animator floats
 - death trigger/bool
 - `OnHealthChanged(currentHealth, maxHealth)` event
-- `OnDied(Health)` event for death-specific listeners such as run enemy kill stats
+- `OnDied(Health)` event for death-specific listeners such as run enemy kill stats and `DeathRewardObject` reveal owners
 
 `Health.Heal(amount)` restores HP, clamps to `maxHealth`, ignores dead targets, and invokes `OnHealthChanged` only when HP actually changes. `HPConsumable` uses this path so HUD HP stays synchronized.
 
@@ -71,9 +71,13 @@ Player, normal enemies, and FinalBoss should all expose damage through a `HurtBo
 ## Player Combat
 
 - Attack key: `F`.
-- Attack does not run if player health is dead or player is falling.
+- Attack does not run if player health is dead or player control is locked.
 - Attack calls `PlayerAnimator.PlayAttack()`.
 - Animation events call `EnableHitbox()`, `DisableHitbox()`, and attack SFX wrappers.
+- Fall/death failure states call `PlayerCombat.CancelAttack()` through `PlayerController`, clearing attack triggers and disabling the sword hitbox immediately.
+- `PlayerChargeAttack` uses key `Q` after `SwordConsumable` unlock, locks normal movement, starts Animator trigger `ChargeAttack`, dashes in last facing direction, uses a dedicated `ChargeHitbox`, and relies on script-side reentry/cooldown guards.
+- Fall/death failure states call `PlayerChargeAttack.CancelChargeAttack()` through `PlayerController`, clearing charge state, hitbox, trail, and movement lock immediately.
+- `PlayerDash` is not a damage ability, but it owns the same temporary movement lock while active, so regular attack and charge attack input are blocked during dash.
 
 ## Enemy Combat
 
@@ -98,3 +102,4 @@ Player, normal enemies, and FinalBoss should all expose damage through a `HurtBo
 - `SendMessage("OnDeath")` is flexible but weakly typed.
 - Hitbox target tracking uses a `List<Health>`; this is fine for small melee windows but could be replaced with pooled/set storage if many hitboxes are active.
 - FinalBoss uses a dedicated `ChargeHitbox` with higher damage and animation-event methods for enabling/disabling the charge damage window.
+- Enemy and FinalBoss death rewards reveal scene-authored objects instead of spawning runtime loot prefabs.

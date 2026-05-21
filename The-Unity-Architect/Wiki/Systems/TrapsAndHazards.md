@@ -43,6 +43,7 @@ Hazards damage, kill, or reset the player through trap state machines and fall z
 4. It triggers only once per enable.
 5. It calls `Health.DepleteHealth()` to hide all HP images immediately.
 6. It calls `PlayerController.StartFallSequence()`.
+7. `StartFallSequence()` is authoritative over regular and charged attacks: it cancels active attack state, clears hitboxes/trails, unlocks charge movement ownership, and forces `Fall_Dive`.
 
 ## FallZone Directional Nudge
 

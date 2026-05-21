@@ -56,9 +56,8 @@ public class FinalBossBehavior : MonoBehaviour, IEnemyRangeReceiver
     [SerializeField] private bool showBossHudOnAggro = true;
 
     [Header("Death Rewards")]
-    [SerializeField] private GameObject lootPrefab;
-    [SerializeField] private Transform lootSpawnPoint;
-    [SerializeField] private bool showRunResultsOnDeath = true;
+    [SerializeField] private GameObject deathRewardObject;
+    [SerializeField] private bool showRunResultsOnDeath;
     [SerializeField] private string resultsTargetScene = "Main Menu";
     [SerializeField] private Transform resultsZoomTarget;
 
@@ -101,6 +100,7 @@ public class FinalBossBehavior : MonoBehaviour, IEnemyRangeReceiver
         StopChargeTrail(true);
 
         homePosition = rb.position;
+        HideDeathRewardAtRuntimeStart();
         hasAttackRangeTrigger = HasAttackRangeTrigger();
         ResolvePlayerIfMissing();
     }
@@ -503,16 +503,22 @@ public class FinalBossBehavior : MonoBehaviour, IEnemyRangeReceiver
         combatBridge?.DisableAllHitboxes();
         StopChargeTrail(true);
         HideBossHud();
-        SpawnLootIfAssigned();
+        RevealDeathRewardIfAssigned();
         ShowRunResultsIfEnabled();
     }
 
-    private void SpawnLootIfAssigned()
+    private void HideDeathRewardAtRuntimeStart()
     {
-        if (lootPrefab == null) return;
+        if (deathRewardObject == null) return;
 
-        Transform spawnPoint = lootSpawnPoint != null ? lootSpawnPoint : transform;
-        Instantiate(lootPrefab, spawnPoint.position, spawnPoint.rotation);
+        deathRewardObject.SetActive(false);
+    }
+
+    private void RevealDeathRewardIfAssigned()
+    {
+        if (deathRewardObject == null) return;
+
+        deathRewardObject.SetActive(true);
     }
 
     private void ShowRunResultsIfEnabled()

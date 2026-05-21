@@ -17,6 +17,9 @@ GameObject:
   - component: {fileID: 6105358295761562884}
   - component: {fileID: 4021448669052055778}
   - component: {fileID: 5392164995587081096}
+  - component: {fileID: 5765193123921974882}
+  - component: {fileID: 4209176229375481024}
+  - component: {fileID: 3090722132002324635}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -39,6 +42,7 @@ Transform:
   m_Children:
   - {fileID: 3736065515467485690}
   - {fileID: 6530306025966710601}
+  - {fileID: 5654858480291385272}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &3620331858733460527
@@ -211,7 +215,10 @@ MonoBehaviour:
   inputDeadzone: 0.1
   idleThreshold: 5
   footstepInterval: 0.4
-  deathRespawnDelay: 1.5
+  deathRespawnDelay: 0.75
+  fallRespawnDelay: 0.25
+  fallZoneNudgeDistance: 0.5
+  fallZoneNudgeDuration: 0.5
   playerAnimator: {fileID: 0}
 --- !u!114 &6105358295761562884
 MonoBehaviour:
@@ -264,6 +271,85 @@ MonoBehaviour:
   swordHitbox: {fileID: 2206383251509038760}
   health: {fileID: 4021448669052055778}
   attackTrigger: Attack
+--- !u!114 &5765193123921974882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273388686200207508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 141d4fc5a2b04e8bad1fccc6c6f92229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerChargeAttack
+  chargeKey: 113
+  chargeCooldown: 1.5
+  chargeSpeed: 8
+  chargeDistance: 4
+  chargeRecoveryDuration: 0.25
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  obstacleSkinWidth: 0.03
+  dashEventFallbackDelay: 0
+  maxChargeDurationFallback: 1.25
+  playerController: {fileID: 6256102326500555944}
+  playerAnimator: {fileID: 0}
+  health: {fileID: 4021448669052055778}
+  chargeHitbox: {fileID: 0}
+  chargeTrail: {fileID: 0}
+  clearChargeTrailOnDashStart: 1
+  clearChargeTrailOnDashStop: 0
+--- !u!114 &4209176229375481024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273388686200207508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c45e65bf166a4a128989d107c9ec9a7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
+  dashKey: 304
+  dashSpeed: 20
+  dashDuration: 0.18
+  dashDistance: 3.6
+  dashCooldown: 1
+  solidLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  obstacleSkinWidth: 0.03
+  stuckDistanceThreshold: 0.01
+  stuckTimeThreshold: 0.08
+  playerController: {fileID: 6256102326500555944}
+  playerAnimator: {fileID: 0}
+  health: {fileID: 4021448669052055778}
+  dashTrail: {fileID: 3090722132002324635}
+  clearDashTrailOnStart: 1
+  clearDashTrailOnStop: 0
+--- !u!114 &3090722132002324635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273388686200207508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4dbb9ab6754d6aa2c46ab3c4f4d6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChargeTrail
+  sourceRenderer: {fileID: 0}
+  afterimageCount: 6
+  sampleInterval: 0.04
+  lifetime: 0.22
+  clearOnPlay: 1
+  startTint: {r: 0.25, g: 0.65, b: 1, a: 0.55}
+  endTint: {r: 0.05, g: 0.15, b: 1, a: 0}
+  sortingOrderOffset: 1
 --- !u!1 &5749308749432638657
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,3 +501,73 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Hitbox
   damageAmount: 1
   owner: {fileID: 8945526412672606852}
+  targetMode: 0
+  legacyHurtBoxName: HurtBox
+--- !u!1 &6040033706412637269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5654858480291385272}
+  - component: {fileID: 8890076246433386708}
+  m_Layer: 0
+  m_Name: ChargeHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5654858480291385272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6040033706412637269}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8945526412672606852}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8890076246433386708
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6040033706412637269}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.028152466, y: -0.098534524}
+  m_Radius: 1.0208263

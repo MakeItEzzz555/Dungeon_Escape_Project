@@ -140,3 +140,33 @@ Date: 2026-05-19
 
 - Rewired `HUD_Canvas.prefab` so `HUDManager.hudHpPanel` points to the actual `HUD_HP` RectTransform.
 - Hardened `HUDManager.CacheHpImages()` to reject any assigned panel whose name is not `HUD_HP` and rebind by name.
+
+## Fall_Dive Blocked By Player Attack States
+
+Date: 2026-05-21
+
+### Symptom
+
+- Entering a fall/water hazard during `PlayerChargeAttack` left the player in charge animation until the charge finished.
+- After that failure, the player could move on the hazard area and regular/charged attacks no longer became available.
+- Entering a fall hazard during regular attack started the failure flow, but the attack animation continued instead of immediately showing `Fall_Dive`.
+
+### Confirmed Data
+
+- `FallZone.OnTriggerEnter2D()` called `Health.DepleteHealth()` before `PlayerController.StartFallSequence()`.
+- `PlayerController.StartFallSequence()` returned early whenever `IsLocked` was true.
+- `IsLocked` included `abilityMovementLocked`, which is set during `PlayerChargeAttack`.
+- The saved `PlayerAnimatorController.controller` only had a saved transition from `Run Tree` to `Fall_Dive`; no saved Any State transition to `Fall_Dive` existed on disk.
+- Regular and charged attacks both relied on their animation states/events to finish naturally.
+
+### Root Cause
+
+`PlayerChargeAttack` used the same lock gate that `StartFallSequence()` treated as a reason to ignore fall. The fall zone consumed itself and depleted HP, but the gameplay fall state never started. Regular attacks had a related presentation failure because the Animator did not have a guaranteed saved interruption path from attack states into `Fall_Dive`.
+
+### Fix Applied
+
+- `PlayerController.StartFallSequence()` now allows fall to override `abilityMovementLocked`.
+- `PlayerController` cancels regular attack and charge attack before fall/death presentation.
+- `PlayerCombat.CancelAttack()` disables the sword hitbox and clears attack triggers.
+- `PlayerChargeAttack.CancelChargeAttack()` disables charge hitbox/trail and releases movement ownership.
+- `PlayerAnimator.InterruptToFallDive()` and `InterruptToDeath()` clear action triggers and force the saved failure state on layer 0.

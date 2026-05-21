@@ -43,6 +43,17 @@ This file defines canonical project terms. Code, Inspector labels, Wiki pages, a
 | `PlayerController` | Player movement, state lock, fall/death, idle, footstep, and HurtBox provisioning component. | Player |
 | `PlayerAnimator` | Animator bridge for player movement, idle, attack, falling, and death parameters. | Player |
 | `PlayerCombat` | Player attack input and sword hitbox animation-event owner. | Player Combat |
+| `PlayerDash` | Player mobility ability that uses Left Shift to perform a short script-owned burst in current movement direction or last facing direction while normal control is locked. | Player |
+| `PlayerDashInput` | Canonical input binding for `PlayerDash`, defaulting to Left Shift. | Player |
+| `PlayerDashDirection` | Fixed cardinal direction captured when `PlayerDash` starts; it does not retarget during the dash. | Player |
+| `PlayerDashCooldown` | Serialized cooldown after `PlayerDash` before another dash can start. | Player |
+| `SwordConsumable` | Scene-local collectible sword upgrade that unlocks `PlayerChargeAttack` for the current run. | Collectibles |
+| `PlayerChargeAttack` | Player ability unlocked by `SwordConsumable` that uses `Q` to perform a script-locked dash attack in the last facing direction while normal movement is locked. | Player Combat |
+| `PlayerChargeAttackCooldown` | Serialized cooldown after `PlayerChargeAttack` recovery before another charge can start. | Player Combat |
+| `PlayerChargeAttackTrigger` | Animator trigger named `ChargeAttack` that starts the player charge attack animation path. | Player Combat |
+| `PlayerChargeAttackAnimEvents` | Animation events on the player charge attack clip that call `StartDash` or `StartChargeDash`, `EnableChargeHitbox`, `DisableChargeHitbox`, and `EndChargeAttack`. | Player Combat |
+| `PlayerChargeAttackFallbacks` | Serialized safety timings that can unlock the player if expected charge animation events are missing; dash fallback is opt-in so authored animation timing owns dash start by default. | Player Combat |
+| `ChargeAttackUnlockedFeedback` | HUD message and pickup SFX confirmation shown when `SwordConsumable` unlocks `PlayerChargeAttack`. | UI |
 | `HurtBox` | Shared child trigger collider used as the valid damage receiver for character `Hitbox` contact. Player, enemies, and FinalBoss should expose damage through `HurtBox`, while aggro ranges, attack ranges, and movement colliders are not damage receivers. | Combat |
 | `Hitbox` | Trigger damage component that enables only during attack windows, targets `HurtBox` receivers by default, and damages each target once per enabled window even if the target was already overlapping when the hitbox activated. | Combat |
 | `Health` | Shared hit point and death component used by player and enemies. | Combat |
@@ -50,7 +61,7 @@ This file defines canonical project terms. Code, Inspector labels, Wiki pages, a
 | `IEnemyRangeReceiver` | Shared receiver contract for components that accept aggro and attack range updates from `EnemyRangeTrigger`. | Enemy |
 | `EnemyRangeTrigger` | Enemy child trigger that reports aggro or attack range state to an `IEnemyRangeReceiver`, including `EnemyAI` and `FinalBossBehavior`. | Enemy |
 | `FinalBoss` | Boss enemy variant that reuses shared combat, health, hitbox, and range-trigger components while owning boss-specific phase and attack-selection behavior. | Enemy |
-| `FinalBossBehavior` | FinalBoss-owned behavior controller responsible for boss phases, attack selection, charge movement, cooldowns, recovery locks, boss HUD visibility, optional death loot, optional completion results, and death state. It is tuned through serialized Inspector fields rather than hard-coded constants. | Enemy |
+| `FinalBossBehavior` | FinalBoss-owned behavior controller responsible for boss phases, attack selection, charge movement, cooldowns, recovery locks, boss HUD visibility, optional `DeathRewardObject` reveal, optional completion results, and death state. It is tuned through serialized Inspector fields rather than hard-coded constants. | Enemy |
 | `FinalBossAnimationBridge` | FinalBoss presentation bridge that writes directional Animator parameters and triggers regular attack, charge attack, hurt, walking, and death animation paths. | Enemy |
 | `FinalBossCombatBridge` | FinalBoss animation-event bridge that exposes regular hitbox and charge hitbox enable/disable methods to animation clips and forwards those calls to the correct hitbox components. | Enemy Combat |
 | `PhaseTwo` | FinalBoss combat phase unlocked permanently when FinalBoss reaches half health. | Enemy |
@@ -67,7 +78,8 @@ This file defines canonical project terms. Code, Inspector labels, Wiki pages, a
 | `ChargeRecovery` | Short post-charge lockout where FinalBoss cannot chase or attack, giving the player a readable punish window. | Enemy Combat |
 | `ChargeObstacleImpact` | FinalBoss charge outcome where hitting a blocking obstacle immediately stops `ChargeAttack` and enters `ChargeRecovery`. | Enemy Combat |
 | `ChargeInterruptRule` | FinalBoss rule where `ChargeAttack` is not cancelled by player damage during the active dash; damage during wind-up may show feedback but does not cancel the committed charge. | Enemy Combat |
-| `FinalBossDeathRewards` | Optional FinalBoss death behavior that can spawn a configured loot prefab and start completion-mode `RunResultsPanel` flow to `Main Menu`. | Progression |
+| `DeathRewardObject` | Optional scene-authored reward GameObject assigned to an enemy or FinalBoss, hidden at runtime start, and activated exactly once when that combatant dies. | Progression |
+| `FinalBossDeathRewards` | Optional FinalBoss death behavior that can activate a configured `DeathRewardObject` and start completion-mode `RunResultsPanel` flow to `Main Menu`. | Progression |
 | `Lever_On` | Player-toggleable lever that emits a bool UnityEvent. | Interactables |
 | `LeverResponder` | Adapter that converts lever bool signals into animator/gate/trap state changes. | Interactables |
 | `InteractiveGate` | Gate controller that owns open/close animator parameters and physical collider state. | Interactables |
