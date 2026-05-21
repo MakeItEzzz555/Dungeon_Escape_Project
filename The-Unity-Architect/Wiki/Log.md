@@ -2,7 +2,15 @@
 
 ## 2026-05-21
 
-- Added FinalBoss aggro-driven `HUD_HP_FinalBoss`, optional death loot spawning, and optional boss-death completion results targeting `Main Menu`.
+- Created feature GDD: [Sword Consumable And Player Charge Attack](./Features/SwordConsumableAndPlayerChargeAttack.md), defining the scene-local `SwordConsumable` unlock and `PlayerChargeAttack` animator/dash/hitbox contract.
+- Created and implemented feature GDD: [Player Dash](./Features/PlayerDash.md), adding Left Shift dash movement, cooldown, wall stop, stuck guard, fall/death cancellation, optional `IsDashing` animation bridge, and reused `ChargeTrail` presentation.
+- Implemented script support for `SwordConsumable` and `PlayerChargeAttack`, including `Q` input, movement lock, cooldown, obstacle stop, charge hitbox animation events, charge trail hooks, fallback safety, and the `ChargeAttack` Animator trigger parameter.
+- Changed `PlayerChargeAttack` dash startup to be animation-event authored by default, with `StartDash` and `StartChargeDash` both supported and dash fallback left as opt-in.
+- Fixed fall/death failure interruption so water/fall zones and lethal hazards cancel regular/charged attacks, clear hitboxes/trails, and force `Fall_Dive` or death presentation immediately.
+- Created feature GDD: [Enemy Death Rewards](./Features/EnemyDeathRewards.md), defining `DeathRewardObject` as the canonical scene-authored reward model for normal enemies and FinalBoss.
+- Implemented enemy and FinalBoss `DeathRewardObject` activation: assigned reward objects are hidden on runtime start and revealed once on death.
+- Changed the FinalBoss run-results-on-death default to disabled so reward chest/key progression can continue to the final `CheckpointDoor`.
+- Added FinalBoss aggro-driven `HUD_HP_FinalBoss`, optional death reward reveal, and optional boss-death completion results targeting `Main Menu`.
 - Capped `HUD_HP_FinalBoss` to the bound FinalBoss `Health.maxHealth` and added `AudioManager` scene-specific music overrides for `Level 2` and `Level 3`.
 - Hardened `HUD_HP_FinalBoss` runtime creation so it no longer clones extra player HUD children, removes duplicate boss panels, and creates exact health slots. Updated `Hitbox` to resolve trigger-stay contacts once per activation so already-overlapping melee targets are not missed.
 - Replaced incremental FinalBoss HUD slot add/remove with deterministic runtime rebuild: existing boss HP children are disabled, cleared, and recreated as exact direct `Image` slots from the bound FinalBoss `maxHealth`.

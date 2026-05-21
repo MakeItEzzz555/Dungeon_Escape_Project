@@ -27,6 +27,9 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     public PlayerAnimator playerAnimator;
+    private PlayerCombat playerCombat;
+    private PlayerChargeAttack playerChargeAttack;
+    private PlayerDash playerDash;
 
     private Vector2 moveInput;
     private Vector2 lastMoveDirection = Vector2.down;
@@ -37,6 +40,7 @@ public class PlayerController : MonoBehaviour
     private bool isDead;
     private bool isFalling;
     private bool canMove = true;
+    private bool abilityMovementLocked;
     private Coroutine fallSequenceRoutine;
     private Coroutine fallZoneNudgeRoutine;
     private Coroutine deathSequenceRoutine;
@@ -44,10 +48,12 @@ public class PlayerController : MonoBehaviour
     // 🔥 NEW: spawn protection
     private bool spawnGracePeriod = true;
 
-    private bool IsLocked => isDead || isFalling || !canMove;
+    private bool IsLocked => isDead || isFalling || !canMove || abilityMovementLocked;
 
     public bool IsDead => isDead;
     public bool IsFalling => isFalling;
+    public bool IsControlLocked => IsLocked;
+    public Vector2 LastMoveDirection => lastMoveDirection.sqrMagnitude > 0.01f ? lastMoveDirection.normalized : Vector2.down;
 
     private void Awake()
     {
@@ -60,6 +66,10 @@ public class PlayerController : MonoBehaviour
             playerAnimator = GetComponent<PlayerAnimator>();
             if (playerAnimator == null) playerAnimator = GetComponentInChildren<PlayerAnimator>();
         }
+
+        playerCombat = GetComponent<PlayerCombat>();
+        playerChargeAttack = GetComponent<PlayerChargeAttack>();
+        playerDash = GetComponent<PlayerDash>();
 
         EnsureHurtBox();
     }
@@ -225,17 +235,22 @@ public class PlayerController : MonoBehaviour
 
     public void StartFallSequence()
     {
-        if (IsLocked) return;
+        if (isDead || isFalling) return;
+        if (fallSequenceRoutine != null) return;
+        if (!canMove && !abilityMovementLocked) return;
+
+        CancelActiveActionsForFailure();
 
         isFalling = true;
         canMove = false;
+        abilityMovementLocked = false;
 
         moveInput = Vector2.zero;
         rb.linearVelocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Kinematic;
 
-        playerAnimator?.SetFallingStatus(true);
         playerAnimator?.SetLastMoveDirection(lastMoveDirection);
+        playerAnimator?.InterruptToFallDive();
 
         if (fallZoneNudgeRoutine != null)
         {
@@ -262,8 +277,11 @@ public class PlayerController : MonoBehaviour
         if (isDead || isFalling) return;
         if (deathSequenceRoutine != null) return;
 
+        CancelActiveActionsForFailure();
+
         isDead = true;
         canMove = false;
+        abilityMovementLocked = false;
         StopFallZoneDirectionalNudge();
 
         moveInput = Vector2.zero;
@@ -271,9 +289,8 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Kinematic;
 
-        playerAnimator?.SetFallingStatus(false);
-        playerAnimator?.SetStandByStatus(false);
-        playerAnimator?.SetDeadStatus(true);
+        playerAnimator?.SetLastMoveDirection(lastMoveDirection);
+        playerAnimator?.InterruptToDeath();
         playerAnimator?.TriggerDie();
 
         deathSequenceRoutine = StartCoroutine(DeathRoutine());
@@ -326,6 +343,14 @@ public class PlayerController : MonoBehaviour
         fallZoneNudgeRoutine = null;
     }
 
+    private void CancelActiveActionsForFailure()
+    {
+        playerCombat?.CancelAttack();
+        playerChargeAttack?.CancelChargeAttack();
+        playerDash?.CancelDash();
+        playerAnimator?.ResetActionTriggers();
+    }
+
     private IEnumerator StartRespawnTransition(float failureAnimationDuration)
     {
         if (SceneTransitionManager.Instance != null)
@@ -353,13 +378,29 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void SetAbilityMovementLock(bool locked)
+    {
+        abilityMovementLocked = locked;
+
+        if (locked)
+        {
+            moveInput = Vector2.zero;
+            if (rb != null) rb.linearVelocity = Vector2.zero;
+            ResetIdleTimer();
+            playerAnimator?.SetStandByStatus(false);
+            playerAnimator?.UpdateAnimations(Vector2.zero, 0, true);
+        }
+    }
+
     // 🔥 NEW RESET
     public void ResetState()
     {
         isDead = false;
         isFalling = false;
         canMove = true;
+        abilityMovementLocked = false;
         lastMoveDirection = Vector2.down;
+        playerDash?.CancelDash();
         StopFallZoneDirectionalNudge();
         ResetIdleTimer();
 
@@ -369,6 +410,7 @@ public class PlayerController : MonoBehaviour
         playerAnimator?.SetFallingStatus(false);
         playerAnimator?.SetLastMoveDirection(lastMoveDirection);
         playerAnimator?.SetDeadStatus(false);
+        playerAnimator?.SetDashingStatus(false);
         playerAnimator?.SetStandByStatus(false);
 
         fallSequenceRoutine = null;

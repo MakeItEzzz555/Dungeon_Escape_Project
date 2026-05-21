@@ -29,7 +29,7 @@ public class PlayerCombat : MonoBehaviour
     private void Update()
     {
         if (health != null && health.IsDead) return;
-        if (playerController != null && playerController.IsFalling) return;
+        if (playerController != null && playerController.IsControlLocked) return;
 
         if (Input.GetKeyDown(KeyCode.F))
         {
@@ -68,6 +68,13 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+    public void CancelAttack()
+    {
+        DisableHitbox();
+        ResetAttackTriggerIfExists();
+        playerAnimator?.ResetActionTriggers();
+    }
+
     public void PlayAttack1SFX()
     {
         AudioManager.Instance?.PlayPlayerAttack1();
@@ -81,5 +88,19 @@ public class PlayerCombat : MonoBehaviour
     public void PlayAttack3SFX()
     {
         AudioManager.Instance?.PlayPlayerAttack3();
+    }
+
+    private void ResetAttackTriggerIfExists()
+    {
+        if (animator == null || string.IsNullOrEmpty(attackTrigger)) return;
+
+        foreach (AnimatorControllerParameter parameter in animator.parameters)
+        {
+            if (parameter.name == attackTrigger && parameter.type == AnimatorControllerParameterType.Trigger)
+            {
+                animator.ResetTrigger(attackTrigger);
+                return;
+            }
+        }
     }
 }

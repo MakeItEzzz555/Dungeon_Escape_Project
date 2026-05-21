@@ -17,6 +17,7 @@ Last audited: 2026-05-16
 4. Enemy attacks while player is in attack range or close enough by fallback distance.
 5. Enemy returns home when player leaves aggro.
 6. Enemy enters dead state when its `Health` is dead.
+7. If a `DeathRewardObject` is assigned, it is hidden at runtime start and revealed once when the enemy dies.
 
 ## Implementation References
 
@@ -27,6 +28,7 @@ Last audited: 2026-05-16
 | `Assets/Scripts/Enemy/EnemyRangeTrigger.cs` | Aggro/attack range trigger detection. |
 | `Assets/Scripts/Enemy/EnemyCombat.cs` | Enemy hitbox animation events. |
 | `Assets/Scripts/Enemy/EnemyAnimationEventForwarder.cs` | Visual animator event bridge. |
+| `DeathRewardObject` | Optional scene-authored reward object revealed by enemy death. |
 
 ## Known Gaps
 

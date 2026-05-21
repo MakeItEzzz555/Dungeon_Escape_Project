@@ -12,9 +12,12 @@ This folder documents current game features from the player/runtime behavior poi
 | Main Menu And Pause Menu | [MainMenuAndPauseMenu.md](./MainMenuAndPauseMenu.md) | [UI And HUD](../Systems/UIAndHUD.md), [Input](../Systems/Input.md) |
 | Audio Volume Settings | [AudioVolumeSettings.md](./AudioVolumeSettings.md) | [Audio](../Systems/Audio.md) |
 | Player Movement And State | [PlayerMovementAndState.md](./PlayerMovementAndState.md) | [Player](../Systems/Player.md), [Input](../Systems/Input.md) |
+| Player Dash | [PlayerDash.md](./PlayerDash.md) | [Player](../Systems/Player.md), [Input](../Systems/Input.md) |
 | Player Combat | [PlayerCombat.md](./PlayerCombat.md) | [Player](../Systems/Player.md), [Combat](../Systems/Combat.md) |
+| Sword Consumable And Player Charge Attack | [SwordConsumableAndPlayerChargeAttack.md](./SwordConsumableAndPlayerChargeAttack.md) | [Player](../Systems/Player.md), [Combat](../Systems/Combat.md), [Collectibles](../Systems/Collectibles.md) |
 | Enemy Encounters | [EnemyEncounters.md](./EnemyEncounters.md) | [Enemy AI](../Systems/EnemyAI.md), [Combat](../Systems/Combat.md) |
 | FinalBoss | [FinalBoss.md](./FinalBoss.md) | [Enemy AI](../Systems/EnemyAI.md), [Combat](../Systems/Combat.md) |
+| Enemy Death Rewards | [EnemyDeathRewards.md](./EnemyDeathRewards.md) | [Enemy AI](../Systems/EnemyAI.md), [Combat](../Systems/Combat.md), [Progression](../Systems/Progression.md) |
 | Key Quest And Level Exit | [KeyQuestAndLevelExit.md](./KeyQuestAndLevelExit.md) | [Progression](../Systems/Progression.md), [Scene Transitions](../Systems/SceneTransitions.md) |
 | Coin And Key Collection | [CoinAndKeyCollection.md](./CoinAndKeyCollection.md) | [Collectibles](../Systems/Collectibles.md), [UI And HUD](../Systems/UIAndHUD.md) |
 | HP Consumable | [HPConsumable.md](./HPConsumable.md) | [Collectibles](../Systems/Collectibles.md), [Combat](../Systems/Combat.md), [UI And HUD](../Systems/UIAndHUD.md) |

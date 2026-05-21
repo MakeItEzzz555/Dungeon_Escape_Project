@@ -17,7 +17,7 @@ This file captures scene and prefab wiring discovered from `.unity`, `.prefab`, 
 
 | Prefab | Main Use | Scene References Found |
 |:-------|:---------|:-----------------------|
-| `Assets/Prefabs/Player/Player 1.prefab` | Player avatar | Level 1, Level 2 |
+| `Assets/Prefabs/Player/Player 1.prefab` | Player avatar with movement, combat, charge attack, dash, HP, HurtBox, and reused `ChargeTrail` presentation | Level 1, Level 2 |
 | `Assets/Prefabs/Managers/HUD_Canvas.prefab` | HUD and pause menu | Level 1, Level 2, Level 3 |
 | `Assets/Prefabs/Managers/QuestManager.prefab` | Quest/key manager | Level 1, Level 2 |
 | `Assets/Prefabs/Managers/PlayerAnimator.prefab` | Scene player animator object/reference | Level 1, Level 2 |
@@ -36,7 +36,7 @@ This file captures scene and prefab wiring discovered from `.unity`, `.prefab`, 
 
 | Prefab | Main Use | Wiring Notes |
 |:-------|:---------|:-------------|
-| FinalBoss prefab | Boss enemy variant | Root should contain `Health`, `Rigidbody2D`, and `FinalBossBehavior`; children should be `AggroRange`, `AttackRange`, `AttackHitbox`, `ChargeHitbox`, `HurtBox`, and `Visuals`. `FinalBossBehavior` now owns boss HUD visibility and optional death rewards/results. |
+| FinalBoss prefab | Boss enemy variant | Root should contain `Health`, `Rigidbody2D`, and `FinalBossBehavior`; children should be `AggroRange`, `AttackRange`, `AttackHitbox`, `ChargeHitbox`, `HurtBox`, and `Visuals`. `FinalBossBehavior` now owns boss HUD visibility, optional `DeathRewardObject` reveal, and optional death results. |
 
 ## Scene-Referenced Environment Prefabs
 
@@ -86,4 +86,4 @@ These may be instantiated by code, kept for future work, or unused:
 - `AudioSettingsUI` is referenced by Main Menu scene and `HUD_Canvas.prefab`.
 - `FallZone` is directly referenced in Level 2 scene.
 - `LeverResponder` has both prefab and scene references, because some lever targets appear to be wired directly in scenes.
-- FinalBoss script support includes boss HUD visibility, phase behavior, charge dash/trail, optional loot spawn, and optional death completion results. Animator and prefab references still need Inspector verification after manual scene edits.
+- FinalBoss script support includes boss HUD visibility, phase behavior, charge dash/trail, optional `DeathRewardObject` reveal, and optional death completion results. Animator and prefab references still need Inspector verification after manual scene edits.

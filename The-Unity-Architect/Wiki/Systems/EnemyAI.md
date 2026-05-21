@@ -39,8 +39,11 @@ Enemy behavior is prefab-driven and built from an AI state machine, range trigge
 6. Attacking stops movement and triggers attack on cooldown.
 7. Leaving aggro returns enemy to home.
 8. Dead state stops walking.
+9. If configured, the enemy reveals its `DeathRewardObject` once on death.
 
 Active enemy deaths are also counted by the run results flow. `HUDManager` counts active `EnemyAI` instances at attempt start, subscribes to their `Health.OnDied` events, and reports `Enemies Killed` on `RunResultsPanel`. If no active enemies exist, results display `Enemies Killed: N/A`.
+
+Enemy death rewards are authored as optional scene objects. `EnemyAI` hides the assigned `DeathRewardObject` at runtime start and activates it once when the enemy dies, allowing designers to place a chest or other reward at an exact transform.
 
 ## Range Detection
 
@@ -68,3 +71,4 @@ This supports both root player colliders and child HurtBox trigger colliders.
 - `EnemyAI` finds player only in `Awake`; if the player is replaced later, enemies may need retargeting.
 - Movement uses `Time.deltaTime` with `Rigidbody2D.MovePosition`, not `FixedUpdate`.
 - FinalBoss phase and charge behavior remain outside generic `EnemyAI`; range detection uses `IEnemyRangeReceiver` so `EnemyRangeTrigger` can report to both normal enemies and FinalBoss behavior.
+- Each reward object should be assigned to only one death owner unless intentionally shared.

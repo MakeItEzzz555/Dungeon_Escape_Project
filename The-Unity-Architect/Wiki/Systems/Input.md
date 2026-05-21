@@ -19,6 +19,7 @@ Input is split between gameplay scripts using legacy `UnityEngine.Input` and UGU
 | Script | Input |
 |:-------|:------|
 | `PlayerController` | `Input.GetAxisRaw("Horizontal")`, `Input.GetAxisRaw("Vertical")` |
+| `PlayerDash` | `Input.GetKeyDown(KeyCode.LeftShift)` for dash |
 | `PlayerCombat` | `Input.GetKeyDown(KeyCode.F)` for attack |
 | `FollowPlayer` | `Input.GetKeyDown(KeyCode.Escape)` for pause menu toggle |
 | `CheckpointDoor` | `Input.GetKeyDown(KeyCode.E)` while in range |
