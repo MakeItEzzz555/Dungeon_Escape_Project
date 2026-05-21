@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(Collider2D))]
 public class EnemyRangeTrigger : MonoBehaviour
@@ -6,20 +7,32 @@ public class EnemyRangeTrigger : MonoBehaviour
     public enum RangeType { Aggro, Attack }
 
     [SerializeField] private RangeType rangeType;
-    [SerializeField] private EnemyAI enemyAI;
+    [FormerlySerializedAs("enemyAI")]
+    [SerializeField] private MonoBehaviour rangeReceiverOverride;
 
     private Collider2D triggerCollider;
+    private IEnemyRangeReceiver rangeReceiver;
 
     private void Awake()
     {
         triggerCollider = GetComponent<Collider2D>();
         triggerCollider.isTrigger = true;
 
-        if (enemyAI == null)
-            enemyAI = GetComponentInParent<EnemyAI>();
+        if (rangeReceiverOverride != null)
+        {
+            rangeReceiver = rangeReceiverOverride as IEnemyRangeReceiver;
 
-        if (enemyAI == null)
-            Debug.LogWarning($"[EnemyRangeTrigger] {name} could not find EnemyAI in parent.");
+            if (rangeReceiver == null)
+            {
+                Debug.LogWarning($"[EnemyRangeTrigger] {name} override does not implement IEnemyRangeReceiver.");
+            }
+        }
+
+        if (rangeReceiver == null)
+            rangeReceiver = GetComponentInParent<IEnemyRangeReceiver>();
+
+        if (rangeReceiver == null)
+            Debug.LogWarning($"[EnemyRangeTrigger] {name} could not find IEnemyRangeReceiver in parent.");
     }
 
     private void OnEnable()
@@ -60,11 +73,11 @@ public class EnemyRangeTrigger : MonoBehaviour
 
     private void SetRange(bool value)
     {
-        if (enemyAI == null) return;
+        if (rangeReceiver == null) return;
 
         if (rangeType == RangeType.Aggro)
-            enemyAI.SetPlayerInAggroRange(value);
+            rangeReceiver.SetPlayerInAggroRange(value);
         else
-            enemyAI.SetPlayerInAttackRange(value);
+            rangeReceiver.SetPlayerInAttackRange(value);
     }
 }

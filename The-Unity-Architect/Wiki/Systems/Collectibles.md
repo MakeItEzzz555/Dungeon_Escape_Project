@@ -1,6 +1,6 @@
 # Collectibles System
 
-Last audited: 2026-05-16
+Last audited: 2026-05-21
 
 ## Ownership
 
@@ -12,6 +12,7 @@ Collectibles are trigger-based scene objects that play a collection animation/SF
 |:------|:-----|
 | `Assets/Scripts/Collectibles/Collect_coins.cs` | Coin pickup behavior. |
 | `Assets/Scripts/Collectibles/Collect_keys.cs` | Key pickup behavior. |
+| `Assets/Scripts/Collectibles/HPConsumable.cs` | HP pickup behavior. |
 | `Assets/Prefabs/Collectibles/BlueCoin.prefab` | Coin prefab used in Level 1 and Level 2. |
 | `Assets/Prefabs/Collectibles/Key 1 - GOLD - .prefab` | Key prefab used in Level 1 and Level 2. |
 
@@ -35,6 +36,14 @@ Collectibles are trigger-based scene objects that play a collection animation/SF
 6. It calls `HUDManager.ShowUXMessage("Key Collected")`.
 7. It destroys the GameObject after `destroyDelay`.
 
+## HP Consumable Flow
+
+1. `HPConsumable.OnTriggerEnter2D()` accepts the root player collider or a child collider that resolves to `PlayerController`.
+2. It resolves the player's `Health` component.
+3. It calls `Health.Heal(healAmount)`, default `2`.
+4. If healing succeeds, it disables its trigger collider, optionally plays animation state `Collect`, shows HUD feedback, and destroys itself after `destroyDelay`.
+5. If the player is at full health, it remains available unless `consumeWhenAtFullHealth` is enabled.
+
 ## HUD Integration
 
 - `HUDManager` discovers total coins by counting objects tagged `Coin` unless `manualMaxCoins` is set.
@@ -44,4 +53,4 @@ Collectibles are trigger-based scene objects that play a collection animation/SF
 
 - Collection uses direct singleton calls to audio, HUD, and quest systems.
 - The destroy delay assumes the collection animation length fits the configured `destroyDelay`.
-- Only root/tagged player colliders trigger collection; child HurtBox-only contact will not collect unless the child also has the Player tag.
+- Coin and key collection still only use root/tagged player colliders; `HPConsumable` also supports child player colliders such as HurtBox contact.

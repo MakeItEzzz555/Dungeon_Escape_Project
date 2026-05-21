@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyAI : MonoBehaviour
+public class EnemyAI : MonoBehaviour, IEnemyRangeReceiver
 {
     public enum EnemyState { IdleAtHome, Chasing, Attacking, ReturningHome, Dead }
 

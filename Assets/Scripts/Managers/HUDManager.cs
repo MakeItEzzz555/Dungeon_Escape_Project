@@ -42,6 +42,13 @@ public readonly struct RunStatsSnapshot
 public class HUDManager : MonoBehaviour
 {
     public static HUDManager Instance { get; private set; }
+    private const string PlayerHpPanelName = "HUD_HP";
+    private const string FinalBossHpPanelName = "HUD_HP_FinalBoss";
+    private const int FinalBossHpImagesPerRow = 5;
+    private const float FinalBossHpStartX = 900f;
+    private const float FinalBossHpStartY = 475f;
+    private const float FinalBossHpSpacing = 100f;
+    private const int RuntimeFinalBossHpSortingOffset = 1;
 
     [Header("State")]
     public bool hudRevealed;
@@ -57,6 +64,8 @@ public class HUDManager : MonoBehaviour
 
     [Header("HP UI")]
     [SerializeField] private Transform hudHpPanel;
+    [SerializeField] private Transform finalBossHpPanel;
+    [SerializeField] private Sprite finalBossHpSprite;
     [SerializeField] private GameObject hudItemsPanel;
 
     [Header("UX Notification UI")]
@@ -98,10 +107,14 @@ public class HUDManager : MonoBehaviour
 
     private Coroutine uxMessageCoroutine;
     private readonly List<Image> hpImages = new List<Image>();
+    private readonly List<Image> finalBossHpImages = new List<Image>();
     private readonly List<Health> trackedEnemyHealth = new List<Health>();
     private Health subscribedPlayerHealth;
+    private Health subscribedFinalBossHealth;
     private int lastDisplayedHealth = -1;
     private int lastDisplayedMaxHealth = -1;
+    private int lastDisplayedFinalBossHealth = -1;
+    private int lastDisplayedFinalBossMaxHealth = -1;
     private Canvas hudCanvas;
     private int defaultCanvasSortingOrder;
     private bool defaultCanvasOverrideSorting;
@@ -116,6 +129,8 @@ public class HUDManager : MonoBehaviour
     private bool hasCursorStateBeforeRunResults;
     private bool hudItemsWasActiveBeforeModal;
     private bool hudHpWasActiveBeforeModal;
+    private bool finalBossHpWasActiveBeforeModal;
+    private bool finalBossHpShouldBeVisible;
     private bool hasGameplayHudVisibilityBeforeModal;
     private Button boundContinueButton;
     private Button boundRespawnButton;
@@ -138,6 +153,8 @@ public class HUDManager : MonoBehaviour
         }
 
         CacheHpImages();
+        CacheFinalBossHpImages(false);
+        SetFinalBossHpPanelActive(false);
         CacheRunResultsReferences();
         CacheGameplayHudReferences();
         ResetRunStats();
@@ -152,6 +169,7 @@ public class HUDManager : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
         UnsubscribeFromPlayerHealth();
+        UnsubscribeFromFinalBossHealth();
         UnsubscribeFromEnemyHealth();
     }
 
@@ -227,6 +245,7 @@ public class HUDManager : MonoBehaviour
 
         UpdateCoinsText();
         SetHpImagesVisible(hpImages.Count);
+        HideFinalBossHp();
         ResetRunResultsUI();
         SetGameplayHudSuppressed(false);
         // Keys update is usually handled by GlobalQuestManager calling UpdateKeys
@@ -354,12 +373,21 @@ public class HUDManager : MonoBehaviour
             }
         }
 
-        if (hudHpPanel == null || hudHpPanel.name != "HUD_HP")
+        if (hudHpPanel == null || hudHpPanel.name != PlayerHpPanelName)
         {
-            Transform hpPanel = FindChildByName(transform, "HUD_HP");
+            Transform hpPanel = FindChildByName(transform, PlayerHpPanelName);
             if (hpPanel != null)
             {
                 hudHpPanel = hpPanel;
+            }
+        }
+
+        if (finalBossHpPanel == null || finalBossHpPanel.name != FinalBossHpPanelName)
+        {
+            Transform bossHpPanel = FindChildByName(transform, FinalBossHpPanelName);
+            if (bossHpPanel != null)
+            {
+                finalBossHpPanel = bossHpPanel;
             }
         }
     }
@@ -625,6 +653,7 @@ public class HUDManager : MonoBehaviour
         CacheGameplayHudReferences();
 
         GameObject hpPanelObject = hudHpPanel != null ? hudHpPanel.gameObject : null;
+        GameObject finalBossHpPanelObject = finalBossHpPanel != null ? finalBossHpPanel.gameObject : null;
 
         if (suppressed)
         {
@@ -632,6 +661,7 @@ public class HUDManager : MonoBehaviour
             {
                 hudItemsWasActiveBeforeModal = hudItemsPanel != null && hudItemsPanel.activeSelf;
                 hudHpWasActiveBeforeModal = hpPanelObject != null && hpPanelObject.activeSelf;
+                finalBossHpWasActiveBeforeModal = finalBossHpPanelObject != null && finalBossHpPanelObject.activeSelf;
                 hasGameplayHudVisibilityBeforeModal = true;
             }
 
@@ -643,6 +673,11 @@ public class HUDManager : MonoBehaviour
             if (hpPanelObject != null)
             {
                 hpPanelObject.SetActive(false);
+            }
+
+            if (finalBossHpPanelObject != null)
+            {
+                finalBossHpPanelObject.SetActive(false);
             }
 
             return;
@@ -658,6 +693,11 @@ public class HUDManager : MonoBehaviour
         if (hpPanelObject != null)
         {
             hpPanelObject.SetActive(hudHpWasActiveBeforeModal);
+        }
+
+        if (finalBossHpPanelObject != null)
+        {
+            finalBossHpPanelObject.SetActive(finalBossHpShouldBeVisible && finalBossHpWasActiveBeforeModal);
         }
 
         hasGameplayHudVisibilityBeforeModal = false;
@@ -705,19 +745,19 @@ public class HUDManager : MonoBehaviour
     {
         hpImages.Clear();
 
-        if (hudHpPanel == null || hudHpPanel.name != "HUD_HP")
+        if (hudHpPanel == null || hudHpPanel.name != PlayerHpPanelName)
         {
             if (hudHpPanel != null)
             {
-                Debug.LogWarning($"[DEBUG_LOG] HUDManager: hudHpPanel points to '{hudHpPanel.name}', expected HUD_HP. Rebinding by name.");
+                Debug.LogWarning($"[DEBUG_LOG] HUDManager: hudHpPanel points to '{hudHpPanel.name}', expected {PlayerHpPanelName}. Rebinding by name.");
             }
 
-            hudHpPanel = FindChildByName(transform, "HUD_HP");
+            hudHpPanel = FindChildByName(transform, PlayerHpPanelName);
         }
 
         if (hudHpPanel == null)
         {
-            Debug.LogWarning("[DEBUG_LOG] HUDManager: HUD_HP panel reference missing. Player HP UI will not update.");
+            Debug.LogWarning($"[DEBUG_LOG] HUDManager: {PlayerHpPanelName} panel reference missing. Player HP UI will not update.");
             return;
         }
 
@@ -732,7 +772,184 @@ public class HUDManager : MonoBehaviour
 
         if (hpImages.Count == 0)
         {
-            Debug.LogWarning("[DEBUG_LOG] HUDManager: HUD_HP has no child Image components.");
+            Debug.LogWarning($"[DEBUG_LOG] HUDManager: {PlayerHpPanelName} has no child Image components.");
+        }
+    }
+
+    private bool CacheFinalBossHpImages(bool createIfMissing)
+    {
+        finalBossHpImages.Clear();
+
+        if (finalBossHpPanel == null || finalBossHpPanel.name != FinalBossHpPanelName)
+        {
+            finalBossHpPanel = FindChildByName(transform, FinalBossHpPanelName);
+        }
+
+        if (finalBossHpPanel == null && createIfMissing)
+        {
+            finalBossHpPanel = CreateRuntimeFinalBossHpPanel();
+        }
+
+        if (finalBossHpPanel == null)
+        {
+            return false;
+        }
+
+        foreach (Transform child in finalBossHpPanel)
+        {
+            if (!child.TryGetComponent(out Image image)) continue;
+
+            ApplyFinalBossHpSprite(image);
+            finalBossHpImages.Add(image);
+        }
+
+        finalBossHpImages.Sort(CompareHpImagesByPosition);
+        return true;
+    }
+
+    private Transform CreateRuntimeFinalBossHpPanel()
+    {
+        CacheHpImages();
+
+        if (hudHpPanel == null)
+        {
+            Debug.LogWarning($"[DEBUG_LOG] HUDManager: Cannot create {FinalBossHpPanelName}; {PlayerHpPanelName} is missing.");
+            return null;
+        }
+
+        Transform parent = hudHpPanel.parent != null ? hudHpPanel.parent : transform;
+        GameObject panelObject = new GameObject(FinalBossHpPanelName, typeof(RectTransform));
+        panelObject.layer = hudHpPanel.gameObject.layer;
+        panelObject.transform.SetParent(parent, false);
+        panelObject.transform.SetSiblingIndex(Mathf.Min(hudHpPanel.GetSiblingIndex() + RuntimeFinalBossHpSortingOffset, parent.childCount - 1));
+
+        RectTransform panelRect = panelObject.GetComponent<RectTransform>();
+        RectTransform sourceRect = hudHpPanel as RectTransform;
+        if (sourceRect != null)
+        {
+            panelRect.anchorMin = sourceRect.anchorMin;
+            panelRect.anchorMax = sourceRect.anchorMax;
+            panelRect.pivot = sourceRect.pivot;
+            panelRect.anchoredPosition = sourceRect.anchoredPosition;
+            panelRect.sizeDelta = sourceRect.sizeDelta;
+            panelRect.localScale = sourceRect.localScale;
+            panelRect.localRotation = sourceRect.localRotation;
+        }
+
+        panelObject.SetActive(false);
+        return panelObject.transform;
+    }
+
+    private void EnsureFinalBossHpImageCount(int maxHealth)
+    {
+        if (finalBossHpPanel == null) return;
+        maxHealth = Mathf.Max(0, maxHealth);
+
+        if (finalBossHpImages.Count != maxHealth)
+        {
+            RebuildRuntimeFinalBossHpImages(maxHealth);
+        }
+
+        LayoutFinalBossHpImages(finalBossHpImages.ToArray());
+        finalBossHpImages.Sort(CompareHpImagesByPosition);
+    }
+
+    private void RebuildRuntimeFinalBossHpImages(int maxHealth)
+    {
+        if (finalBossHpPanel == null) return;
+
+        Image template = GetFinalBossHpTemplate();
+        if (template == null)
+        {
+            Debug.LogWarning($"[DEBUG_LOG] HUDManager: Cannot create {FinalBossHpPanelName} images; {PlayerHpPanelName} has no HP image template.");
+            return;
+        }
+
+        ClearFinalBossHpChildren();
+
+        for (int i = 0; i < maxHealth; i++)
+        {
+            Image image = CreateFinalBossHpImage(template, i);
+            if (image == null) continue;
+            finalBossHpImages.Add(image);
+        }
+    }
+
+    private Image GetFinalBossHpTemplate()
+    {
+        if (hpImages.Count == 0)
+        {
+            CacheHpImages();
+        }
+
+        return hpImages.Count > 0 ? hpImages[0] : null;
+    }
+
+    private void ClearFinalBossHpChildren()
+    {
+        finalBossHpImages.Clear();
+
+        if (finalBossHpPanel == null) return;
+
+        List<GameObject> children = new List<GameObject>();
+        foreach (Transform child in finalBossHpPanel)
+        {
+            children.Add(child.gameObject);
+        }
+
+        foreach (GameObject child in children)
+        {
+            if (child == null) continue;
+            Destroy(child);
+        }
+    }
+
+    private Image CreateFinalBossHpImage(Image template, int index)
+    {
+        GameObject hpObject = new GameObject($"FinalBoss HP ({index})", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
+        hpObject.layer = template.gameObject.layer;
+        hpObject.transform.SetParent(finalBossHpPanel, false);
+
+        RectTransform sourceRect = template.rectTransform;
+        RectTransform rectTransform = hpObject.GetComponent<RectTransform>();
+        rectTransform.anchorMin = sourceRect.anchorMin;
+        rectTransform.anchorMax = sourceRect.anchorMax;
+        rectTransform.pivot = sourceRect.pivot;
+        rectTransform.sizeDelta = sourceRect.sizeDelta;
+        rectTransform.localScale = sourceRect.localScale;
+        rectTransform.localRotation = sourceRect.localRotation;
+
+        Image image = hpObject.GetComponent<Image>();
+        image.sprite = finalBossHpSprite != null ? finalBossHpSprite : template.sprite;
+        image.color = template.color;
+        image.material = template.material;
+        image.type = template.type;
+        image.preserveAspect = true;
+        image.fillCenter = template.fillCenter;
+        image.raycastTarget = false;
+        image.enabled = false;
+
+        return image;
+    }
+
+    private void LayoutFinalBossHpImages(Image[] images)
+    {
+        List<Image> layoutImages = new List<Image>();
+        foreach (Image image in images)
+        {
+            if (image == null || image.transform == finalBossHpPanel) continue;
+            layoutImages.Add(image);
+        }
+
+        layoutImages.Sort(CompareHpImagesByPosition);
+        for (int i = 0; i < layoutImages.Count; i++)
+        {
+            RectTransform rectTransform = layoutImages[i].rectTransform;
+            int row = i / FinalBossHpImagesPerRow;
+            int column = i % FinalBossHpImagesPerRow;
+            rectTransform.anchoredPosition = new Vector2(
+                FinalBossHpStartX - column * FinalBossHpSpacing,
+                FinalBossHpStartY - row * FinalBossHpSpacing);
         }
     }
 
@@ -789,6 +1006,56 @@ public class HUDManager : MonoBehaviour
         subscribedPlayerHealth = null;
     }
 
+    public void ShowFinalBossHp(Health bossHealth)
+    {
+        if (bossHealth == null || bossHealth.IsDead)
+        {
+            HideFinalBossHp();
+            return;
+        }
+
+        if (!CacheFinalBossHpImages(true)) return;
+
+        if (subscribedFinalBossHealth != bossHealth)
+        {
+            UnsubscribeFromFinalBossHealth();
+            subscribedFinalBossHealth = bossHealth;
+            subscribedFinalBossHealth.OnHealthChanged += UpdateFinalBossHp;
+            subscribedFinalBossHealth.OnDied += OnFinalBossDied;
+        }
+
+        EnsureFinalBossHpImageCount(bossHealth.maxHealth);
+        LayoutFinalBossHpImages(finalBossHpImages.ToArray());
+        finalBossHpImages.Sort(CompareHpImagesByPosition);
+        ApplyFinalBossHpSprites();
+        finalBossHpShouldBeVisible = true;
+        SetFinalBossHpPanelActive(true);
+        UpdateFinalBossHp(bossHealth.currentHealth, bossHealth.maxHealth);
+    }
+
+    public void HideFinalBossHp()
+    {
+        finalBossHpShouldBeVisible = false;
+        UnsubscribeFromFinalBossHealth();
+        SetFinalBossHpPanelActive(false);
+        lastDisplayedFinalBossHealth = -1;
+        lastDisplayedFinalBossMaxHealth = -1;
+    }
+
+    private void OnFinalBossDied(Health bossHealth)
+    {
+        HideFinalBossHp();
+    }
+
+    private void UnsubscribeFromFinalBossHealth()
+    {
+        if (subscribedFinalBossHealth == null) return;
+
+        subscribedFinalBossHealth.OnHealthChanged -= UpdateFinalBossHp;
+        subscribedFinalBossHealth.OnDied -= OnFinalBossDied;
+        subscribedFinalBossHealth = null;
+    }
+
     private void UpdatePlayerHp(int currentHealth, int maxHealth)
     {
         if (hpImages.Count == 0) return;
@@ -804,11 +1071,65 @@ public class HUDManager : MonoBehaviour
         lastDisplayedMaxHealth = maxHealth;
     }
 
+    private void UpdateFinalBossHp(int currentHealth, int maxHealth)
+    {
+        if (!CacheFinalBossHpImages(true)) return;
+
+        EnsureFinalBossHpImageCount(maxHealth);
+        LayoutFinalBossHpImages(finalBossHpImages.ToArray());
+        finalBossHpImages.Sort(CompareHpImagesByPosition);
+        ApplyFinalBossHpSprites();
+
+        if (finalBossHpImages.Count < maxHealth)
+        {
+            Debug.LogWarning($"[DEBUG_LOG] HUDManager: {FinalBossHpPanelName} has {finalBossHpImages.Count} images for max health {maxHealth}.");
+        }
+
+        int visibleCount = Mathf.Clamp(currentHealth, 0, Mathf.Min(maxHealth, finalBossHpImages.Count));
+        SetFinalBossHpImagesVisible(visibleCount);
+        lastDisplayedFinalBossHealth = currentHealth;
+        lastDisplayedFinalBossMaxHealth = maxHealth;
+    }
+
     private void SetHpImagesVisible(int visibleCount)
     {
         for (int i = 0; i < hpImages.Count; i++)
         {
             hpImages[i].enabled = i < visibleCount;
+        }
+    }
+
+    private void SetFinalBossHpImagesVisible(int visibleCount)
+    {
+        for (int i = 0; i < finalBossHpImages.Count; i++)
+        {
+            bool visible = i < visibleCount;
+            finalBossHpImages[i].enabled = visible;
+            finalBossHpImages[i].gameObject.SetActive(visible);
+        }
+    }
+
+    private void ApplyFinalBossHpSprites()
+    {
+        foreach (Image image in finalBossHpImages)
+        {
+            ApplyFinalBossHpSprite(image);
+        }
+    }
+
+    private void ApplyFinalBossHpSprite(Image image)
+    {
+        if (image == null || finalBossHpSprite == null) return;
+
+        image.sprite = finalBossHpSprite;
+        image.preserveAspect = true;
+    }
+
+    private void SetFinalBossHpPanelActive(bool active)
+    {
+        if (finalBossHpPanel != null)
+        {
+            finalBossHpPanel.gameObject.SetActive(active);
         }
     }
 

@@ -14,6 +14,7 @@
 - [Player Movement And State](./Features/PlayerMovementAndState.md)
 - [Player Combat](./Features/PlayerCombat.md)
 - [Enemy Encounters](./Features/EnemyEncounters.md)
+- [FinalBoss](./Features/FinalBoss.md)
 - [Key Quest And Level Exit](./Features/KeyQuestAndLevelExit.md)
 - [Coin And Key Collection](./Features/CoinAndKeyCollection.md)
 - [HUD And Feedback](./Features/HUDAndFeedback.md)

@@ -6,6 +6,8 @@ public class AudioManager : MonoBehaviour
     private const string MusicVolumeKey = "MusicVolume";
     private const string SFXVolumeKey = "SFXVolume";
     private const string MainMenuSceneName = "Main Menu";
+    private const string Level2SceneName = "Level 2";
+    private const string Level3SceneName = "Level 3";
 
     public static AudioManager Instance { get; private set; }
 
@@ -22,6 +24,8 @@ public class AudioManager : MonoBehaviour
     [Header("Background Music")]
     [SerializeField] private AudioClip mainMenuMusic;
     [SerializeField] private AudioClip gameplayMusic;
+    [SerializeField] private AudioClip level2Music;
+    [SerializeField] private AudioClip level3Music;
 
     [Header("SFX Clips")]
     [SerializeField] private AudioClip deathSound;
@@ -68,6 +72,8 @@ public class AudioManager : MonoBehaviour
 
         if (mainMenuMusic == null) mainMenuMusic = source.mainMenuMusic;
         if (gameplayMusic == null) gameplayMusic = source.gameplayMusic;
+        if (level2Music == null) level2Music = source.level2Music;
+        if (level3Music == null) level3Music = source.level3Music;
         if (deathSound == null) deathSound = source.deathSound;
         if (walkSound == null) walkSound = source.walkSound;
         if (openChestSound == null) openChestSound = source.openChestSound;
@@ -127,7 +133,7 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-        PlayGameplayMusic();
+        PlayGameplayMusicForScene(sceneName);
     }
 
     // ---------------- MUSIC ----------------
@@ -144,7 +150,20 @@ public class AudioManager : MonoBehaviour
     }
 
     public void PlayMainMenuMusic() => PlayMusic(mainMenuMusic, true);
-    public void PlayGameplayMusic() => PlayMusic(gameplayMusic, true);
+    public void PlayGameplayMusic() => PlayGameplayMusicForScene(SceneManager.GetActiveScene().name);
+
+    private void PlayGameplayMusicForScene(string sceneName)
+    {
+        PlayMusic(GetGameplayMusicForScene(sceneName), true);
+    }
+
+    private AudioClip GetGameplayMusicForScene(string sceneName)
+    {
+        if (sceneName == Level2SceneName && level2Music != null) return level2Music;
+        if (sceneName == Level3SceneName && level3Music != null) return level3Music;
+
+        return gameplayMusic;
+    }
 
     public void SetMusicVolume(float value)
     {

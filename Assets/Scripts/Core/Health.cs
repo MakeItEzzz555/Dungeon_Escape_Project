@@ -48,6 +48,22 @@ public class Health : MonoBehaviour
         }
     }
 
+    public bool Heal(int amount)
+    {
+        if (isDead) return false;
+        if (amount <= 0) return false;
+        if (currentHealth >= maxHealth) return false;
+
+        int previousHealth = currentHealth;
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+
+        if (currentHealth == previousHealth) return false;
+
+        Debug.Log($"[DEBUG_LOG] {gameObject.name} healed {currentHealth - previousHealth} HP. HP: {currentHealth}/{maxHealth}");
+        NotifyHealthChanged();
+        return true;
+    }
+
     public void DepleteHealth()
     {
         if (isDead && currentHealth <= 0)
