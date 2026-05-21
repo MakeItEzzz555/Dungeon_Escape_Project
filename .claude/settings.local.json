@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__coplay-mcp__get_unity_editor_state",
+      "mcp__coplay-mcp__list_game_objects_in_hierarchy",
+      "mcp__coplay-mcp__list_unity_project_roots",
+      "mcp__coplay-mcp__set_unity_project_root",
+      "mcp__coplay-mcp__search_files",
+      "PowerShell(Get-ChildItem -Path \"Assets\\\\Prefabs\" -Recurse -File | Select-String -Pattern \"HUD_UX_Panel\" | Select-Object -First 20 | ForEach-Object { \"$\\($_.Filename\\):$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
+      "PowerShell(Get-Content *)",
+      "PowerShell($content = Get-Content \"Assets\\\\Prefabs\\\\Managers\\\\HUD_Canvas.prefab\" -Raw; $matches = [regex]::Matches\\($content, 'm_Script: \\\\{fileID: 11500000, guid: \\([a-f0-9]+\\), type: 3\\\\}'\\); $guids = $matches | ForEach-Object { $_.Groups[1].Value } | Sort-Object -Unique; $guids)",
+      "PowerShell(Select-String -Path \"Assets\\\\Scripts\\\\Collectibles\\\\Collect_coins.cs\" -Pattern \"ShowUXMessage\" | ForEach-Object { \"$\\($_.Filename\\):$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
+      "PowerShell(Select-String -Path \"Assets\\\\Animations\\\\FinalBoss\\\\FinalBossAnimatorController.controller\" -Pattern \"IsDead|Dead|Die|m_Length|m_Name\" | Select-Object -First 40 | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
+      "PowerShell(Select-String -Path \"Assets\\\\Animations\\\\FinalBoss\\\\Death\\\\Death_Down.anim\" -Pattern \"m_Length|m_StopTime|m_SampleRate|serializedVersion\" | Select-Object -First 10 | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
+      "PowerShell(New-Item *)",
+      "PowerShell(Copy-Item *)",
+      "PowerShell([guid]::NewGuid\\(\\).ToString\\(\"N\"\\))",
+      "PowerShell(Get-Content \"Assets\\\\Scripts\\\\Enemy\\\\FinalBossBehavior.cs\" | Select-Object -Skip 0 -First 5; \"---\"; Get-Content \"Assets\\\\Scripts\\\\Enemy\\\\FinalBossBehavior.cs\" | Select-Object -Skip 59 -First 8; \"---\"; Get-Content \"Assets\\\\Scripts\\\\Enemy\\\\FinalBossBehavior.cs\" | Select-Object -Skip 497 -First 20)",
+      "PowerShell(Select-String -Path \"Assets\\\\Scripts\\\\Managers\\\\AudioManager.cs\" -Pattern \"bossDeath|PlayBossDeath\" | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })"
+    ]
+  }
+}

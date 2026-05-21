@@ -39,6 +39,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip playerAttack3SFX;
     [SerializeField] private AudioClip enemySwordSwing1SFX;
     [SerializeField] private AudioClip enemySwordSwing2SFX;
+    [SerializeField] private AudioClip bossDeath;
 
     private void Awake()
     {
@@ -85,6 +86,7 @@ public class AudioManager : MonoBehaviour
         if (playerAttack3SFX == null) playerAttack3SFX = source.playerAttack3SFX;
         if (enemySwordSwing1SFX == null) enemySwordSwing1SFX = source.enemySwordSwing1SFX;
         if (enemySwordSwing2SFX == null) enemySwordSwing2SFX = source.enemySwordSwing2SFX;
+        if (bossDeath == null) bossDeath = source.bossDeath;
     }
 
     private void LoadVolumeSettings()
@@ -204,6 +206,7 @@ public class AudioManager : MonoBehaviour
     public void PlayPlayerAttack3() => PlaySFX(playerAttack3SFX);
     public void PlayEnemySwordSwing1() => PlaySFX(enemySwordSwing1SFX);
     public void PlayEnemySwordSwing2() => PlaySFX(enemySwordSwing2SFX);
+    public void PlayBossDeath() => PlaySFX(bossDeath);
 
     private void PlaySFX(AudioClip clip)
     {
