@@ -311,3 +311,4 @@ MonoBehaviour:
   openChestSound: {fileID: 0}
   coinCollectedSound: {fileID: 0}
   keyCollectedSound: {fileID: 0}
+  bossDeath: {fileID: 8300000, guid: 52f058bd4bcb4e1b940ba651b6ef2cd7, type: 3}

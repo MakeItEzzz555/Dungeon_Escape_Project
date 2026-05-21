@@ -16,7 +16,12 @@
       "PowerShell(Copy-Item *)",
       "PowerShell([guid]::NewGuid\\(\\).ToString\\(\"N\"\\))",
       "PowerShell(Get-Content \"Assets\\\\Scripts\\\\Enemy\\\\FinalBossBehavior.cs\" | Select-Object -Skip 0 -First 5; \"---\"; Get-Content \"Assets\\\\Scripts\\\\Enemy\\\\FinalBossBehavior.cs\" | Select-Object -Skip 59 -First 8; \"---\"; Get-Content \"Assets\\\\Scripts\\\\Enemy\\\\FinalBossBehavior.cs\" | Select-Object -Skip 497 -First 20)",
-      "PowerShell(Select-String -Path \"Assets\\\\Scripts\\\\Managers\\\\AudioManager.cs\" -Pattern \"bossDeath|PlayBossDeath\" | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })"
+      "PowerShell(Select-String -Path \"Assets\\\\Scripts\\\\Managers\\\\AudioManager.cs\" -Pattern \"bossDeath|PlayBossDeath\" | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" })",
+      "mcp__coplay-mcp__read_file",
+      "mcp__coplay-mcp__list_files",
+      "PowerShell(Test-Path *)",
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\(\"C:\\\\Users\\\\leoni\\\\Dungeon_Escape_Project\\\\Assets\\\\Audio\\\\SFX\\\\Boss_Death.mp3\"\\); \"Size: $\\($bytes.Length\\) bytes\"; \"First 4 bytes hex: \" + \\($bytes[0..3] | ForEach-Object { $_.ToString\\(\"X2\"\\) } | Join-String -Separator \" \"\\))",
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\(\"C:\\\\Users\\\\leoni\\\\Dungeon_Escape_Project\\\\Assets\\\\Audio\\\\SFX\\\\Boss_Death.mp3\"\\); \"Size: $\\($bytes.Length\\) bytes\"; \"Header bytes: \" + [System.BitConverter]::ToString\\($bytes[0..3]\\))"
     ]
   }
 }
