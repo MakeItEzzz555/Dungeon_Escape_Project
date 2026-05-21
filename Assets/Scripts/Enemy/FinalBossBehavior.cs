@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using Scripts.Managers;
 
@@ -507,12 +506,6 @@ public class FinalBossBehavior : MonoBehaviour, IEnemyRangeReceiver
         StopChargeTrail(true);
         HideBossHud();
         RevealDeathRewardIfAssigned();
-        StartCoroutine(ShowResultsAfterDeath());
-    }
-
-    private IEnumerator ShowResultsAfterDeath()
-    {
-        yield return new WaitForSeconds(bossDeathTransitionDelay);
         ShowRunResultsIfEnabled();
     }
 
@@ -546,8 +539,27 @@ public class FinalBossBehavior : MonoBehaviour, IEnemyRangeReceiver
             return;
         }
 
-        Transform zoomTarget = resultsZoomTarget != null ? resultsZoomTarget : transform;
-        SceneTransitionManager.Instance.BeginLevelCompletionTransition(resultsTargetScene, zoomTarget);
+        Transform zoomTarget = ResolveResultsZoomTarget();
+        SceneTransitionManager.Instance.BeginLevelCompletionTransitionWithPresentationWindow(
+            resultsTargetScene,
+            zoomTarget,
+            bossDeathTransitionDelay);
+    }
+
+    private Transform ResolveResultsZoomTarget()
+    {
+        if (resultsZoomTarget == null)
+        {
+            return transform;
+        }
+
+        if (resultsZoomTarget is RectTransform)
+        {
+            Debug.LogWarning($"[FinalBossBehavior] Results zoom target '{resultsZoomTarget.name}' is UI. Falling back to FinalBoss transform.");
+            return transform;
+        }
+
+        return resultsZoomTarget;
     }
 
     private void ResolveChargeTrailIfMissing()

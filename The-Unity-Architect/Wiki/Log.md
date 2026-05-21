@@ -2,6 +2,8 @@
 
 ## 2026-05-21
 
+- Fixed FinalBoss death results flicker by moving the boss death presentation delay into `SceneTransitionManager`, zooming immediately, holding the FinalBoss camera target through the death read window, and fading to black before `RunResultsPanel`.
+- Logged [ADR: FinalBoss Death Transition Ownership](./ADR/2026-05-21-finalboss-death-transition-ownership.md).
 - Created feature GDD: [Sword Consumable And Player Charge Attack](./Features/SwordConsumableAndPlayerChargeAttack.md), defining the scene-local `SwordConsumable` unlock and `PlayerChargeAttack` animator/dash/hitbox contract.
 - Created and implemented feature GDD: [Player Dash](./Features/PlayerDash.md), adding Left Shift dash movement, cooldown, wall stop, stuck guard, fall/death cancellation, optional `IsDashing` animation bridge, and reused `ChargeTrail` presentation.
 - Implemented script support for `SwordConsumable` and `PlayerChargeAttack`, including `Q` input, movement lock, cooldown, obstacle stop, charge hitbox animation events, charge trail hooks, fallback safety, and the `ChargeAttack` Animator trigger parameter.

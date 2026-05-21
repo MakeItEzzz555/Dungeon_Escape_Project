@@ -51,6 +51,16 @@ Scene transitions and respawn transitions are orchestrated by `SceneTransitionMa
 13. It calls `CameraTransitionSystem.StartZoomOut()` for gameplay scenes.
 14. It re-enables player control and returns state to `None`.
 
+## FinalBoss Death Completion Flow
+
+1. `FinalBossBehavior` enters death state, stops hitboxes and charge trail, hides `HUD_HP_FinalBoss`, and reveals any configured `DeathRewardObject`.
+2. If death results are enabled, it immediately calls `SceneTransitionManager.BeginLevelCompletionTransitionWithPresentationWindow(targetScene, zoomTarget, bossDeathTransitionDelay)`.
+3. `SceneTransitionManager` disables player control and starts camera zoom immediately.
+4. `CameraTransitionSystem` holds the FinalBoss zoom target through the presentation window.
+5. `SceneTransitionManager` starts fade early enough that full black lands at the end of the presentation window, releases the held camera target, and shows `RunResultsPanel` in completion mode.
+
+`FinalBossBehavior.resultsZoomTarget` must be a world transform. If a UI `RectTransform` is assigned, `FinalBossBehavior` logs a warning and falls back to its own transform so the camera cannot zoom toward HUD content.
+
 ## Respawn Transition Flow
 
 1. `PlayerController` starts death or fall state and locks movement.
