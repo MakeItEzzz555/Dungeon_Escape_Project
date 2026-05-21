@@ -7588,6 +7588,8 @@ MonoBehaviour:
   coinsText: {fileID: 964523723918015708}
   keysText: {fileID: 1595158730959079987}
   hudHpPanel: {fileID: 4617025985266312981}
+  finalBossHpPanel: {fileID: 0}
+  finalBossHpSprite: {fileID: -4954625559173043974, guid: 41c924636064a4692879983cc20242ff, type: 3}
   hudItemsPanel: {fileID: 2364526895934592095}
   uxPanelCanvasGroup: {fileID: 7820717408135996807}
   uxMessageText: {fileID: 1850608292524650575}

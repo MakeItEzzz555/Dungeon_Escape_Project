@@ -68,7 +68,11 @@ public class PlayerController : MonoBehaviour
     {
         // Check if HurtBox already exists
         Transform hurtBoxTransform = transform.Find("HurtBox");
-        if (hurtBoxTransform != null) return;
+        if (hurtBoxTransform != null)
+        {
+            EnsureHurtBoxComponents(hurtBoxTransform.gameObject);
+            return;
+        }
 
         // Create HurtBox GameObject
         GameObject hurtBoxObj = new GameObject("HurtBox");
@@ -82,8 +86,27 @@ public class PlayerController : MonoBehaviour
         col.isTrigger = true;
         col.size = new Vector2(0.8f, 1.0f);
         col.offset = Vector2.zero; // Local position already handles Y offset
+        EnsureHurtBoxComponents(hurtBoxObj);
         
         Debug.Log("[PlayerController] Created HurtBox child dynamically.");
+    }
+
+    private void EnsureHurtBoxComponents(GameObject hurtBoxObj)
+    {
+        Collider2D hurtCollider = hurtBoxObj.GetComponent<Collider2D>();
+        if (hurtCollider == null)
+        {
+            BoxCollider2D boxCollider = hurtBoxObj.AddComponent<BoxCollider2D>();
+            boxCollider.size = new Vector2(0.8f, 1.0f);
+            hurtCollider = boxCollider;
+        }
+
+        hurtCollider.isTrigger = true;
+
+        if (hurtBoxObj.GetComponent<HurtBox>() == null)
+        {
+            hurtBoxObj.AddComponent<HurtBox>();
+        }
     }
 
     private IEnumerator Start()

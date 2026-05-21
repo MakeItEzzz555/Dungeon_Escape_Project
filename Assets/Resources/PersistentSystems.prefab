@@ -432,13 +432,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 8b23b175a78d6b5458322e3a6c9905d0, type: 3}
     - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
+      propertyPath: level2Music
+      value: 
+      objectReference: {fileID: 8300000, guid: 3faf7a532bdb143899b7e0aebe274c1a, type: 3}
+    - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
+      propertyPath: level3Music
+      value: 
+      objectReference: {fileID: 8300000, guid: 88a8acd3d27336544a5fe76d093cf75a, type: 3}
+    - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
       propertyPath: musicSource
       value: 
       objectReference: {fileID: 621077970062808698}
     - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
       propertyPath: gameplayMusic
       value: 
-      objectReference: {fileID: 8300000, guid: 3faf7a532bdb143899b7e0aebe274c1a, type: 3}
+      objectReference: {fileID: 8300000, guid: 8a6e499d93d72483aa5b32bee44a45c7, type: 3}
     - target: {fileID: 2846539973359240214, guid: 85c17d9a831d6814e901d627efd59a82, type: 3}
       propertyPath: interactSound
       value: 

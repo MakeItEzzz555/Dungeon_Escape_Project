@@ -1,7 +1,22 @@
 # Wiki Log
 
+## 2026-05-21
+
+- Added FinalBoss aggro-driven `HUD_HP_FinalBoss`, optional death loot spawning, and optional boss-death completion results targeting `Main Menu`.
+- Capped `HUD_HP_FinalBoss` to the bound FinalBoss `Health.maxHealth` and added `AudioManager` scene-specific music overrides for `Level 2` and `Level 3`.
+- Hardened `HUD_HP_FinalBoss` runtime creation so it no longer clones extra player HUD children, removes duplicate boss panels, and creates exact health slots. Updated `Hitbox` to resolve trigger-stay contacts once per activation so already-overlapping melee targets are not missed.
+- Replaced incremental FinalBoss HUD slot add/remove with deterministic runtime rebuild: existing boss HP children are disabled, cleared, and recreated as exact direct `Image` slots from the bound FinalBoss `maxHealth`.
+- Restored runtime `HUD_HP_FinalBoss` creation and added scheduled FinalBoss charge animation triggering so the first charge waits for the `ChargeAttack` trigger path before dash movement is allowed.
+
 ## 2026-05-20
 
+- Created feature GDD: [FinalBoss](./Features/FinalBoss.md).
+- Added FinalBoss phase, charge, hitbox, and animation contract terms to the root `CONTEXT.md` glossary.
+- Linked FinalBoss from the wiki index and feature index.
+- Refined FinalBoss documentation with canonical `FinalBossAnimationBridge` naming and existing attack SFX animation-event compatibility.
+- Implemented FinalBoss script support: `IEnemyRangeReceiver`, shared `EnemyRangeTrigger` receiver routing, `FinalBossBehavior`, `FinalBossAnimationBridge`, and `FinalBossCombatBridge`.
+- Updated Enemy AI, Combat, FinalBoss, and Scenes/Prefabs wiki notes for FinalBoss script support and remaining Editor wiring.
+- Added FinalBoss charge dash animation-event support through `StartChargeDash` with serialized fallback timing.
 - Created feature GDD: [FallZone Directional Nudge](./Features/FallZoneDirectionalNudge.md).
 - Added `FallZoneDirectionalNudge` to the root `CONTEXT.md` glossary.
 - Linked FallZone Directional Nudge from the wiki index and feature index.

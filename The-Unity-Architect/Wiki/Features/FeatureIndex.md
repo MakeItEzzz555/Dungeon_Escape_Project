@@ -14,8 +14,10 @@ This folder documents current game features from the player/runtime behavior poi
 | Player Movement And State | [PlayerMovementAndState.md](./PlayerMovementAndState.md) | [Player](../Systems/Player.md), [Input](../Systems/Input.md) |
 | Player Combat | [PlayerCombat.md](./PlayerCombat.md) | [Player](../Systems/Player.md), [Combat](../Systems/Combat.md) |
 | Enemy Encounters | [EnemyEncounters.md](./EnemyEncounters.md) | [Enemy AI](../Systems/EnemyAI.md), [Combat](../Systems/Combat.md) |
+| FinalBoss | [FinalBoss.md](./FinalBoss.md) | [Enemy AI](../Systems/EnemyAI.md), [Combat](../Systems/Combat.md) |
 | Key Quest And Level Exit | [KeyQuestAndLevelExit.md](./KeyQuestAndLevelExit.md) | [Progression](../Systems/Progression.md), [Scene Transitions](../Systems/SceneTransitions.md) |
 | Coin And Key Collection | [CoinAndKeyCollection.md](./CoinAndKeyCollection.md) | [Collectibles](../Systems/Collectibles.md), [UI And HUD](../Systems/UIAndHUD.md) |
+| HP Consumable | [HPConsumable.md](./HPConsumable.md) | [Collectibles](../Systems/Collectibles.md), [Combat](../Systems/Combat.md), [UI And HUD](../Systems/UIAndHUD.md) |
 | HUD And Feedback | [HUDAndFeedback.md](./HUDAndFeedback.md) | [UI And HUD](../Systems/UIAndHUD.md) |
 | Player HP HUD | [PlayerHPHUD.md](./PlayerHPHUD.md) | [UI And HUD](../Systems/UIAndHUD.md), [Combat](../Systems/Combat.md), [Traps And Hazards](../Systems/TrapsAndHazards.md) |
 | Run Results Panel | [RunResultsPanel.md](./RunResultsPanel.md) | [UI And HUD](../Systems/UIAndHUD.md), [Progression](../Systems/Progression.md), [Scene Transitions](../Systems/SceneTransitions.md) |

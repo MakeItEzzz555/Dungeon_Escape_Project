@@ -1,6 +1,6 @@
 # Audio System
 
-Last audited: 2026-05-16
+Last audited: 2026-05-21
 
 ## Ownership
 
@@ -41,7 +41,7 @@ Both values are normalized from 0 to 1 and default to 1 when no saved value exis
 |:----|:--------|
 | `PlayMusic(AudioClip clip, bool loop = true)` | Core music playback path. Prevents restarting the same clip if already playing. |
 | `PlayMainMenuMusic()` | Starts the main menu loop. |
-| `PlayGameplayMusic()` | Starts gameplay loop. |
+| `PlayGameplayMusic()` | Starts the active scene's gameplay loop. `Level 2` and `Level 3` use their dedicated clips when assigned, otherwise this falls back to `gameplayMusic`. |
 | `PlayDeath()` | Death SFX wrapper. |
 | `PlayWalk()` | Footstep SFX wrapper. |
 | `PlayOpenChest()` | Chest SFX wrapper; current chest code calls `PlayInteract()` instead. |
@@ -53,7 +53,7 @@ Both values are normalized from 0 to 1 and default to 1 when no saved value exis
 
 ## Scene Music Enforcement
 
-`AudioManager` subscribes to `SceneManager.sceneLoaded` and applies scene music centrally. `Main Menu` plays `mainMenuMusic`; all other scenes play `gameplayMusic`. Explicit calls from transition code remain valid, but scene-load enforcement is the fallback that keeps pause exit, results exit, and direct scene loads consistent.
+`AudioManager` subscribes to `SceneManager.sceneLoaded` and applies scene music centrally. `Main Menu` plays `mainMenuMusic`; `Level 2` plays `level2Music` when assigned; `Level 3` plays `level3Music` when assigned; all other gameplay scenes fall back to `gameplayMusic`. Explicit calls from transition code remain valid because `PlayGameplayMusic()` resolves the active scene before choosing a clip.
 
 ## Callers
 

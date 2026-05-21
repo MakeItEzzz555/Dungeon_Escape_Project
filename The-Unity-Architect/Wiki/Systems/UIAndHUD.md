@@ -1,6 +1,6 @@
 # UI And HUD System
 
-Last audited: 2026-05-19
+Last audited: 2026-05-21
 
 ## Ownership
 
@@ -42,6 +42,7 @@ Known children/components from prefab inspection:
 - `GraphicRaycaster`.
 - `HUDManager`.
 - `HUD_HP` panel with child HP images, when assigned or discoverable by name.
+- `HUD_HP_FinalBoss` panel, optionally authored under `HUD_Canvas`; if missing, `HUDManager` creates a clean top-right mirrored panel when FinalBoss aggro first activates.
 - `RunResultsPanel` panel, manually authored under `HUD_Canvas` and assigned to `HUDManager`.
 - `MainMenu` script.
 - `MainMenu` panel, initially inactive.
@@ -55,6 +56,7 @@ Known children/components from prefab inspection:
 `HUDManager` owns:
 
 - HP image binding and display.
+- FinalBoss HP image binding and display.
 - HUD reveal state.
 - Coin discovered state.
 - Key discovered state.
@@ -67,6 +69,8 @@ Known children/components from prefab inspection:
 
 `HUDManager` subscribes to the current player `Health.OnHealthChanged` event on start and after scene loads. It also checks the bound player health each frame so late player/HUD binding cannot leave HP stale. HP images under `HUD_HP` are visible from scene start and disabled from right to left as HP decreases.
 
+`HUDManager.ShowFinalBossHp(Health bossHealth)` binds `HUD_HP_FinalBoss` to the active FinalBoss health while aggro is active. The panel is hidden by default, hidden when aggro is lost, hidden when the boss dies, and hidden during modal results/pause suppression. If the panel is not authored, `HUDManager` creates it at runtime beside `HUD_HP` and creates direct child image slots to exactly the bound boss max health, so a `20` max-health boss displays `20` HP images.
+
 `HUDManager` recalculates total coins on scene load using either `manualMaxCoins` or the count of objects tagged `Coin`.
 
 `HUDManager` snapshots run results before completion or failure scene loading. It displays:
@@ -76,7 +80,7 @@ Known children/components from prefab inspection:
 - active gameplay time formatted as `MM:SS`
 - enemies killed / total active enemies, or `N/A` if no active enemies exist
 
-Pause and results are modal HUD states. When pause opens, `MainMenu` moves the pause menu to the last sibling under `HUD_Canvas` and asks `HUDManager` to suppress `HUD_Items` plus `HUD_HP` until resume. While `RunResultsPanel` is visible, `HUDManager` temporarily raises the HUD canvas sorting order, moves `RunResultsPanel` to the last sibling, activates its `ResultsPanel` child, deactivates its nested `settings_panel`, and suppresses `HUD_Items` plus `HUD_HP`. This keeps gameplay HUD visuals out of modal views and prevents their raycast-target graphics from blocking buttons.
+Pause and results are modal HUD states. When pause opens, `MainMenu` moves the pause menu to the last sibling under `HUD_Canvas` and asks `HUDManager` to suppress `HUD_Items`, `HUD_HP`, and `HUD_HP_FinalBoss` until resume. While `RunResultsPanel` is visible, `HUDManager` temporarily raises the HUD canvas sorting order, moves `RunResultsPanel` to the last sibling, activates its `ResultsPanel` child, deactivates its nested `settings_panel`, and suppresses `HUD_Items` plus HP panels. This keeps gameplay HUD visuals out of modal views and prevents their raycast-target graphics from blocking buttons.
 
 `HUDManager` also auto-binds `Continue_bttn`, `Respawn_bttn`, and `Exit_bttn` under `RunResultsPanel` by exact name. Inspector wiring may still be used, but runtime binding prevents missing OnClick references from leaving result buttons inert after manual prefab edits.
 
@@ -91,6 +95,7 @@ Pause and results are modal HUD states. When pause opens, `MainMenu` moves the p
 | `GlobalQuestManager` | `UpdateKeys()` |
 | `CheckpointDoor` | `ShowUXMessage("Requires Key")` |
 | `SceneTransitionManager` | `CreateRunStatsSnapshot()`, `ShowRunResults()`, `HideRunResultsImmediate()` |
+| `FinalBossBehavior` | `ShowFinalBossHp()`, `HideFinalBossHp()` |
 | `InteractiveGate` | `ShowUXMessage("Gate Opened")`, `ShowUXMessage("Gate Closed")` |
 | `open_chest` | `ShowUXMessage("Chest Opened")` |
 

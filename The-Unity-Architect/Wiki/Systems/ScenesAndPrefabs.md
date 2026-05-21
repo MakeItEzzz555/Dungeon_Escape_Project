@@ -1,6 +1,6 @@
 # Scenes And Prefabs Inventory
 
-Last audited: 2026-05-16
+Last audited: 2026-05-21
 
 This file captures scene and prefab wiring discovered from `.unity`, `.prefab`, and `.meta` reference inspection. It is not a replacement for the Unity Inspector, but it gives future AI sessions a reliable starting map.
 
@@ -11,13 +11,14 @@ This file captures scene and prefab wiring discovered from `.unity`, `.prefab`, 
 | `Assets/Scenes/Main Menu.unity` | Entry menu | Main menu UI, settings panel, AudioSettingsUI, EventSystem, main camera. |
 | `Assets/Scenes/Level 1.unity` | Gameplay level | Player, HUD_Canvas, QuestManager, EventSystem, levers, gates, traps, keys, coins, chests, checkpoint door, environment. |
 | `Assets/Scenes/Level 2.unity` | Gameplay level | Player, HUD_Canvas, QuestManager, EventSystem under GlobalManagers, enemies, levers, gates, traps, fall zones, keys, coins, chests, environment. |
+| `Assets/Scenes/Level 3.unity` | Gameplay boss level | Player, HUD_Canvas, FinalBoss, HP consumables, boss aggro/attack ranges, FinalBoss hitboxes, environment. |
 
 ## Scene-Referenced Gameplay Prefabs
 
 | Prefab | Main Use | Scene References Found |
 |:-------|:---------|:-----------------------|
 | `Assets/Prefabs/Player/Player 1.prefab` | Player avatar | Level 1, Level 2 |
-| `Assets/Prefabs/Managers/HUD_Canvas.prefab` | HUD and pause menu | Level 1, Level 2 |
+| `Assets/Prefabs/Managers/HUD_Canvas.prefab` | HUD and pause menu | Level 1, Level 2, Level 3 |
 | `Assets/Prefabs/Managers/QuestManager.prefab` | Quest/key manager | Level 1, Level 2 |
 | `Assets/Prefabs/Managers/PlayerAnimator.prefab` | Scene player animator object/reference | Level 1, Level 2 |
 | `Assets/Prefabs/Collectibles/BlueCoin.prefab` | Coins | Level 1, Level 2 |
@@ -30,6 +31,12 @@ This file captures scene and prefab wiring discovered from `.unity`, `.prefab`, 
 | `Assets/Prefabs/Interactables/chest_yellow_blue.prefab` | Chest | Level 1, Level 2 |
 | `Assets/Prefabs/Traps/Spike Trap.prefab` | Spike trap | Level 1, Level 2 |
 | `Assets/Prefabs/Enemy/Enemy.prefab` | Enemy | Level 2 |
+
+## Planned/Editor-Wired Gameplay Prefabs
+
+| Prefab | Main Use | Wiring Notes |
+|:-------|:---------|:-------------|
+| FinalBoss prefab | Boss enemy variant | Root should contain `Health`, `Rigidbody2D`, and `FinalBossBehavior`; children should be `AggroRange`, `AttackRange`, `AttackHitbox`, `ChargeHitbox`, `HurtBox`, and `Visuals`. `FinalBossBehavior` now owns boss HUD visibility and optional death rewards/results. |
 
 ## Scene-Referenced Environment Prefabs
 
@@ -79,3 +86,4 @@ These may be instantiated by code, kept for future work, or unused:
 - `AudioSettingsUI` is referenced by Main Menu scene and `HUD_Canvas.prefab`.
 - `FallZone` is directly referenced in Level 2 scene.
 - `LeverResponder` has both prefab and scene references, because some lever targets appear to be wired directly in scenes.
+- FinalBoss script support includes boss HUD visibility, phase behavior, charge dash/trail, optional loot spawn, and optional death completion results. Animator and prefab references still need Inspector verification after manual scene edits.

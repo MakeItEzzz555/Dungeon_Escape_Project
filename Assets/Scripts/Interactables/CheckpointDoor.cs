@@ -49,14 +49,22 @@ public class CheckpointDoor : MonoBehaviour
         if (isTransitioning) return;
         isTransitioning = true;
 
-        if (string.IsNullOrEmpty(targetScene))
+        string resolvedTargetScene = targetScene != null ? targetScene.Trim() : string.Empty;
+        if (string.IsNullOrEmpty(resolvedTargetScene))
         {
             Debug.LogError("CheckpointDoor: Target scene not set!");
             isTransitioning = false;
             return;
         }
 
-        Debug.Log($"Quest complete. Transitioning to {targetScene}...");
+        if (!Application.CanStreamedLevelBeLoaded(resolvedTargetScene))
+        {
+            Debug.LogError($"CheckpointDoor: Target scene '{resolvedTargetScene}' is not in Build Settings or the name is misspelled.");
+            isTransitioning = false;
+            return;
+        }
+
+        Debug.Log($"Quest complete. Transitioning to {resolvedTargetScene}...");
 
         if (SceneTransitionManager.Instance == null)
         {
@@ -96,7 +104,7 @@ public class CheckpointDoor : MonoBehaviour
         // START RESULTS-AWARE TRANSITION
         // ----------------------------------------------------
         SceneTransitionManager.Instance.BeginLevelCompletionTransition(
-            targetScene,
+            resolvedTargetScene,
             zoomTarget != null ? zoomTarget : transform
         );
     }

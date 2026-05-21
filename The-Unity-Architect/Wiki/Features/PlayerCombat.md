@@ -15,7 +15,7 @@ Last audited: 2026-05-16
 2. `PlayerCombat` ignores input if player health is dead or player is falling.
 3. `PlayerAnimator.PlayAttack()` triggers the attack animation.
 4. Animation events call `EnableHitbox()` and `DisableHitbox()`.
-5. The sword `Hitbox` damages each `Health` target once per activation.
+5. The sword `Hitbox` damages each `HurtBox` target once per activation.
 6. Attack animation events can play one of three player attack SFX clips.
 
 ## Implementation References
@@ -23,7 +23,8 @@ Last audited: 2026-05-16
 | Asset | Role |
 |:------|:-----|
 | `Assets/Scripts/Player/PlayerCombat.cs` | Attack input and animation-event bridge. |
-| `Assets/Scripts/Core/Hitbox.cs` | Damage trigger. |
+| `Assets/Scripts/Core/Hitbox.cs` | Damage trigger that targets HurtBoxes by default. |
+| `Assets/Scripts/Core/HurtBox.cs` | Damage receiver marker used to resolve target Health. |
 | `Assets/Scripts/Core/Health.cs` | Damage target. |
 | `Assets/Prefabs/Player/Player 1.prefab` | Player combat prefab wiring. |
 
