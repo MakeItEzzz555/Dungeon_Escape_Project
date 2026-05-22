@@ -1,6 +1,6 @@
 
 # Dungeon Escape Project
-![Alt Text](Assets/DU_UI_HUD_Free/GameTitleBanner.png)
+![Alt Text](Assets/DU_UI_HUD_Free/GamesTitleBanner.png)
 Repository description: a Unity 6 / URP 2D dungeon escape game with player movement, dash and charge combat, enemies, a FinalBoss, collectibles, key-gated progression, interactables, hazards, scene transitions, persistent audio, HUD feedback, and an Architect-maintained project wiki.
 
 ## GitHub About
