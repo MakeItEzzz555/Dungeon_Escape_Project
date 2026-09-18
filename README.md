@@ -3,6 +3,13 @@
 ![Alt Text](Assets/DU_UI_HUD_Free/GamesTitleBanner.png)
 Repository description: a Unity 6 / URP 2D dungeon escape game with player movement, dash and charge combat, enemies, a FinalBoss, collectibles, key-gated progression, interactables, hazards, scene transitions, persistent audio, HUD feedback, and an Architect-maintained project wiki.
 
+
+https://github.com/user-attachments/assets/878e66be-3450-4565-9494-decc37636d38
+
+https://github.com/user-attachments/assets/22cfad99-48bf-4263-a2fd-fd33b09efa24
+
+https://github.com/user-attachments/assets/57b79531-3808-4ed3-a583-399a696e325b
+
 ## GitHub About
 
 Short description:
